@@ -1,0 +1,55 @@
+problem	1
+selection	E0-AddReuseHeuristic
+search	BestFirst
+runtime	153
+opened	72
+expanded	18
+primitives	7
+decomps	1
+composites	1
+hdepth	3
+
+
+(get-in-car david mazda slc)-628
+(DummyInit)-365
+(get-in-car sara mazda slc)-367
+(drive sara mazda slc raleigh)-368
+(get-out-of-car david mazda raleigh)-222
+(get-out-of-car sara mazda raleigh)-369
+(DummyGoal)-366
+
+
+Composites:
+
+(travel-by-car sara slc raleigh mazda)-364
+
+Orderings:
+
+((initial)-220, (goal)-221)
+((initial)-220, (get-out-of-car david mazda raleigh)-222)
+((get-out-of-car david mazda raleigh)-222, (goal)-221)
+((initial)-220, (DummyInit)-365)
+((DummyInit)-365, (goal)-221)
+((initial)-220, (DummyGoal)-366)
+((DummyGoal)-366, (goal)-221)
+((DummyInit)-365, (DummyGoal)-366)
+((get-in-car sara mazda slc)-367, (DummyGoal)-366)
+((DummyInit)-365, (get-in-car sara mazda slc)-367)
+((initial)-220, (get-in-car sara mazda slc)-367)
+((get-in-car sara mazda slc)-367, (goal)-221)
+((drive sara mazda slc raleigh)-368, (DummyGoal)-366)
+((DummyInit)-365, (drive sara mazda slc raleigh)-368)
+((initial)-220, (drive sara mazda slc raleigh)-368)
+((drive sara mazda slc raleigh)-368, (goal)-221)
+((get-out-of-car sara mazda raleigh)-369, (DummyGoal)-366)
+((DummyInit)-365, (get-out-of-car sara mazda raleigh)-369)
+((initial)-220, (get-out-of-car sara mazda raleigh)-369)
+((get-out-of-car sara mazda raleigh)-369, (goal)-221)
+((get-in-car sara mazda slc)-367, (drive sara mazda slc raleigh)-368)
+((drive sara mazda slc raleigh)-368, (get-out-of-car sara mazda raleigh)-369)
+((get-in-car sara mazda slc)-367, (get-out-of-car sara mazda raleigh)-369)
+((drive sara mazda slc raleigh)-368, (get-out-of-car david mazda raleigh)-222)
+((initial)-220, (get-in-car david mazda slc)-628)
+((get-in-car david mazda slc)-628, (goal)-221)
+((get-in-car david mazda slc)-628, (get-out-of-car david mazda raleigh)-222)
+((get-in-car david mazda slc)-628, (drive sara mazda slc raleigh)-368)

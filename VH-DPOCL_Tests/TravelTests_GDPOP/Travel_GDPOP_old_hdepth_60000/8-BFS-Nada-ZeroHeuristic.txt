@@ -1,0 +1,111 @@
+problem	8
+selection	Nada-ZeroHeuristic
+search	BFS
+runtime	60005
+opened	69224
+expanded	8023
+primitives	18
+decomps	5
+composites	5
+hdepth	9
+
+
+(DummyInit)-16778658
+(DummyInit)-16837511
+(DummyInit)-16837514
+(get-in-car dave accord la)-16837516
+(drive dave accord la raleigh)-16837517
+(get-out-of-car dave accord raleigh)-16837518
+(DummyGoal)-16837515
+(DummyGoal)-16837512
+(DummyInit)-16778661
+(get-out-of-car dave accord raleigh)-16778663
+(DummyGoal)-16778662
+(DummyGoal)-16778659
+(DummyInit)-16774630
+(get-in-car dave accord raleigh)-16774632
+(drive dave accord raleigh ny)-16774633
+(get-out-of-car dave accord ny)-16774634
+(DummyGoal)-16774631
+(get-out-of-car roger accord la)-16775143
+
+
+Composites:
+
+(travel-by-car dave raleigh ny accord)-16774629
+(generic-travel dave raleigh)-16778657
+(generic-travel dave raleigh)-16778660
+(generic-travel dave raleigh)-16837510
+(travel-by-car dave la raleigh accord)-16837513
+
+Orderings:
+
+((initial)-8658127, (goal)-8658128)
+((initial)-8658127, (DummyInit)-16774630)
+((DummyInit)-16774630, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-16774631)
+((DummyGoal)-16774631, (goal)-8658128)
+((DummyInit)-16774630, (DummyGoal)-16774631)
+((get-in-car dave accord raleigh)-16774632, (DummyGoal)-16774631)
+((DummyInit)-16774630, (get-in-car dave accord raleigh)-16774632)
+((initial)-8658127, (get-in-car dave accord raleigh)-16774632)
+((get-in-car dave accord raleigh)-16774632, (goal)-8658128)
+((drive dave accord raleigh ny)-16774633, (DummyGoal)-16774631)
+((DummyInit)-16774630, (drive dave accord raleigh ny)-16774633)
+((initial)-8658127, (drive dave accord raleigh ny)-16774633)
+((drive dave accord raleigh ny)-16774633, (goal)-8658128)
+((get-out-of-car dave accord ny)-16774634, (DummyGoal)-16774631)
+((DummyInit)-16774630, (get-out-of-car dave accord ny)-16774634)
+((initial)-8658127, (get-out-of-car dave accord ny)-16774634)
+((get-out-of-car dave accord ny)-16774634, (goal)-8658128)
+((get-in-car dave accord raleigh)-16774632, (drive dave accord raleigh ny)-16774633)
+((drive dave accord raleigh ny)-16774633, (get-out-of-car dave accord ny)-16774634)
+((get-in-car dave accord raleigh)-16774632, (get-out-of-car dave accord ny)-16774634)
+((initial)-8658127, (get-out-of-car roger accord la)-16775143)
+((get-out-of-car roger accord la)-16775143, (goal)-8658128)
+((initial)-8658127, (DummyInit)-16778658)
+((DummyInit)-16778658, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-16778659)
+((DummyGoal)-16778659, (goal)-8658128)
+((DummyInit)-16778658, (DummyGoal)-16778659)
+((initial)-8658127, (DummyInit)-16778661)
+((DummyInit)-16778661, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-16778662)
+((DummyGoal)-16778662, (goal)-8658128)
+((DummyInit)-16778661, (DummyGoal)-16778662)
+((get-out-of-car dave accord raleigh)-16778663, (DummyGoal)-16778662)
+((DummyInit)-16778661, (get-out-of-car dave accord raleigh)-16778663)
+((initial)-8658127, (get-out-of-car dave accord raleigh)-16778663)
+((get-out-of-car dave accord raleigh)-16778663, (goal)-8658128)
+((DummyGoal)-16778662, (DummyGoal)-16778659)
+((DummyInit)-16778658, (DummyInit)-16778661)
+((DummyGoal)-16778659, (DummyInit)-16774630)
+((initial)-8658127, (DummyInit)-16837511)
+((DummyInit)-16837511, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-16837512)
+((DummyGoal)-16837512, (goal)-8658128)
+((DummyInit)-16837511, (DummyGoal)-16837512)
+((initial)-8658127, (DummyInit)-16837514)
+((DummyInit)-16837514, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-16837515)
+((DummyGoal)-16837515, (goal)-8658128)
+((DummyInit)-16837514, (DummyGoal)-16837515)
+((get-in-car dave accord la)-16837516, (DummyGoal)-16837515)
+((DummyInit)-16837514, (get-in-car dave accord la)-16837516)
+((initial)-8658127, (get-in-car dave accord la)-16837516)
+((get-in-car dave accord la)-16837516, (goal)-8658128)
+((drive dave accord la raleigh)-16837517, (DummyGoal)-16837515)
+((DummyInit)-16837514, (drive dave accord la raleigh)-16837517)
+((initial)-8658127, (drive dave accord la raleigh)-16837517)
+((drive dave accord la raleigh)-16837517, (goal)-8658128)
+((get-out-of-car dave accord raleigh)-16837518, (DummyGoal)-16837515)
+((DummyInit)-16837514, (get-out-of-car dave accord raleigh)-16837518)
+((initial)-8658127, (get-out-of-car dave accord raleigh)-16837518)
+((get-out-of-car dave accord raleigh)-16837518, (goal)-8658128)
+((get-in-car dave accord la)-16837516, (drive dave accord la raleigh)-16837517)
+((drive dave accord la raleigh)-16837517, (get-out-of-car dave accord raleigh)-16837518)
+((get-in-car dave accord la)-16837516, (get-out-of-car dave accord raleigh)-16837518)
+((DummyGoal)-16837515, (DummyGoal)-16837512)
+((DummyInit)-16837511, (DummyInit)-16837514)
+((DummyGoal)-16837512, (DummyGoal)-16778659)
+((DummyInit)-16778658, (DummyInit)-16837511)

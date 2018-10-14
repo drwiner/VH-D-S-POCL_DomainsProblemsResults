@@ -1,0 +1,46 @@
+Problem 15 of Domain blocks
+----------------------------
+Objects of Problem 15
+location_0
+location_1
+location_2
+location_3
+location_4
+location_5
+location_6
+block_0
+block_1
+agent_0
+
+Initial State of Problem 15
+(adjacent location_0 location_1)
+(adjacent location_1 location_0)
+(adjacent location_1 location_2)
+(adjacent location_2 location_1)
+(adjacent location_0 location_2)
+(adjacent location_2 location_0)
+(adjacent location_1 location_3)
+(adjacent location_3 location_1)
+(adjacent location_0 location_3)
+(adjacent location_3 location_0)
+(adjacent location_1 location_4)
+(adjacent location_4 location_1)
+(adjacent location_0 location_5)
+(adjacent location_5 location_0)
+(adjacent location_4 location_6)
+(adjacent location_6 location_4)
+(adjacent location_0 location_6)
+(adjacent location_6 location_0)
+(adjacent location_5 location_6)
+(adjacent location_6 location_5)
+(at block_0 location_6)
+(occupied location_6)
+(at block_1 location_0)
+(occupied location_0)
+(at agent_0 location_3)
+(freehands agent_0)
+(occupied location_3)
+
+Goal State of Problem 15
+(at block_0 location_0)
+(at block_1 location_1)

@@ -1,0 +1,59 @@
+problem	5
+selection	E0-AddReuseHeuristic
+search	BestFirst
+runtime	60003
+opened	59706
+expanded	17236
+primitives	9
+decomps	0
+composites	0
+hdepth	0
+
+
+(get-in-car bob accord la)-3248415
+(get-in-car bob accord raleigh)-2980055
+(get-in-car sara accord la)-2930545
+(drive sara accord slc la)-2930537
+(get-out-of-car bob accord la)-2930367
+(drive bob accord la slc)-3248399
+(drive bob accord slc la)-2980071
+(get-in-car sara accord la)-2930501
+(get-out-of-car sara accord raleigh)-2930237
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-2930235, (goal)-2930236)
+((initial)-2930235, (get-out-of-car sara accord raleigh)-2930237)
+((get-out-of-car sara accord raleigh)-2930237, (goal)-2930236)
+((initial)-2930235, (get-out-of-car bob accord la)-2930367)
+((get-out-of-car bob accord la)-2930367, (goal)-2930236)
+((initial)-2930235, (get-in-car sara accord la)-2930501)
+((get-in-car sara accord la)-2930501, (goal)-2930236)
+((get-in-car sara accord la)-2930501, (get-out-of-car sara accord raleigh)-2930237)
+((initial)-2930235, (drive sara accord slc la)-2930537)
+((drive sara accord slc la)-2930537, (goal)-2930236)
+((drive sara accord slc la)-2930537, (get-out-of-car bob accord la)-2930367)
+((initial)-2930235, (get-in-car sara accord la)-2930545)
+((get-in-car sara accord la)-2930545, (goal)-2930236)
+((get-in-car sara accord la)-2930545, (drive sara accord slc la)-2930537)
+((drive sara accord slc la)-2930537, (get-out-of-car sara accord raleigh)-2930237)
+((get-in-car sara accord la)-2930545, (get-in-car sara accord la)-2930501)
+((initial)-2930235, (get-in-car bob accord raleigh)-2980055)
+((get-in-car bob accord raleigh)-2980055, (goal)-2930236)
+((get-in-car bob accord raleigh)-2980055, (get-out-of-car bob accord la)-2930367)
+((initial)-2930235, (drive bob accord slc la)-2980071)
+((drive bob accord slc la)-2980071, (goal)-2930236)
+((drive bob accord slc la)-2980071, (get-in-car sara accord la)-2930501)
+((initial)-2930235, (drive bob accord la slc)-3248399)
+((drive bob accord la slc)-3248399, (goal)-2930236)
+((drive bob accord la slc)-3248399, (drive bob accord slc la)-2980071)
+((get-out-of-car bob accord la)-2930367, (drive bob accord la slc)-3248399)
+((drive sara accord slc la)-2930537, (drive bob accord la slc)-3248399)
+((initial)-2930235, (get-in-car bob accord la)-3248415)
+((get-in-car bob accord la)-3248415, (goal)-2930236)
+((get-in-car bob accord la)-3248415, (drive bob accord slc la)-2980071)
+((get-in-car bob accord la)-3248415, (get-out-of-car bob accord la)-2930367)

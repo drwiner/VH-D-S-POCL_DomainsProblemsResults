@@ -1,0 +1,81 @@
+problem	3
+selection	E3-NumOCsHeuristic
+search	BestFirst
+runtime	2313
+opened	749
+expanded	239
+primitives	12
+decomps	1
+composites	1
+hdepth	8
+
+
+(buy-tickets sara)-1839370
+(DummyInit)-1835407
+(buy-tickets bob)-1835409
+(board-plane bob 747 raleigh)-1835410
+(fly bob 747 raleigh la)-1835411
+(deplane bob 747 la)-1835412
+(DummyGoal)-1835408
+(get-in-car sara accord raleigh)-1839390
+(drive sara accord raleigh la)-1839378
+(get-out-of-car sara accord la)-1839335
+(board-plane sara 747 la)-1837184
+(deplane sara 747 la)-1835339
+
+
+Composites:
+
+(travel-by-plane bob raleigh la 747)-1835406
+
+Orderings:
+
+((initial)-1699865, (goal)-1699866)
+((initial)-1699865, (deplane sara 747 la)-1835339)
+((deplane sara 747 la)-1835339, (goal)-1699866)
+((initial)-1699865, (DummyInit)-1835407)
+((DummyInit)-1835407, (goal)-1699866)
+((initial)-1699865, (DummyGoal)-1835408)
+((DummyGoal)-1835408, (goal)-1699866)
+((DummyInit)-1835407, (DummyGoal)-1835408)
+((buy-tickets bob)-1835409, (DummyGoal)-1835408)
+((DummyInit)-1835407, (buy-tickets bob)-1835409)
+((initial)-1699865, (buy-tickets bob)-1835409)
+((buy-tickets bob)-1835409, (goal)-1699866)
+((board-plane bob 747 raleigh)-1835410, (DummyGoal)-1835408)
+((DummyInit)-1835407, (board-plane bob 747 raleigh)-1835410)
+((initial)-1699865, (board-plane bob 747 raleigh)-1835410)
+((board-plane bob 747 raleigh)-1835410, (goal)-1699866)
+((fly bob 747 raleigh la)-1835411, (DummyGoal)-1835408)
+((DummyInit)-1835407, (fly bob 747 raleigh la)-1835411)
+((initial)-1699865, (fly bob 747 raleigh la)-1835411)
+((fly bob 747 raleigh la)-1835411, (goal)-1699866)
+((deplane bob 747 la)-1835412, (DummyGoal)-1835408)
+((DummyInit)-1835407, (deplane bob 747 la)-1835412)
+((initial)-1699865, (deplane bob 747 la)-1835412)
+((deplane bob 747 la)-1835412, (goal)-1699866)
+((buy-tickets bob)-1835409, (board-plane bob 747 raleigh)-1835410)
+((board-plane bob 747 raleigh)-1835410, (fly bob 747 raleigh la)-1835411)
+((fly bob 747 raleigh la)-1835411, (deplane bob 747 la)-1835412)
+((board-plane bob 747 raleigh)-1835410, (deplane bob 747 la)-1835412)
+((DummyGoal)-1835408, (deplane sara 747 la)-1835339)
+((fly bob 747 raleigh la)-1835411, (deplane sara 747 la)-1835339)
+((initial)-1699865, (board-plane sara 747 la)-1837184)
+((board-plane sara 747 la)-1837184, (goal)-1699866)
+((board-plane sara 747 la)-1837184, (deplane sara 747 la)-1835339)
+((initial)-1699865, (get-out-of-car sara accord la)-1839335)
+((get-out-of-car sara accord la)-1839335, (goal)-1699866)
+((get-out-of-car sara accord la)-1839335, (board-plane sara 747 la)-1837184)
+((DummyGoal)-1835408, (get-out-of-car sara accord la)-1839335)
+((fly bob 747 raleigh la)-1835411, (board-plane sara 747 la)-1837184)
+((initial)-1699865, (buy-tickets sara)-1839370)
+((buy-tickets sara)-1839370, (goal)-1699866)
+((buy-tickets sara)-1839370, (board-plane sara 747 la)-1837184)
+((initial)-1699865, (drive sara accord raleigh la)-1839378)
+((drive sara accord raleigh la)-1839378, (goal)-1699866)
+((drive sara accord raleigh la)-1839378, (get-out-of-car sara accord la)-1839335)
+((initial)-1699865, (get-in-car sara accord raleigh)-1839390)
+((get-in-car sara accord raleigh)-1839390, (goal)-1699866)
+((get-in-car sara accord raleigh)-1839390, (drive sara accord raleigh la)-1839378)
+((DummyGoal)-1835408, (get-in-car sara accord raleigh)-1839390)
+((get-in-car sara accord raleigh)-1839390, (get-out-of-car sara accord la)-1839335)

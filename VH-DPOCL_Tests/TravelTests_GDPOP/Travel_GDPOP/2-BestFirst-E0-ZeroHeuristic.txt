@@ -1,0 +1,32 @@
+problem	2
+selection	E0-ZeroHeuristic
+search	BestFirst
+runtime	9
+opened	83
+expanded	30
+primitives	3
+decomps	0
+composites	0
+hdepth	0
+
+
+(get-in-car sara accord raleigh)-1507317
+(drive sara accord raleigh la)-1507297
+(get-out-of-car sara accord la)-1507266
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-1314332, (goal)-1314333)
+((initial)-1314332, (get-out-of-car sara accord la)-1507266)
+((get-out-of-car sara accord la)-1507266, (goal)-1314333)
+((initial)-1314332, (drive sara accord raleigh la)-1507297)
+((drive sara accord raleigh la)-1507297, (goal)-1314333)
+((drive sara accord raleigh la)-1507297, (get-out-of-car sara accord la)-1507266)
+((initial)-1314332, (get-in-car sara accord raleigh)-1507317)
+((get-in-car sara accord raleigh)-1507317, (goal)-1314333)
+((get-in-car sara accord raleigh)-1507317, (drive sara accord raleigh la)-1507297)
+((get-in-car sara accord raleigh)-1507317, (get-out-of-car sara accord la)-1507266)

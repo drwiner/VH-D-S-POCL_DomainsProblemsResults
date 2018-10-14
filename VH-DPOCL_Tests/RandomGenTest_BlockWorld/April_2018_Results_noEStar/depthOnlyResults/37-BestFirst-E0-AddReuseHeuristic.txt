@@ -1,0 +1,18 @@
+problem	37
+selection	E0-AddReuseHeuristic
+search	BestFirst
+runtime	60112
+opened	16696
+expanded	514
+primitives	5
+decomps	0
+composites	0
+hdepth	0
+
+
+(pickup agent_0 block_0 location_4 location_0)-33135510
+(pickup agent_0 block_1 location_7 location_5)-32989807
+(putdown agent_0 block_1 location_0 location_1)-32978132
+(move agent_0 location_0 location_2)-33132658
+(putdown agent_0 block_0 location_2 location_0)-32985069
+

@@ -1,0 +1,27 @@
+problem	17
+selection	E3Starx1-NumOCsHeuristic
+search	BestFirst
+runtime	5005
+opened	10987
+expanded	51
+primitives	2
+decomps	0
+composites	0
+hdepth	0
+
+
+(pickup agent_2 block_0 location_8 location_1)-10825395
+(putdown agent_2 block_0 location_1 location_0)-10816344
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-9436837, (goal)-9436838)
+((initial)-9436837, (putdown agent_2 block_0 location_1 location_0)-10816344)
+((putdown agent_2 block_0 location_1 location_0)-10816344, (goal)-9436838)
+((initial)-9436837, (pickup agent_2 block_0 location_8 location_1)-10825395)
+((pickup agent_2 block_0 location_8 location_1)-10825395, (goal)-9436838)
+((pickup agent_2 block_0 location_8 location_1)-10825395, (putdown agent_2 block_0 location_1 location_0)-10816344)

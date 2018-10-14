@@ -1,0 +1,881 @@
+problem	6
+selection	Nada-ZeroHeuristic
+search	DFS
+runtime	60816
+opened	1111
+expanded	200
+primitives	162
+decomps	42
+composites	42
+hdepth	42
+
+
+(DummyInit)-7848756
+(DummyInit)-7848759
+(deplane sara 747 slc)-7848761
+(DummyGoal)-7848760
+(DummyGoal)-7848757
+(board-plane sara 747 slc)-7848631
+(DummyInit)-7848424
+(DummyInit)-7848427
+(fly sara 747 la slc)-7848619
+(deplane sara 747 slc)-7848429
+(DummyGoal)-7848428
+(DummyGoal)-7848425
+(board-plane sara 747 slc)-7848299
+(fly sara 747 slc la)-7848591
+(fly sara 747 la slc)-7848287
+(DummyInit)-7848092
+(DummyInit)-7848095
+(deplane sara 747 slc)-7848097
+(DummyGoal)-7848096
+(DummyGoal)-7848093
+(board-plane sara 747 slc)-7847967
+(fly sara 747 slc la)-7848259
+(fly sara 747 la slc)-7847955
+(DummyInit)-7847760
+(DummyInit)-7847763
+(deplane sara 747 slc)-7847765
+(DummyGoal)-7847764
+(DummyGoal)-7847761
+(board-plane sara 747 slc)-7847635
+(fly sara 747 slc la)-7847927
+(fly sara 747 la slc)-7847623
+(DummyInit)-7847428
+(DummyInit)-7847431
+(deplane sara 747 slc)-7847433
+(DummyGoal)-7847432
+(DummyGoal)-7847429
+(board-plane sara 747 slc)-7847303
+(fly sara 747 slc la)-7847595
+(fly sara 747 la slc)-7847291
+(DummyInit)-7847096
+(DummyInit)-7847099
+(deplane sara 747 slc)-7847101
+(DummyGoal)-7847100
+(DummyGoal)-7847097
+(board-plane sara 747 slc)-7846971
+(fly sara 747 slc la)-7847263
+(fly sara 747 la slc)-7846959
+(DummyInit)-7846764
+(DummyInit)-7846767
+(deplane sara 747 slc)-7846769
+(DummyGoal)-7846768
+(DummyGoal)-7846765
+(board-plane sara 747 slc)-7846639
+(fly sara 747 slc la)-7846931
+(fly sara 747 la slc)-7846627
+(DummyInit)-7846432
+(DummyInit)-7846435
+(deplane sara 747 slc)-7846437
+(DummyGoal)-7846436
+(DummyGoal)-7846433
+(board-plane sara 747 slc)-7846307
+(fly sara 747 slc la)-7846599
+(fly sara 747 la slc)-7846295
+(DummyInit)-7846100
+(DummyInit)-7846103
+(deplane sara 747 slc)-7846105
+(DummyGoal)-7846104
+(DummyGoal)-7846101
+(board-plane sara 747 slc)-7845975
+(fly sara 747 slc la)-7846267
+(fly sara 747 la slc)-7845963
+(DummyInit)-7845768
+(DummyInit)-7845771
+(deplane sara 747 slc)-7845773
+(DummyGoal)-7845772
+(DummyGoal)-7845769
+(board-plane sara 747 slc)-7845643
+(fly sara 747 slc la)-7845935
+(fly sara 747 la slc)-7845631
+(DummyInit)-7845436
+(DummyInit)-7845439
+(deplane sara 747 slc)-7845441
+(DummyGoal)-7845440
+(DummyGoal)-7845437
+(board-plane sara 747 slc)-7845311
+(fly sara 747 slc la)-7845603
+(fly sara 747 la slc)-7845299
+(DummyInit)-7845104
+(DummyInit)-7845107
+(deplane sara 747 slc)-7845109
+(DummyGoal)-7845108
+(DummyGoal)-7845105
+(board-plane sara 747 slc)-7844979
+(fly sara 747 slc la)-7845271
+(fly sara 747 la slc)-7844967
+(DummyInit)-7844772
+(DummyInit)-7844775
+(deplane sara 747 slc)-7844777
+(DummyGoal)-7844776
+(DummyGoal)-7844773
+(board-plane sara 747 slc)-7844647
+(fly sara 747 slc la)-7844939
+(fly sara 747 la slc)-7844635
+(DummyInit)-7844440
+(DummyInit)-7844443
+(deplane sara 747 slc)-7844445
+(DummyGoal)-7844444
+(DummyGoal)-7844441
+(board-plane sara 747 slc)-7844315
+(fly sara 747 slc la)-7844607
+(fly sara 747 la slc)-7844303
+(DummyInit)-7844108
+(DummyInit)-7844111
+(deplane sara 747 slc)-7844113
+(DummyGoal)-7844112
+(DummyGoal)-7844109
+(board-plane sara 747 slc)-7843983
+(fly sara 747 slc la)-7844275
+(fly sara 747 la slc)-7843971
+(DummyInit)-7843776
+(DummyInit)-7843779
+(deplane sara 747 slc)-7843781
+(DummyGoal)-7843780
+(DummyGoal)-7843777
+(board-plane sara 747 slc)-7843651
+(fly sara 747 slc la)-7843943
+(fly sara 747 la slc)-7843639
+(DummyInit)-7843444
+(DummyInit)-7843447
+(deplane sara 747 slc)-7843449
+(DummyGoal)-7843448
+(DummyGoal)-7843445
+(board-plane sara 747 slc)-7843319
+(fly sara 747 slc la)-7843611
+(fly sara 747 la slc)-7843307
+(DummyInit)-7843128
+(DummyInit)-7843131
+(deplane sara 747 slc)-7843133
+(DummyGoal)-7843132
+(DummyGoal)-7843129
+(board-plane sara 747 slc)-7843003
+(fly sara 747 slc la)-7843279
+(fly sara 747 la slc)-7842991
+(DummyInit)-7842840
+(DummyInit)-7842843
+(deplane sara 747 slc)-7842845
+(DummyGoal)-7842844
+(DummyGoal)-7842841
+(board-plane sara 747 slc)-7842647
+(fly sara 747 slc la)-7842703
+(fly sara 747 la slc)-7842635
+(DummyInit)-7842094
+(DummyInit)-7842097
+(deplane sara 747 slc)-7842099
+(DummyGoal)-7842098
+(DummyGoal)-7842095
+(board-plane bob 747 slc)-7842659
+(DummyInit)-7841964
+(DummyInit)-7841967
+(deplane bob 747 slc)-7841969
+(DummyGoal)-7841968
+(DummyGoal)-7841965
+
+
+Composites:
+
+(generic-travel bob slc)-7841963
+(generic-travel bob slc)-7841966
+(generic-travel sara slc)-7842093
+(generic-travel sara slc)-7842096
+(generic-travel sara slc)-7842839
+(generic-travel sara slc)-7842842
+(generic-travel sara slc)-7843127
+(generic-travel sara slc)-7843130
+(generic-travel sara slc)-7843443
+(generic-travel sara slc)-7843446
+(generic-travel sara slc)-7843775
+(generic-travel sara slc)-7843778
+(generic-travel sara slc)-7844107
+(generic-travel sara slc)-7844110
+(generic-travel sara slc)-7844439
+(generic-travel sara slc)-7844442
+(generic-travel sara slc)-7844771
+(generic-travel sara slc)-7844774
+(generic-travel sara slc)-7845103
+(generic-travel sara slc)-7845106
+(generic-travel sara slc)-7845435
+(generic-travel sara slc)-7845438
+(generic-travel sara slc)-7845767
+(generic-travel sara slc)-7845770
+(generic-travel sara slc)-7846099
+(generic-travel sara slc)-7846102
+(generic-travel sara slc)-7846431
+(generic-travel sara slc)-7846434
+(generic-travel sara slc)-7846763
+(generic-travel sara slc)-7846766
+(generic-travel sara slc)-7847095
+(generic-travel sara slc)-7847098
+(generic-travel sara slc)-7847427
+(generic-travel sara slc)-7847430
+(generic-travel sara slc)-7847759
+(generic-travel sara slc)-7847762
+(generic-travel sara slc)-7848091
+(generic-travel sara slc)-7848094
+(generic-travel sara slc)-7848423
+(generic-travel sara slc)-7848426
+(generic-travel sara slc)-7848755
+(generic-travel sara slc)-7848758
+
+Orderings:
+
+((initial)-6627441, (goal)-6627442)
+((initial)-6627441, (DummyInit)-7841964)
+((DummyInit)-7841964, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7841965)
+((DummyGoal)-7841965, (goal)-6627442)
+((DummyInit)-7841964, (DummyGoal)-7841965)
+((initial)-6627441, (DummyInit)-7841967)
+((DummyInit)-7841967, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7841968)
+((DummyGoal)-7841968, (goal)-6627442)
+((DummyInit)-7841967, (DummyGoal)-7841968)
+((deplane bob 747 slc)-7841969, (DummyGoal)-7841968)
+((DummyInit)-7841967, (deplane bob 747 slc)-7841969)
+((initial)-6627441, (deplane bob 747 slc)-7841969)
+((deplane bob 747 slc)-7841969, (goal)-6627442)
+((DummyGoal)-7841968, (DummyGoal)-7841965)
+((DummyInit)-7841964, (DummyInit)-7841967)
+((initial)-6627441, (DummyInit)-7842094)
+((DummyInit)-7842094, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7842095)
+((DummyGoal)-7842095, (goal)-6627442)
+((DummyInit)-7842094, (DummyGoal)-7842095)
+((initial)-6627441, (DummyInit)-7842097)
+((DummyInit)-7842097, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7842098)
+((DummyGoal)-7842098, (goal)-6627442)
+((DummyInit)-7842097, (DummyGoal)-7842098)
+((deplane sara 747 slc)-7842099, (DummyGoal)-7842098)
+((DummyInit)-7842097, (deplane sara 747 slc)-7842099)
+((initial)-6627441, (deplane sara 747 slc)-7842099)
+((deplane sara 747 slc)-7842099, (goal)-6627442)
+((DummyGoal)-7842098, (DummyGoal)-7842095)
+((DummyInit)-7842094, (DummyInit)-7842097)
+((deplane bob 747 slc)-7841969, (DummyGoal)-7841965)
+((deplane sara 747 slc)-7842099, (DummyGoal)-7842095)
+((initial)-6627441, (fly sara 747 la slc)-7842635)
+((fly sara 747 la slc)-7842635, (goal)-6627442)
+((fly sara 747 la slc)-7842635, (deplane bob 747 slc)-7841969)
+((initial)-6627441, (board-plane sara 747 slc)-7842647)
+((board-plane sara 747 slc)-7842647, (goal)-6627442)
+((board-plane sara 747 slc)-7842647, (fly sara 747 la slc)-7842635)
+((board-plane sara 747 slc)-7842647, (deplane sara 747 slc)-7842099)
+((fly sara 747 la slc)-7842635, (deplane sara 747 slc)-7842099)
+((board-plane sara 747 slc)-7842647, (DummyInit)-7842094)
+((board-plane sara 747 slc)-7842647, (DummyGoal)-7842095)
+((initial)-6627441, (board-plane bob 747 slc)-7842659)
+((board-plane bob 747 slc)-7842659, (goal)-6627442)
+((board-plane bob 747 slc)-7842659, (deplane bob 747 slc)-7841969)
+((initial)-6627441, (fly sara 747 slc la)-7842703)
+((fly sara 747 slc la)-7842703, (goal)-6627442)
+((fly sara 747 slc la)-7842703, (fly sara 747 la slc)-7842635)
+((board-plane sara 747 slc)-7842647, (fly sara 747 slc la)-7842703)
+((initial)-6627441, (DummyInit)-7842840)
+((DummyInit)-7842840, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7842841)
+((DummyGoal)-7842841, (goal)-6627442)
+((DummyInit)-7842840, (DummyGoal)-7842841)
+((initial)-6627441, (DummyInit)-7842843)
+((DummyInit)-7842843, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7842844)
+((DummyGoal)-7842844, (goal)-6627442)
+((DummyInit)-7842843, (DummyGoal)-7842844)
+((deplane sara 747 slc)-7842845, (DummyGoal)-7842844)
+((DummyInit)-7842843, (deplane sara 747 slc)-7842845)
+((initial)-6627441, (deplane sara 747 slc)-7842845)
+((deplane sara 747 slc)-7842845, (goal)-6627442)
+((DummyGoal)-7842844, (DummyGoal)-7842841)
+((DummyInit)-7842840, (DummyInit)-7842843)
+((DummyGoal)-7842841, (board-plane sara 747 slc)-7842647)
+((deplane sara 747 slc)-7842845, (DummyGoal)-7842841)
+((initial)-6627441, (fly sara 747 la slc)-7842991)
+((fly sara 747 la slc)-7842991, (goal)-6627442)
+((fly sara 747 la slc)-7842991, (board-plane sara 747 slc)-7842647)
+((initial)-6627441, (board-plane sara 747 slc)-7843003)
+((board-plane sara 747 slc)-7843003, (goal)-6627442)
+((board-plane sara 747 slc)-7843003, (fly sara 747 la slc)-7842991)
+((board-plane sara 747 slc)-7843003, (deplane sara 747 slc)-7842845)
+((fly sara 747 la slc)-7842991, (deplane sara 747 slc)-7842845)
+((board-plane sara 747 slc)-7843003, (DummyInit)-7842840)
+((board-plane sara 747 slc)-7843003, (DummyGoal)-7842841)
+((initial)-6627441, (DummyInit)-7843128)
+((DummyInit)-7843128, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7843129)
+((DummyGoal)-7843129, (goal)-6627442)
+((DummyInit)-7843128, (DummyGoal)-7843129)
+((initial)-6627441, (DummyInit)-7843131)
+((DummyInit)-7843131, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7843132)
+((DummyGoal)-7843132, (goal)-6627442)
+((DummyInit)-7843131, (DummyGoal)-7843132)
+((deplane sara 747 slc)-7843133, (DummyGoal)-7843132)
+((DummyInit)-7843131, (deplane sara 747 slc)-7843133)
+((initial)-6627441, (deplane sara 747 slc)-7843133)
+((deplane sara 747 slc)-7843133, (goal)-6627442)
+((DummyGoal)-7843132, (DummyGoal)-7843129)
+((DummyInit)-7843128, (DummyInit)-7843131)
+((DummyGoal)-7843129, (board-plane sara 747 slc)-7843003)
+((deplane sara 747 slc)-7843133, (DummyGoal)-7843129)
+((initial)-6627441, (fly sara 747 slc la)-7843279)
+((fly sara 747 slc la)-7843279, (goal)-6627442)
+((fly sara 747 slc la)-7843279, (fly sara 747 la slc)-7842991)
+((board-plane sara 747 slc)-7843003, (fly sara 747 slc la)-7843279)
+((initial)-6627441, (fly sara 747 la slc)-7843307)
+((fly sara 747 la slc)-7843307, (goal)-6627442)
+((fly sara 747 la slc)-7843307, (board-plane sara 747 slc)-7843003)
+((initial)-6627441, (board-plane sara 747 slc)-7843319)
+((board-plane sara 747 slc)-7843319, (goal)-6627442)
+((board-plane sara 747 slc)-7843319, (fly sara 747 la slc)-7843307)
+((board-plane sara 747 slc)-7843319, (deplane sara 747 slc)-7843133)
+((fly sara 747 la slc)-7843307, (deplane sara 747 slc)-7843133)
+((board-plane sara 747 slc)-7843319, (DummyInit)-7843128)
+((board-plane sara 747 slc)-7843319, (DummyGoal)-7843129)
+((initial)-6627441, (DummyInit)-7843444)
+((DummyInit)-7843444, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7843445)
+((DummyGoal)-7843445, (goal)-6627442)
+((DummyInit)-7843444, (DummyGoal)-7843445)
+((initial)-6627441, (DummyInit)-7843447)
+((DummyInit)-7843447, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7843448)
+((DummyGoal)-7843448, (goal)-6627442)
+((DummyInit)-7843447, (DummyGoal)-7843448)
+((deplane sara 747 slc)-7843449, (DummyGoal)-7843448)
+((DummyInit)-7843447, (deplane sara 747 slc)-7843449)
+((initial)-6627441, (deplane sara 747 slc)-7843449)
+((deplane sara 747 slc)-7843449, (goal)-6627442)
+((DummyGoal)-7843448, (DummyGoal)-7843445)
+((DummyInit)-7843444, (DummyInit)-7843447)
+((DummyGoal)-7843445, (board-plane sara 747 slc)-7843319)
+((deplane sara 747 slc)-7843449, (DummyGoal)-7843445)
+((fly sara 747 la slc)-7843307, (fly sara 747 slc la)-7843279)
+((initial)-6627441, (fly sara 747 slc la)-7843611)
+((fly sara 747 slc la)-7843611, (goal)-6627442)
+((fly sara 747 slc la)-7843611, (fly sara 747 la slc)-7843307)
+((board-plane sara 747 slc)-7843319, (fly sara 747 slc la)-7843611)
+((initial)-6627441, (fly sara 747 la slc)-7843639)
+((fly sara 747 la slc)-7843639, (goal)-6627442)
+((fly sara 747 la slc)-7843639, (board-plane sara 747 slc)-7843319)
+((initial)-6627441, (board-plane sara 747 slc)-7843651)
+((board-plane sara 747 slc)-7843651, (goal)-6627442)
+((board-plane sara 747 slc)-7843651, (fly sara 747 la slc)-7843639)
+((board-plane sara 747 slc)-7843651, (deplane sara 747 slc)-7843449)
+((fly sara 747 la slc)-7843639, (deplane sara 747 slc)-7843449)
+((board-plane sara 747 slc)-7843651, (DummyInit)-7843444)
+((board-plane sara 747 slc)-7843651, (DummyGoal)-7843445)
+((initial)-6627441, (DummyInit)-7843776)
+((DummyInit)-7843776, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7843777)
+((DummyGoal)-7843777, (goal)-6627442)
+((DummyInit)-7843776, (DummyGoal)-7843777)
+((initial)-6627441, (DummyInit)-7843779)
+((DummyInit)-7843779, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7843780)
+((DummyGoal)-7843780, (goal)-6627442)
+((DummyInit)-7843779, (DummyGoal)-7843780)
+((deplane sara 747 slc)-7843781, (DummyGoal)-7843780)
+((DummyInit)-7843779, (deplane sara 747 slc)-7843781)
+((initial)-6627441, (deplane sara 747 slc)-7843781)
+((deplane sara 747 slc)-7843781, (goal)-6627442)
+((DummyGoal)-7843780, (DummyGoal)-7843777)
+((DummyInit)-7843776, (DummyInit)-7843779)
+((DummyGoal)-7843777, (board-plane sara 747 slc)-7843651)
+((deplane sara 747 slc)-7843781, (DummyGoal)-7843777)
+((fly sara 747 la slc)-7843639, (fly sara 747 slc la)-7843611)
+((initial)-6627441, (fly sara 747 slc la)-7843943)
+((fly sara 747 slc la)-7843943, (goal)-6627442)
+((fly sara 747 slc la)-7843943, (fly sara 747 la slc)-7843639)
+((board-plane sara 747 slc)-7843651, (fly sara 747 slc la)-7843943)
+((initial)-6627441, (fly sara 747 la slc)-7843971)
+((fly sara 747 la slc)-7843971, (goal)-6627442)
+((fly sara 747 la slc)-7843971, (board-plane sara 747 slc)-7843651)
+((initial)-6627441, (board-plane sara 747 slc)-7843983)
+((board-plane sara 747 slc)-7843983, (goal)-6627442)
+((board-plane sara 747 slc)-7843983, (fly sara 747 la slc)-7843971)
+((board-plane sara 747 slc)-7843983, (deplane sara 747 slc)-7843781)
+((fly sara 747 la slc)-7843971, (deplane sara 747 slc)-7843781)
+((board-plane sara 747 slc)-7843983, (DummyInit)-7843776)
+((board-plane sara 747 slc)-7843983, (DummyGoal)-7843777)
+((initial)-6627441, (DummyInit)-7844108)
+((DummyInit)-7844108, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7844109)
+((DummyGoal)-7844109, (goal)-6627442)
+((DummyInit)-7844108, (DummyGoal)-7844109)
+((initial)-6627441, (DummyInit)-7844111)
+((DummyInit)-7844111, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7844112)
+((DummyGoal)-7844112, (goal)-6627442)
+((DummyInit)-7844111, (DummyGoal)-7844112)
+((deplane sara 747 slc)-7844113, (DummyGoal)-7844112)
+((DummyInit)-7844111, (deplane sara 747 slc)-7844113)
+((initial)-6627441, (deplane sara 747 slc)-7844113)
+((deplane sara 747 slc)-7844113, (goal)-6627442)
+((DummyGoal)-7844112, (DummyGoal)-7844109)
+((DummyInit)-7844108, (DummyInit)-7844111)
+((DummyGoal)-7844109, (board-plane sara 747 slc)-7843983)
+((deplane sara 747 slc)-7844113, (DummyGoal)-7844109)
+((fly sara 747 la slc)-7843971, (fly sara 747 slc la)-7843943)
+((initial)-6627441, (fly sara 747 slc la)-7844275)
+((fly sara 747 slc la)-7844275, (goal)-6627442)
+((fly sara 747 slc la)-7844275, (fly sara 747 la slc)-7843971)
+((board-plane sara 747 slc)-7843983, (fly sara 747 slc la)-7844275)
+((initial)-6627441, (fly sara 747 la slc)-7844303)
+((fly sara 747 la slc)-7844303, (goal)-6627442)
+((fly sara 747 la slc)-7844303, (board-plane sara 747 slc)-7843983)
+((initial)-6627441, (board-plane sara 747 slc)-7844315)
+((board-plane sara 747 slc)-7844315, (goal)-6627442)
+((board-plane sara 747 slc)-7844315, (fly sara 747 la slc)-7844303)
+((board-plane sara 747 slc)-7844315, (deplane sara 747 slc)-7844113)
+((fly sara 747 la slc)-7844303, (deplane sara 747 slc)-7844113)
+((board-plane sara 747 slc)-7844315, (DummyInit)-7844108)
+((board-plane sara 747 slc)-7844315, (DummyGoal)-7844109)
+((initial)-6627441, (DummyInit)-7844440)
+((DummyInit)-7844440, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7844441)
+((DummyGoal)-7844441, (goal)-6627442)
+((DummyInit)-7844440, (DummyGoal)-7844441)
+((initial)-6627441, (DummyInit)-7844443)
+((DummyInit)-7844443, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7844444)
+((DummyGoal)-7844444, (goal)-6627442)
+((DummyInit)-7844443, (DummyGoal)-7844444)
+((deplane sara 747 slc)-7844445, (DummyGoal)-7844444)
+((DummyInit)-7844443, (deplane sara 747 slc)-7844445)
+((initial)-6627441, (deplane sara 747 slc)-7844445)
+((deplane sara 747 slc)-7844445, (goal)-6627442)
+((DummyGoal)-7844444, (DummyGoal)-7844441)
+((DummyInit)-7844440, (DummyInit)-7844443)
+((DummyGoal)-7844441, (board-plane sara 747 slc)-7844315)
+((deplane sara 747 slc)-7844445, (DummyGoal)-7844441)
+((fly sara 747 la slc)-7844303, (fly sara 747 slc la)-7844275)
+((initial)-6627441, (fly sara 747 slc la)-7844607)
+((fly sara 747 slc la)-7844607, (goal)-6627442)
+((fly sara 747 slc la)-7844607, (fly sara 747 la slc)-7844303)
+((board-plane sara 747 slc)-7844315, (fly sara 747 slc la)-7844607)
+((initial)-6627441, (fly sara 747 la slc)-7844635)
+((fly sara 747 la slc)-7844635, (goal)-6627442)
+((fly sara 747 la slc)-7844635, (board-plane sara 747 slc)-7844315)
+((initial)-6627441, (board-plane sara 747 slc)-7844647)
+((board-plane sara 747 slc)-7844647, (goal)-6627442)
+((board-plane sara 747 slc)-7844647, (fly sara 747 la slc)-7844635)
+((board-plane sara 747 slc)-7844647, (deplane sara 747 slc)-7844445)
+((fly sara 747 la slc)-7844635, (deplane sara 747 slc)-7844445)
+((board-plane sara 747 slc)-7844647, (DummyInit)-7844440)
+((board-plane sara 747 slc)-7844647, (DummyGoal)-7844441)
+((initial)-6627441, (DummyInit)-7844772)
+((DummyInit)-7844772, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7844773)
+((DummyGoal)-7844773, (goal)-6627442)
+((DummyInit)-7844772, (DummyGoal)-7844773)
+((initial)-6627441, (DummyInit)-7844775)
+((DummyInit)-7844775, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7844776)
+((DummyGoal)-7844776, (goal)-6627442)
+((DummyInit)-7844775, (DummyGoal)-7844776)
+((deplane sara 747 slc)-7844777, (DummyGoal)-7844776)
+((DummyInit)-7844775, (deplane sara 747 slc)-7844777)
+((initial)-6627441, (deplane sara 747 slc)-7844777)
+((deplane sara 747 slc)-7844777, (goal)-6627442)
+((DummyGoal)-7844776, (DummyGoal)-7844773)
+((DummyInit)-7844772, (DummyInit)-7844775)
+((DummyGoal)-7844773, (board-plane sara 747 slc)-7844647)
+((deplane sara 747 slc)-7844777, (DummyGoal)-7844773)
+((fly sara 747 la slc)-7844635, (fly sara 747 slc la)-7844607)
+((initial)-6627441, (fly sara 747 slc la)-7844939)
+((fly sara 747 slc la)-7844939, (goal)-6627442)
+((fly sara 747 slc la)-7844939, (fly sara 747 la slc)-7844635)
+((board-plane sara 747 slc)-7844647, (fly sara 747 slc la)-7844939)
+((initial)-6627441, (fly sara 747 la slc)-7844967)
+((fly sara 747 la slc)-7844967, (goal)-6627442)
+((fly sara 747 la slc)-7844967, (board-plane sara 747 slc)-7844647)
+((initial)-6627441, (board-plane sara 747 slc)-7844979)
+((board-plane sara 747 slc)-7844979, (goal)-6627442)
+((board-plane sara 747 slc)-7844979, (fly sara 747 la slc)-7844967)
+((board-plane sara 747 slc)-7844979, (deplane sara 747 slc)-7844777)
+((fly sara 747 la slc)-7844967, (deplane sara 747 slc)-7844777)
+((board-plane sara 747 slc)-7844979, (DummyInit)-7844772)
+((board-plane sara 747 slc)-7844979, (DummyGoal)-7844773)
+((initial)-6627441, (DummyInit)-7845104)
+((DummyInit)-7845104, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7845105)
+((DummyGoal)-7845105, (goal)-6627442)
+((DummyInit)-7845104, (DummyGoal)-7845105)
+((initial)-6627441, (DummyInit)-7845107)
+((DummyInit)-7845107, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7845108)
+((DummyGoal)-7845108, (goal)-6627442)
+((DummyInit)-7845107, (DummyGoal)-7845108)
+((deplane sara 747 slc)-7845109, (DummyGoal)-7845108)
+((DummyInit)-7845107, (deplane sara 747 slc)-7845109)
+((initial)-6627441, (deplane sara 747 slc)-7845109)
+((deplane sara 747 slc)-7845109, (goal)-6627442)
+((DummyGoal)-7845108, (DummyGoal)-7845105)
+((DummyInit)-7845104, (DummyInit)-7845107)
+((DummyGoal)-7845105, (board-plane sara 747 slc)-7844979)
+((deplane sara 747 slc)-7845109, (DummyGoal)-7845105)
+((fly sara 747 la slc)-7844967, (fly sara 747 slc la)-7844939)
+((initial)-6627441, (fly sara 747 slc la)-7845271)
+((fly sara 747 slc la)-7845271, (goal)-6627442)
+((fly sara 747 slc la)-7845271, (fly sara 747 la slc)-7844967)
+((board-plane sara 747 slc)-7844979, (fly sara 747 slc la)-7845271)
+((initial)-6627441, (fly sara 747 la slc)-7845299)
+((fly sara 747 la slc)-7845299, (goal)-6627442)
+((fly sara 747 la slc)-7845299, (board-plane sara 747 slc)-7844979)
+((initial)-6627441, (board-plane sara 747 slc)-7845311)
+((board-plane sara 747 slc)-7845311, (goal)-6627442)
+((board-plane sara 747 slc)-7845311, (fly sara 747 la slc)-7845299)
+((board-plane sara 747 slc)-7845311, (deplane sara 747 slc)-7845109)
+((fly sara 747 la slc)-7845299, (deplane sara 747 slc)-7845109)
+((board-plane sara 747 slc)-7845311, (DummyInit)-7845104)
+((board-plane sara 747 slc)-7845311, (DummyGoal)-7845105)
+((initial)-6627441, (DummyInit)-7845436)
+((DummyInit)-7845436, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7845437)
+((DummyGoal)-7845437, (goal)-6627442)
+((DummyInit)-7845436, (DummyGoal)-7845437)
+((initial)-6627441, (DummyInit)-7845439)
+((DummyInit)-7845439, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7845440)
+((DummyGoal)-7845440, (goal)-6627442)
+((DummyInit)-7845439, (DummyGoal)-7845440)
+((deplane sara 747 slc)-7845441, (DummyGoal)-7845440)
+((DummyInit)-7845439, (deplane sara 747 slc)-7845441)
+((initial)-6627441, (deplane sara 747 slc)-7845441)
+((deplane sara 747 slc)-7845441, (goal)-6627442)
+((DummyGoal)-7845440, (DummyGoal)-7845437)
+((DummyInit)-7845436, (DummyInit)-7845439)
+((DummyGoal)-7845437, (board-plane sara 747 slc)-7845311)
+((deplane sara 747 slc)-7845441, (DummyGoal)-7845437)
+((fly sara 747 la slc)-7845299, (fly sara 747 slc la)-7845271)
+((initial)-6627441, (fly sara 747 slc la)-7845603)
+((fly sara 747 slc la)-7845603, (goal)-6627442)
+((fly sara 747 slc la)-7845603, (fly sara 747 la slc)-7845299)
+((board-plane sara 747 slc)-7845311, (fly sara 747 slc la)-7845603)
+((initial)-6627441, (fly sara 747 la slc)-7845631)
+((fly sara 747 la slc)-7845631, (goal)-6627442)
+((fly sara 747 la slc)-7845631, (board-plane sara 747 slc)-7845311)
+((initial)-6627441, (board-plane sara 747 slc)-7845643)
+((board-plane sara 747 slc)-7845643, (goal)-6627442)
+((board-plane sara 747 slc)-7845643, (fly sara 747 la slc)-7845631)
+((board-plane sara 747 slc)-7845643, (deplane sara 747 slc)-7845441)
+((fly sara 747 la slc)-7845631, (deplane sara 747 slc)-7845441)
+((board-plane sara 747 slc)-7845643, (DummyInit)-7845436)
+((board-plane sara 747 slc)-7845643, (DummyGoal)-7845437)
+((initial)-6627441, (DummyInit)-7845768)
+((DummyInit)-7845768, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7845769)
+((DummyGoal)-7845769, (goal)-6627442)
+((DummyInit)-7845768, (DummyGoal)-7845769)
+((initial)-6627441, (DummyInit)-7845771)
+((DummyInit)-7845771, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7845772)
+((DummyGoal)-7845772, (goal)-6627442)
+((DummyInit)-7845771, (DummyGoal)-7845772)
+((deplane sara 747 slc)-7845773, (DummyGoal)-7845772)
+((DummyInit)-7845771, (deplane sara 747 slc)-7845773)
+((initial)-6627441, (deplane sara 747 slc)-7845773)
+((deplane sara 747 slc)-7845773, (goal)-6627442)
+((DummyGoal)-7845772, (DummyGoal)-7845769)
+((DummyInit)-7845768, (DummyInit)-7845771)
+((DummyGoal)-7845769, (board-plane sara 747 slc)-7845643)
+((deplane sara 747 slc)-7845773, (DummyGoal)-7845769)
+((fly sara 747 la slc)-7845631, (fly sara 747 slc la)-7845603)
+((initial)-6627441, (fly sara 747 slc la)-7845935)
+((fly sara 747 slc la)-7845935, (goal)-6627442)
+((fly sara 747 slc la)-7845935, (fly sara 747 la slc)-7845631)
+((board-plane sara 747 slc)-7845643, (fly sara 747 slc la)-7845935)
+((initial)-6627441, (fly sara 747 la slc)-7845963)
+((fly sara 747 la slc)-7845963, (goal)-6627442)
+((fly sara 747 la slc)-7845963, (board-plane sara 747 slc)-7845643)
+((initial)-6627441, (board-plane sara 747 slc)-7845975)
+((board-plane sara 747 slc)-7845975, (goal)-6627442)
+((board-plane sara 747 slc)-7845975, (fly sara 747 la slc)-7845963)
+((board-plane sara 747 slc)-7845975, (deplane sara 747 slc)-7845773)
+((fly sara 747 la slc)-7845963, (deplane sara 747 slc)-7845773)
+((board-plane sara 747 slc)-7845975, (DummyInit)-7845768)
+((board-plane sara 747 slc)-7845975, (DummyGoal)-7845769)
+((initial)-6627441, (DummyInit)-7846100)
+((DummyInit)-7846100, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7846101)
+((DummyGoal)-7846101, (goal)-6627442)
+((DummyInit)-7846100, (DummyGoal)-7846101)
+((initial)-6627441, (DummyInit)-7846103)
+((DummyInit)-7846103, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7846104)
+((DummyGoal)-7846104, (goal)-6627442)
+((DummyInit)-7846103, (DummyGoal)-7846104)
+((deplane sara 747 slc)-7846105, (DummyGoal)-7846104)
+((DummyInit)-7846103, (deplane sara 747 slc)-7846105)
+((initial)-6627441, (deplane sara 747 slc)-7846105)
+((deplane sara 747 slc)-7846105, (goal)-6627442)
+((DummyGoal)-7846104, (DummyGoal)-7846101)
+((DummyInit)-7846100, (DummyInit)-7846103)
+((DummyGoal)-7846101, (board-plane sara 747 slc)-7845975)
+((deplane sara 747 slc)-7846105, (DummyGoal)-7846101)
+((fly sara 747 la slc)-7845963, (fly sara 747 slc la)-7845935)
+((initial)-6627441, (fly sara 747 slc la)-7846267)
+((fly sara 747 slc la)-7846267, (goal)-6627442)
+((fly sara 747 slc la)-7846267, (fly sara 747 la slc)-7845963)
+((board-plane sara 747 slc)-7845975, (fly sara 747 slc la)-7846267)
+((initial)-6627441, (fly sara 747 la slc)-7846295)
+((fly sara 747 la slc)-7846295, (goal)-6627442)
+((fly sara 747 la slc)-7846295, (board-plane sara 747 slc)-7845975)
+((initial)-6627441, (board-plane sara 747 slc)-7846307)
+((board-plane sara 747 slc)-7846307, (goal)-6627442)
+((board-plane sara 747 slc)-7846307, (fly sara 747 la slc)-7846295)
+((board-plane sara 747 slc)-7846307, (deplane sara 747 slc)-7846105)
+((fly sara 747 la slc)-7846295, (deplane sara 747 slc)-7846105)
+((board-plane sara 747 slc)-7846307, (DummyInit)-7846100)
+((board-plane sara 747 slc)-7846307, (DummyGoal)-7846101)
+((initial)-6627441, (DummyInit)-7846432)
+((DummyInit)-7846432, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7846433)
+((DummyGoal)-7846433, (goal)-6627442)
+((DummyInit)-7846432, (DummyGoal)-7846433)
+((initial)-6627441, (DummyInit)-7846435)
+((DummyInit)-7846435, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7846436)
+((DummyGoal)-7846436, (goal)-6627442)
+((DummyInit)-7846435, (DummyGoal)-7846436)
+((deplane sara 747 slc)-7846437, (DummyGoal)-7846436)
+((DummyInit)-7846435, (deplane sara 747 slc)-7846437)
+((initial)-6627441, (deplane sara 747 slc)-7846437)
+((deplane sara 747 slc)-7846437, (goal)-6627442)
+((DummyGoal)-7846436, (DummyGoal)-7846433)
+((DummyInit)-7846432, (DummyInit)-7846435)
+((DummyGoal)-7846433, (board-plane sara 747 slc)-7846307)
+((deplane sara 747 slc)-7846437, (DummyGoal)-7846433)
+((fly sara 747 la slc)-7846295, (fly sara 747 slc la)-7846267)
+((initial)-6627441, (fly sara 747 slc la)-7846599)
+((fly sara 747 slc la)-7846599, (goal)-6627442)
+((fly sara 747 slc la)-7846599, (fly sara 747 la slc)-7846295)
+((board-plane sara 747 slc)-7846307, (fly sara 747 slc la)-7846599)
+((initial)-6627441, (fly sara 747 la slc)-7846627)
+((fly sara 747 la slc)-7846627, (goal)-6627442)
+((fly sara 747 la slc)-7846627, (board-plane sara 747 slc)-7846307)
+((initial)-6627441, (board-plane sara 747 slc)-7846639)
+((board-plane sara 747 slc)-7846639, (goal)-6627442)
+((board-plane sara 747 slc)-7846639, (fly sara 747 la slc)-7846627)
+((board-plane sara 747 slc)-7846639, (deplane sara 747 slc)-7846437)
+((fly sara 747 la slc)-7846627, (deplane sara 747 slc)-7846437)
+((board-plane sara 747 slc)-7846639, (DummyInit)-7846432)
+((board-plane sara 747 slc)-7846639, (DummyGoal)-7846433)
+((initial)-6627441, (DummyInit)-7846764)
+((DummyInit)-7846764, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7846765)
+((DummyGoal)-7846765, (goal)-6627442)
+((DummyInit)-7846764, (DummyGoal)-7846765)
+((initial)-6627441, (DummyInit)-7846767)
+((DummyInit)-7846767, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7846768)
+((DummyGoal)-7846768, (goal)-6627442)
+((DummyInit)-7846767, (DummyGoal)-7846768)
+((deplane sara 747 slc)-7846769, (DummyGoal)-7846768)
+((DummyInit)-7846767, (deplane sara 747 slc)-7846769)
+((initial)-6627441, (deplane sara 747 slc)-7846769)
+((deplane sara 747 slc)-7846769, (goal)-6627442)
+((DummyGoal)-7846768, (DummyGoal)-7846765)
+((DummyInit)-7846764, (DummyInit)-7846767)
+((DummyGoal)-7846765, (board-plane sara 747 slc)-7846639)
+((deplane sara 747 slc)-7846769, (DummyGoal)-7846765)
+((fly sara 747 la slc)-7846627, (fly sara 747 slc la)-7846599)
+((initial)-6627441, (fly sara 747 slc la)-7846931)
+((fly sara 747 slc la)-7846931, (goal)-6627442)
+((fly sara 747 slc la)-7846931, (fly sara 747 la slc)-7846627)
+((board-plane sara 747 slc)-7846639, (fly sara 747 slc la)-7846931)
+((initial)-6627441, (fly sara 747 la slc)-7846959)
+((fly sara 747 la slc)-7846959, (goal)-6627442)
+((fly sara 747 la slc)-7846959, (board-plane sara 747 slc)-7846639)
+((initial)-6627441, (board-plane sara 747 slc)-7846971)
+((board-plane sara 747 slc)-7846971, (goal)-6627442)
+((board-plane sara 747 slc)-7846971, (fly sara 747 la slc)-7846959)
+((board-plane sara 747 slc)-7846971, (deplane sara 747 slc)-7846769)
+((fly sara 747 la slc)-7846959, (deplane sara 747 slc)-7846769)
+((board-plane sara 747 slc)-7846971, (DummyInit)-7846764)
+((board-plane sara 747 slc)-7846971, (DummyGoal)-7846765)
+((initial)-6627441, (DummyInit)-7847096)
+((DummyInit)-7847096, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7847097)
+((DummyGoal)-7847097, (goal)-6627442)
+((DummyInit)-7847096, (DummyGoal)-7847097)
+((initial)-6627441, (DummyInit)-7847099)
+((DummyInit)-7847099, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7847100)
+((DummyGoal)-7847100, (goal)-6627442)
+((DummyInit)-7847099, (DummyGoal)-7847100)
+((deplane sara 747 slc)-7847101, (DummyGoal)-7847100)
+((DummyInit)-7847099, (deplane sara 747 slc)-7847101)
+((initial)-6627441, (deplane sara 747 slc)-7847101)
+((deplane sara 747 slc)-7847101, (goal)-6627442)
+((DummyGoal)-7847100, (DummyGoal)-7847097)
+((DummyInit)-7847096, (DummyInit)-7847099)
+((DummyGoal)-7847097, (board-plane sara 747 slc)-7846971)
+((deplane sara 747 slc)-7847101, (DummyGoal)-7847097)
+((fly sara 747 la slc)-7846959, (fly sara 747 slc la)-7846931)
+((initial)-6627441, (fly sara 747 slc la)-7847263)
+((fly sara 747 slc la)-7847263, (goal)-6627442)
+((fly sara 747 slc la)-7847263, (fly sara 747 la slc)-7846959)
+((board-plane sara 747 slc)-7846971, (fly sara 747 slc la)-7847263)
+((initial)-6627441, (fly sara 747 la slc)-7847291)
+((fly sara 747 la slc)-7847291, (goal)-6627442)
+((fly sara 747 la slc)-7847291, (board-plane sara 747 slc)-7846971)
+((initial)-6627441, (board-plane sara 747 slc)-7847303)
+((board-plane sara 747 slc)-7847303, (goal)-6627442)
+((board-plane sara 747 slc)-7847303, (fly sara 747 la slc)-7847291)
+((board-plane sara 747 slc)-7847303, (deplane sara 747 slc)-7847101)
+((fly sara 747 la slc)-7847291, (deplane sara 747 slc)-7847101)
+((board-plane sara 747 slc)-7847303, (DummyInit)-7847096)
+((board-plane sara 747 slc)-7847303, (DummyGoal)-7847097)
+((initial)-6627441, (DummyInit)-7847428)
+((DummyInit)-7847428, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7847429)
+((DummyGoal)-7847429, (goal)-6627442)
+((DummyInit)-7847428, (DummyGoal)-7847429)
+((initial)-6627441, (DummyInit)-7847431)
+((DummyInit)-7847431, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7847432)
+((DummyGoal)-7847432, (goal)-6627442)
+((DummyInit)-7847431, (DummyGoal)-7847432)
+((deplane sara 747 slc)-7847433, (DummyGoal)-7847432)
+((DummyInit)-7847431, (deplane sara 747 slc)-7847433)
+((initial)-6627441, (deplane sara 747 slc)-7847433)
+((deplane sara 747 slc)-7847433, (goal)-6627442)
+((DummyGoal)-7847432, (DummyGoal)-7847429)
+((DummyInit)-7847428, (DummyInit)-7847431)
+((DummyGoal)-7847429, (board-plane sara 747 slc)-7847303)
+((deplane sara 747 slc)-7847433, (DummyGoal)-7847429)
+((fly sara 747 la slc)-7847291, (fly sara 747 slc la)-7847263)
+((initial)-6627441, (fly sara 747 slc la)-7847595)
+((fly sara 747 slc la)-7847595, (goal)-6627442)
+((fly sara 747 slc la)-7847595, (fly sara 747 la slc)-7847291)
+((board-plane sara 747 slc)-7847303, (fly sara 747 slc la)-7847595)
+((initial)-6627441, (fly sara 747 la slc)-7847623)
+((fly sara 747 la slc)-7847623, (goal)-6627442)
+((fly sara 747 la slc)-7847623, (board-plane sara 747 slc)-7847303)
+((initial)-6627441, (board-plane sara 747 slc)-7847635)
+((board-plane sara 747 slc)-7847635, (goal)-6627442)
+((board-plane sara 747 slc)-7847635, (fly sara 747 la slc)-7847623)
+((board-plane sara 747 slc)-7847635, (deplane sara 747 slc)-7847433)
+((fly sara 747 la slc)-7847623, (deplane sara 747 slc)-7847433)
+((board-plane sara 747 slc)-7847635, (DummyInit)-7847428)
+((board-plane sara 747 slc)-7847635, (DummyGoal)-7847429)
+((initial)-6627441, (DummyInit)-7847760)
+((DummyInit)-7847760, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7847761)
+((DummyGoal)-7847761, (goal)-6627442)
+((DummyInit)-7847760, (DummyGoal)-7847761)
+((initial)-6627441, (DummyInit)-7847763)
+((DummyInit)-7847763, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7847764)
+((DummyGoal)-7847764, (goal)-6627442)
+((DummyInit)-7847763, (DummyGoal)-7847764)
+((deplane sara 747 slc)-7847765, (DummyGoal)-7847764)
+((DummyInit)-7847763, (deplane sara 747 slc)-7847765)
+((initial)-6627441, (deplane sara 747 slc)-7847765)
+((deplane sara 747 slc)-7847765, (goal)-6627442)
+((DummyGoal)-7847764, (DummyGoal)-7847761)
+((DummyInit)-7847760, (DummyInit)-7847763)
+((DummyGoal)-7847761, (board-plane sara 747 slc)-7847635)
+((deplane sara 747 slc)-7847765, (DummyGoal)-7847761)
+((fly sara 747 la slc)-7847623, (fly sara 747 slc la)-7847595)
+((initial)-6627441, (fly sara 747 slc la)-7847927)
+((fly sara 747 slc la)-7847927, (goal)-6627442)
+((fly sara 747 slc la)-7847927, (fly sara 747 la slc)-7847623)
+((board-plane sara 747 slc)-7847635, (fly sara 747 slc la)-7847927)
+((initial)-6627441, (fly sara 747 la slc)-7847955)
+((fly sara 747 la slc)-7847955, (goal)-6627442)
+((fly sara 747 la slc)-7847955, (board-plane sara 747 slc)-7847635)
+((initial)-6627441, (board-plane sara 747 slc)-7847967)
+((board-plane sara 747 slc)-7847967, (goal)-6627442)
+((board-plane sara 747 slc)-7847967, (fly sara 747 la slc)-7847955)
+((board-plane sara 747 slc)-7847967, (deplane sara 747 slc)-7847765)
+((fly sara 747 la slc)-7847955, (deplane sara 747 slc)-7847765)
+((board-plane sara 747 slc)-7847967, (DummyInit)-7847760)
+((board-plane sara 747 slc)-7847967, (DummyGoal)-7847761)
+((initial)-6627441, (DummyInit)-7848092)
+((DummyInit)-7848092, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7848093)
+((DummyGoal)-7848093, (goal)-6627442)
+((DummyInit)-7848092, (DummyGoal)-7848093)
+((initial)-6627441, (DummyInit)-7848095)
+((DummyInit)-7848095, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7848096)
+((DummyGoal)-7848096, (goal)-6627442)
+((DummyInit)-7848095, (DummyGoal)-7848096)
+((deplane sara 747 slc)-7848097, (DummyGoal)-7848096)
+((DummyInit)-7848095, (deplane sara 747 slc)-7848097)
+((initial)-6627441, (deplane sara 747 slc)-7848097)
+((deplane sara 747 slc)-7848097, (goal)-6627442)
+((DummyGoal)-7848096, (DummyGoal)-7848093)
+((DummyInit)-7848092, (DummyInit)-7848095)
+((DummyGoal)-7848093, (board-plane sara 747 slc)-7847967)
+((deplane sara 747 slc)-7848097, (DummyGoal)-7848093)
+((fly sara 747 la slc)-7847955, (fly sara 747 slc la)-7847927)
+((initial)-6627441, (fly sara 747 slc la)-7848259)
+((fly sara 747 slc la)-7848259, (goal)-6627442)
+((fly sara 747 slc la)-7848259, (fly sara 747 la slc)-7847955)
+((board-plane sara 747 slc)-7847967, (fly sara 747 slc la)-7848259)
+((initial)-6627441, (fly sara 747 la slc)-7848287)
+((fly sara 747 la slc)-7848287, (goal)-6627442)
+((fly sara 747 la slc)-7848287, (board-plane sara 747 slc)-7847967)
+((initial)-6627441, (board-plane sara 747 slc)-7848299)
+((board-plane sara 747 slc)-7848299, (goal)-6627442)
+((board-plane sara 747 slc)-7848299, (fly sara 747 la slc)-7848287)
+((board-plane sara 747 slc)-7848299, (deplane sara 747 slc)-7848097)
+((fly sara 747 la slc)-7848287, (deplane sara 747 slc)-7848097)
+((board-plane sara 747 slc)-7848299, (DummyInit)-7848092)
+((board-plane sara 747 slc)-7848299, (DummyGoal)-7848093)
+((initial)-6627441, (DummyInit)-7848424)
+((DummyInit)-7848424, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7848425)
+((DummyGoal)-7848425, (goal)-6627442)
+((DummyInit)-7848424, (DummyGoal)-7848425)
+((initial)-6627441, (DummyInit)-7848427)
+((DummyInit)-7848427, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7848428)
+((DummyGoal)-7848428, (goal)-6627442)
+((DummyInit)-7848427, (DummyGoal)-7848428)
+((deplane sara 747 slc)-7848429, (DummyGoal)-7848428)
+((DummyInit)-7848427, (deplane sara 747 slc)-7848429)
+((initial)-6627441, (deplane sara 747 slc)-7848429)
+((deplane sara 747 slc)-7848429, (goal)-6627442)
+((DummyGoal)-7848428, (DummyGoal)-7848425)
+((DummyInit)-7848424, (DummyInit)-7848427)
+((DummyGoal)-7848425, (board-plane sara 747 slc)-7848299)
+((deplane sara 747 slc)-7848429, (DummyGoal)-7848425)
+((fly sara 747 la slc)-7848287, (fly sara 747 slc la)-7848259)
+((initial)-6627441, (fly sara 747 slc la)-7848591)
+((fly sara 747 slc la)-7848591, (goal)-6627442)
+((fly sara 747 slc la)-7848591, (fly sara 747 la slc)-7848287)
+((board-plane sara 747 slc)-7848299, (fly sara 747 slc la)-7848591)
+((initial)-6627441, (fly sara 747 la slc)-7848619)
+((fly sara 747 la slc)-7848619, (goal)-6627442)
+((fly sara 747 la slc)-7848619, (board-plane sara 747 slc)-7848299)
+((initial)-6627441, (board-plane sara 747 slc)-7848631)
+((board-plane sara 747 slc)-7848631, (goal)-6627442)
+((board-plane sara 747 slc)-7848631, (fly sara 747 la slc)-7848619)
+((board-plane sara 747 slc)-7848631, (deplane sara 747 slc)-7848429)
+((fly sara 747 la slc)-7848619, (deplane sara 747 slc)-7848429)
+((board-plane sara 747 slc)-7848631, (DummyInit)-7848424)
+((board-plane sara 747 slc)-7848631, (DummyGoal)-7848425)
+((initial)-6627441, (DummyInit)-7848756)
+((DummyInit)-7848756, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7848757)
+((DummyGoal)-7848757, (goal)-6627442)
+((DummyInit)-7848756, (DummyGoal)-7848757)
+((initial)-6627441, (DummyInit)-7848759)
+((DummyInit)-7848759, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7848760)
+((DummyGoal)-7848760, (goal)-6627442)
+((DummyInit)-7848759, (DummyGoal)-7848760)
+((deplane sara 747 slc)-7848761, (DummyGoal)-7848760)
+((DummyInit)-7848759, (deplane sara 747 slc)-7848761)
+((initial)-6627441, (deplane sara 747 slc)-7848761)
+((deplane sara 747 slc)-7848761, (goal)-6627442)
+((DummyGoal)-7848760, (DummyGoal)-7848757)
+((DummyInit)-7848756, (DummyInit)-7848759)
+((DummyGoal)-7848757, (board-plane sara 747 slc)-7848631)
+((deplane sara 747 slc)-7848761, (DummyGoal)-7848757)

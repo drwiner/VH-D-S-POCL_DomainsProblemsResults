@@ -1,0 +1,32 @@
+problem	22
+selection	E3-NumOCsHeuristic
+search	BestFirst
+runtime	12722
+opened	24489
+expanded	484
+primitives	3
+decomps	0
+composites	0
+hdepth	0
+
+
+(move agent_0 location_0 location_3)-30046794
+(pickup agent_0 block_0 location_5 location_3)-30042146
+(putdown agent_0 block_0 location_3 location_0)-30039802
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-29901092, (goal)-29901093)
+((initial)-29901092, (putdown agent_0 block_0 location_3 location_0)-30039802)
+((putdown agent_0 block_0 location_3 location_0)-30039802, (goal)-29901093)
+((initial)-29901092, (pickup agent_0 block_0 location_5 location_3)-30042146)
+((pickup agent_0 block_0 location_5 location_3)-30042146, (goal)-29901093)
+((pickup agent_0 block_0 location_5 location_3)-30042146, (putdown agent_0 block_0 location_3 location_0)-30039802)
+((initial)-29901092, (move agent_0 location_0 location_3)-30046794)
+((move agent_0 location_0 location_3)-30046794, (goal)-29901093)
+((move agent_0 location_0 location_3)-30046794, (putdown agent_0 block_0 location_3 location_0)-30039802)
+((move agent_0 location_0 location_3)-30046794, (pickup agent_0 block_0 location_5 location_3)-30042146)

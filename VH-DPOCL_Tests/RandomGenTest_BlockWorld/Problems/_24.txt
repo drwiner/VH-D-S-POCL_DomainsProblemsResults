@@ -1,0 +1,56 @@
+Problem 24 of Domain blocks
+----------------------------
+Objects of Problem 24
+location_0
+location_1
+location_2
+location_3
+location_4
+location_5
+location_6
+location_7
+block_0
+block_1
+agent_0
+agent_1
+agent_2
+
+Initial State of Problem 24
+(adjacent location_0 location_1)
+(adjacent location_1 location_0)
+(adjacent location_1 location_2)
+(adjacent location_2 location_1)
+(adjacent location_0 location_2)
+(adjacent location_2 location_0)
+(adjacent location_1 location_3)
+(adjacent location_3 location_1)
+(adjacent location_0 location_3)
+(adjacent location_3 location_0)
+(adjacent location_2 location_3)
+(adjacent location_3 location_2)
+(adjacent location_0 location_4)
+(adjacent location_4 location_0)
+(adjacent location_4 location_5)
+(adjacent location_5 location_4)
+(adjacent location_4 location_6)
+(adjacent location_6 location_4)
+(adjacent location_1 location_7)
+(adjacent location_7 location_1)
+(adjacent location_2 location_7)
+(adjacent location_7 location_2)
+(at block_0 location_7)
+(occupied location_7)
+(at block_1 location_1)
+(occupied location_1)
+(at agent_0 location_4)
+(freehands agent_0)
+(occupied location_4)
+(at agent_1 location_2)
+(freehands agent_1)
+(occupied location_2)
+(at agent_2 location_6)
+(freehands agent_2)
+(occupied location_6)
+
+Goal State of Problem 24
+(at block_0 location_0)

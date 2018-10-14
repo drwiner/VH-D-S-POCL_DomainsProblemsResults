@@ -1,0 +1,10 @@
+problem	1
+heuristic	ZeroHeuristic
+search	BFS
+runtime	140
+opened	315
+expanded	150
+primitives	3
+decomps	0
+composites	0
+hdepth	0

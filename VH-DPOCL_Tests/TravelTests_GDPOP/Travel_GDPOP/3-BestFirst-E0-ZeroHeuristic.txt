@@ -1,0 +1,41 @@
+problem	3
+selection	E0-ZeroHeuristic
+search	BestFirst
+runtime	158
+opened	694
+expanded	257
+primitives	5
+decomps	0
+composites	0
+hdepth	0
+
+
+(get-in-car bob accord raleigh)-1840196
+(get-in-car sara accord raleigh)-1839809
+(drive sara accord raleigh la)-1839773
+(get-out-of-car bob accord la)-1839715
+(get-out-of-car sara accord la)-1839688
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-1699865, (goal)-1699866)
+((initial)-1699865, (get-out-of-car sara accord la)-1839688)
+((get-out-of-car sara accord la)-1839688, (goal)-1699866)
+((initial)-1699865, (get-out-of-car bob accord la)-1839715)
+((get-out-of-car bob accord la)-1839715, (goal)-1699866)
+((initial)-1699865, (drive sara accord raleigh la)-1839773)
+((drive sara accord raleigh la)-1839773, (goal)-1699866)
+((drive sara accord raleigh la)-1839773, (get-out-of-car sara accord la)-1839688)
+((initial)-1699865, (get-in-car sara accord raleigh)-1839809)
+((get-in-car sara accord raleigh)-1839809, (goal)-1699866)
+((get-in-car sara accord raleigh)-1839809, (drive sara accord raleigh la)-1839773)
+((get-in-car sara accord raleigh)-1839809, (get-out-of-car sara accord la)-1839688)
+((drive sara accord raleigh la)-1839773, (get-out-of-car bob accord la)-1839715)
+((initial)-1699865, (get-in-car bob accord raleigh)-1840196)
+((get-in-car bob accord raleigh)-1840196, (goal)-1699866)
+((get-in-car bob accord raleigh)-1840196, (get-out-of-car bob accord la)-1839715)
+((get-in-car bob accord raleigh)-1840196, (drive sara accord raleigh la)-1839773)

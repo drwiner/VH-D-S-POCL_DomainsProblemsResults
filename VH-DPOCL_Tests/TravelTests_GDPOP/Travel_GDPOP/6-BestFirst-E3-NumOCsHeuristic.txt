@@ -1,0 +1,120 @@
+problem	6
+selection	E3-NumOCsHeuristic
+search	BestFirst
+runtime	60002
+opened	53027
+expanded	24749
+primitives	18
+decomps	1
+composites	1
+hdepth	6
+
+
+(drive bob accord raleigh slc)-6856083
+(get-in-car bob accord la)-6697881
+(drive bob accord slc raleigh)-6697865
+(DummyInit)-6688790
+(get-in-car bob accord raleigh)-6688792
+(drive bob accord raleigh slc)-6721473
+(drive bob accord la raleigh)-6691953
+(drive bob accord raleigh la)-6689971
+(drive bob accord slc raleigh)-6707191
+(drive bob accord raleigh slc)-6699879
+(drive bob accord slc raleigh)-6698667
+(drive bob accord raleigh slc)-6698175
+(drive bob accord slc raleigh)-6698135
+(drive bob accord raleigh slc)-6688793
+(get-out-of-car bob accord slc)-6688794
+(DummyGoal)-6688791
+(get-in-car sara accord la)-6689901
+(get-out-of-car sara accord slc)-6688975
+
+
+Composites:
+
+(travel-by-car bob raleigh slc accord)-6688789
+
+Orderings:
+
+((initial)-6623791, (goal)-6623792)
+((initial)-6623791, (DummyInit)-6688790)
+((DummyInit)-6688790, (goal)-6623792)
+((initial)-6623791, (DummyGoal)-6688791)
+((DummyGoal)-6688791, (goal)-6623792)
+((DummyInit)-6688790, (DummyGoal)-6688791)
+((get-in-car bob accord raleigh)-6688792, (DummyGoal)-6688791)
+((DummyInit)-6688790, (get-in-car bob accord raleigh)-6688792)
+((initial)-6623791, (get-in-car bob accord raleigh)-6688792)
+((get-in-car bob accord raleigh)-6688792, (goal)-6623792)
+((drive bob accord raleigh slc)-6688793, (DummyGoal)-6688791)
+((DummyInit)-6688790, (drive bob accord raleigh slc)-6688793)
+((initial)-6623791, (drive bob accord raleigh slc)-6688793)
+((drive bob accord raleigh slc)-6688793, (goal)-6623792)
+((get-out-of-car bob accord slc)-6688794, (DummyGoal)-6688791)
+((DummyInit)-6688790, (get-out-of-car bob accord slc)-6688794)
+((initial)-6623791, (get-out-of-car bob accord slc)-6688794)
+((get-out-of-car bob accord slc)-6688794, (goal)-6623792)
+((get-in-car bob accord raleigh)-6688792, (drive bob accord raleigh slc)-6688793)
+((drive bob accord raleigh slc)-6688793, (get-out-of-car bob accord slc)-6688794)
+((get-in-car bob accord raleigh)-6688792, (get-out-of-car bob accord slc)-6688794)
+((initial)-6623791, (get-out-of-car sara accord slc)-6688975)
+((get-out-of-car sara accord slc)-6688975, (goal)-6623792)
+((DummyGoal)-6688791, (get-out-of-car sara accord slc)-6688975)
+((drive bob accord raleigh slc)-6688793, (get-out-of-car sara accord slc)-6688975)
+((initial)-6623791, (get-in-car sara accord la)-6689901)
+((get-in-car sara accord la)-6689901, (goal)-6623792)
+((get-in-car sara accord la)-6689901, (get-out-of-car sara accord slc)-6688975)
+((DummyGoal)-6688791, (get-in-car sara accord la)-6689901)
+((initial)-6623791, (drive bob accord raleigh la)-6689971)
+((drive bob accord raleigh la)-6689971, (goal)-6623792)
+((drive bob accord raleigh la)-6689971, (get-in-car sara accord la)-6689901)
+((get-in-car bob accord raleigh)-6688792, (drive bob accord raleigh la)-6689971)
+((drive bob accord raleigh la)-6689971, (get-out-of-car bob accord slc)-6688794)
+((initial)-6623791, (drive bob accord la raleigh)-6691953)
+((drive bob accord la raleigh)-6691953, (goal)-6623792)
+((drive bob accord la raleigh)-6691953, (drive bob accord raleigh la)-6689971)
+((drive bob accord raleigh la)-6689971, (drive bob accord raleigh slc)-6688793)
+((get-in-car bob accord raleigh)-6688792, (drive bob accord la raleigh)-6691953)
+((initial)-6623791, (drive bob accord slc raleigh)-6697865)
+((drive bob accord slc raleigh)-6697865, (goal)-6623792)
+((drive bob accord slc raleigh)-6697865, (get-in-car bob accord raleigh)-6688792)
+((initial)-6623791, (get-in-car bob accord la)-6697881)
+((get-in-car bob accord la)-6697881, (goal)-6623792)
+((get-in-car bob accord la)-6697881, (drive bob accord slc raleigh)-6697865)
+((initial)-6623791, (drive bob accord slc raleigh)-6698135)
+((drive bob accord slc raleigh)-6698135, (goal)-6623792)
+((drive bob accord slc raleigh)-6698135, (drive bob accord raleigh slc)-6688793)
+((drive bob accord raleigh la)-6689971, (drive bob accord slc raleigh)-6698135)
+((get-in-car bob accord la)-6697881, (drive bob accord slc raleigh)-6698135)
+((initial)-6623791, (drive bob accord raleigh slc)-6698175)
+((drive bob accord raleigh slc)-6698175, (goal)-6623792)
+((drive bob accord raleigh slc)-6698175, (drive bob accord slc raleigh)-6698135)
+((get-in-car bob accord raleigh)-6688792, (drive bob accord raleigh slc)-6698175)
+((drive bob accord slc raleigh)-6697865, (drive bob accord raleigh slc)-6698175)
+((drive bob accord raleigh la)-6689971, (drive bob accord raleigh slc)-6698175)
+((get-in-car bob accord la)-6697881, (drive bob accord raleigh slc)-6698175)
+((initial)-6623791, (drive bob accord slc raleigh)-6698667)
+((drive bob accord slc raleigh)-6698667, (goal)-6623792)
+((drive bob accord slc raleigh)-6698667, (drive bob accord raleigh slc)-6698175)
+((drive bob accord raleigh la)-6689971, (drive bob accord slc raleigh)-6698667)
+((get-in-car bob accord raleigh)-6688792, (drive bob accord slc raleigh)-6698667)
+((initial)-6623791, (drive bob accord raleigh slc)-6699879)
+((drive bob accord raleigh slc)-6699879, (goal)-6623792)
+((drive bob accord raleigh slc)-6699879, (drive bob accord slc raleigh)-6698667)
+((get-in-car bob accord raleigh)-6688792, (drive bob accord raleigh slc)-6699879)
+((drive bob accord slc raleigh)-6697865, (drive bob accord raleigh slc)-6699879)
+((drive bob accord raleigh la)-6689971, (drive bob accord raleigh slc)-6699879)
+((initial)-6623791, (drive bob accord slc raleigh)-6707191)
+((drive bob accord slc raleigh)-6707191, (goal)-6623792)
+((drive bob accord slc raleigh)-6707191, (drive bob accord raleigh slc)-6699879)
+((drive bob accord raleigh la)-6689971, (drive bob accord slc raleigh)-6707191)
+((get-in-car bob accord raleigh)-6688792, (drive bob accord slc raleigh)-6707191)
+((initial)-6623791, (drive bob accord raleigh slc)-6721473)
+((drive bob accord raleigh slc)-6721473, (goal)-6623792)
+((drive bob accord raleigh slc)-6721473, (drive bob accord slc raleigh)-6707191)
+((get-in-car bob accord raleigh)-6688792, (drive bob accord raleigh slc)-6721473)
+((drive bob accord slc raleigh)-6697865, (drive bob accord raleigh slc)-6721473)
+((drive bob accord raleigh slc)-6721473, (drive bob accord la raleigh)-6691953)
+((initial)-6623791, (drive bob accord raleigh slc)-6856083)
+((drive bob accord raleigh slc)-6856083, (goal)-6623792)
+((drive bob accord raleigh slc)-6856083, (drive bob accord slc raleigh)-6697865)

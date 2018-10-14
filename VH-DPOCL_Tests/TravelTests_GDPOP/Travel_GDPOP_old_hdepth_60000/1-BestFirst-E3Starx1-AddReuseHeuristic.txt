@@ -1,0 +1,55 @@
+problem	1
+selection	E3Starx1-AddReuseHeuristic
+search	BestFirst
+runtime	94
+opened	57
+expanded	15
+primitives	7
+decomps	1
+composites	1
+hdepth	3
+
+
+(get-in-car sara mazda slc)-1253183
+(DummyInit)-1252489
+(get-in-car david mazda slc)-1252491
+(drive david mazda slc raleigh)-1252492
+(get-out-of-car sara mazda raleigh)-1252606
+(get-out-of-car david mazda raleigh)-1252493
+(DummyGoal)-1252490
+
+
+Composites:
+
+(travel-by-car david slc raleigh mazda)-1252488
+
+Orderings:
+
+((initial)-220, (goal)-221)
+((initial)-220, (DummyInit)-1252489)
+((DummyInit)-1252489, (goal)-221)
+((initial)-220, (DummyGoal)-1252490)
+((DummyGoal)-1252490, (goal)-221)
+((DummyInit)-1252489, (DummyGoal)-1252490)
+((get-in-car david mazda slc)-1252491, (DummyGoal)-1252490)
+((DummyInit)-1252489, (get-in-car david mazda slc)-1252491)
+((initial)-220, (get-in-car david mazda slc)-1252491)
+((get-in-car david mazda slc)-1252491, (goal)-221)
+((drive david mazda slc raleigh)-1252492, (DummyGoal)-1252490)
+((DummyInit)-1252489, (drive david mazda slc raleigh)-1252492)
+((initial)-220, (drive david mazda slc raleigh)-1252492)
+((drive david mazda slc raleigh)-1252492, (goal)-221)
+((get-out-of-car david mazda raleigh)-1252493, (DummyGoal)-1252490)
+((DummyInit)-1252489, (get-out-of-car david mazda raleigh)-1252493)
+((initial)-220, (get-out-of-car david mazda raleigh)-1252493)
+((get-out-of-car david mazda raleigh)-1252493, (goal)-221)
+((get-in-car david mazda slc)-1252491, (drive david mazda slc raleigh)-1252492)
+((drive david mazda slc raleigh)-1252492, (get-out-of-car david mazda raleigh)-1252493)
+((get-in-car david mazda slc)-1252491, (get-out-of-car david mazda raleigh)-1252493)
+((initial)-220, (get-out-of-car sara mazda raleigh)-1252606)
+((get-out-of-car sara mazda raleigh)-1252606, (goal)-221)
+((drive david mazda slc raleigh)-1252492, (get-out-of-car sara mazda raleigh)-1252606)
+((initial)-220, (get-in-car sara mazda slc)-1253183)
+((get-in-car sara mazda slc)-1253183, (goal)-221)
+((get-in-car sara mazda slc)-1253183, (get-out-of-car sara mazda raleigh)-1252606)
+((get-in-car sara mazda slc)-1253183, (drive david mazda slc raleigh)-1252492)

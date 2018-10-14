@@ -1,0 +1,84 @@
+problem	8
+selection	E3-NumOCsHeuristic
+search	BestFirst
+runtime	7067
+opened	12955
+expanded	1150
+primitives	13
+decomps	1
+composites	1
+hdepth	2
+
+
+(get-in-car sara accord raleigh)-9405453
+(get-in-car bob accord raleigh)-9405389
+(drive sara accord raleigh slc)-9358869
+(get-in-car roger accord slc)-9406017
+(get-in-car dave accord slc)-9308577
+(DummyInit)-9308223
+(get-out-of-car bob accord slc)-9320871
+(drive dave accord slc raleigh)-9403337
+(drive dave accord raleigh ny)-9310277
+(get-out-of-car dave accord ny)-9308092
+(drive roger accord ny la)-9406273
+(get-out-of-car roger accord la)-9308225
+(DummyGoal)-9308224
+
+
+Composites:
+
+(generic-travel roger ny la)-9308222
+
+Orderings:
+
+((initial)-8192546, (goal)-8192547)
+((initial)-8192546, (get-out-of-car dave accord ny)-9308092)
+((get-out-of-car dave accord ny)-9308092, (goal)-8192547)
+((initial)-8192546, (DummyInit)-9308223)
+((DummyInit)-9308223, (goal)-8192547)
+((initial)-8192546, (DummyGoal)-9308224)
+((DummyGoal)-9308224, (goal)-8192547)
+((DummyInit)-9308223, (DummyGoal)-9308224)
+((get-out-of-car roger accord la)-9308225, (DummyGoal)-9308224)
+((DummyInit)-9308223, (get-out-of-car roger accord la)-9308225)
+((initial)-8192546, (get-out-of-car roger accord la)-9308225)
+((get-out-of-car roger accord la)-9308225, (goal)-8192547)
+((initial)-8192546, (get-in-car dave accord slc)-9308577)
+((get-in-car dave accord slc)-9308577, (goal)-8192547)
+((get-in-car dave accord slc)-9308577, (get-out-of-car dave accord ny)-9308092)
+((initial)-8192546, (drive dave accord raleigh ny)-9310277)
+((drive dave accord raleigh ny)-9310277, (goal)-8192547)
+((drive dave accord raleigh ny)-9310277, (get-out-of-car dave accord ny)-9308092)
+((get-in-car dave accord slc)-9308577, (drive dave accord raleigh ny)-9310277)
+((initial)-8192546, (get-out-of-car bob accord slc)-9320871)
+((get-out-of-car bob accord slc)-9320871, (goal)-8192547)
+((get-out-of-car bob accord slc)-9320871, (DummyGoal)-9308224)
+((DummyInit)-9308223, (get-out-of-car bob accord slc)-9320871)
+((initial)-8192546, (drive sara accord raleigh slc)-9358869)
+((drive sara accord raleigh slc)-9358869, (goal)-8192547)
+((drive sara accord raleigh slc)-9358869, (get-in-car dave accord slc)-9308577)
+((initial)-8192546, (drive dave accord slc raleigh)-9403337)
+((drive dave accord slc raleigh)-9403337, (goal)-8192547)
+((drive dave accord slc raleigh)-9403337, (drive dave accord raleigh ny)-9310277)
+((get-in-car dave accord slc)-9308577, (drive dave accord slc raleigh)-9403337)
+((drive sara accord raleigh slc)-9358869, (drive dave accord slc raleigh)-9403337)
+((drive sara accord raleigh slc)-9358869, (get-out-of-car bob accord slc)-9320871)
+((get-out-of-car bob accord slc)-9320871, (drive dave accord slc raleigh)-9403337)
+((initial)-8192546, (get-in-car bob accord raleigh)-9405389)
+((get-in-car bob accord raleigh)-9405389, (goal)-8192547)
+((get-in-car bob accord raleigh)-9405389, (get-out-of-car bob accord slc)-9320871)
+((get-in-car bob accord raleigh)-9405389, (drive sara accord raleigh slc)-9358869)
+((initial)-8192546, (get-in-car sara accord raleigh)-9405453)
+((get-in-car sara accord raleigh)-9405453, (goal)-8192547)
+((get-in-car sara accord raleigh)-9405453, (drive sara accord raleigh slc)-9358869)
+((initial)-8192546, (get-in-car roger accord slc)-9406017)
+((get-in-car roger accord slc)-9406017, (goal)-8192547)
+((get-in-car roger accord slc)-9406017, (get-out-of-car roger accord la)-9308225)
+((drive sara accord raleigh slc)-9358869, (get-in-car roger accord slc)-9406017)
+((get-in-car roger accord slc)-9406017, (drive dave accord slc raleigh)-9403337)
+((initial)-8192546, (drive roger accord ny la)-9406273)
+((drive roger accord ny la)-9406273, (goal)-8192547)
+((drive roger accord ny la)-9406273, (get-out-of-car roger accord la)-9308225)
+((get-out-of-car dave accord ny)-9308092, (drive roger accord ny la)-9406273)
+((get-in-car roger accord slc)-9406017, (drive roger accord ny la)-9406273)
+((drive dave accord raleigh ny)-9310277, (drive roger accord ny la)-9406273)

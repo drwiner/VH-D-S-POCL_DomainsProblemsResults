@@ -1,0 +1,52 @@
+problem	6
+selection	E0-NumOCsHeuristic
+search	BestFirst
+runtime	252
+opened	1059
+expanded	269
+primitives	7
+decomps	0
+composites	0
+hdepth	0
+
+
+(get-in-car sara accord la)-6684091
+(drive sara accord la raleigh)-6684635
+(get-in-car bob accord raleigh)-6683771
+(drive bob accord raleigh la)-6688291
+(drive bob accord la slc)-6683831
+(get-out-of-car sara accord slc)-6683679
+(get-out-of-car bob accord slc)-6683633
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-6623791, (goal)-6623792)
+((initial)-6623791, (get-out-of-car bob accord slc)-6683633)
+((get-out-of-car bob accord slc)-6683633, (goal)-6623792)
+((initial)-6623791, (get-out-of-car sara accord slc)-6683679)
+((get-out-of-car sara accord slc)-6683679, (goal)-6623792)
+((initial)-6623791, (get-in-car bob accord raleigh)-6683771)
+((get-in-car bob accord raleigh)-6683771, (goal)-6623792)
+((get-in-car bob accord raleigh)-6683771, (get-out-of-car bob accord slc)-6683633)
+((initial)-6623791, (drive bob accord la slc)-6683831)
+((drive bob accord la slc)-6683831, (goal)-6623792)
+((drive bob accord la slc)-6683831, (get-out-of-car bob accord slc)-6683633)
+((get-in-car bob accord raleigh)-6683771, (drive bob accord la slc)-6683831)
+((drive bob accord la slc)-6683831, (get-out-of-car sara accord slc)-6683679)
+((initial)-6623791, (get-in-car sara accord la)-6684091)
+((get-in-car sara accord la)-6684091, (goal)-6623792)
+((get-in-car sara accord la)-6684091, (get-out-of-car sara accord slc)-6683679)
+((get-in-car sara accord la)-6684091, (drive bob accord la slc)-6683831)
+((initial)-6623791, (drive sara accord la raleigh)-6684635)
+((drive sara accord la raleigh)-6684635, (goal)-6623792)
+((drive sara accord la raleigh)-6684635, (get-in-car bob accord raleigh)-6683771)
+((get-in-car sara accord la)-6684091, (drive sara accord la raleigh)-6684635)
+((initial)-6623791, (drive bob accord raleigh la)-6688291)
+((drive bob accord raleigh la)-6688291, (goal)-6623792)
+((drive bob accord raleigh la)-6688291, (drive bob accord la slc)-6683831)
+((get-in-car bob accord raleigh)-6683771, (drive bob accord raleigh la)-6688291)
+((drive sara accord la raleigh)-6684635, (drive bob accord raleigh la)-6688291)

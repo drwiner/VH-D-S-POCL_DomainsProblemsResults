@@ -1,0 +1,10 @@
+problem	4
+selection	E1-NumOCsHeuristic
+search	BestFirst
+runtime	683
+opened	2045
+expanded	421
+primitives	6
+decomps	1
+composites	0
+hdepth	1

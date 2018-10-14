@@ -1,0 +1,18 @@
+problem	7
+selection	Nada-ZeroHeuristic
+search	BFS
+runtime	60130
+opened	73590
+expanded	7621
+primitives	5
+decomps	1
+composites	1
+hdepth	1
+
+
+(DummyInit)-6742907
+(pickup agent_0 block_0 location_4 location_1)-6742910
+(move agent_0 location_1 location_2)-6742911
+(putdown agent_0 block_0 location_2 location_0)-6742912
+(DummyGoal)-6742908
+

@@ -1,0 +1,141 @@
+problem	1
+selection	E3Starx6-AddReuseHeuristic
+search	BestFirst
+runtime	753
+opened	136
+expanded	19
+primitives	22
+decomps	2
+composites	2
+hdepth	14
+
+
+(DummyInit)-179399
+( Full h275 High )-179403
+( Full h180 High )-179407
+( Long h315 High )-179404
+( Full h180 High )-179408
+( Full h275 High )-179405
+( Waist h195 Eye )-179409
+( Waist h315 Eye )-179406
+(Drive SmallCar L1 L12)-179401
+(Drive SportsCar L0 Lstop)-179402
+(DummyGoal)-179400
+(DummyInit)-178985
+( Full h275 High )-178989
+( Full h180 High )-178993
+( Long h315 High )-178990
+( Full h180 High )-178994
+( Full h275 High )-178991
+( Waist h195 Eye )-178995
+( Waist h315 Eye )-178992
+(Drive SmallCar L12 Lfinish)-178987
+(Drive SportsCar L0 Lstop)-178988
+(DummyGoal)-178986
+
+
+Composites:
+
+(ConveyRace SmallCar SportsCar L12 Lfinish L0 Lstop)-178984
+(ConveyRace SmallCar SportsCar L1 L12 L0 Lstop)-179398
+
+Orderings:
+
+((initial)-178914, (goal)-178915)
+((initial)-178914, (DummyInit)-178985)
+((DummyInit)-178985, (goal)-178915)
+((initial)-178914, (DummyGoal)-178986)
+((DummyGoal)-178986, (goal)-178915)
+((DummyInit)-178985, (DummyGoal)-178986)
+((Drive SmallCar L12 Lfinish)-178987, (DummyGoal)-178986)
+((DummyInit)-178985, (Drive SmallCar L12 Lfinish)-178987)
+((initial)-178914, (Drive SmallCar L12 Lfinish)-178987)
+((Drive SmallCar L12 Lfinish)-178987, (goal)-178915)
+((Drive SportsCar L0 Lstop)-178988, (DummyGoal)-178986)
+((DummyInit)-178985, (Drive SportsCar L0 Lstop)-178988)
+((initial)-178914, (Drive SportsCar L0 Lstop)-178988)
+((Drive SportsCar L0 Lstop)-178988, (goal)-178915)
+(( Full h275 High )-178989, (DummyGoal)-178986)
+((DummyInit)-178985, ( Full h275 High )-178989)
+((initial)-178914, ( Full h275 High )-178989)
+(( Full h275 High )-178989, (goal)-178915)
+(( Long h315 High )-178990, (DummyGoal)-178986)
+((DummyInit)-178985, ( Long h315 High )-178990)
+((initial)-178914, ( Long h315 High )-178990)
+(( Long h315 High )-178990, (goal)-178915)
+(( Full h275 High )-178991, (DummyGoal)-178986)
+((DummyInit)-178985, ( Full h275 High )-178991)
+((initial)-178914, ( Full h275 High )-178991)
+(( Full h275 High )-178991, (goal)-178915)
+(( Waist h315 Eye )-178992, (DummyGoal)-178986)
+((DummyInit)-178985, ( Waist h315 Eye )-178992)
+((initial)-178914, ( Waist h315 Eye )-178992)
+(( Waist h315 Eye )-178992, (goal)-178915)
+(( Full h180 High )-178993, (DummyGoal)-178986)
+((DummyInit)-178985, ( Full h180 High )-178993)
+((initial)-178914, ( Full h180 High )-178993)
+(( Full h180 High )-178993, (goal)-178915)
+(( Full h180 High )-178994, (DummyGoal)-178986)
+((DummyInit)-178985, ( Full h180 High )-178994)
+((initial)-178914, ( Full h180 High )-178994)
+(( Full h180 High )-178994, (goal)-178915)
+(( Waist h195 Eye )-178995, (DummyGoal)-178986)
+((DummyInit)-178985, ( Waist h195 Eye )-178995)
+((initial)-178914, ( Waist h195 Eye )-178995)
+(( Waist h195 Eye )-178995, (goal)-178915)
+(( Full h275 High )-178989, ( Full h180 High )-178993)
+(( Full h180 High )-178993, ( Long h315 High )-178990)
+(( Long h315 High )-178990, ( Full h180 High )-178994)
+(( Full h180 High )-178994, ( Full h275 High )-178991)
+(( Full h275 High )-178991, ( Waist h195 Eye )-178995)
+(( Waist h195 Eye )-178995, ( Waist h315 Eye )-178992)
+((Drive SmallCar L12 Lfinish)-178987, (Drive SportsCar L0 Lstop)-178988)
+((initial)-178914, (DummyInit)-179399)
+((DummyInit)-179399, (goal)-178915)
+((initial)-178914, (DummyGoal)-179400)
+((DummyGoal)-179400, (goal)-178915)
+((DummyInit)-179399, (DummyGoal)-179400)
+((Drive SmallCar L1 L12)-179401, (DummyGoal)-179400)
+((DummyInit)-179399, (Drive SmallCar L1 L12)-179401)
+((initial)-178914, (Drive SmallCar L1 L12)-179401)
+((Drive SmallCar L1 L12)-179401, (goal)-178915)
+((Drive SportsCar L0 Lstop)-179402, (DummyGoal)-179400)
+((DummyInit)-179399, (Drive SportsCar L0 Lstop)-179402)
+((initial)-178914, (Drive SportsCar L0 Lstop)-179402)
+((Drive SportsCar L0 Lstop)-179402, (goal)-178915)
+(( Full h275 High )-179403, (DummyGoal)-179400)
+((DummyInit)-179399, ( Full h275 High )-179403)
+((initial)-178914, ( Full h275 High )-179403)
+(( Full h275 High )-179403, (goal)-178915)
+(( Long h315 High )-179404, (DummyGoal)-179400)
+((DummyInit)-179399, ( Long h315 High )-179404)
+((initial)-178914, ( Long h315 High )-179404)
+(( Long h315 High )-179404, (goal)-178915)
+(( Full h275 High )-179405, (DummyGoal)-179400)
+((DummyInit)-179399, ( Full h275 High )-179405)
+((initial)-178914, ( Full h275 High )-179405)
+(( Full h275 High )-179405, (goal)-178915)
+(( Waist h315 Eye )-179406, (DummyGoal)-179400)
+((DummyInit)-179399, ( Waist h315 Eye )-179406)
+((initial)-178914, ( Waist h315 Eye )-179406)
+(( Waist h315 Eye )-179406, (goal)-178915)
+(( Full h180 High )-179407, (DummyGoal)-179400)
+((DummyInit)-179399, ( Full h180 High )-179407)
+((initial)-178914, ( Full h180 High )-179407)
+(( Full h180 High )-179407, (goal)-178915)
+(( Full h180 High )-179408, (DummyGoal)-179400)
+((DummyInit)-179399, ( Full h180 High )-179408)
+((initial)-178914, ( Full h180 High )-179408)
+(( Full h180 High )-179408, (goal)-178915)
+(( Waist h195 Eye )-179409, (DummyGoal)-179400)
+((DummyInit)-179399, ( Waist h195 Eye )-179409)
+((initial)-178914, ( Waist h195 Eye )-179409)
+(( Waist h195 Eye )-179409, (goal)-178915)
+(( Full h275 High )-179403, ( Full h180 High )-179407)
+(( Full h180 High )-179407, ( Long h315 High )-179404)
+(( Long h315 High )-179404, ( Full h180 High )-179408)
+(( Full h180 High )-179408, ( Full h275 High )-179405)
+(( Full h275 High )-179405, ( Waist h195 Eye )-179409)
+(( Waist h195 Eye )-179409, ( Waist h315 Eye )-179406)
+((Drive SmallCar L1 L12)-179401, (Drive SportsCar L0 Lstop)-179402)
+((DummyGoal)-179400, (DummyInit)-178985)

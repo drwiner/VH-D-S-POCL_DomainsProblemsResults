@@ -1,0 +1,690 @@
+problem	8
+selection	Nada-ZeroHeuristic
+search	DFS
+runtime	61231
+opened	1867
+expanded	211
+primitives	148
+decomps	6
+composites	6
+hdepth	6
+
+
+(fly bob 747 slc ny)-16774617
+(fly bob 747 ny slc)-16774569
+(buy-tickets dave)-16768473
+(DummyInit)-16768242
+(DummyInit)-16768245
+(deplane dave 747 ny)-16768247
+(DummyGoal)-16768246
+(DummyGoal)-16768243
+(fly bob 747 ny la)-16768073
+(fly bob 747 slc ny)-16774521
+(fly bob 747 ny slc)-16774473
+(fly bob 747 slc ny)-16774425
+(fly bob 747 ny slc)-16774377
+(fly bob 747 slc ny)-16774329
+(fly bob 747 ny slc)-16774281
+(fly bob 747 slc ny)-16774233
+(fly bob 747 ny slc)-16774185
+(fly bob 747 slc ny)-16774137
+(fly bob 747 ny slc)-16774089
+(fly bob 747 slc ny)-16774041
+(fly bob 747 ny slc)-16773993
+(fly bob 747 slc ny)-16773945
+(fly bob 747 ny slc)-16773897
+(fly bob 747 slc ny)-16773849
+(fly bob 747 ny slc)-16773801
+(fly bob 747 slc ny)-16773753
+(fly bob 747 ny slc)-16773705
+(fly bob 747 slc ny)-16773657
+(fly bob 747 ny slc)-16773609
+(fly bob 747 slc ny)-16773561
+(fly bob 747 ny slc)-16773513
+(fly bob 747 slc ny)-16773465
+(fly bob 747 ny slc)-16773417
+(fly bob 747 slc ny)-16773369
+(fly bob 747 ny slc)-16773321
+(fly bob 747 slc ny)-16773273
+(fly bob 747 ny slc)-16773225
+(fly bob 747 slc ny)-16773177
+(fly bob 747 ny slc)-16773129
+(fly bob 747 slc ny)-16773081
+(fly bob 747 ny slc)-16773033
+(fly bob 747 slc ny)-16772985
+(fly bob 747 ny slc)-16772937
+(fly bob 747 slc ny)-16772889
+(fly bob 747 ny slc)-16772841
+(fly bob 747 slc ny)-16772793
+(fly bob 747 ny slc)-16772745
+(fly bob 747 slc ny)-16772697
+(fly bob 747 ny slc)-16772649
+(fly bob 747 slc ny)-16772601
+(fly bob 747 ny slc)-16772553
+(fly bob 747 slc ny)-16772505
+(fly bob 747 ny slc)-16772457
+(fly bob 747 slc ny)-16772409
+(fly bob 747 ny slc)-16772361
+(fly bob 747 slc ny)-16772313
+(fly bob 747 ny slc)-16772265
+(fly bob 747 slc ny)-16772217
+(fly bob 747 ny slc)-16772169
+(fly bob 747 slc ny)-16772121
+(fly bob 747 ny slc)-16772073
+(fly bob 747 slc ny)-16772025
+(fly bob 747 ny slc)-16771977
+(fly bob 747 slc ny)-16771929
+(fly bob 747 ny slc)-16771881
+(fly bob 747 slc ny)-16771833
+(fly bob 747 ny slc)-16771785
+(fly bob 747 slc ny)-16771737
+(fly bob 747 ny slc)-16771689
+(fly bob 747 slc ny)-16771641
+(fly bob 747 ny slc)-16771593
+(fly bob 747 slc ny)-16771545
+(fly bob 747 ny slc)-16771497
+(fly bob 747 slc ny)-16771449
+(fly bob 747 ny slc)-16771401
+(fly bob 747 slc ny)-16771353
+(fly bob 747 ny slc)-16771305
+(fly bob 747 slc ny)-16771257
+(fly bob 747 ny slc)-16771209
+(fly bob 747 slc ny)-16771161
+(fly bob 747 ny slc)-16771113
+(fly bob 747 slc ny)-16771065
+(fly bob 747 ny slc)-16771017
+(fly bob 747 slc ny)-16770969
+(fly bob 747 ny slc)-16770921
+(fly bob 747 slc ny)-16770873
+(fly bob 747 ny slc)-16770825
+(fly bob 747 slc ny)-16770777
+(fly bob 747 ny slc)-16770729
+(fly bob 747 slc ny)-16770681
+(fly bob 747 ny slc)-16770633
+(fly bob 747 slc ny)-16770585
+(fly bob 747 ny slc)-16770537
+(fly bob 747 slc ny)-16770489
+(fly bob 747 ny slc)-16770441
+(fly bob 747 slc ny)-16770393
+(fly bob 747 ny slc)-16770345
+(fly bob 747 slc ny)-16770297
+(fly bob 747 ny slc)-16770249
+(fly bob 747 slc ny)-16770201
+(fly bob 747 ny slc)-16770153
+(fly bob 747 slc ny)-16770105
+(fly bob 747 ny slc)-16770057
+(fly bob 747 slc ny)-16770009
+(fly bob 747 ny slc)-16769961
+(fly bob 747 slc ny)-16769913
+(fly bob 747 ny slc)-16769865
+(fly bob 747 slc ny)-16769817
+(fly bob 747 ny slc)-16769769
+(fly bob 747 slc ny)-16769721
+(fly bob 747 ny slc)-16769673
+(fly bob 747 slc ny)-16769625
+(fly bob 747 ny slc)-16769577
+(fly bob 747 slc ny)-16769529
+(fly bob 747 ny slc)-16769481
+(fly bob 747 slc ny)-16769433
+(fly bob 747 ny slc)-16769385
+(fly bob 747 slc ny)-16769337
+(fly bob 747 ny slc)-16769289
+(fly bob 747 slc ny)-16769241
+(fly bob 747 ny slc)-16769193
+(fly bob 747 slc ny)-16769145
+(fly bob 747 ny slc)-16769097
+(fly bob 747 slc ny)-16769049
+(fly bob 747 ny slc)-16769001
+(fly bob 747 slc ny)-16768953
+(fly bob 747 ny slc)-16768905
+(fly bob 747 slc ny)-16768857
+(fly bob 747 ny slc)-16768809
+(fly bob 747 slc ny)-16768761
+(fly bob 747 ny slc)-16768713
+(fly bob 747 slc ny)-16768665
+(fly bob 747 ny slc)-16768617
+(fly bob 747 slc ny)-16768569
+(fly bob 747 ny slc)-16768521
+(fly bob 747 slc ny)-16768009
+(board-plane dave 747 ny)-16767961
+(board-plane roger 747 ny)-16768025
+(DummyInit)-16767244
+(DummyInit)-16767247
+(deplane roger 747 la)-16767249
+(DummyGoal)-16767248
+(DummyGoal)-16767245
+(DummyInit)-16767070
+(DummyInit)-16767073
+(deplane dave 747 ny)-16767075
+(DummyGoal)-16767074
+(DummyGoal)-16767071
+
+
+Composites:
+
+(generic-travel dave ny)-16767069
+(generic-travel dave ny)-16767072
+(generic-travel roger la)-16767243
+(generic-travel roger la)-16767246
+(generic-travel dave ny)-16768241
+(generic-travel dave ny)-16768244
+
+Orderings:
+
+((initial)-8658127, (goal)-8658128)
+((initial)-8658127, (DummyInit)-16767070)
+((DummyInit)-16767070, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-16767071)
+((DummyGoal)-16767071, (goal)-8658128)
+((DummyInit)-16767070, (DummyGoal)-16767071)
+((initial)-8658127, (DummyInit)-16767073)
+((DummyInit)-16767073, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-16767074)
+((DummyGoal)-16767074, (goal)-8658128)
+((DummyInit)-16767073, (DummyGoal)-16767074)
+((deplane dave 747 ny)-16767075, (DummyGoal)-16767074)
+((DummyInit)-16767073, (deplane dave 747 ny)-16767075)
+((initial)-8658127, (deplane dave 747 ny)-16767075)
+((deplane dave 747 ny)-16767075, (goal)-8658128)
+((DummyGoal)-16767074, (DummyGoal)-16767071)
+((DummyInit)-16767070, (DummyInit)-16767073)
+((initial)-8658127, (DummyInit)-16767244)
+((DummyInit)-16767244, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-16767245)
+((DummyGoal)-16767245, (goal)-8658128)
+((DummyInit)-16767244, (DummyGoal)-16767245)
+((initial)-8658127, (DummyInit)-16767247)
+((DummyInit)-16767247, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-16767248)
+((DummyGoal)-16767248, (goal)-8658128)
+((DummyInit)-16767247, (DummyGoal)-16767248)
+((deplane roger 747 la)-16767249, (DummyGoal)-16767248)
+((DummyInit)-16767247, (deplane roger 747 la)-16767249)
+((initial)-8658127, (deplane roger 747 la)-16767249)
+((deplane roger 747 la)-16767249, (goal)-8658128)
+((DummyGoal)-16767248, (DummyGoal)-16767245)
+((DummyInit)-16767244, (DummyInit)-16767247)
+((deplane dave 747 ny)-16767075, (DummyGoal)-16767071)
+((deplane roger 747 la)-16767249, (DummyGoal)-16767245)
+((initial)-8658127, (board-plane dave 747 ny)-16767961)
+((board-plane dave 747 ny)-16767961, (goal)-8658128)
+((board-plane dave 747 ny)-16767961, (deplane dave 747 ny)-16767075)
+((initial)-8658127, (fly bob 747 slc ny)-16768009)
+((fly bob 747 slc ny)-16768009, (goal)-8658128)
+((fly bob 747 slc ny)-16768009, (deplane dave 747 ny)-16767075)
+((initial)-8658127, (board-plane roger 747 ny)-16768025)
+((board-plane roger 747 ny)-16768025, (goal)-8658128)
+((board-plane roger 747 ny)-16768025, (deplane roger 747 la)-16767249)
+((initial)-8658127, (fly bob 747 ny la)-16768073)
+((fly bob 747 ny la)-16768073, (goal)-8658128)
+((fly bob 747 ny la)-16768073, (deplane roger 747 la)-16767249)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16768009)
+((initial)-8658127, (DummyInit)-16768242)
+((DummyInit)-16768242, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-16768243)
+((DummyGoal)-16768243, (goal)-8658128)
+((DummyInit)-16768242, (DummyGoal)-16768243)
+((initial)-8658127, (DummyInit)-16768245)
+((DummyInit)-16768245, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-16768246)
+((DummyGoal)-16768246, (goal)-8658128)
+((DummyInit)-16768245, (DummyGoal)-16768246)
+((deplane dave 747 ny)-16768247, (DummyGoal)-16768246)
+((DummyInit)-16768245, (deplane dave 747 ny)-16768247)
+((initial)-8658127, (deplane dave 747 ny)-16768247)
+((deplane dave 747 ny)-16768247, (goal)-8658128)
+((DummyGoal)-16768246, (DummyGoal)-16768243)
+((DummyInit)-16768242, (DummyInit)-16768245)
+((DummyGoal)-16768243, (board-plane dave 747 ny)-16767961)
+((deplane dave 747 ny)-16768247, (DummyGoal)-16768243)
+((fly bob 747 slc ny)-16768009, (board-plane dave 747 ny)-16767961)
+((initial)-8658127, (buy-tickets dave)-16768473)
+((buy-tickets dave)-16768473, (goal)-8658128)
+((buy-tickets dave)-16768473, (board-plane dave 747 ny)-16767961)
+((initial)-8658127, (fly bob 747 ny slc)-16768521)
+((fly bob 747 ny slc)-16768521, (goal)-8658128)
+((fly bob 747 ny slc)-16768521, (fly bob 747 slc ny)-16768009)
+((initial)-8658127, (fly bob 747 slc ny)-16768569)
+((fly bob 747 slc ny)-16768569, (goal)-8658128)
+((fly bob 747 slc ny)-16768569, (fly bob 747 ny slc)-16768521)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16768569)
+((initial)-8658127, (fly bob 747 ny slc)-16768617)
+((fly bob 747 ny slc)-16768617, (goal)-8658128)
+((fly bob 747 ny slc)-16768617, (fly bob 747 slc ny)-16768569)
+((initial)-8658127, (fly bob 747 slc ny)-16768665)
+((fly bob 747 slc ny)-16768665, (goal)-8658128)
+((fly bob 747 slc ny)-16768665, (fly bob 747 ny slc)-16768617)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16768665)
+((initial)-8658127, (fly bob 747 ny slc)-16768713)
+((fly bob 747 ny slc)-16768713, (goal)-8658128)
+((fly bob 747 ny slc)-16768713, (fly bob 747 slc ny)-16768665)
+((initial)-8658127, (fly bob 747 slc ny)-16768761)
+((fly bob 747 slc ny)-16768761, (goal)-8658128)
+((fly bob 747 slc ny)-16768761, (fly bob 747 ny slc)-16768713)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16768761)
+((initial)-8658127, (fly bob 747 ny slc)-16768809)
+((fly bob 747 ny slc)-16768809, (goal)-8658128)
+((fly bob 747 ny slc)-16768809, (fly bob 747 slc ny)-16768761)
+((initial)-8658127, (fly bob 747 slc ny)-16768857)
+((fly bob 747 slc ny)-16768857, (goal)-8658128)
+((fly bob 747 slc ny)-16768857, (fly bob 747 ny slc)-16768809)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16768857)
+((initial)-8658127, (fly bob 747 ny slc)-16768905)
+((fly bob 747 ny slc)-16768905, (goal)-8658128)
+((fly bob 747 ny slc)-16768905, (fly bob 747 slc ny)-16768857)
+((initial)-8658127, (fly bob 747 slc ny)-16768953)
+((fly bob 747 slc ny)-16768953, (goal)-8658128)
+((fly bob 747 slc ny)-16768953, (fly bob 747 ny slc)-16768905)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16768953)
+((initial)-8658127, (fly bob 747 ny slc)-16769001)
+((fly bob 747 ny slc)-16769001, (goal)-8658128)
+((fly bob 747 ny slc)-16769001, (fly bob 747 slc ny)-16768953)
+((initial)-8658127, (fly bob 747 slc ny)-16769049)
+((fly bob 747 slc ny)-16769049, (goal)-8658128)
+((fly bob 747 slc ny)-16769049, (fly bob 747 ny slc)-16769001)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16769049)
+((initial)-8658127, (fly bob 747 ny slc)-16769097)
+((fly bob 747 ny slc)-16769097, (goal)-8658128)
+((fly bob 747 ny slc)-16769097, (fly bob 747 slc ny)-16769049)
+((initial)-8658127, (fly bob 747 slc ny)-16769145)
+((fly bob 747 slc ny)-16769145, (goal)-8658128)
+((fly bob 747 slc ny)-16769145, (fly bob 747 ny slc)-16769097)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16769145)
+((initial)-8658127, (fly bob 747 ny slc)-16769193)
+((fly bob 747 ny slc)-16769193, (goal)-8658128)
+((fly bob 747 ny slc)-16769193, (fly bob 747 slc ny)-16769145)
+((initial)-8658127, (fly bob 747 slc ny)-16769241)
+((fly bob 747 slc ny)-16769241, (goal)-8658128)
+((fly bob 747 slc ny)-16769241, (fly bob 747 ny slc)-16769193)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16769241)
+((initial)-8658127, (fly bob 747 ny slc)-16769289)
+((fly bob 747 ny slc)-16769289, (goal)-8658128)
+((fly bob 747 ny slc)-16769289, (fly bob 747 slc ny)-16769241)
+((initial)-8658127, (fly bob 747 slc ny)-16769337)
+((fly bob 747 slc ny)-16769337, (goal)-8658128)
+((fly bob 747 slc ny)-16769337, (fly bob 747 ny slc)-16769289)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16769337)
+((initial)-8658127, (fly bob 747 ny slc)-16769385)
+((fly bob 747 ny slc)-16769385, (goal)-8658128)
+((fly bob 747 ny slc)-16769385, (fly bob 747 slc ny)-16769337)
+((initial)-8658127, (fly bob 747 slc ny)-16769433)
+((fly bob 747 slc ny)-16769433, (goal)-8658128)
+((fly bob 747 slc ny)-16769433, (fly bob 747 ny slc)-16769385)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16769433)
+((initial)-8658127, (fly bob 747 ny slc)-16769481)
+((fly bob 747 ny slc)-16769481, (goal)-8658128)
+((fly bob 747 ny slc)-16769481, (fly bob 747 slc ny)-16769433)
+((initial)-8658127, (fly bob 747 slc ny)-16769529)
+((fly bob 747 slc ny)-16769529, (goal)-8658128)
+((fly bob 747 slc ny)-16769529, (fly bob 747 ny slc)-16769481)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16769529)
+((initial)-8658127, (fly bob 747 ny slc)-16769577)
+((fly bob 747 ny slc)-16769577, (goal)-8658128)
+((fly bob 747 ny slc)-16769577, (fly bob 747 slc ny)-16769529)
+((initial)-8658127, (fly bob 747 slc ny)-16769625)
+((fly bob 747 slc ny)-16769625, (goal)-8658128)
+((fly bob 747 slc ny)-16769625, (fly bob 747 ny slc)-16769577)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16769625)
+((initial)-8658127, (fly bob 747 ny slc)-16769673)
+((fly bob 747 ny slc)-16769673, (goal)-8658128)
+((fly bob 747 ny slc)-16769673, (fly bob 747 slc ny)-16769625)
+((initial)-8658127, (fly bob 747 slc ny)-16769721)
+((fly bob 747 slc ny)-16769721, (goal)-8658128)
+((fly bob 747 slc ny)-16769721, (fly bob 747 ny slc)-16769673)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16769721)
+((initial)-8658127, (fly bob 747 ny slc)-16769769)
+((fly bob 747 ny slc)-16769769, (goal)-8658128)
+((fly bob 747 ny slc)-16769769, (fly bob 747 slc ny)-16769721)
+((initial)-8658127, (fly bob 747 slc ny)-16769817)
+((fly bob 747 slc ny)-16769817, (goal)-8658128)
+((fly bob 747 slc ny)-16769817, (fly bob 747 ny slc)-16769769)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16769817)
+((initial)-8658127, (fly bob 747 ny slc)-16769865)
+((fly bob 747 ny slc)-16769865, (goal)-8658128)
+((fly bob 747 ny slc)-16769865, (fly bob 747 slc ny)-16769817)
+((initial)-8658127, (fly bob 747 slc ny)-16769913)
+((fly bob 747 slc ny)-16769913, (goal)-8658128)
+((fly bob 747 slc ny)-16769913, (fly bob 747 ny slc)-16769865)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16769913)
+((initial)-8658127, (fly bob 747 ny slc)-16769961)
+((fly bob 747 ny slc)-16769961, (goal)-8658128)
+((fly bob 747 ny slc)-16769961, (fly bob 747 slc ny)-16769913)
+((initial)-8658127, (fly bob 747 slc ny)-16770009)
+((fly bob 747 slc ny)-16770009, (goal)-8658128)
+((fly bob 747 slc ny)-16770009, (fly bob 747 ny slc)-16769961)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16770009)
+((initial)-8658127, (fly bob 747 ny slc)-16770057)
+((fly bob 747 ny slc)-16770057, (goal)-8658128)
+((fly bob 747 ny slc)-16770057, (fly bob 747 slc ny)-16770009)
+((initial)-8658127, (fly bob 747 slc ny)-16770105)
+((fly bob 747 slc ny)-16770105, (goal)-8658128)
+((fly bob 747 slc ny)-16770105, (fly bob 747 ny slc)-16770057)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16770105)
+((initial)-8658127, (fly bob 747 ny slc)-16770153)
+((fly bob 747 ny slc)-16770153, (goal)-8658128)
+((fly bob 747 ny slc)-16770153, (fly bob 747 slc ny)-16770105)
+((initial)-8658127, (fly bob 747 slc ny)-16770201)
+((fly bob 747 slc ny)-16770201, (goal)-8658128)
+((fly bob 747 slc ny)-16770201, (fly bob 747 ny slc)-16770153)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16770201)
+((initial)-8658127, (fly bob 747 ny slc)-16770249)
+((fly bob 747 ny slc)-16770249, (goal)-8658128)
+((fly bob 747 ny slc)-16770249, (fly bob 747 slc ny)-16770201)
+((initial)-8658127, (fly bob 747 slc ny)-16770297)
+((fly bob 747 slc ny)-16770297, (goal)-8658128)
+((fly bob 747 slc ny)-16770297, (fly bob 747 ny slc)-16770249)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16770297)
+((initial)-8658127, (fly bob 747 ny slc)-16770345)
+((fly bob 747 ny slc)-16770345, (goal)-8658128)
+((fly bob 747 ny slc)-16770345, (fly bob 747 slc ny)-16770297)
+((initial)-8658127, (fly bob 747 slc ny)-16770393)
+((fly bob 747 slc ny)-16770393, (goal)-8658128)
+((fly bob 747 slc ny)-16770393, (fly bob 747 ny slc)-16770345)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16770393)
+((initial)-8658127, (fly bob 747 ny slc)-16770441)
+((fly bob 747 ny slc)-16770441, (goal)-8658128)
+((fly bob 747 ny slc)-16770441, (fly bob 747 slc ny)-16770393)
+((initial)-8658127, (fly bob 747 slc ny)-16770489)
+((fly bob 747 slc ny)-16770489, (goal)-8658128)
+((fly bob 747 slc ny)-16770489, (fly bob 747 ny slc)-16770441)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16770489)
+((initial)-8658127, (fly bob 747 ny slc)-16770537)
+((fly bob 747 ny slc)-16770537, (goal)-8658128)
+((fly bob 747 ny slc)-16770537, (fly bob 747 slc ny)-16770489)
+((initial)-8658127, (fly bob 747 slc ny)-16770585)
+((fly bob 747 slc ny)-16770585, (goal)-8658128)
+((fly bob 747 slc ny)-16770585, (fly bob 747 ny slc)-16770537)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16770585)
+((initial)-8658127, (fly bob 747 ny slc)-16770633)
+((fly bob 747 ny slc)-16770633, (goal)-8658128)
+((fly bob 747 ny slc)-16770633, (fly bob 747 slc ny)-16770585)
+((initial)-8658127, (fly bob 747 slc ny)-16770681)
+((fly bob 747 slc ny)-16770681, (goal)-8658128)
+((fly bob 747 slc ny)-16770681, (fly bob 747 ny slc)-16770633)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16770681)
+((initial)-8658127, (fly bob 747 ny slc)-16770729)
+((fly bob 747 ny slc)-16770729, (goal)-8658128)
+((fly bob 747 ny slc)-16770729, (fly bob 747 slc ny)-16770681)
+((initial)-8658127, (fly bob 747 slc ny)-16770777)
+((fly bob 747 slc ny)-16770777, (goal)-8658128)
+((fly bob 747 slc ny)-16770777, (fly bob 747 ny slc)-16770729)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16770777)
+((initial)-8658127, (fly bob 747 ny slc)-16770825)
+((fly bob 747 ny slc)-16770825, (goal)-8658128)
+((fly bob 747 ny slc)-16770825, (fly bob 747 slc ny)-16770777)
+((initial)-8658127, (fly bob 747 slc ny)-16770873)
+((fly bob 747 slc ny)-16770873, (goal)-8658128)
+((fly bob 747 slc ny)-16770873, (fly bob 747 ny slc)-16770825)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16770873)
+((initial)-8658127, (fly bob 747 ny slc)-16770921)
+((fly bob 747 ny slc)-16770921, (goal)-8658128)
+((fly bob 747 ny slc)-16770921, (fly bob 747 slc ny)-16770873)
+((initial)-8658127, (fly bob 747 slc ny)-16770969)
+((fly bob 747 slc ny)-16770969, (goal)-8658128)
+((fly bob 747 slc ny)-16770969, (fly bob 747 ny slc)-16770921)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16770969)
+((initial)-8658127, (fly bob 747 ny slc)-16771017)
+((fly bob 747 ny slc)-16771017, (goal)-8658128)
+((fly bob 747 ny slc)-16771017, (fly bob 747 slc ny)-16770969)
+((initial)-8658127, (fly bob 747 slc ny)-16771065)
+((fly bob 747 slc ny)-16771065, (goal)-8658128)
+((fly bob 747 slc ny)-16771065, (fly bob 747 ny slc)-16771017)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16771065)
+((initial)-8658127, (fly bob 747 ny slc)-16771113)
+((fly bob 747 ny slc)-16771113, (goal)-8658128)
+((fly bob 747 ny slc)-16771113, (fly bob 747 slc ny)-16771065)
+((initial)-8658127, (fly bob 747 slc ny)-16771161)
+((fly bob 747 slc ny)-16771161, (goal)-8658128)
+((fly bob 747 slc ny)-16771161, (fly bob 747 ny slc)-16771113)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16771161)
+((initial)-8658127, (fly bob 747 ny slc)-16771209)
+((fly bob 747 ny slc)-16771209, (goal)-8658128)
+((fly bob 747 ny slc)-16771209, (fly bob 747 slc ny)-16771161)
+((initial)-8658127, (fly bob 747 slc ny)-16771257)
+((fly bob 747 slc ny)-16771257, (goal)-8658128)
+((fly bob 747 slc ny)-16771257, (fly bob 747 ny slc)-16771209)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16771257)
+((initial)-8658127, (fly bob 747 ny slc)-16771305)
+((fly bob 747 ny slc)-16771305, (goal)-8658128)
+((fly bob 747 ny slc)-16771305, (fly bob 747 slc ny)-16771257)
+((initial)-8658127, (fly bob 747 slc ny)-16771353)
+((fly bob 747 slc ny)-16771353, (goal)-8658128)
+((fly bob 747 slc ny)-16771353, (fly bob 747 ny slc)-16771305)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16771353)
+((initial)-8658127, (fly bob 747 ny slc)-16771401)
+((fly bob 747 ny slc)-16771401, (goal)-8658128)
+((fly bob 747 ny slc)-16771401, (fly bob 747 slc ny)-16771353)
+((initial)-8658127, (fly bob 747 slc ny)-16771449)
+((fly bob 747 slc ny)-16771449, (goal)-8658128)
+((fly bob 747 slc ny)-16771449, (fly bob 747 ny slc)-16771401)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16771449)
+((initial)-8658127, (fly bob 747 ny slc)-16771497)
+((fly bob 747 ny slc)-16771497, (goal)-8658128)
+((fly bob 747 ny slc)-16771497, (fly bob 747 slc ny)-16771449)
+((initial)-8658127, (fly bob 747 slc ny)-16771545)
+((fly bob 747 slc ny)-16771545, (goal)-8658128)
+((fly bob 747 slc ny)-16771545, (fly bob 747 ny slc)-16771497)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16771545)
+((initial)-8658127, (fly bob 747 ny slc)-16771593)
+((fly bob 747 ny slc)-16771593, (goal)-8658128)
+((fly bob 747 ny slc)-16771593, (fly bob 747 slc ny)-16771545)
+((initial)-8658127, (fly bob 747 slc ny)-16771641)
+((fly bob 747 slc ny)-16771641, (goal)-8658128)
+((fly bob 747 slc ny)-16771641, (fly bob 747 ny slc)-16771593)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16771641)
+((initial)-8658127, (fly bob 747 ny slc)-16771689)
+((fly bob 747 ny slc)-16771689, (goal)-8658128)
+((fly bob 747 ny slc)-16771689, (fly bob 747 slc ny)-16771641)
+((initial)-8658127, (fly bob 747 slc ny)-16771737)
+((fly bob 747 slc ny)-16771737, (goal)-8658128)
+((fly bob 747 slc ny)-16771737, (fly bob 747 ny slc)-16771689)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16771737)
+((initial)-8658127, (fly bob 747 ny slc)-16771785)
+((fly bob 747 ny slc)-16771785, (goal)-8658128)
+((fly bob 747 ny slc)-16771785, (fly bob 747 slc ny)-16771737)
+((initial)-8658127, (fly bob 747 slc ny)-16771833)
+((fly bob 747 slc ny)-16771833, (goal)-8658128)
+((fly bob 747 slc ny)-16771833, (fly bob 747 ny slc)-16771785)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16771833)
+((initial)-8658127, (fly bob 747 ny slc)-16771881)
+((fly bob 747 ny slc)-16771881, (goal)-8658128)
+((fly bob 747 ny slc)-16771881, (fly bob 747 slc ny)-16771833)
+((initial)-8658127, (fly bob 747 slc ny)-16771929)
+((fly bob 747 slc ny)-16771929, (goal)-8658128)
+((fly bob 747 slc ny)-16771929, (fly bob 747 ny slc)-16771881)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16771929)
+((initial)-8658127, (fly bob 747 ny slc)-16771977)
+((fly bob 747 ny slc)-16771977, (goal)-8658128)
+((fly bob 747 ny slc)-16771977, (fly bob 747 slc ny)-16771929)
+((initial)-8658127, (fly bob 747 slc ny)-16772025)
+((fly bob 747 slc ny)-16772025, (goal)-8658128)
+((fly bob 747 slc ny)-16772025, (fly bob 747 ny slc)-16771977)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16772025)
+((initial)-8658127, (fly bob 747 ny slc)-16772073)
+((fly bob 747 ny slc)-16772073, (goal)-8658128)
+((fly bob 747 ny slc)-16772073, (fly bob 747 slc ny)-16772025)
+((initial)-8658127, (fly bob 747 slc ny)-16772121)
+((fly bob 747 slc ny)-16772121, (goal)-8658128)
+((fly bob 747 slc ny)-16772121, (fly bob 747 ny slc)-16772073)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16772121)
+((initial)-8658127, (fly bob 747 ny slc)-16772169)
+((fly bob 747 ny slc)-16772169, (goal)-8658128)
+((fly bob 747 ny slc)-16772169, (fly bob 747 slc ny)-16772121)
+((initial)-8658127, (fly bob 747 slc ny)-16772217)
+((fly bob 747 slc ny)-16772217, (goal)-8658128)
+((fly bob 747 slc ny)-16772217, (fly bob 747 ny slc)-16772169)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16772217)
+((initial)-8658127, (fly bob 747 ny slc)-16772265)
+((fly bob 747 ny slc)-16772265, (goal)-8658128)
+((fly bob 747 ny slc)-16772265, (fly bob 747 slc ny)-16772217)
+((initial)-8658127, (fly bob 747 slc ny)-16772313)
+((fly bob 747 slc ny)-16772313, (goal)-8658128)
+((fly bob 747 slc ny)-16772313, (fly bob 747 ny slc)-16772265)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16772313)
+((initial)-8658127, (fly bob 747 ny slc)-16772361)
+((fly bob 747 ny slc)-16772361, (goal)-8658128)
+((fly bob 747 ny slc)-16772361, (fly bob 747 slc ny)-16772313)
+((initial)-8658127, (fly bob 747 slc ny)-16772409)
+((fly bob 747 slc ny)-16772409, (goal)-8658128)
+((fly bob 747 slc ny)-16772409, (fly bob 747 ny slc)-16772361)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16772409)
+((initial)-8658127, (fly bob 747 ny slc)-16772457)
+((fly bob 747 ny slc)-16772457, (goal)-8658128)
+((fly bob 747 ny slc)-16772457, (fly bob 747 slc ny)-16772409)
+((initial)-8658127, (fly bob 747 slc ny)-16772505)
+((fly bob 747 slc ny)-16772505, (goal)-8658128)
+((fly bob 747 slc ny)-16772505, (fly bob 747 ny slc)-16772457)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16772505)
+((initial)-8658127, (fly bob 747 ny slc)-16772553)
+((fly bob 747 ny slc)-16772553, (goal)-8658128)
+((fly bob 747 ny slc)-16772553, (fly bob 747 slc ny)-16772505)
+((initial)-8658127, (fly bob 747 slc ny)-16772601)
+((fly bob 747 slc ny)-16772601, (goal)-8658128)
+((fly bob 747 slc ny)-16772601, (fly bob 747 ny slc)-16772553)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16772601)
+((initial)-8658127, (fly bob 747 ny slc)-16772649)
+((fly bob 747 ny slc)-16772649, (goal)-8658128)
+((fly bob 747 ny slc)-16772649, (fly bob 747 slc ny)-16772601)
+((initial)-8658127, (fly bob 747 slc ny)-16772697)
+((fly bob 747 slc ny)-16772697, (goal)-8658128)
+((fly bob 747 slc ny)-16772697, (fly bob 747 ny slc)-16772649)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16772697)
+((initial)-8658127, (fly bob 747 ny slc)-16772745)
+((fly bob 747 ny slc)-16772745, (goal)-8658128)
+((fly bob 747 ny slc)-16772745, (fly bob 747 slc ny)-16772697)
+((initial)-8658127, (fly bob 747 slc ny)-16772793)
+((fly bob 747 slc ny)-16772793, (goal)-8658128)
+((fly bob 747 slc ny)-16772793, (fly bob 747 ny slc)-16772745)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16772793)
+((initial)-8658127, (fly bob 747 ny slc)-16772841)
+((fly bob 747 ny slc)-16772841, (goal)-8658128)
+((fly bob 747 ny slc)-16772841, (fly bob 747 slc ny)-16772793)
+((initial)-8658127, (fly bob 747 slc ny)-16772889)
+((fly bob 747 slc ny)-16772889, (goal)-8658128)
+((fly bob 747 slc ny)-16772889, (fly bob 747 ny slc)-16772841)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16772889)
+((initial)-8658127, (fly bob 747 ny slc)-16772937)
+((fly bob 747 ny slc)-16772937, (goal)-8658128)
+((fly bob 747 ny slc)-16772937, (fly bob 747 slc ny)-16772889)
+((initial)-8658127, (fly bob 747 slc ny)-16772985)
+((fly bob 747 slc ny)-16772985, (goal)-8658128)
+((fly bob 747 slc ny)-16772985, (fly bob 747 ny slc)-16772937)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16772985)
+((initial)-8658127, (fly bob 747 ny slc)-16773033)
+((fly bob 747 ny slc)-16773033, (goal)-8658128)
+((fly bob 747 ny slc)-16773033, (fly bob 747 slc ny)-16772985)
+((initial)-8658127, (fly bob 747 slc ny)-16773081)
+((fly bob 747 slc ny)-16773081, (goal)-8658128)
+((fly bob 747 slc ny)-16773081, (fly bob 747 ny slc)-16773033)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16773081)
+((initial)-8658127, (fly bob 747 ny slc)-16773129)
+((fly bob 747 ny slc)-16773129, (goal)-8658128)
+((fly bob 747 ny slc)-16773129, (fly bob 747 slc ny)-16773081)
+((initial)-8658127, (fly bob 747 slc ny)-16773177)
+((fly bob 747 slc ny)-16773177, (goal)-8658128)
+((fly bob 747 slc ny)-16773177, (fly bob 747 ny slc)-16773129)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16773177)
+((initial)-8658127, (fly bob 747 ny slc)-16773225)
+((fly bob 747 ny slc)-16773225, (goal)-8658128)
+((fly bob 747 ny slc)-16773225, (fly bob 747 slc ny)-16773177)
+((initial)-8658127, (fly bob 747 slc ny)-16773273)
+((fly bob 747 slc ny)-16773273, (goal)-8658128)
+((fly bob 747 slc ny)-16773273, (fly bob 747 ny slc)-16773225)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16773273)
+((initial)-8658127, (fly bob 747 ny slc)-16773321)
+((fly bob 747 ny slc)-16773321, (goal)-8658128)
+((fly bob 747 ny slc)-16773321, (fly bob 747 slc ny)-16773273)
+((initial)-8658127, (fly bob 747 slc ny)-16773369)
+((fly bob 747 slc ny)-16773369, (goal)-8658128)
+((fly bob 747 slc ny)-16773369, (fly bob 747 ny slc)-16773321)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16773369)
+((initial)-8658127, (fly bob 747 ny slc)-16773417)
+((fly bob 747 ny slc)-16773417, (goal)-8658128)
+((fly bob 747 ny slc)-16773417, (fly bob 747 slc ny)-16773369)
+((initial)-8658127, (fly bob 747 slc ny)-16773465)
+((fly bob 747 slc ny)-16773465, (goal)-8658128)
+((fly bob 747 slc ny)-16773465, (fly bob 747 ny slc)-16773417)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16773465)
+((initial)-8658127, (fly bob 747 ny slc)-16773513)
+((fly bob 747 ny slc)-16773513, (goal)-8658128)
+((fly bob 747 ny slc)-16773513, (fly bob 747 slc ny)-16773465)
+((initial)-8658127, (fly bob 747 slc ny)-16773561)
+((fly bob 747 slc ny)-16773561, (goal)-8658128)
+((fly bob 747 slc ny)-16773561, (fly bob 747 ny slc)-16773513)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16773561)
+((initial)-8658127, (fly bob 747 ny slc)-16773609)
+((fly bob 747 ny slc)-16773609, (goal)-8658128)
+((fly bob 747 ny slc)-16773609, (fly bob 747 slc ny)-16773561)
+((initial)-8658127, (fly bob 747 slc ny)-16773657)
+((fly bob 747 slc ny)-16773657, (goal)-8658128)
+((fly bob 747 slc ny)-16773657, (fly bob 747 ny slc)-16773609)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16773657)
+((initial)-8658127, (fly bob 747 ny slc)-16773705)
+((fly bob 747 ny slc)-16773705, (goal)-8658128)
+((fly bob 747 ny slc)-16773705, (fly bob 747 slc ny)-16773657)
+((initial)-8658127, (fly bob 747 slc ny)-16773753)
+((fly bob 747 slc ny)-16773753, (goal)-8658128)
+((fly bob 747 slc ny)-16773753, (fly bob 747 ny slc)-16773705)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16773753)
+((initial)-8658127, (fly bob 747 ny slc)-16773801)
+((fly bob 747 ny slc)-16773801, (goal)-8658128)
+((fly bob 747 ny slc)-16773801, (fly bob 747 slc ny)-16773753)
+((initial)-8658127, (fly bob 747 slc ny)-16773849)
+((fly bob 747 slc ny)-16773849, (goal)-8658128)
+((fly bob 747 slc ny)-16773849, (fly bob 747 ny slc)-16773801)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16773849)
+((initial)-8658127, (fly bob 747 ny slc)-16773897)
+((fly bob 747 ny slc)-16773897, (goal)-8658128)
+((fly bob 747 ny slc)-16773897, (fly bob 747 slc ny)-16773849)
+((initial)-8658127, (fly bob 747 slc ny)-16773945)
+((fly bob 747 slc ny)-16773945, (goal)-8658128)
+((fly bob 747 slc ny)-16773945, (fly bob 747 ny slc)-16773897)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16773945)
+((initial)-8658127, (fly bob 747 ny slc)-16773993)
+((fly bob 747 ny slc)-16773993, (goal)-8658128)
+((fly bob 747 ny slc)-16773993, (fly bob 747 slc ny)-16773945)
+((initial)-8658127, (fly bob 747 slc ny)-16774041)
+((fly bob 747 slc ny)-16774041, (goal)-8658128)
+((fly bob 747 slc ny)-16774041, (fly bob 747 ny slc)-16773993)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16774041)
+((initial)-8658127, (fly bob 747 ny slc)-16774089)
+((fly bob 747 ny slc)-16774089, (goal)-8658128)
+((fly bob 747 ny slc)-16774089, (fly bob 747 slc ny)-16774041)
+((initial)-8658127, (fly bob 747 slc ny)-16774137)
+((fly bob 747 slc ny)-16774137, (goal)-8658128)
+((fly bob 747 slc ny)-16774137, (fly bob 747 ny slc)-16774089)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16774137)
+((initial)-8658127, (fly bob 747 ny slc)-16774185)
+((fly bob 747 ny slc)-16774185, (goal)-8658128)
+((fly bob 747 ny slc)-16774185, (fly bob 747 slc ny)-16774137)
+((initial)-8658127, (fly bob 747 slc ny)-16774233)
+((fly bob 747 slc ny)-16774233, (goal)-8658128)
+((fly bob 747 slc ny)-16774233, (fly bob 747 ny slc)-16774185)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16774233)
+((initial)-8658127, (fly bob 747 ny slc)-16774281)
+((fly bob 747 ny slc)-16774281, (goal)-8658128)
+((fly bob 747 ny slc)-16774281, (fly bob 747 slc ny)-16774233)
+((initial)-8658127, (fly bob 747 slc ny)-16774329)
+((fly bob 747 slc ny)-16774329, (goal)-8658128)
+((fly bob 747 slc ny)-16774329, (fly bob 747 ny slc)-16774281)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16774329)
+((initial)-8658127, (fly bob 747 ny slc)-16774377)
+((fly bob 747 ny slc)-16774377, (goal)-8658128)
+((fly bob 747 ny slc)-16774377, (fly bob 747 slc ny)-16774329)
+((initial)-8658127, (fly bob 747 slc ny)-16774425)
+((fly bob 747 slc ny)-16774425, (goal)-8658128)
+((fly bob 747 slc ny)-16774425, (fly bob 747 ny slc)-16774377)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16774425)
+((initial)-8658127, (fly bob 747 ny slc)-16774473)
+((fly bob 747 ny slc)-16774473, (goal)-8658128)
+((fly bob 747 ny slc)-16774473, (fly bob 747 slc ny)-16774425)
+((initial)-8658127, (fly bob 747 slc ny)-16774521)
+((fly bob 747 slc ny)-16774521, (goal)-8658128)
+((fly bob 747 slc ny)-16774521, (fly bob 747 ny slc)-16774473)
+((fly bob 747 ny la)-16768073, (fly bob 747 slc ny)-16774521)
+((initial)-8658127, (fly bob 747 ny slc)-16774569)
+((fly bob 747 ny slc)-16774569, (goal)-8658128)
+((fly bob 747 ny slc)-16774569, (fly bob 747 slc ny)-16774521)
+((initial)-8658127, (fly bob 747 slc ny)-16774617)
+((fly bob 747 slc ny)-16774617, (goal)-8658128)
+((fly bob 747 slc ny)-16774617, (fly bob 747 ny slc)-16774569)

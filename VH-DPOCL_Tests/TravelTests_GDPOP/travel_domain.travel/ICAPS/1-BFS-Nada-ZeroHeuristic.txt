@@ -1,0 +1,10 @@
+problem	1
+selection	Nada-ZeroHeuristic
+search	BFS
+runtime	6006
+opened	11058
+expanded	954
+primitives	12
+decomps	3
+composites	0
+hdepth	1

@@ -1,0 +1,62 @@
+problem	8
+selection	E3-ZeroHeuristic
+search	BestFirst
+runtime	60034
+opened	60958
+expanded	477
+primitives	8
+decomps	2
+composites	2
+hdepth	2
+
+
+(DummyInit)-10763993
+(pickup agent_2 block_1 location_3 location_1)-10763995
+(DummyInit)-10763997
+(move agent_2 location_1 location_3)-10763999
+(move agent_2 location_3 location_0)-10764000
+(DummyGoal)-10763998
+(putdown agent_2 block_1 location_0 location_1)-10764001
+(DummyGoal)-10763994
+
+
+Composites:
+
+(transport agent_2 block_1 location_1 location_3 location_1 location_0)-10763992
+(multimove agent_2 location_1 location_0 location_3)-10763996
+
+Orderings:
+
+((initial)-9224072, (goal)-9224073)
+((initial)-9224072, (DummyInit)-10763993)
+((DummyInit)-10763993, (goal)-9224073)
+((initial)-9224072, (DummyGoal)-10763994)
+((DummyGoal)-10763994, (goal)-9224073)
+((DummyInit)-10763993, (DummyGoal)-10763994)
+((pickup agent_2 block_1 location_3 location_1)-10763995, (DummyGoal)-10763994)
+((DummyInit)-10763993, (pickup agent_2 block_1 location_3 location_1)-10763995)
+((initial)-9224072, (pickup agent_2 block_1 location_3 location_1)-10763995)
+((pickup agent_2 block_1 location_3 location_1)-10763995, (goal)-9224073)
+((initial)-9224072, (DummyInit)-10763997)
+((DummyInit)-10763997, (goal)-9224073)
+((initial)-9224072, (DummyGoal)-10763998)
+((DummyGoal)-10763998, (goal)-9224073)
+((DummyInit)-10763997, (DummyGoal)-10763998)
+((move agent_2 location_1 location_3)-10763999, (DummyGoal)-10763998)
+((DummyInit)-10763997, (move agent_2 location_1 location_3)-10763999)
+((initial)-9224072, (move agent_2 location_1 location_3)-10763999)
+((move agent_2 location_1 location_3)-10763999, (goal)-9224073)
+((move agent_2 location_3 location_0)-10764000, (DummyGoal)-10763998)
+((DummyInit)-10763997, (move agent_2 location_3 location_0)-10764000)
+((initial)-9224072, (move agent_2 location_3 location_0)-10764000)
+((move agent_2 location_3 location_0)-10764000, (goal)-9224073)
+((move agent_2 location_1 location_3)-10763999, (move agent_2 location_3 location_0)-10764000)
+((DummyGoal)-10763998, (DummyGoal)-10763994)
+((DummyInit)-10763993, (DummyInit)-10763997)
+((putdown agent_2 block_1 location_0 location_1)-10764001, (DummyGoal)-10763994)
+((DummyInit)-10763993, (putdown agent_2 block_1 location_0 location_1)-10764001)
+((initial)-9224072, (putdown agent_2 block_1 location_0 location_1)-10764001)
+((putdown agent_2 block_1 location_0 location_1)-10764001, (goal)-9224073)
+((pickup agent_2 block_1 location_3 location_1)-10763995, (DummyInit)-10763997)
+((DummyGoal)-10763998, (putdown agent_2 block_1 location_0 location_1)-10764001)
+((pickup agent_2 block_1 location_3 location_1)-10763995, (putdown agent_2 block_1 location_0 location_1)-10764001)

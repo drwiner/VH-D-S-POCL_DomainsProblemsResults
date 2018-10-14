@@ -1,0 +1,175 @@
+problem	1
+selection	E3-AddReuseHeuristic
+search	BestFirst
+runtime	6108
+opened	1058
+expanded	550
+primitives	28
+decomps	5
+composites	5
+hdepth	11
+
+
+(DummyInit)-828
+(get-in-car bea mazda raleigh)-830
+(drive bea mazda raleigh slc)-831
+(get-out-of-car bea mazda slc)-832
+(DummyGoal)-829
+(get-in-car bea mazda slc)-639
+(DummyInit)-993
+(get-in-car bea mazda raleigh)-995
+(drive bea mazda raleigh slc)-996
+(get-out-of-car bea mazda slc)-997
+(DummyInit)-1157
+(get-in-car bea mazda slc)-1159
+(drive bea mazda slc raleigh)-1160
+(get-out-of-car bea mazda raleigh)-1161
+(DummyGoal)-1158
+(DummyGoal)-994
+(DummyInit)-536
+(DummyInit)-539
+(get-in-car bea mazda slc)-541
+(drive bea mazda slc raleigh)-623
+(drive bea mazda slc raleigh)-542
+(get-in-car sara mazda raleigh)-948
+(get-out-of-car sara mazda raleigh)-343
+(get-in-car david mazda raleigh)-892
+(get-out-of-car david mazda raleigh)-213
+(get-out-of-car bea mazda raleigh)-543
+(DummyGoal)-540
+(DummyGoal)-537
+
+
+Composites:
+
+(generic-travel bea slc raleigh)-535
+(travel-by-car bea slc raleigh mazda)-538
+(travel-by-car bea raleigh slc mazda)-827
+(travel-by-car bea raleigh slc mazda)-992
+(travel-by-car bea slc raleigh mazda)-1156
+
+Orderings:
+
+((initial)-211, (goal)-212)
+((initial)-211, (get-out-of-car david mazda raleigh)-213)
+((get-out-of-car david mazda raleigh)-213, (goal)-212)
+((initial)-211, (get-out-of-car sara mazda raleigh)-343)
+((get-out-of-car sara mazda raleigh)-343, (goal)-212)
+((initial)-211, (DummyInit)-536)
+((DummyInit)-536, (goal)-212)
+((initial)-211, (DummyGoal)-537)
+((DummyGoal)-537, (goal)-212)
+((DummyInit)-536, (DummyGoal)-537)
+((initial)-211, (DummyInit)-539)
+((DummyInit)-539, (goal)-212)
+((initial)-211, (DummyGoal)-540)
+((DummyGoal)-540, (goal)-212)
+((DummyInit)-539, (DummyGoal)-540)
+((get-in-car bea mazda slc)-541, (DummyGoal)-540)
+((DummyInit)-539, (get-in-car bea mazda slc)-541)
+((initial)-211, (get-in-car bea mazda slc)-541)
+((get-in-car bea mazda slc)-541, (goal)-212)
+((drive bea mazda slc raleigh)-542, (DummyGoal)-540)
+((DummyInit)-539, (drive bea mazda slc raleigh)-542)
+((initial)-211, (drive bea mazda slc raleigh)-542)
+((drive bea mazda slc raleigh)-542, (goal)-212)
+((get-out-of-car bea mazda raleigh)-543, (DummyGoal)-540)
+((DummyInit)-539, (get-out-of-car bea mazda raleigh)-543)
+((initial)-211, (get-out-of-car bea mazda raleigh)-543)
+((get-out-of-car bea mazda raleigh)-543, (goal)-212)
+((get-in-car bea mazda slc)-541, (drive bea mazda slc raleigh)-542)
+((drive bea mazda slc raleigh)-542, (get-out-of-car bea mazda raleigh)-543)
+((get-in-car bea mazda slc)-541, (get-out-of-car bea mazda raleigh)-543)
+((DummyGoal)-540, (DummyGoal)-537)
+((DummyInit)-536, (DummyInit)-539)
+((initial)-211, (drive bea mazda slc raleigh)-623)
+((drive bea mazda slc raleigh)-623, (goal)-212)
+((drive bea mazda slc raleigh)-623, (get-out-of-car david mazda raleigh)-213)
+((initial)-211, (get-in-car bea mazda slc)-639)
+((get-in-car bea mazda slc)-639, (goal)-212)
+((get-in-car bea mazda slc)-639, (drive bea mazda slc raleigh)-623)
+((get-in-car bea mazda slc)-639, (DummyInit)-539)
+((drive bea mazda slc raleigh)-623, (get-out-of-car bea mazda raleigh)-543)
+((initial)-211, (DummyInit)-828)
+((DummyInit)-828, (goal)-212)
+((initial)-211, (DummyGoal)-829)
+((DummyGoal)-829, (goal)-212)
+((DummyInit)-828, (DummyGoal)-829)
+((get-in-car bea mazda raleigh)-830, (DummyGoal)-829)
+((DummyInit)-828, (get-in-car bea mazda raleigh)-830)
+((initial)-211, (get-in-car bea mazda raleigh)-830)
+((get-in-car bea mazda raleigh)-830, (goal)-212)
+((drive bea mazda raleigh slc)-831, (DummyGoal)-829)
+((DummyInit)-828, (drive bea mazda raleigh slc)-831)
+((initial)-211, (drive bea mazda raleigh slc)-831)
+((drive bea mazda raleigh slc)-831, (goal)-212)
+((get-out-of-car bea mazda slc)-832, (DummyGoal)-829)
+((DummyInit)-828, (get-out-of-car bea mazda slc)-832)
+((initial)-211, (get-out-of-car bea mazda slc)-832)
+((get-out-of-car bea mazda slc)-832, (goal)-212)
+((get-in-car bea mazda raleigh)-830, (drive bea mazda raleigh slc)-831)
+((drive bea mazda raleigh slc)-831, (get-out-of-car bea mazda slc)-832)
+((get-in-car bea mazda raleigh)-830, (get-out-of-car bea mazda slc)-832)
+((DummyGoal)-829, (get-in-car bea mazda slc)-639)
+((get-in-car bea mazda slc)-639, (DummyInit)-536)
+((drive bea mazda slc raleigh)-623, (drive bea mazda slc raleigh)-542)
+((initial)-211, (get-in-car david mazda raleigh)-892)
+((get-in-car david mazda raleigh)-892, (goal)-212)
+((get-in-car david mazda raleigh)-892, (get-out-of-car david mazda raleigh)-213)
+((drive bea mazda slc raleigh)-542, (get-in-car david mazda raleigh)-892)
+((drive bea mazda slc raleigh)-542, (get-out-of-car sara mazda raleigh)-343)
+((initial)-211, (get-in-car sara mazda raleigh)-948)
+((get-in-car sara mazda raleigh)-948, (goal)-212)
+((get-in-car sara mazda raleigh)-948, (get-out-of-car sara mazda raleigh)-343)
+((drive bea mazda slc raleigh)-542, (get-in-car sara mazda raleigh)-948)
+((initial)-211, (DummyInit)-993)
+((DummyInit)-993, (goal)-212)
+((initial)-211, (DummyGoal)-994)
+((DummyGoal)-994, (goal)-212)
+((DummyInit)-993, (DummyGoal)-994)
+((get-in-car bea mazda raleigh)-995, (DummyGoal)-994)
+((DummyInit)-993, (get-in-car bea mazda raleigh)-995)
+((initial)-211, (get-in-car bea mazda raleigh)-995)
+((get-in-car bea mazda raleigh)-995, (goal)-212)
+((drive bea mazda raleigh slc)-996, (DummyGoal)-994)
+((DummyInit)-993, (drive bea mazda raleigh slc)-996)
+((initial)-211, (drive bea mazda raleigh slc)-996)
+((drive bea mazda raleigh slc)-996, (goal)-212)
+((get-out-of-car bea mazda slc)-997, (DummyGoal)-994)
+((DummyInit)-993, (get-out-of-car bea mazda slc)-997)
+((initial)-211, (get-out-of-car bea mazda slc)-997)
+((get-out-of-car bea mazda slc)-997, (goal)-212)
+((get-in-car bea mazda raleigh)-995, (drive bea mazda raleigh slc)-996)
+((drive bea mazda raleigh slc)-996, (get-out-of-car bea mazda slc)-997)
+((get-in-car bea mazda raleigh)-995, (get-out-of-car bea mazda slc)-997)
+((DummyGoal)-994, (DummyInit)-536)
+((get-in-car bea mazda slc)-639, (DummyInit)-993)
+((get-in-car bea mazda slc)-639, (DummyGoal)-994)
+((initial)-211, (DummyInit)-1157)
+((DummyInit)-1157, (goal)-212)
+((initial)-211, (DummyGoal)-1158)
+((DummyGoal)-1158, (goal)-212)
+((DummyInit)-1157, (DummyGoal)-1158)
+((get-in-car bea mazda slc)-1159, (DummyGoal)-1158)
+((DummyInit)-1157, (get-in-car bea mazda slc)-1159)
+((initial)-211, (get-in-car bea mazda slc)-1159)
+((get-in-car bea mazda slc)-1159, (goal)-212)
+((drive bea mazda slc raleigh)-1160, (DummyGoal)-1158)
+((DummyInit)-1157, (drive bea mazda slc raleigh)-1160)
+((initial)-211, (drive bea mazda slc raleigh)-1160)
+((drive bea mazda slc raleigh)-1160, (goal)-212)
+((get-out-of-car bea mazda raleigh)-1161, (DummyGoal)-1158)
+((DummyInit)-1157, (get-out-of-car bea mazda raleigh)-1161)
+((initial)-211, (get-out-of-car bea mazda raleigh)-1161)
+((get-out-of-car bea mazda raleigh)-1161, (goal)-212)
+((get-in-car bea mazda slc)-1159, (drive bea mazda slc raleigh)-1160)
+((drive bea mazda slc raleigh)-1160, (get-out-of-car bea mazda raleigh)-1161)
+((get-in-car bea mazda slc)-1159, (get-out-of-car bea mazda raleigh)-1161)
+((DummyGoal)-1158, (DummyGoal)-994)
+((DummyInit)-993, (DummyInit)-1157)
+((get-out-of-car bea mazda slc)-997, (DummyInit)-1157)
+((get-out-of-car bea mazda slc)-997, (DummyGoal)-1158)
+((DummyGoal)-829, (DummyInit)-1157)
+((DummyGoal)-829, (DummyGoal)-1158)
+((get-out-of-car bea mazda slc)-832, (DummyInit)-1157)
+((get-out-of-car bea mazda slc)-832, (DummyGoal)-1158)

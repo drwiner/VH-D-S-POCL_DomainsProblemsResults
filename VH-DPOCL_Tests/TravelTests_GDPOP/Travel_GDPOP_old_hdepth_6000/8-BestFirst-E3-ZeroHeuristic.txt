@@ -1,0 +1,86 @@
+problem	8
+selection	E3-ZeroHeuristic
+search	BestFirst
+runtime	6009
+opened	6397
+expanded	326
+primitives	13
+decomps	4
+composites	4
+hdepth	5
+
+
+(DummyInit)-727991
+(deplane roger 747 la)-727993
+(DummyInit)-727120
+(DummyInit)-731863
+(DummyInit)-731866
+(get-out-of-car bob accord slc)-731868
+(DummyGoal)-731867
+(DummyGoal)-731864
+(DummyGoal)-727992
+(get-in-car dave accord slc)-727122
+(drive dave accord slc ny)-727123
+(get-out-of-car dave accord ny)-727124
+(DummyGoal)-727121
+
+
+Composites:
+
+(travel-by-car dave slc ny accord)-727119
+(generic-travel roger ny la)-727990
+(generic-travel bob ny slc)-731862
+(generic-travel bob ny slc)-731865
+
+Orderings:
+
+((initial)-600295, (goal)-600296)
+((initial)-600295, (DummyInit)-727120)
+((DummyInit)-727120, (goal)-600296)
+((initial)-600295, (DummyGoal)-727121)
+((DummyGoal)-727121, (goal)-600296)
+((DummyInit)-727120, (DummyGoal)-727121)
+((get-in-car dave accord slc)-727122, (DummyGoal)-727121)
+((DummyInit)-727120, (get-in-car dave accord slc)-727122)
+((initial)-600295, (get-in-car dave accord slc)-727122)
+((get-in-car dave accord slc)-727122, (goal)-600296)
+((drive dave accord slc ny)-727123, (DummyGoal)-727121)
+((DummyInit)-727120, (drive dave accord slc ny)-727123)
+((initial)-600295, (drive dave accord slc ny)-727123)
+((drive dave accord slc ny)-727123, (goal)-600296)
+((get-out-of-car dave accord ny)-727124, (DummyGoal)-727121)
+((DummyInit)-727120, (get-out-of-car dave accord ny)-727124)
+((initial)-600295, (get-out-of-car dave accord ny)-727124)
+((get-out-of-car dave accord ny)-727124, (goal)-600296)
+((get-in-car dave accord slc)-727122, (drive dave accord slc ny)-727123)
+((drive dave accord slc ny)-727123, (get-out-of-car dave accord ny)-727124)
+((get-in-car dave accord slc)-727122, (get-out-of-car dave accord ny)-727124)
+((initial)-600295, (DummyInit)-727991)
+((DummyInit)-727991, (goal)-600296)
+((initial)-600295, (DummyGoal)-727992)
+((DummyGoal)-727992, (goal)-600296)
+((DummyInit)-727991, (DummyGoal)-727992)
+((deplane roger 747 la)-727993, (DummyGoal)-727992)
+((DummyInit)-727991, (deplane roger 747 la)-727993)
+((initial)-600295, (deplane roger 747 la)-727993)
+((deplane roger 747 la)-727993, (goal)-600296)
+((initial)-600295, (DummyInit)-731863)
+((DummyInit)-731863, (goal)-600296)
+((initial)-600295, (DummyGoal)-731864)
+((DummyGoal)-731864, (goal)-600296)
+((DummyInit)-731863, (DummyGoal)-731864)
+((initial)-600295, (DummyInit)-731866)
+((DummyInit)-731866, (goal)-600296)
+((initial)-600295, (DummyGoal)-731867)
+((DummyGoal)-731867, (goal)-600296)
+((DummyInit)-731866, (DummyGoal)-731867)
+((get-out-of-car bob accord slc)-731868, (DummyGoal)-731867)
+((DummyInit)-731866, (get-out-of-car bob accord slc)-731868)
+((initial)-600295, (get-out-of-car bob accord slc)-731868)
+((get-out-of-car bob accord slc)-731868, (goal)-600296)
+((DummyGoal)-731867, (DummyGoal)-731864)
+((DummyInit)-731863, (DummyInit)-731866)
+((DummyGoal)-731864, (DummyGoal)-727121)
+((DummyInit)-727120, (DummyInit)-731863)
+((DummyGoal)-731867, (DummyGoal)-727992)
+((DummyGoal)-731864, (DummyGoal)-727992)

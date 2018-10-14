@@ -1,0 +1,41 @@
+Problem 13 of Domain blocks
+----------------------------
+Objects of Problem 13
+location_0
+location_1
+location_2
+location_3
+location_4
+block_0
+block_1
+block_2
+agent_0
+agent_1
+
+Initial State of Problem 13
+(adjacent location_0 location_1)
+(adjacent location_1 location_0)
+(adjacent location_0 location_2)
+(adjacent location_2 location_0)
+(adjacent location_1 location_2)
+(adjacent location_2 location_1)
+(adjacent location_0 location_3)
+(adjacent location_3 location_0)
+(adjacent location_3 location_4)
+(adjacent location_4 location_3)
+(at block_0 location_1)
+(occupied location_1)
+(at block_1 location_4)
+(occupied location_4)
+(at block_2 location_0)
+(occupied location_0)
+(at agent_0 location_3)
+(freehands agent_0)
+(occupied location_3)
+(at agent_1 location_2)
+(freehands agent_1)
+(occupied location_2)
+
+Goal State of Problem 13
+(at block_0 location_0)
+(at block_1 location_1)

@@ -1,0 +1,46 @@
+problem	24
+selection	E3Starx4-AddReuseHeuristic
+search	BestFirst
+runtime	1347
+opened	1296
+expanded	71
+primitives	5
+decomps	1
+composites	1
+hdepth	3
+
+
+(DummyInit)-27159003
+(pickup agent_1 block_0 location_7 location_2)-27159005
+(move agent_1 location_2 location_3)-27159006
+(putdown agent_1 block_0 location_3 location_0)-27159007
+(DummyGoal)-27159004
+
+
+Composites:
+
+(transport agent_1 block_0 location_2 location_7 location_0 location_3)-27159002
+
+Orderings:
+
+((initial)-24456359, (goal)-24456360)
+((initial)-24456359, (DummyInit)-27159003)
+((DummyInit)-27159003, (goal)-24456360)
+((initial)-24456359, (DummyGoal)-27159004)
+((DummyGoal)-27159004, (goal)-24456360)
+((DummyInit)-27159003, (DummyGoal)-27159004)
+((pickup agent_1 block_0 location_7 location_2)-27159005, (DummyGoal)-27159004)
+((DummyInit)-27159003, (pickup agent_1 block_0 location_7 location_2)-27159005)
+((initial)-24456359, (pickup agent_1 block_0 location_7 location_2)-27159005)
+((pickup agent_1 block_0 location_7 location_2)-27159005, (goal)-24456360)
+((move agent_1 location_2 location_3)-27159006, (DummyGoal)-27159004)
+((DummyInit)-27159003, (move agent_1 location_2 location_3)-27159006)
+((initial)-24456359, (move agent_1 location_2 location_3)-27159006)
+((move agent_1 location_2 location_3)-27159006, (goal)-24456360)
+((putdown agent_1 block_0 location_3 location_0)-27159007, (DummyGoal)-27159004)
+((DummyInit)-27159003, (putdown agent_1 block_0 location_3 location_0)-27159007)
+((initial)-24456359, (putdown agent_1 block_0 location_3 location_0)-27159007)
+((putdown agent_1 block_0 location_3 location_0)-27159007, (goal)-24456360)
+((pickup agent_1 block_0 location_7 location_2)-27159005, (move agent_1 location_2 location_3)-27159006)
+((move agent_1 location_2 location_3)-27159006, (putdown agent_1 block_0 location_3 location_0)-27159007)
+((pickup agent_1 block_0 location_7 location_2)-27159005, (putdown agent_1 block_0 location_3 location_0)-27159007)

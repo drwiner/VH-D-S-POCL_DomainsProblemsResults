@@ -1,0 +1,32 @@
+problem	7
+selection	E3Starx1-NumOCsHeuristic
+search	BestFirst
+runtime	340
+opened	791
+expanded	212
+primitives	3
+decomps	0
+composites	0
+hdepth	0
+
+
+(get-in-car bob accord raleigh)-8101234
+(drive bob accord raleigh la)-8099542
+(get-out-of-car bob accord la)-8099246
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-7466312, (goal)-7466313)
+((initial)-7466312, (get-out-of-car bob accord la)-8099246)
+((get-out-of-car bob accord la)-8099246, (goal)-7466313)
+((initial)-7466312, (drive bob accord raleigh la)-8099542)
+((drive bob accord raleigh la)-8099542, (goal)-7466313)
+((drive bob accord raleigh la)-8099542, (get-out-of-car bob accord la)-8099246)
+((initial)-7466312, (get-in-car bob accord raleigh)-8101234)
+((get-in-car bob accord raleigh)-8101234, (goal)-7466313)
+((get-in-car bob accord raleigh)-8101234, (drive bob accord raleigh la)-8099542)
+((get-in-car bob accord raleigh)-8101234, (get-out-of-car bob accord la)-8099246)

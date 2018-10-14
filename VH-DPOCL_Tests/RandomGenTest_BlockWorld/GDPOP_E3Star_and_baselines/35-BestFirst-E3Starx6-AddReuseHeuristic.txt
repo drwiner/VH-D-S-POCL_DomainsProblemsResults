@@ -1,0 +1,54 @@
+problem	35
+selection	E3Starx6-AddReuseHeuristic
+search	BestFirst
+runtime	60229
+opened	45166
+expanded	2723
+primitives	7
+decomps	1
+composites	1
+hdepth	3
+
+
+(DummyInit)-25405487
+(pickup agent_0 block_0 location_2 location_0)-25405489
+(move agent_0 location_0 location_2)-25405490
+(putdown agent_0 block_0 location_2 location_0)-25405491
+(move agent_0 location_2 location_0)-25506443
+(putdown agent_0 block_1 location_0 location_1)-25446149
+(DummyGoal)-25405488
+
+
+Composites:
+
+(transport agent_0 block_0 location_0 location_2 location_0)-25405486
+
+Orderings:
+
+((initial)-13849543, (goal)-13849544)
+((initial)-13849543, (DummyInit)-25405487)
+((DummyInit)-25405487, (goal)-13849544)
+((initial)-13849543, (DummyGoal)-25405488)
+((DummyGoal)-25405488, (goal)-13849544)
+((DummyInit)-25405487, (DummyGoal)-25405488)
+((pickup agent_0 block_0 location_2 location_0)-25405489, (DummyGoal)-25405488)
+((DummyInit)-25405487, (pickup agent_0 block_0 location_2 location_0)-25405489)
+((initial)-13849543, (pickup agent_0 block_0 location_2 location_0)-25405489)
+((pickup agent_0 block_0 location_2 location_0)-25405489, (goal)-13849544)
+((move agent_0 location_0 location_2)-25405490, (DummyGoal)-25405488)
+((DummyInit)-25405487, (move agent_0 location_0 location_2)-25405490)
+((initial)-13849543, (move agent_0 location_0 location_2)-25405490)
+((move agent_0 location_0 location_2)-25405490, (goal)-13849544)
+((putdown agent_0 block_0 location_2 location_0)-25405491, (DummyGoal)-25405488)
+((DummyInit)-25405487, (putdown agent_0 block_0 location_2 location_0)-25405491)
+((initial)-13849543, (putdown agent_0 block_0 location_2 location_0)-25405491)
+((putdown agent_0 block_0 location_2 location_0)-25405491, (goal)-13849544)
+((pickup agent_0 block_0 location_2 location_0)-25405489, (move agent_0 location_0 location_2)-25405490)
+((move agent_0 location_0 location_2)-25405490, (putdown agent_0 block_0 location_2 location_0)-25405491)
+((pickup agent_0 block_0 location_2 location_0)-25405489, (putdown agent_0 block_0 location_2 location_0)-25405491)
+((initial)-13849543, (putdown agent_0 block_1 location_0 location_1)-25446149)
+((putdown agent_0 block_1 location_0 location_1)-25446149, (goal)-13849544)
+((initial)-13849543, (move agent_0 location_2 location_0)-25506443)
+((move agent_0 location_2 location_0)-25506443, (goal)-13849544)
+((move agent_0 location_2 location_0)-25506443, (putdown agent_0 block_1 location_0 location_1)-25446149)
+((putdown agent_0 block_0 location_2 location_0)-25405491, (move agent_0 location_2 location_0)-25506443)

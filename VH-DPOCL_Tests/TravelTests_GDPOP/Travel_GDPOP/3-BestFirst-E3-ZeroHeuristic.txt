@@ -1,0 +1,127 @@
+problem	3
+selection	E3-ZeroHeuristic
+search	BestFirst
+runtime	60002
+opened	56055
+expanded	15943
+primitives	21
+decomps	7
+composites	7
+hdepth	15
+
+
+(DummyInit)-1842820
+(DummyInit)-1843173
+(DummyInit)-1847153
+(DummyInit)-1852739
+(DummyInit)-1852742
+(deplane sara 747 raleigh)-1852744
+(DummyGoal)-1852743
+(DummyInit)-1847156
+(deplane sara 747 raleigh)-1847158
+(DummyGoal)-1847157
+(DummyGoal)-1852740
+(DummyGoal)-1847154
+(DummyInit)-1843176
+(deplane sara 747 raleigh)-1843178
+(DummyGoal)-1843177
+(DummyGoal)-1843174
+(get-in-car bob accord raleigh)-1842822
+(drive bob accord raleigh la)-1842823
+(get-out-of-car bob accord la)-1842824
+(DummyGoal)-1842821
+(deplane sara 747 la)-1842707
+
+
+Composites:
+
+(travel-by-car bob raleigh la accord)-1842819
+(generic-travel sara la raleigh)-1843172
+(generic-travel sara la raleigh)-1843175
+(generic-travel sara la raleigh)-1847152
+(generic-travel sara la raleigh)-1847155
+(generic-travel sara la raleigh)-1852738
+(generic-travel sara la raleigh)-1852741
+
+Orderings:
+
+((initial)-1699865, (goal)-1699866)
+((initial)-1699865, (deplane sara 747 la)-1842707)
+((deplane sara 747 la)-1842707, (goal)-1699866)
+((initial)-1699865, (DummyInit)-1842820)
+((DummyInit)-1842820, (goal)-1699866)
+((initial)-1699865, (DummyGoal)-1842821)
+((DummyGoal)-1842821, (goal)-1699866)
+((DummyInit)-1842820, (DummyGoal)-1842821)
+((get-in-car bob accord raleigh)-1842822, (DummyGoal)-1842821)
+((DummyInit)-1842820, (get-in-car bob accord raleigh)-1842822)
+((initial)-1699865, (get-in-car bob accord raleigh)-1842822)
+((get-in-car bob accord raleigh)-1842822, (goal)-1699866)
+((drive bob accord raleigh la)-1842823, (DummyGoal)-1842821)
+((DummyInit)-1842820, (drive bob accord raleigh la)-1842823)
+((initial)-1699865, (drive bob accord raleigh la)-1842823)
+((drive bob accord raleigh la)-1842823, (goal)-1699866)
+((get-out-of-car bob accord la)-1842824, (DummyGoal)-1842821)
+((DummyInit)-1842820, (get-out-of-car bob accord la)-1842824)
+((initial)-1699865, (get-out-of-car bob accord la)-1842824)
+((get-out-of-car bob accord la)-1842824, (goal)-1699866)
+((get-in-car bob accord raleigh)-1842822, (drive bob accord raleigh la)-1842823)
+((drive bob accord raleigh la)-1842823, (get-out-of-car bob accord la)-1842824)
+((get-in-car bob accord raleigh)-1842822, (get-out-of-car bob accord la)-1842824)
+((initial)-1699865, (DummyInit)-1843173)
+((DummyInit)-1843173, (goal)-1699866)
+((initial)-1699865, (DummyGoal)-1843174)
+((DummyGoal)-1843174, (goal)-1699866)
+((DummyInit)-1843173, (DummyGoal)-1843174)
+((initial)-1699865, (DummyInit)-1843176)
+((DummyInit)-1843176, (goal)-1699866)
+((initial)-1699865, (DummyGoal)-1843177)
+((DummyGoal)-1843177, (goal)-1699866)
+((DummyInit)-1843176, (DummyGoal)-1843177)
+((deplane sara 747 raleigh)-1843178, (DummyGoal)-1843177)
+((DummyInit)-1843176, (deplane sara 747 raleigh)-1843178)
+((initial)-1699865, (deplane sara 747 raleigh)-1843178)
+((deplane sara 747 raleigh)-1843178, (goal)-1699866)
+((DummyGoal)-1843177, (DummyGoal)-1843174)
+((DummyInit)-1843173, (DummyInit)-1843176)
+((DummyGoal)-1843174, (DummyGoal)-1842821)
+((DummyInit)-1842820, (DummyInit)-1843173)
+((DummyGoal)-1843174, (deplane sara 747 la)-1842707)
+((DummyGoal)-1842821, (deplane sara 747 la)-1842707)
+((initial)-1699865, (DummyInit)-1847153)
+((DummyInit)-1847153, (goal)-1699866)
+((initial)-1699865, (DummyGoal)-1847154)
+((DummyGoal)-1847154, (goal)-1699866)
+((DummyInit)-1847153, (DummyGoal)-1847154)
+((initial)-1699865, (DummyInit)-1847156)
+((DummyInit)-1847156, (goal)-1699866)
+((initial)-1699865, (DummyGoal)-1847157)
+((DummyGoal)-1847157, (goal)-1699866)
+((DummyInit)-1847156, (DummyGoal)-1847157)
+((deplane sara 747 raleigh)-1847158, (DummyGoal)-1847157)
+((DummyInit)-1847156, (deplane sara 747 raleigh)-1847158)
+((initial)-1699865, (deplane sara 747 raleigh)-1847158)
+((deplane sara 747 raleigh)-1847158, (goal)-1699866)
+((DummyGoal)-1847157, (DummyGoal)-1847154)
+((DummyInit)-1847153, (DummyInit)-1847156)
+((DummyGoal)-1847154, (DummyGoal)-1843174)
+((DummyInit)-1843173, (DummyInit)-1847153)
+((initial)-1699865, (DummyInit)-1852739)
+((DummyInit)-1852739, (goal)-1699866)
+((initial)-1699865, (DummyGoal)-1852740)
+((DummyGoal)-1852740, (goal)-1699866)
+((DummyInit)-1852739, (DummyGoal)-1852740)
+((initial)-1699865, (DummyInit)-1852742)
+((DummyInit)-1852742, (goal)-1699866)
+((initial)-1699865, (DummyGoal)-1852743)
+((DummyGoal)-1852743, (goal)-1699866)
+((DummyInit)-1852742, (DummyGoal)-1852743)
+((deplane sara 747 raleigh)-1852744, (DummyGoal)-1852743)
+((DummyInit)-1852742, (deplane sara 747 raleigh)-1852744)
+((initial)-1699865, (deplane sara 747 raleigh)-1852744)
+((deplane sara 747 raleigh)-1852744, (goal)-1699866)
+((DummyGoal)-1852743, (DummyGoal)-1852740)
+((DummyInit)-1852739, (DummyInit)-1852742)
+((DummyGoal)-1852740, (DummyGoal)-1847154)
+((DummyInit)-1847153, (DummyInit)-1852739)
+((DummyGoal)-1847157, (DummyGoal)-1852740)

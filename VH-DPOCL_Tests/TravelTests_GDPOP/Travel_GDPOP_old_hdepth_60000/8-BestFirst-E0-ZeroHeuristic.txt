@@ -1,0 +1,43 @@
+problem	8
+selection	E0-ZeroHeuristic
+search	BestFirst
+runtime	60001
+opened	197523
+expanded	22874
+primitives	6
+decomps	0
+composites	0
+hdepth	0
+
+
+(fly roger 747 ny la)-8896679
+(fly bob 747 la ny)-8831185
+(board-plane roger 747 la)-8836967
+(deplane roger 747 la)-8828783
+(board-plane dave 747 slc)-8829357
+(deplane dave 747 ny)-8828435
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-8658127, (goal)-8658128)
+((initial)-8658127, (deplane dave 747 ny)-8828435)
+((deplane dave 747 ny)-8828435, (goal)-8658128)
+((initial)-8658127, (deplane roger 747 la)-8828783)
+((deplane roger 747 la)-8828783, (goal)-8658128)
+((initial)-8658127, (board-plane dave 747 slc)-8829357)
+((board-plane dave 747 slc)-8829357, (goal)-8658128)
+((board-plane dave 747 slc)-8829357, (deplane dave 747 ny)-8828435)
+((initial)-8658127, (fly bob 747 la ny)-8831185)
+((fly bob 747 la ny)-8831185, (goal)-8658128)
+((fly bob 747 la ny)-8831185, (deplane dave 747 ny)-8828435)
+((initial)-8658127, (board-plane roger 747 la)-8836967)
+((board-plane roger 747 la)-8836967, (goal)-8658128)
+((board-plane roger 747 la)-8836967, (deplane roger 747 la)-8828783)
+((initial)-8658127, (fly roger 747 ny la)-8896679)
+((fly roger 747 ny la)-8896679, (goal)-8658128)
+((fly roger 747 ny la)-8896679, (board-plane roger 747 la)-8836967)
+((fly roger 747 ny la)-8896679, (fly bob 747 la ny)-8831185)

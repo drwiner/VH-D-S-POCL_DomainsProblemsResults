@@ -1,0 +1,41 @@
+problem	1
+selection	E0-ZeroHeuristic
+search	BestFirst
+runtime	4048
+opened	13596
+expanded	3320
+primitives	5
+decomps	0
+composites	0
+hdepth	0
+
+
+(get-in-car sara mazda slc)-29604
+(get-in-car david mazda slc)-13878
+(drive david mazda slc raleigh)-10760
+(get-out-of-car sara mazda raleigh)-8810
+(get-out-of-car david mazda raleigh)-8680
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-220, (goal)-221)
+((initial)-220, (get-out-of-car david mazda raleigh)-8680)
+((get-out-of-car david mazda raleigh)-8680, (goal)-221)
+((initial)-220, (get-out-of-car sara mazda raleigh)-8810)
+((get-out-of-car sara mazda raleigh)-8810, (goal)-221)
+((initial)-220, (drive david mazda slc raleigh)-10760)
+((drive david mazda slc raleigh)-10760, (goal)-221)
+((drive david mazda slc raleigh)-10760, (get-out-of-car david mazda raleigh)-8680)
+((initial)-220, (get-in-car david mazda slc)-13878)
+((get-in-car david mazda slc)-13878, (goal)-221)
+((get-in-car david mazda slc)-13878, (drive david mazda slc raleigh)-10760)
+((get-in-car david mazda slc)-13878, (get-out-of-car david mazda raleigh)-8680)
+((drive david mazda slc raleigh)-10760, (get-out-of-car sara mazda raleigh)-8810)
+((initial)-220, (get-in-car sara mazda slc)-29604)
+((get-in-car sara mazda slc)-29604, (goal)-221)
+((get-in-car sara mazda slc)-29604, (get-out-of-car sara mazda raleigh)-8810)
+((get-in-car sara mazda slc)-29604, (drive david mazda slc raleigh)-10760)

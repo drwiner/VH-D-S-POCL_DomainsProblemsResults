@@ -1,0 +1,88 @@
+problem	8
+selection	E3Starx2-AddReuseHeuristic
+search	BestFirst
+runtime	60011
+opened	19772
+expanded	4184
+primitives	14
+decomps	1
+composites	1
+hdepth	4
+
+
+(get-in-car dave accord slc)-13157843
+(get-in-car roger accord la)-13137215
+(drive roger accord slc la)-13138198
+(get-out-of-car roger accord la)-13127891
+(drive dave accord la raleigh)-13148947
+(drive sara accord la slc)-13146633
+(get-in-car dave accord slc)-13145785
+(get-out-of-car dave accord raleigh)-13128065
+(DummyInit)-13127753
+(buy-tickets dave)-13127755
+(board-plane dave 747 raleigh)-13127756
+(fly dave 747 raleigh ny)-13127757
+(deplane dave 747 ny)-13127758
+(DummyGoal)-13127754
+
+
+Composites:
+
+(travel-by-plane dave raleigh ny 747)-13127752
+
+Orderings:
+
+((initial)-8658127, (goal)-8658128)
+((initial)-8658127, (DummyInit)-13127753)
+((DummyInit)-13127753, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-13127754)
+((DummyGoal)-13127754, (goal)-8658128)
+((DummyInit)-13127753, (DummyGoal)-13127754)
+((buy-tickets dave)-13127755, (DummyGoal)-13127754)
+((DummyInit)-13127753, (buy-tickets dave)-13127755)
+((initial)-8658127, (buy-tickets dave)-13127755)
+((buy-tickets dave)-13127755, (goal)-8658128)
+((board-plane dave 747 raleigh)-13127756, (DummyGoal)-13127754)
+((DummyInit)-13127753, (board-plane dave 747 raleigh)-13127756)
+((initial)-8658127, (board-plane dave 747 raleigh)-13127756)
+((board-plane dave 747 raleigh)-13127756, (goal)-8658128)
+((fly dave 747 raleigh ny)-13127757, (DummyGoal)-13127754)
+((DummyInit)-13127753, (fly dave 747 raleigh ny)-13127757)
+((initial)-8658127, (fly dave 747 raleigh ny)-13127757)
+((fly dave 747 raleigh ny)-13127757, (goal)-8658128)
+((deplane dave 747 ny)-13127758, (DummyGoal)-13127754)
+((DummyInit)-13127753, (deplane dave 747 ny)-13127758)
+((initial)-8658127, (deplane dave 747 ny)-13127758)
+((deplane dave 747 ny)-13127758, (goal)-8658128)
+((buy-tickets dave)-13127755, (board-plane dave 747 raleigh)-13127756)
+((board-plane dave 747 raleigh)-13127756, (fly dave 747 raleigh ny)-13127757)
+((fly dave 747 raleigh ny)-13127757, (deplane dave 747 ny)-13127758)
+((board-plane dave 747 raleigh)-13127756, (deplane dave 747 ny)-13127758)
+((initial)-8658127, (get-out-of-car roger accord la)-13127891)
+((get-out-of-car roger accord la)-13127891, (goal)-8658128)
+((initial)-8658127, (get-out-of-car dave accord raleigh)-13128065)
+((get-out-of-car dave accord raleigh)-13128065, (goal)-8658128)
+((get-out-of-car dave accord raleigh)-13128065, (DummyInit)-13127753)
+((initial)-8658127, (get-in-car roger accord la)-13137215)
+((get-in-car roger accord la)-13137215, (goal)-8658128)
+((get-in-car roger accord la)-13137215, (get-out-of-car roger accord la)-13127891)
+((initial)-8658127, (drive roger accord slc la)-13138198)
+((drive roger accord slc la)-13138198, (goal)-8658128)
+((drive roger accord slc la)-13138198, (get-out-of-car roger accord la)-13127891)
+((get-in-car roger accord la)-13137215, (drive roger accord slc la)-13138198)
+((initial)-8658127, (get-in-car dave accord slc)-13145785)
+((get-in-car dave accord slc)-13145785, (goal)-8658128)
+((get-in-car dave accord slc)-13145785, (get-out-of-car dave accord raleigh)-13128065)
+((initial)-8658127, (drive sara accord la slc)-13146633)
+((drive sara accord la slc)-13146633, (goal)-8658128)
+((drive sara accord la slc)-13146633, (get-in-car dave accord slc)-13145785)
+((get-out-of-car roger accord la)-13127891, (drive sara accord la slc)-13146633)
+((drive roger accord slc la)-13138198, (drive sara accord la slc)-13146633)
+((initial)-8658127, (drive dave accord la raleigh)-13148947)
+((drive dave accord la raleigh)-13148947, (goal)-8658128)
+((drive dave accord la raleigh)-13148947, (get-out-of-car dave accord raleigh)-13128065)
+((get-out-of-car roger accord la)-13127891, (drive dave accord la raleigh)-13148947)
+((initial)-8658127, (get-in-car dave accord slc)-13157843)
+((get-in-car dave accord slc)-13157843, (goal)-8658128)
+((get-in-car dave accord slc)-13157843, (drive dave accord la raleigh)-13148947)
+((drive roger accord slc la)-13138198, (drive dave accord la raleigh)-13148947)

@@ -1,0 +1,71 @@
+problem	4
+selection	E3Starx1-ZeroHeuristic
+search	BestFirst
+runtime	1164
+opened	1885
+expanded	630
+primitives	10
+decomps	1
+composites	1
+hdepth	8
+
+
+(buy-tickets bob)-2860971
+(board-plane bob 747 raleigh)-2859172
+(fly bob 747 raleigh la)-2858721
+(deplane bob 747 la)-2858585
+(DummyInit)-2858513
+(buy-tickets sara)-2858515
+(board-plane sara 747 la)-2858516
+(fly sara 747 la raleigh)-2858517
+(deplane sara 747 raleigh)-2858518
+(DummyGoal)-2858514
+
+
+Composites:
+
+(travel-by-plane sara la raleigh 747)-2858512
+
+Orderings:
+
+((initial)-2343307, (goal)-2343308)
+((initial)-2343307, (DummyInit)-2858513)
+((DummyInit)-2858513, (goal)-2343308)
+((initial)-2343307, (DummyGoal)-2858514)
+((DummyGoal)-2858514, (goal)-2343308)
+((DummyInit)-2858513, (DummyGoal)-2858514)
+((buy-tickets sara)-2858515, (DummyGoal)-2858514)
+((DummyInit)-2858513, (buy-tickets sara)-2858515)
+((initial)-2343307, (buy-tickets sara)-2858515)
+((buy-tickets sara)-2858515, (goal)-2343308)
+((board-plane sara 747 la)-2858516, (DummyGoal)-2858514)
+((DummyInit)-2858513, (board-plane sara 747 la)-2858516)
+((initial)-2343307, (board-plane sara 747 la)-2858516)
+((board-plane sara 747 la)-2858516, (goal)-2343308)
+((fly sara 747 la raleigh)-2858517, (DummyGoal)-2858514)
+((DummyInit)-2858513, (fly sara 747 la raleigh)-2858517)
+((initial)-2343307, (fly sara 747 la raleigh)-2858517)
+((fly sara 747 la raleigh)-2858517, (goal)-2343308)
+((deplane sara 747 raleigh)-2858518, (DummyGoal)-2858514)
+((DummyInit)-2858513, (deplane sara 747 raleigh)-2858518)
+((initial)-2343307, (deplane sara 747 raleigh)-2858518)
+((deplane sara 747 raleigh)-2858518, (goal)-2343308)
+((buy-tickets sara)-2858515, (board-plane sara 747 la)-2858516)
+((board-plane sara 747 la)-2858516, (fly sara 747 la raleigh)-2858517)
+((fly sara 747 la raleigh)-2858517, (deplane sara 747 raleigh)-2858518)
+((board-plane sara 747 la)-2858516, (deplane sara 747 raleigh)-2858518)
+((initial)-2343307, (deplane bob 747 la)-2858585)
+((deplane bob 747 la)-2858585, (goal)-2343308)
+((initial)-2343307, (fly bob 747 raleigh la)-2858721)
+((fly bob 747 raleigh la)-2858721, (goal)-2343308)
+((fly bob 747 raleigh la)-2858721, (deplane bob 747 la)-2858585)
+((fly bob 747 raleigh la)-2858721, (fly sara 747 la raleigh)-2858517)
+((deplane bob 747 la)-2858585, (fly sara 747 la raleigh)-2858517)
+((initial)-2343307, (board-plane bob 747 raleigh)-2859172)
+((board-plane bob 747 raleigh)-2859172, (goal)-2343308)
+((board-plane bob 747 raleigh)-2859172, (fly bob 747 raleigh la)-2858721)
+((board-plane bob 747 raleigh)-2859172, (deplane bob 747 la)-2858585)
+((initial)-2343307, (buy-tickets bob)-2860971)
+((buy-tickets bob)-2860971, (goal)-2343308)
+((buy-tickets bob)-2860971, (board-plane bob 747 raleigh)-2859172)
+((fly bob 747 raleigh la)-2858721, (board-plane sara 747 la)-2858516)

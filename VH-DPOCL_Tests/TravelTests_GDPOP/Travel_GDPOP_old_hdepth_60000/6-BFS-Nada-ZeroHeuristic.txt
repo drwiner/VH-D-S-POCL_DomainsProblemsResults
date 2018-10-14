@@ -1,0 +1,82 @@
+problem	6
+selection	Nada-ZeroHeuristic
+search	BFS
+runtime	60019
+opened	55388
+expanded	6303
+primitives	12
+decomps	2
+composites	2
+hdepth	7
+
+
+(DummyInit)-7853084
+(buy-tickets bob)-7853086
+(board-plane bob 747 raleigh)-7853087
+(fly bob 747 raleigh la)-7853088
+(deplane bob 747 la)-7853089
+(DummyGoal)-7853085
+(DummyInit)-7848913
+(get-in-car bob accord la)-7848915
+(drive bob accord la slc)-7848916
+(get-out-of-car bob accord slc)-7848917
+(DummyGoal)-7848914
+(get-out-of-car sara accord slc)-7849415
+
+
+Composites:
+
+(travel-by-car bob la slc accord)-7848912
+(travel-by-plane bob raleigh la 747)-7853083
+
+Orderings:
+
+((initial)-6627441, (goal)-6627442)
+((initial)-6627441, (DummyInit)-7848913)
+((DummyInit)-7848913, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7848914)
+((DummyGoal)-7848914, (goal)-6627442)
+((DummyInit)-7848913, (DummyGoal)-7848914)
+((get-in-car bob accord la)-7848915, (DummyGoal)-7848914)
+((DummyInit)-7848913, (get-in-car bob accord la)-7848915)
+((initial)-6627441, (get-in-car bob accord la)-7848915)
+((get-in-car bob accord la)-7848915, (goal)-6627442)
+((drive bob accord la slc)-7848916, (DummyGoal)-7848914)
+((DummyInit)-7848913, (drive bob accord la slc)-7848916)
+((initial)-6627441, (drive bob accord la slc)-7848916)
+((drive bob accord la slc)-7848916, (goal)-6627442)
+((get-out-of-car bob accord slc)-7848917, (DummyGoal)-7848914)
+((DummyInit)-7848913, (get-out-of-car bob accord slc)-7848917)
+((initial)-6627441, (get-out-of-car bob accord slc)-7848917)
+((get-out-of-car bob accord slc)-7848917, (goal)-6627442)
+((get-in-car bob accord la)-7848915, (drive bob accord la slc)-7848916)
+((drive bob accord la slc)-7848916, (get-out-of-car bob accord slc)-7848917)
+((get-in-car bob accord la)-7848915, (get-out-of-car bob accord slc)-7848917)
+((initial)-6627441, (get-out-of-car sara accord slc)-7849415)
+((get-out-of-car sara accord slc)-7849415, (goal)-6627442)
+((initial)-6627441, (DummyInit)-7853084)
+((DummyInit)-7853084, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7853085)
+((DummyGoal)-7853085, (goal)-6627442)
+((DummyInit)-7853084, (DummyGoal)-7853085)
+((buy-tickets bob)-7853086, (DummyGoal)-7853085)
+((DummyInit)-7853084, (buy-tickets bob)-7853086)
+((initial)-6627441, (buy-tickets bob)-7853086)
+((buy-tickets bob)-7853086, (goal)-6627442)
+((board-plane bob 747 raleigh)-7853087, (DummyGoal)-7853085)
+((DummyInit)-7853084, (board-plane bob 747 raleigh)-7853087)
+((initial)-6627441, (board-plane bob 747 raleigh)-7853087)
+((board-plane bob 747 raleigh)-7853087, (goal)-6627442)
+((fly bob 747 raleigh la)-7853088, (DummyGoal)-7853085)
+((DummyInit)-7853084, (fly bob 747 raleigh la)-7853088)
+((initial)-6627441, (fly bob 747 raleigh la)-7853088)
+((fly bob 747 raleigh la)-7853088, (goal)-6627442)
+((deplane bob 747 la)-7853089, (DummyGoal)-7853085)
+((DummyInit)-7853084, (deplane bob 747 la)-7853089)
+((initial)-6627441, (deplane bob 747 la)-7853089)
+((deplane bob 747 la)-7853089, (goal)-6627442)
+((buy-tickets bob)-7853086, (board-plane bob 747 raleigh)-7853087)
+((board-plane bob 747 raleigh)-7853087, (fly bob 747 raleigh la)-7853088)
+((fly bob 747 raleigh la)-7853088, (deplane bob 747 la)-7853089)
+((board-plane bob 747 raleigh)-7853087, (deplane bob 747 la)-7853089)
+((DummyGoal)-7853085, (DummyInit)-7848913)

@@ -1,0 +1,49 @@
+problem	6
+selection	E3-ZeroHeuristic
+search	BestFirst
+runtime	60009
+opened	79388
+expanded	2763
+primitives	6
+decomps	1
+composites	1
+hdepth	1
+
+
+(DummyInit)-6285365
+(pickup agent_1 block_0 location_1 location_0)-6285367
+(move agent_1 location_0 location_3)-6285368
+(putdown agent_1 block_0 location_3 location_0)-6285369
+(DummyGoal)-6285366
+(putdown agent_0 block_1 location_0 location_1)-6284014
+
+
+Composites:
+
+(transport agent_1 block_0 location_0 location_1 location_0 location_3)-6285364
+
+Orderings:
+
+((initial)-5282080, (goal)-5282081)
+((initial)-5282080, (putdown agent_0 block_1 location_0 location_1)-6284014)
+((putdown agent_0 block_1 location_0 location_1)-6284014, (goal)-5282081)
+((initial)-5282080, (DummyInit)-6285365)
+((DummyInit)-6285365, (goal)-5282081)
+((initial)-5282080, (DummyGoal)-6285366)
+((DummyGoal)-6285366, (goal)-5282081)
+((DummyInit)-6285365, (DummyGoal)-6285366)
+((pickup agent_1 block_0 location_1 location_0)-6285367, (DummyGoal)-6285366)
+((DummyInit)-6285365, (pickup agent_1 block_0 location_1 location_0)-6285367)
+((initial)-5282080, (pickup agent_1 block_0 location_1 location_0)-6285367)
+((pickup agent_1 block_0 location_1 location_0)-6285367, (goal)-5282081)
+((move agent_1 location_0 location_3)-6285368, (DummyGoal)-6285366)
+((DummyInit)-6285365, (move agent_1 location_0 location_3)-6285368)
+((initial)-5282080, (move agent_1 location_0 location_3)-6285368)
+((move agent_1 location_0 location_3)-6285368, (goal)-5282081)
+((putdown agent_1 block_0 location_3 location_0)-6285369, (DummyGoal)-6285366)
+((DummyInit)-6285365, (putdown agent_1 block_0 location_3 location_0)-6285369)
+((initial)-5282080, (putdown agent_1 block_0 location_3 location_0)-6285369)
+((putdown agent_1 block_0 location_3 location_0)-6285369, (goal)-5282081)
+((pickup agent_1 block_0 location_1 location_0)-6285367, (move agent_1 location_0 location_3)-6285368)
+((move agent_1 location_0 location_3)-6285368, (putdown agent_1 block_0 location_3 location_0)-6285369)
+((pickup agent_1 block_0 location_1 location_0)-6285367, (putdown agent_1 block_0 location_3 location_0)-6285369)

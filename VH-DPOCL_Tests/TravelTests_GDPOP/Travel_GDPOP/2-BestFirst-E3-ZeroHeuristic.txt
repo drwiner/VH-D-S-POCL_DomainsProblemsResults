@@ -1,0 +1,73 @@
+problem	2
+selection	E3-ZeroHeuristic
+search	BestFirst
+runtime	20133
+opened	21840
+expanded	6644
+primitives	9
+decomps	2
+composites	2
+hdepth	8
+
+
+(DummyInit)-1507622
+(get-in-car sara accord raleigh)-1507624
+(DummyInit)-1510702
+(get-out-of-car sara accord raleigh)-1510704
+(drive sara accord raleigh la)-1507625
+(DummyGoal)-1510703
+(get-out-of-car sara accord la)-1507626
+(get-in-car sara accord la)-1507726
+(DummyGoal)-1507623
+
+
+Composites:
+
+(travel-by-car sara raleigh la accord)-1507621
+(generic-travel sara la raleigh)-1510701
+
+Orderings:
+
+((initial)-1314332, (goal)-1314333)
+((initial)-1314332, (DummyInit)-1507622)
+((DummyInit)-1507622, (goal)-1314333)
+((initial)-1314332, (DummyGoal)-1507623)
+((DummyGoal)-1507623, (goal)-1314333)
+((DummyInit)-1507622, (DummyGoal)-1507623)
+((get-in-car sara accord raleigh)-1507624, (DummyGoal)-1507623)
+((DummyInit)-1507622, (get-in-car sara accord raleigh)-1507624)
+((initial)-1314332, (get-in-car sara accord raleigh)-1507624)
+((get-in-car sara accord raleigh)-1507624, (goal)-1314333)
+((drive sara accord raleigh la)-1507625, (DummyGoal)-1507623)
+((DummyInit)-1507622, (drive sara accord raleigh la)-1507625)
+((initial)-1314332, (drive sara accord raleigh la)-1507625)
+((drive sara accord raleigh la)-1507625, (goal)-1314333)
+((get-out-of-car sara accord la)-1507626, (DummyGoal)-1507623)
+((DummyInit)-1507622, (get-out-of-car sara accord la)-1507626)
+((initial)-1314332, (get-out-of-car sara accord la)-1507626)
+((get-out-of-car sara accord la)-1507626, (goal)-1314333)
+((get-in-car sara accord raleigh)-1507624, (drive sara accord raleigh la)-1507625)
+((drive sara accord raleigh la)-1507625, (get-out-of-car sara accord la)-1507626)
+((get-in-car sara accord raleigh)-1507624, (get-out-of-car sara accord la)-1507626)
+((initial)-1314332, (get-in-car sara accord la)-1507726)
+((get-in-car sara accord la)-1507726, (goal)-1314333)
+((get-in-car sara accord la)-1507726, (DummyGoal)-1507623)
+((DummyInit)-1507622, (get-in-car sara accord la)-1507726)
+((get-out-of-car sara accord la)-1507626, (get-in-car sara accord la)-1507726)
+((initial)-1314332, (DummyInit)-1510702)
+((DummyInit)-1510702, (goal)-1314333)
+((initial)-1314332, (DummyGoal)-1510703)
+((DummyGoal)-1510703, (goal)-1314333)
+((DummyInit)-1510702, (DummyGoal)-1510703)
+((get-out-of-car sara accord raleigh)-1510704, (DummyGoal)-1510703)
+((DummyInit)-1510702, (get-out-of-car sara accord raleigh)-1510704)
+((initial)-1314332, (get-out-of-car sara accord raleigh)-1510704)
+((get-out-of-car sara accord raleigh)-1510704, (goal)-1314333)
+((DummyGoal)-1510703, (DummyGoal)-1507623)
+((DummyInit)-1507622, (DummyInit)-1510702)
+((get-in-car sara accord raleigh)-1507624, (DummyInit)-1510702)
+((get-in-car sara accord raleigh)-1507624, (DummyGoal)-1510703)
+((DummyGoal)-1510703, (get-out-of-car sara accord la)-1507626)
+((drive sara accord raleigh la)-1507625, (get-in-car sara accord la)-1507726)
+((get-in-car sara accord raleigh)-1507624, (get-out-of-car sara accord raleigh)-1510704)
+((get-out-of-car sara accord raleigh)-1510704, (drive sara accord raleigh la)-1507625)

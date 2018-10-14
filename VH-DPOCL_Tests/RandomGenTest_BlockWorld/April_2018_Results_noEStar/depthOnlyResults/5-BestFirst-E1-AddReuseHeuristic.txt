@@ -1,0 +1,24 @@
+problem	5
+selection	E1-AddReuseHeuristic
+search	BestFirst
+runtime	60640
+opened	12216
+expanded	125
+primitives	11
+decomps	2
+composites	2
+hdepth	2
+
+
+(move agent_1 location_0 location_2)-3840970
+(DummyInit)-3782950
+(pickup agent_2 block_0 location_6 location_1)-3782953
+(DummyInit)-3782955
+(move agent_2 location_1 location_6)-3782958
+(move agent_2 location_6 location_2)-3782959
+(DummyGoal)-3782956
+(putdown agent_2 block_0 location_2 location_0)-3782960
+(DummyGoal)-3782951
+(pickup agent_0 block_1 location_7 location_4)-3840629
+(putdown agent_0 block_1 location_4 location_1)-3740862
+

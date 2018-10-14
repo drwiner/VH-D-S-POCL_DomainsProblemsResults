@@ -1,0 +1,49 @@
+problem	0
+selection	E3Starx1-AddReuseHeuristic
+search	BestFirst
+runtime	60167
+opened	42285
+expanded	4814
+primitives	6
+decomps	1
+composites	1
+hdepth	3
+
+
+(putdown agent_0 block_1 location_0 location_1)-4906837
+(DummyInit)-4577919
+(pickup agent_0 block_0 location_1 location_0)-4577921
+(move agent_0 location_0 location_2)-4577922
+(putdown agent_0 block_0 location_2 location_0)-4577923
+(DummyGoal)-4577920
+
+
+Composites:
+
+(transport agent_0 block_0 location_0 location_1 location_0 location_2)-4577918
+
+Orderings:
+
+((initial)-23261, (goal)-23262)
+((initial)-23261, (DummyInit)-4577919)
+((DummyInit)-4577919, (goal)-23262)
+((initial)-23261, (DummyGoal)-4577920)
+((DummyGoal)-4577920, (goal)-23262)
+((DummyInit)-4577919, (DummyGoal)-4577920)
+((pickup agent_0 block_0 location_1 location_0)-4577921, (DummyGoal)-4577920)
+((DummyInit)-4577919, (pickup agent_0 block_0 location_1 location_0)-4577921)
+((initial)-23261, (pickup agent_0 block_0 location_1 location_0)-4577921)
+((pickup agent_0 block_0 location_1 location_0)-4577921, (goal)-23262)
+((move agent_0 location_0 location_2)-4577922, (DummyGoal)-4577920)
+((DummyInit)-4577919, (move agent_0 location_0 location_2)-4577922)
+((initial)-23261, (move agent_0 location_0 location_2)-4577922)
+((move agent_0 location_0 location_2)-4577922, (goal)-23262)
+((putdown agent_0 block_0 location_2 location_0)-4577923, (DummyGoal)-4577920)
+((DummyInit)-4577919, (putdown agent_0 block_0 location_2 location_0)-4577923)
+((initial)-23261, (putdown agent_0 block_0 location_2 location_0)-4577923)
+((putdown agent_0 block_0 location_2 location_0)-4577923, (goal)-23262)
+((pickup agent_0 block_0 location_1 location_0)-4577921, (move agent_0 location_0 location_2)-4577922)
+((move agent_0 location_0 location_2)-4577922, (putdown agent_0 block_0 location_2 location_0)-4577923)
+((pickup agent_0 block_0 location_1 location_0)-4577921, (putdown agent_0 block_0 location_2 location_0)-4577923)
+((initial)-23261, (putdown agent_0 block_1 location_0 location_1)-4906837)
+((putdown agent_0 block_1 location_0 location_1)-4906837, (goal)-23262)

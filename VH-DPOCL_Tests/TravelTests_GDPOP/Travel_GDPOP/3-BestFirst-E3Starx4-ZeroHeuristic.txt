@@ -1,0 +1,85 @@
+problem	3
+selection	E3Starx4-ZeroHeuristic
+search	BestFirst
+runtime	4046
+opened	5474
+expanded	2430
+primitives	12
+decomps	1
+composites	1
+hdepth	8
+
+
+(get-in-car bob accord raleigh)-2222040
+(drive bob accord raleigh la)-2221702
+(get-out-of-car bob accord la)-2220775
+(DummyInit)-2220766
+(buy-tickets sara)-2220768
+(board-plane sara 747 raleigh)-2220769
+(fly sara 747 raleigh la)-2220770
+(deplane sara 747 la)-2220771
+(get-in-car sara accord la)-2220974
+(drive sara accord la raleigh)-2229079
+(get-out-of-car sara accord raleigh)-2221334
+(DummyGoal)-2220767
+
+
+Composites:
+
+(travel-by-plane sara raleigh la 747)-2220765
+
+Orderings:
+
+((initial)-1699865, (goal)-1699866)
+((initial)-1699865, (DummyInit)-2220766)
+((DummyInit)-2220766, (goal)-1699866)
+((initial)-1699865, (DummyGoal)-2220767)
+((DummyGoal)-2220767, (goal)-1699866)
+((DummyInit)-2220766, (DummyGoal)-2220767)
+((buy-tickets sara)-2220768, (DummyGoal)-2220767)
+((DummyInit)-2220766, (buy-tickets sara)-2220768)
+((initial)-1699865, (buy-tickets sara)-2220768)
+((buy-tickets sara)-2220768, (goal)-1699866)
+((board-plane sara 747 raleigh)-2220769, (DummyGoal)-2220767)
+((DummyInit)-2220766, (board-plane sara 747 raleigh)-2220769)
+((initial)-1699865, (board-plane sara 747 raleigh)-2220769)
+((board-plane sara 747 raleigh)-2220769, (goal)-1699866)
+((fly sara 747 raleigh la)-2220770, (DummyGoal)-2220767)
+((DummyInit)-2220766, (fly sara 747 raleigh la)-2220770)
+((initial)-1699865, (fly sara 747 raleigh la)-2220770)
+((fly sara 747 raleigh la)-2220770, (goal)-1699866)
+((deplane sara 747 la)-2220771, (DummyGoal)-2220767)
+((DummyInit)-2220766, (deplane sara 747 la)-2220771)
+((initial)-1699865, (deplane sara 747 la)-2220771)
+((deplane sara 747 la)-2220771, (goal)-1699866)
+((buy-tickets sara)-2220768, (board-plane sara 747 raleigh)-2220769)
+((board-plane sara 747 raleigh)-2220769, (fly sara 747 raleigh la)-2220770)
+((fly sara 747 raleigh la)-2220770, (deplane sara 747 la)-2220771)
+((board-plane sara 747 raleigh)-2220769, (deplane sara 747 la)-2220771)
+((initial)-1699865, (get-out-of-car bob accord la)-2220775)
+((get-out-of-car bob accord la)-2220775, (goal)-1699866)
+((initial)-1699865, (get-in-car sara accord la)-2220974)
+((get-in-car sara accord la)-2220974, (goal)-1699866)
+((get-in-car sara accord la)-2220974, (DummyGoal)-2220767)
+((DummyInit)-2220766, (get-in-car sara accord la)-2220974)
+((deplane sara 747 la)-2220771, (get-in-car sara accord la)-2220974)
+((initial)-1699865, (get-out-of-car sara accord raleigh)-2221334)
+((get-out-of-car sara accord raleigh)-2221334, (goal)-1699866)
+((get-out-of-car sara accord raleigh)-2221334, (DummyGoal)-2220767)
+((DummyInit)-2220766, (get-out-of-car sara accord raleigh)-2221334)
+((board-plane sara 747 raleigh)-2220769, (get-out-of-car sara accord raleigh)-2221334)
+((initial)-1699865, (drive bob accord raleigh la)-2221702)
+((drive bob accord raleigh la)-2221702, (goal)-1699866)
+((drive bob accord raleigh la)-2221702, (get-out-of-car bob accord la)-2220775)
+((initial)-1699865, (get-in-car bob accord raleigh)-2222040)
+((get-in-car bob accord raleigh)-2222040, (goal)-1699866)
+((get-in-car bob accord raleigh)-2222040, (drive bob accord raleigh la)-2221702)
+((get-in-car bob accord raleigh)-2222040, (get-out-of-car bob accord la)-2220775)
+((drive bob accord raleigh la)-2221702, (get-in-car sara accord la)-2220974)
+((get-in-car sara accord la)-2220974, (get-out-of-car sara accord raleigh)-2221334)
+((initial)-1699865, (drive sara accord la raleigh)-2229079)
+((drive sara accord la raleigh)-2229079, (goal)-1699866)
+((drive sara accord la raleigh)-2229079, (get-out-of-car sara accord raleigh)-2221334)
+((get-in-car sara accord la)-2220974, (drive sara accord la raleigh)-2229079)
+((drive bob accord raleigh la)-2221702, (drive sara accord la raleigh)-2229079)
+((get-out-of-car bob accord la)-2220775, (drive sara accord la raleigh)-2229079)

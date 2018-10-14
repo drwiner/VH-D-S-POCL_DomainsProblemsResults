@@ -1,0 +1,78 @@
+problem	34
+selection	E3Starx0.5-AddReuseHeuristic
+search	BestFirst
+runtime	60011
+opened	36029
+expanded	3392
+primitives	11
+decomps	2
+composites	2
+hdepth	6
+
+
+(DummyInit)-2484042
+(pickup agent_0 block_1 location_4 location_2)-2484044
+(move agent_0 location_2 location_1)-2484045
+(putdown agent_0 block_1 location_1 location_0)-2484046
+(putdown agent_0 block_1 location_5 location_0)-2811243
+(DummyInit)-2489372
+(pickup agent_0 block_0 location_0 location_1)-2489374
+(move agent_0 location_1 location_0)-2489375
+(putdown agent_0 block_0 location_0 location_1)-2489376
+(DummyGoal)-2489373
+(DummyGoal)-2484043
+
+
+Composites:
+
+(transport agent_0 block_1 location_2 location_4 location_0 location_1)-2484041
+(transport agent_0 block_0 location_1 location_0 location_1)-2489371
+
+Orderings:
+
+((initial)-2921, (goal)-2922)
+((initial)-2921, (DummyInit)-2484042)
+((DummyInit)-2484042, (goal)-2922)
+((initial)-2921, (DummyGoal)-2484043)
+((DummyGoal)-2484043, (goal)-2922)
+((DummyInit)-2484042, (DummyGoal)-2484043)
+((pickup agent_0 block_1 location_4 location_2)-2484044, (DummyGoal)-2484043)
+((DummyInit)-2484042, (pickup agent_0 block_1 location_4 location_2)-2484044)
+((initial)-2921, (pickup agent_0 block_1 location_4 location_2)-2484044)
+((pickup agent_0 block_1 location_4 location_2)-2484044, (goal)-2922)
+((move agent_0 location_2 location_1)-2484045, (DummyGoal)-2484043)
+((DummyInit)-2484042, (move agent_0 location_2 location_1)-2484045)
+((initial)-2921, (move agent_0 location_2 location_1)-2484045)
+((move agent_0 location_2 location_1)-2484045, (goal)-2922)
+((putdown agent_0 block_1 location_1 location_0)-2484046, (DummyGoal)-2484043)
+((DummyInit)-2484042, (putdown agent_0 block_1 location_1 location_0)-2484046)
+((initial)-2921, (putdown agent_0 block_1 location_1 location_0)-2484046)
+((putdown agent_0 block_1 location_1 location_0)-2484046, (goal)-2922)
+((pickup agent_0 block_1 location_4 location_2)-2484044, (move agent_0 location_2 location_1)-2484045)
+((move agent_0 location_2 location_1)-2484045, (putdown agent_0 block_1 location_1 location_0)-2484046)
+((pickup agent_0 block_1 location_4 location_2)-2484044, (putdown agent_0 block_1 location_1 location_0)-2484046)
+((initial)-2921, (DummyInit)-2489372)
+((DummyInit)-2489372, (goal)-2922)
+((initial)-2921, (DummyGoal)-2489373)
+((DummyGoal)-2489373, (goal)-2922)
+((DummyInit)-2489372, (DummyGoal)-2489373)
+((pickup agent_0 block_0 location_0 location_1)-2489374, (DummyGoal)-2489373)
+((DummyInit)-2489372, (pickup agent_0 block_0 location_0 location_1)-2489374)
+((initial)-2921, (pickup agent_0 block_0 location_0 location_1)-2489374)
+((pickup agent_0 block_0 location_0 location_1)-2489374, (goal)-2922)
+((move agent_0 location_1 location_0)-2489375, (DummyGoal)-2489373)
+((DummyInit)-2489372, (move agent_0 location_1 location_0)-2489375)
+((initial)-2921, (move agent_0 location_1 location_0)-2489375)
+((move agent_0 location_1 location_0)-2489375, (goal)-2922)
+((putdown agent_0 block_0 location_0 location_1)-2489376, (DummyGoal)-2489373)
+((DummyInit)-2489372, (putdown agent_0 block_0 location_0 location_1)-2489376)
+((initial)-2921, (putdown agent_0 block_0 location_0 location_1)-2489376)
+((putdown agent_0 block_0 location_0 location_1)-2489376, (goal)-2922)
+((pickup agent_0 block_0 location_0 location_1)-2489374, (move agent_0 location_1 location_0)-2489375)
+((move agent_0 location_1 location_0)-2489375, (putdown agent_0 block_0 location_0 location_1)-2489376)
+((pickup agent_0 block_0 location_0 location_1)-2489374, (putdown agent_0 block_0 location_0 location_1)-2489376)
+((initial)-2921, (putdown agent_0 block_1 location_5 location_0)-2811243)
+((putdown agent_0 block_1 location_5 location_0)-2811243, (goal)-2922)
+((putdown agent_0 block_1 location_5 location_0)-2811243, (DummyInit)-2489372)
+((putdown agent_0 block_1 location_1 location_0)-2484046, (putdown agent_0 block_1 location_5 location_0)-2811243)
+((pickup agent_0 block_1 location_4 location_2)-2484044, (putdown agent_0 block_1 location_5 location_0)-2811243)

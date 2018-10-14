@@ -1,0 +1,63 @@
+problem	5
+selection	E0-NumOCsHeuristic
+search	BestFirst
+runtime	886
+opened	3385
+expanded	830
+primitives	9
+decomps	1
+composites	1
+hdepth	1
+
+
+(get-in-car bob accord raleigh)-4613199
+(drive bob accord raleigh la)-4612493
+(get-in-car sara accord la)-4619571
+(get-out-of-car bob accord la)-4611671
+(drive sara accord la slc)-4629251
+(drive sara accord slc raleigh)-4619753
+(DummyInit)-4611280
+(get-out-of-car sara accord raleigh)-4611282
+(DummyGoal)-4611281
+
+
+Composites:
+
+(generic-travel sara raleigh)-4611279
+
+Orderings:
+
+((initial)-4606313, (goal)-4606314)
+((initial)-4606313, (DummyInit)-4611280)
+((DummyInit)-4611280, (goal)-4606314)
+((initial)-4606313, (DummyGoal)-4611281)
+((DummyGoal)-4611281, (goal)-4606314)
+((DummyInit)-4611280, (DummyGoal)-4611281)
+((get-out-of-car sara accord raleigh)-4611282, (DummyGoal)-4611281)
+((DummyInit)-4611280, (get-out-of-car sara accord raleigh)-4611282)
+((initial)-4606313, (get-out-of-car sara accord raleigh)-4611282)
+((get-out-of-car sara accord raleigh)-4611282, (goal)-4606314)
+((initial)-4606313, (get-out-of-car bob accord la)-4611671)
+((get-out-of-car bob accord la)-4611671, (goal)-4606314)
+((initial)-4606313, (drive bob accord raleigh la)-4612493)
+((drive bob accord raleigh la)-4612493, (goal)-4606314)
+((drive bob accord raleigh la)-4612493, (get-out-of-car bob accord la)-4611671)
+((initial)-4606313, (get-in-car bob accord raleigh)-4613199)
+((get-in-car bob accord raleigh)-4613199, (goal)-4606314)
+((get-in-car bob accord raleigh)-4613199, (drive bob accord raleigh la)-4612493)
+((get-in-car bob accord raleigh)-4613199, (get-out-of-car bob accord la)-4611671)
+((initial)-4606313, (get-in-car sara accord la)-4619571)
+((get-in-car sara accord la)-4619571, (goal)-4606314)
+((get-in-car sara accord la)-4619571, (get-out-of-car sara accord raleigh)-4611282)
+((initial)-4606313, (drive sara accord slc raleigh)-4619753)
+((drive sara accord slc raleigh)-4619753, (goal)-4606314)
+((drive sara accord slc raleigh)-4619753, (get-out-of-car sara accord raleigh)-4611282)
+((drive bob accord raleigh la)-4612493, (drive sara accord slc raleigh)-4619753)
+((get-in-car sara accord la)-4619571, (drive sara accord slc raleigh)-4619753)
+((drive bob accord raleigh la)-4612493, (get-in-car sara accord la)-4619571)
+((initial)-4606313, (drive sara accord la slc)-4629251)
+((drive sara accord la slc)-4629251, (goal)-4606314)
+((drive sara accord la slc)-4629251, (drive sara accord slc raleigh)-4619753)
+((get-in-car sara accord la)-4619571, (drive sara accord la slc)-4629251)
+((get-out-of-car bob accord la)-4611671, (drive sara accord la slc)-4629251)
+((drive bob accord raleigh la)-4612493, (drive sara accord la slc)-4629251)

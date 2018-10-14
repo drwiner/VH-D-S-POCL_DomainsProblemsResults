@@ -1,0 +1,49 @@
+problem	8
+selection	E3Starx0.5-ZeroHeuristic
+search	BestFirst
+runtime	60104
+opened	80546
+expanded	1421
+primitives	6
+decomps	1
+composites	1
+hdepth	3
+
+
+(putdown agent_1 block_0 location_1 location_0)-433350
+(DummyInit)-296218
+(pickup agent_1 block_1 location_2 location_0)-296220
+(move agent_1 location_0 location_3)-296221
+(putdown agent_1 block_1 location_3 location_1)-296222
+(DummyGoal)-296219
+
+
+Composites:
+
+(transport agent_1 block_1 location_0 location_2 location_1 location_3)-296217
+
+Orderings:
+
+((initial)-16357, (goal)-16358)
+((initial)-16357, (DummyInit)-296218)
+((DummyInit)-296218, (goal)-16358)
+((initial)-16357, (DummyGoal)-296219)
+((DummyGoal)-296219, (goal)-16358)
+((DummyInit)-296218, (DummyGoal)-296219)
+((pickup agent_1 block_1 location_2 location_0)-296220, (DummyGoal)-296219)
+((DummyInit)-296218, (pickup agent_1 block_1 location_2 location_0)-296220)
+((initial)-16357, (pickup agent_1 block_1 location_2 location_0)-296220)
+((pickup agent_1 block_1 location_2 location_0)-296220, (goal)-16358)
+((move agent_1 location_0 location_3)-296221, (DummyGoal)-296219)
+((DummyInit)-296218, (move agent_1 location_0 location_3)-296221)
+((initial)-16357, (move agent_1 location_0 location_3)-296221)
+((move agent_1 location_0 location_3)-296221, (goal)-16358)
+((putdown agent_1 block_1 location_3 location_1)-296222, (DummyGoal)-296219)
+((DummyInit)-296218, (putdown agent_1 block_1 location_3 location_1)-296222)
+((initial)-16357, (putdown agent_1 block_1 location_3 location_1)-296222)
+((putdown agent_1 block_1 location_3 location_1)-296222, (goal)-16358)
+((pickup agent_1 block_1 location_2 location_0)-296220, (move agent_1 location_0 location_3)-296221)
+((move agent_1 location_0 location_3)-296221, (putdown agent_1 block_1 location_3 location_1)-296222)
+((pickup agent_1 block_1 location_2 location_0)-296220, (putdown agent_1 block_1 location_3 location_1)-296222)
+((initial)-16357, (putdown agent_1 block_0 location_1 location_0)-433350)
+((putdown agent_1 block_0 location_1 location_0)-433350, (goal)-16358)

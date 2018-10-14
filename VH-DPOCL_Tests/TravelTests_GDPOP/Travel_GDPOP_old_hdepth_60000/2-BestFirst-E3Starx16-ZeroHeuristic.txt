@@ -1,0 +1,52 @@
+problem	2
+selection	E3Starx16-ZeroHeuristic
+search	BestFirst
+runtime	11
+opened	44
+expanded	7
+primitives	6
+decomps	1
+composites	1
+hdepth	4
+
+
+(DummyInit)-2095328
+(buy-tickets sara)-2095330
+(board-plane sara 747 raleigh)-2095331
+(fly sara 747 raleigh la)-2095332
+(deplane sara 747 la)-2095333
+(DummyGoal)-2095329
+
+
+Composites:
+
+(travel-by-plane sara raleigh la 747)-2095327
+
+Orderings:
+
+((initial)-2080002, (goal)-2080003)
+((initial)-2080002, (DummyInit)-2095328)
+((DummyInit)-2095328, (goal)-2080003)
+((initial)-2080002, (DummyGoal)-2095329)
+((DummyGoal)-2095329, (goal)-2080003)
+((DummyInit)-2095328, (DummyGoal)-2095329)
+((buy-tickets sara)-2095330, (DummyGoal)-2095329)
+((DummyInit)-2095328, (buy-tickets sara)-2095330)
+((initial)-2080002, (buy-tickets sara)-2095330)
+((buy-tickets sara)-2095330, (goal)-2080003)
+((board-plane sara 747 raleigh)-2095331, (DummyGoal)-2095329)
+((DummyInit)-2095328, (board-plane sara 747 raleigh)-2095331)
+((initial)-2080002, (board-plane sara 747 raleigh)-2095331)
+((board-plane sara 747 raleigh)-2095331, (goal)-2080003)
+((fly sara 747 raleigh la)-2095332, (DummyGoal)-2095329)
+((DummyInit)-2095328, (fly sara 747 raleigh la)-2095332)
+((initial)-2080002, (fly sara 747 raleigh la)-2095332)
+((fly sara 747 raleigh la)-2095332, (goal)-2080003)
+((deplane sara 747 la)-2095333, (DummyGoal)-2095329)
+((DummyInit)-2095328, (deplane sara 747 la)-2095333)
+((initial)-2080002, (deplane sara 747 la)-2095333)
+((deplane sara 747 la)-2095333, (goal)-2080003)
+((buy-tickets sara)-2095330, (board-plane sara 747 raleigh)-2095331)
+((board-plane sara 747 raleigh)-2095331, (fly sara 747 raleigh la)-2095332)
+((fly sara 747 raleigh la)-2095332, (deplane sara 747 la)-2095333)
+((board-plane sara 747 raleigh)-2095331, (deplane sara 747 la)-2095333)

@@ -1,0 +1,86 @@
+problem	7
+selection	E3-ZeroHeuristic
+search	BestFirst
+runtime	6010
+opened	7605
+expanded	957
+primitives	13
+decomps	4
+composites	4
+hdepth	5
+
+
+(DummyInit)-548054
+(DummyInit)-549667
+(get-out-of-car bob mazda raleigh)-549669
+(DummyInit)-548057
+(get-out-of-car bob accord raleigh)-548059
+(DummyGoal)-548058
+(DummyGoal)-549668
+(DummyGoal)-548055
+(DummyInit)-547793
+(get-in-car bob mazda raleigh)-547795
+(drive bob mazda raleigh la)-547796
+(get-out-of-car bob mazda la)-547797
+(DummyGoal)-547794
+
+
+Composites:
+
+(travel-by-car bob raleigh la mazda)-547792
+(generic-travel bob la raleigh)-548053
+(generic-travel bob la raleigh)-548056
+(generic-travel bob la raleigh)-549666
+
+Orderings:
+
+((initial)-514781, (goal)-514782)
+((initial)-514781, (DummyInit)-547793)
+((DummyInit)-547793, (goal)-514782)
+((initial)-514781, (DummyGoal)-547794)
+((DummyGoal)-547794, (goal)-514782)
+((DummyInit)-547793, (DummyGoal)-547794)
+((get-in-car bob mazda raleigh)-547795, (DummyGoal)-547794)
+((DummyInit)-547793, (get-in-car bob mazda raleigh)-547795)
+((initial)-514781, (get-in-car bob mazda raleigh)-547795)
+((get-in-car bob mazda raleigh)-547795, (goal)-514782)
+((drive bob mazda raleigh la)-547796, (DummyGoal)-547794)
+((DummyInit)-547793, (drive bob mazda raleigh la)-547796)
+((initial)-514781, (drive bob mazda raleigh la)-547796)
+((drive bob mazda raleigh la)-547796, (goal)-514782)
+((get-out-of-car bob mazda la)-547797, (DummyGoal)-547794)
+((DummyInit)-547793, (get-out-of-car bob mazda la)-547797)
+((initial)-514781, (get-out-of-car bob mazda la)-547797)
+((get-out-of-car bob mazda la)-547797, (goal)-514782)
+((get-in-car bob mazda raleigh)-547795, (drive bob mazda raleigh la)-547796)
+((drive bob mazda raleigh la)-547796, (get-out-of-car bob mazda la)-547797)
+((get-in-car bob mazda raleigh)-547795, (get-out-of-car bob mazda la)-547797)
+((initial)-514781, (DummyInit)-548054)
+((DummyInit)-548054, (goal)-514782)
+((initial)-514781, (DummyGoal)-548055)
+((DummyGoal)-548055, (goal)-514782)
+((DummyInit)-548054, (DummyGoal)-548055)
+((initial)-514781, (DummyInit)-548057)
+((DummyInit)-548057, (goal)-514782)
+((initial)-514781, (DummyGoal)-548058)
+((DummyGoal)-548058, (goal)-514782)
+((DummyInit)-548057, (DummyGoal)-548058)
+((get-out-of-car bob accord raleigh)-548059, (DummyGoal)-548058)
+((DummyInit)-548057, (get-out-of-car bob accord raleigh)-548059)
+((initial)-514781, (get-out-of-car bob accord raleigh)-548059)
+((get-out-of-car bob accord raleigh)-548059, (goal)-514782)
+((DummyGoal)-548058, (DummyGoal)-548055)
+((DummyInit)-548054, (DummyInit)-548057)
+((DummyGoal)-548055, (DummyInit)-547793)
+((initial)-514781, (DummyInit)-549667)
+((DummyInit)-549667, (goal)-514782)
+((initial)-514781, (DummyGoal)-549668)
+((DummyGoal)-549668, (goal)-514782)
+((DummyInit)-549667, (DummyGoal)-549668)
+((get-out-of-car bob mazda raleigh)-549669, (DummyGoal)-549668)
+((DummyInit)-549667, (get-out-of-car bob mazda raleigh)-549669)
+((initial)-514781, (get-out-of-car bob mazda raleigh)-549669)
+((get-out-of-car bob mazda raleigh)-549669, (goal)-514782)
+((DummyGoal)-549668, (DummyGoal)-548055)
+((DummyInit)-548054, (DummyInit)-549667)
+((DummyGoal)-548058, (DummyGoal)-549668)

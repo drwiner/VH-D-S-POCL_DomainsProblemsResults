@@ -1,0 +1,10 @@
+problem	2
+heuristic	ZeroHeuristic
+search	DFS
+runtime	14493
+opened	82484
+expanded	720
+primitives	719
+decomps	0
+composites	0
+hdepth	0

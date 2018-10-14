@@ -1,0 +1,88 @@
+problem	8
+selection	E3Starx6-AddReuseHeuristic
+search	BestFirst
+runtime	60003
+opened	19916
+expanded	4202
+primitives	14
+decomps	1
+composites	1
+hdepth	4
+
+
+(get-in-car roger accord la)-14914451
+(drive bob accord la slc)-14902917
+(get-in-car dave accord slc)-14902045
+(drive roger accord slc raleigh)-14905331
+(get-out-of-car dave accord raleigh)-14884325
+(DummyInit)-14884013
+(buy-tickets dave)-14884015
+(board-plane dave 747 raleigh)-14884016
+(fly dave 747 raleigh ny)-14884017
+(deplane dave 747 ny)-14884018
+(DummyGoal)-14884014
+(get-in-car roger accord la)-14893475
+(drive roger accord slc la)-14894458
+(get-out-of-car roger accord la)-14884151
+
+
+Composites:
+
+(travel-by-plane dave raleigh ny 747)-14884012
+
+Orderings:
+
+((initial)-8658127, (goal)-8658128)
+((initial)-8658127, (DummyInit)-14884013)
+((DummyInit)-14884013, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-14884014)
+((DummyGoal)-14884014, (goal)-8658128)
+((DummyInit)-14884013, (DummyGoal)-14884014)
+((buy-tickets dave)-14884015, (DummyGoal)-14884014)
+((DummyInit)-14884013, (buy-tickets dave)-14884015)
+((initial)-8658127, (buy-tickets dave)-14884015)
+((buy-tickets dave)-14884015, (goal)-8658128)
+((board-plane dave 747 raleigh)-14884016, (DummyGoal)-14884014)
+((DummyInit)-14884013, (board-plane dave 747 raleigh)-14884016)
+((initial)-8658127, (board-plane dave 747 raleigh)-14884016)
+((board-plane dave 747 raleigh)-14884016, (goal)-8658128)
+((fly dave 747 raleigh ny)-14884017, (DummyGoal)-14884014)
+((DummyInit)-14884013, (fly dave 747 raleigh ny)-14884017)
+((initial)-8658127, (fly dave 747 raleigh ny)-14884017)
+((fly dave 747 raleigh ny)-14884017, (goal)-8658128)
+((deplane dave 747 ny)-14884018, (DummyGoal)-14884014)
+((DummyInit)-14884013, (deplane dave 747 ny)-14884018)
+((initial)-8658127, (deplane dave 747 ny)-14884018)
+((deplane dave 747 ny)-14884018, (goal)-8658128)
+((buy-tickets dave)-14884015, (board-plane dave 747 raleigh)-14884016)
+((board-plane dave 747 raleigh)-14884016, (fly dave 747 raleigh ny)-14884017)
+((fly dave 747 raleigh ny)-14884017, (deplane dave 747 ny)-14884018)
+((board-plane dave 747 raleigh)-14884016, (deplane dave 747 ny)-14884018)
+((initial)-8658127, (get-out-of-car roger accord la)-14884151)
+((get-out-of-car roger accord la)-14884151, (goal)-8658128)
+((initial)-8658127, (get-out-of-car dave accord raleigh)-14884325)
+((get-out-of-car dave accord raleigh)-14884325, (goal)-8658128)
+((get-out-of-car dave accord raleigh)-14884325, (DummyInit)-14884013)
+((initial)-8658127, (get-in-car roger accord la)-14893475)
+((get-in-car roger accord la)-14893475, (goal)-8658128)
+((get-in-car roger accord la)-14893475, (get-out-of-car roger accord la)-14884151)
+((initial)-8658127, (drive roger accord slc la)-14894458)
+((drive roger accord slc la)-14894458, (goal)-8658128)
+((drive roger accord slc la)-14894458, (get-out-of-car roger accord la)-14884151)
+((get-in-car roger accord la)-14893475, (drive roger accord slc la)-14894458)
+((initial)-8658127, (get-in-car dave accord slc)-14902045)
+((get-in-car dave accord slc)-14902045, (goal)-8658128)
+((get-in-car dave accord slc)-14902045, (get-out-of-car dave accord raleigh)-14884325)
+((initial)-8658127, (drive bob accord la slc)-14902917)
+((drive bob accord la slc)-14902917, (goal)-8658128)
+((drive bob accord la slc)-14902917, (get-in-car dave accord slc)-14902045)
+((drive bob accord la slc)-14902917, (drive roger accord slc la)-14894458)
+((get-in-car dave accord slc)-14902045, (drive roger accord slc la)-14894458)
+((initial)-8658127, (drive roger accord slc raleigh)-14905331)
+((drive roger accord slc raleigh)-14905331, (goal)-8658128)
+((drive roger accord slc raleigh)-14905331, (get-out-of-car dave accord raleigh)-14884325)
+((get-in-car dave accord slc)-14902045, (drive roger accord slc raleigh)-14905331)
+((initial)-8658127, (get-in-car roger accord la)-14914451)
+((get-in-car roger accord la)-14914451, (goal)-8658128)
+((get-in-car roger accord la)-14914451, (drive roger accord slc raleigh)-14905331)
+((get-in-car roger accord la)-14914451, (get-out-of-car roger accord la)-14884151)

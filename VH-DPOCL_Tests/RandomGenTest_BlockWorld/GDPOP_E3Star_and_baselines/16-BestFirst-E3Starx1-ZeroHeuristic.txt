@@ -1,0 +1,50 @@
+problem	16
+selection	E3Starx1-ZeroHeuristic
+search	BestFirst
+runtime	60006
+opened	77620
+expanded	816
+primitives	6
+decomps	1
+composites	1
+hdepth	3
+
+
+(putdown agent_0 block_0 location_0 location_1)-234818
+(DummyInit)-15475
+(pickup agent_1 block_0 location_1 location_0)-15477
+(move agent_1 location_0 location_5)-15478
+(putdown agent_1 block_0 location_5 location_0)-15479
+(DummyGoal)-15476
+
+
+Composites:
+
+(transport agent_1 block_0 location_0 location_1 location_0 location_5)-15474
+
+Orderings:
+
+((initial)-15001, (goal)-15002)
+((initial)-15001, (DummyInit)-15475)
+((DummyInit)-15475, (goal)-15002)
+((initial)-15001, (DummyGoal)-15476)
+((DummyGoal)-15476, (goal)-15002)
+((DummyInit)-15475, (DummyGoal)-15476)
+((pickup agent_1 block_0 location_1 location_0)-15477, (DummyGoal)-15476)
+((DummyInit)-15475, (pickup agent_1 block_0 location_1 location_0)-15477)
+((initial)-15001, (pickup agent_1 block_0 location_1 location_0)-15477)
+((pickup agent_1 block_0 location_1 location_0)-15477, (goal)-15002)
+((move agent_1 location_0 location_5)-15478, (DummyGoal)-15476)
+((DummyInit)-15475, (move agent_1 location_0 location_5)-15478)
+((initial)-15001, (move agent_1 location_0 location_5)-15478)
+((move agent_1 location_0 location_5)-15478, (goal)-15002)
+((putdown agent_1 block_0 location_5 location_0)-15479, (DummyGoal)-15476)
+((DummyInit)-15475, (putdown agent_1 block_0 location_5 location_0)-15479)
+((initial)-15001, (putdown agent_1 block_0 location_5 location_0)-15479)
+((putdown agent_1 block_0 location_5 location_0)-15479, (goal)-15002)
+((pickup agent_1 block_0 location_1 location_0)-15477, (move agent_1 location_0 location_5)-15478)
+((move agent_1 location_0 location_5)-15478, (putdown agent_1 block_0 location_5 location_0)-15479)
+((pickup agent_1 block_0 location_1 location_0)-15477, (putdown agent_1 block_0 location_5 location_0)-15479)
+((initial)-15001, (putdown agent_0 block_0 location_0 location_1)-234818)
+((putdown agent_0 block_0 location_0 location_1)-234818, (goal)-15002)
+((putdown agent_0 block_0 location_0 location_1)-234818, (DummyInit)-15475)

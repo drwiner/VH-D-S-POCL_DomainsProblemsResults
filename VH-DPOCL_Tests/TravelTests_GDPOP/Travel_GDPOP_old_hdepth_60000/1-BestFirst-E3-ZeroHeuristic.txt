@@ -1,0 +1,69 @@
+problem	1
+selection	E3-ZeroHeuristic
+search	BestFirst
+runtime	60002
+opened	93166
+expanded	15725
+primitives	11
+decomps	4
+composites	4
+hdepth	2
+
+
+(DummyInit)-1189468
+(DummyInit)-1189471
+(deplane bea delta raleigh)-1189473
+(DummyGoal)-1189472
+(DummyGoal)-1189469
+(DummyInit)-1158960
+(deplane sara united raleigh)-1158962
+(DummyGoal)-1158961
+(DummyInit)-1158433
+(get-out-of-car david mazda raleigh)-1158435
+(DummyGoal)-1158434
+
+
+Composites:
+
+(generic-travel david raleigh)-1158432
+(generic-travel sara raleigh)-1158959
+(generic-travel bea raleigh)-1189467
+(generic-travel bea raleigh)-1189470
+
+Orderings:
+
+((initial)-220, (goal)-221)
+((initial)-220, (DummyInit)-1158433)
+((DummyInit)-1158433, (goal)-221)
+((initial)-220, (DummyGoal)-1158434)
+((DummyGoal)-1158434, (goal)-221)
+((DummyInit)-1158433, (DummyGoal)-1158434)
+((get-out-of-car david mazda raleigh)-1158435, (DummyGoal)-1158434)
+((DummyInit)-1158433, (get-out-of-car david mazda raleigh)-1158435)
+((initial)-220, (get-out-of-car david mazda raleigh)-1158435)
+((get-out-of-car david mazda raleigh)-1158435, (goal)-221)
+((initial)-220, (DummyInit)-1158960)
+((DummyInit)-1158960, (goal)-221)
+((initial)-220, (DummyGoal)-1158961)
+((DummyGoal)-1158961, (goal)-221)
+((DummyInit)-1158960, (DummyGoal)-1158961)
+((deplane sara united raleigh)-1158962, (DummyGoal)-1158961)
+((DummyInit)-1158960, (deplane sara united raleigh)-1158962)
+((initial)-220, (deplane sara united raleigh)-1158962)
+((deplane sara united raleigh)-1158962, (goal)-221)
+((initial)-220, (DummyInit)-1189468)
+((DummyInit)-1189468, (goal)-221)
+((initial)-220, (DummyGoal)-1189469)
+((DummyGoal)-1189469, (goal)-221)
+((DummyInit)-1189468, (DummyGoal)-1189469)
+((initial)-220, (DummyInit)-1189471)
+((DummyInit)-1189471, (goal)-221)
+((initial)-220, (DummyGoal)-1189472)
+((DummyGoal)-1189472, (goal)-221)
+((DummyInit)-1189471, (DummyGoal)-1189472)
+((deplane bea delta raleigh)-1189473, (DummyGoal)-1189472)
+((DummyInit)-1189471, (deplane bea delta raleigh)-1189473)
+((initial)-220, (deplane bea delta raleigh)-1189473)
+((deplane bea delta raleigh)-1189473, (goal)-221)
+((DummyGoal)-1189472, (DummyGoal)-1189469)
+((DummyInit)-1189468, (DummyInit)-1189471)

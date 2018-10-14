@@ -1,0 +1,91 @@
+problem	1
+selection	E3Starx1-AddReuseHeuristic
+search	BestFirst
+runtime	17933
+opened	5360
+expanded	976
+primitives	14
+decomps	2
+composites	2
+hdepth	14
+
+
+(buy-tickets sara)-862720
+(board-plane sara delta slc)-831764
+(DummyInit)-830387
+(get-in-car bea mazda slc)-830389
+(drive bea mazda slc raleigh)-830390
+(get-out-of-car bea mazda raleigh)-830391
+(DummyGoal)-830388
+(DummyInit)-830146
+(buy-tickets david)-830148
+(board-plane david delta slc)-830149
+(fly david delta slc raleigh)-830150
+(deplane sara delta raleigh)-830252
+(deplane david delta raleigh)-830151
+(DummyGoal)-830147
+
+
+Composites:
+
+(travel-by-plane david slc raleigh delta)-830145
+(travel-by-car bea slc raleigh mazda)-830386
+
+Orderings:
+
+((initial)-211, (goal)-212)
+((initial)-211, (DummyInit)-830146)
+((DummyInit)-830146, (goal)-212)
+((initial)-211, (DummyGoal)-830147)
+((DummyGoal)-830147, (goal)-212)
+((DummyInit)-830146, (DummyGoal)-830147)
+((buy-tickets david)-830148, (DummyGoal)-830147)
+((DummyInit)-830146, (buy-tickets david)-830148)
+((initial)-211, (buy-tickets david)-830148)
+((buy-tickets david)-830148, (goal)-212)
+((board-plane david delta slc)-830149, (DummyGoal)-830147)
+((DummyInit)-830146, (board-plane david delta slc)-830149)
+((initial)-211, (board-plane david delta slc)-830149)
+((board-plane david delta slc)-830149, (goal)-212)
+((fly david delta slc raleigh)-830150, (DummyGoal)-830147)
+((DummyInit)-830146, (fly david delta slc raleigh)-830150)
+((initial)-211, (fly david delta slc raleigh)-830150)
+((fly david delta slc raleigh)-830150, (goal)-212)
+((deplane david delta raleigh)-830151, (DummyGoal)-830147)
+((DummyInit)-830146, (deplane david delta raleigh)-830151)
+((initial)-211, (deplane david delta raleigh)-830151)
+((deplane david delta raleigh)-830151, (goal)-212)
+((buy-tickets david)-830148, (board-plane david delta slc)-830149)
+((board-plane david delta slc)-830149, (fly david delta slc raleigh)-830150)
+((fly david delta slc raleigh)-830150, (deplane david delta raleigh)-830151)
+((board-plane david delta slc)-830149, (deplane david delta raleigh)-830151)
+((initial)-211, (deplane sara delta raleigh)-830252)
+((deplane sara delta raleigh)-830252, (goal)-212)
+((initial)-211, (DummyInit)-830387)
+((DummyInit)-830387, (goal)-212)
+((initial)-211, (DummyGoal)-830388)
+((DummyGoal)-830388, (goal)-212)
+((DummyInit)-830387, (DummyGoal)-830388)
+((get-in-car bea mazda slc)-830389, (DummyGoal)-830388)
+((DummyInit)-830387, (get-in-car bea mazda slc)-830389)
+((initial)-211, (get-in-car bea mazda slc)-830389)
+((get-in-car bea mazda slc)-830389, (goal)-212)
+((drive bea mazda slc raleigh)-830390, (DummyGoal)-830388)
+((DummyInit)-830387, (drive bea mazda slc raleigh)-830390)
+((initial)-211, (drive bea mazda slc raleigh)-830390)
+((drive bea mazda slc raleigh)-830390, (goal)-212)
+((get-out-of-car bea mazda raleigh)-830391, (DummyGoal)-830388)
+((DummyInit)-830387, (get-out-of-car bea mazda raleigh)-830391)
+((initial)-211, (get-out-of-car bea mazda raleigh)-830391)
+((get-out-of-car bea mazda raleigh)-830391, (goal)-212)
+((get-in-car bea mazda slc)-830389, (drive bea mazda slc raleigh)-830390)
+((drive bea mazda slc raleigh)-830390, (get-out-of-car bea mazda raleigh)-830391)
+((get-in-car bea mazda slc)-830389, (get-out-of-car bea mazda raleigh)-830391)
+((fly david delta slc raleigh)-830150, (deplane sara delta raleigh)-830252)
+((initial)-211, (board-plane sara delta slc)-831764)
+((board-plane sara delta slc)-831764, (goal)-212)
+((board-plane sara delta slc)-831764, (deplane sara delta raleigh)-830252)
+((board-plane sara delta slc)-831764, (fly david delta slc raleigh)-830150)
+((initial)-211, (buy-tickets sara)-862720)
+((buy-tickets sara)-862720, (goal)-212)
+((buy-tickets sara)-862720, (board-plane sara delta slc)-831764)

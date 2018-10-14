@@ -1,0 +1,88 @@
+problem	8
+selection	E3Starx4-AddReuseHeuristic
+search	BestFirst
+runtime	60005
+opened	18157
+expanded	3884
+primitives	14
+decomps	1
+composites	1
+hdepth	4
+
+
+(get-in-car roger accord la)-14028837
+(drive roger accord slc la)-14029820
+(get-out-of-car roger accord la)-14019513
+(drive bob accord la slc)-14040409
+(get-in-car roger accord slc)-14038407
+(drive roger accord la slc)-14038243
+(get-in-car dave accord slc)-14037407
+(get-out-of-car dave accord raleigh)-14019687
+(DummyInit)-14019375
+(buy-tickets dave)-14019377
+(board-plane dave 747 raleigh)-14019378
+(fly dave 747 raleigh ny)-14019379
+(deplane dave 747 ny)-14019380
+(DummyGoal)-14019376
+
+
+Composites:
+
+(travel-by-plane dave raleigh ny 747)-14019374
+
+Orderings:
+
+((initial)-8658127, (goal)-8658128)
+((initial)-8658127, (DummyInit)-14019375)
+((DummyInit)-14019375, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-14019376)
+((DummyGoal)-14019376, (goal)-8658128)
+((DummyInit)-14019375, (DummyGoal)-14019376)
+((buy-tickets dave)-14019377, (DummyGoal)-14019376)
+((DummyInit)-14019375, (buy-tickets dave)-14019377)
+((initial)-8658127, (buy-tickets dave)-14019377)
+((buy-tickets dave)-14019377, (goal)-8658128)
+((board-plane dave 747 raleigh)-14019378, (DummyGoal)-14019376)
+((DummyInit)-14019375, (board-plane dave 747 raleigh)-14019378)
+((initial)-8658127, (board-plane dave 747 raleigh)-14019378)
+((board-plane dave 747 raleigh)-14019378, (goal)-8658128)
+((fly dave 747 raleigh ny)-14019379, (DummyGoal)-14019376)
+((DummyInit)-14019375, (fly dave 747 raleigh ny)-14019379)
+((initial)-8658127, (fly dave 747 raleigh ny)-14019379)
+((fly dave 747 raleigh ny)-14019379, (goal)-8658128)
+((deplane dave 747 ny)-14019380, (DummyGoal)-14019376)
+((DummyInit)-14019375, (deplane dave 747 ny)-14019380)
+((initial)-8658127, (deplane dave 747 ny)-14019380)
+((deplane dave 747 ny)-14019380, (goal)-8658128)
+((buy-tickets dave)-14019377, (board-plane dave 747 raleigh)-14019378)
+((board-plane dave 747 raleigh)-14019378, (fly dave 747 raleigh ny)-14019379)
+((fly dave 747 raleigh ny)-14019379, (deplane dave 747 ny)-14019380)
+((board-plane dave 747 raleigh)-14019378, (deplane dave 747 ny)-14019380)
+((initial)-8658127, (get-out-of-car roger accord la)-14019513)
+((get-out-of-car roger accord la)-14019513, (goal)-8658128)
+((initial)-8658127, (get-out-of-car dave accord raleigh)-14019687)
+((get-out-of-car dave accord raleigh)-14019687, (goal)-8658128)
+((get-out-of-car dave accord raleigh)-14019687, (DummyInit)-14019375)
+((initial)-8658127, (get-in-car roger accord la)-14028837)
+((get-in-car roger accord la)-14028837, (goal)-8658128)
+((get-in-car roger accord la)-14028837, (get-out-of-car roger accord la)-14019513)
+((initial)-8658127, (drive roger accord slc la)-14029820)
+((drive roger accord slc la)-14029820, (goal)-8658128)
+((drive roger accord slc la)-14029820, (get-out-of-car roger accord la)-14019513)
+((get-in-car roger accord la)-14028837, (drive roger accord slc la)-14029820)
+((initial)-8658127, (get-in-car dave accord slc)-14037407)
+((get-in-car dave accord slc)-14037407, (goal)-8658128)
+((get-in-car dave accord slc)-14037407, (get-out-of-car dave accord raleigh)-14019687)
+((initial)-8658127, (drive roger accord la slc)-14038243)
+((drive roger accord la slc)-14038243, (goal)-8658128)
+((drive roger accord la slc)-14038243, (get-in-car dave accord slc)-14037407)
+((get-out-of-car roger accord la)-14019513, (drive roger accord la slc)-14038243)
+((drive roger accord slc la)-14029820, (drive roger accord la slc)-14038243)
+((initial)-8658127, (get-in-car roger accord slc)-14038407)
+((get-in-car roger accord slc)-14038407, (goal)-8658128)
+((get-in-car roger accord slc)-14038407, (drive roger accord la slc)-14038243)
+((get-out-of-car roger accord la)-14019513, (get-in-car roger accord slc)-14038407)
+((initial)-8658127, (drive bob accord la slc)-14040409)
+((drive bob accord la slc)-14040409, (goal)-8658128)
+((drive bob accord la slc)-14040409, (get-in-car roger accord slc)-14038407)
+((get-out-of-car roger accord la)-14019513, (drive bob accord la slc)-14040409)

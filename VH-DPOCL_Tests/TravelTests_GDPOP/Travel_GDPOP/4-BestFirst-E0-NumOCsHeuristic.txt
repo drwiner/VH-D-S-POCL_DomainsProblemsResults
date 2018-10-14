@@ -1,0 +1,47 @@
+problem	4
+selection	E0-NumOCsHeuristic
+search	BestFirst
+runtime	476
+opened	1562
+expanded	505
+primitives	6
+decomps	0
+composites	0
+hdepth	0
+
+
+(get-in-car bob accord raleigh)-2397777
+(drive bob accord raleigh la)-2396330
+(get-in-car sara accord la)-2395274
+(get-out-of-car bob accord la)-2395216
+(drive sara accord la raleigh)-2395376
+(get-out-of-car sara accord raleigh)-2395130
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-2343307, (goal)-2343308)
+((initial)-2343307, (get-out-of-car sara accord raleigh)-2395130)
+((get-out-of-car sara accord raleigh)-2395130, (goal)-2343308)
+((initial)-2343307, (get-out-of-car bob accord la)-2395216)
+((get-out-of-car bob accord la)-2395216, (goal)-2343308)
+((initial)-2343307, (get-in-car sara accord la)-2395274)
+((get-in-car sara accord la)-2395274, (goal)-2343308)
+((get-in-car sara accord la)-2395274, (get-out-of-car sara accord raleigh)-2395130)
+((initial)-2343307, (drive sara accord la raleigh)-2395376)
+((drive sara accord la raleigh)-2395376, (goal)-2343308)
+((drive sara accord la raleigh)-2395376, (get-out-of-car sara accord raleigh)-2395130)
+((get-in-car sara accord la)-2395274, (drive sara accord la raleigh)-2395376)
+((initial)-2343307, (drive bob accord raleigh la)-2396330)
+((drive bob accord raleigh la)-2396330, (goal)-2343308)
+((drive bob accord raleigh la)-2396330, (get-out-of-car bob accord la)-2395216)
+((drive bob accord raleigh la)-2396330, (drive sara accord la raleigh)-2395376)
+((get-out-of-car bob accord la)-2395216, (drive sara accord la raleigh)-2395376)
+((initial)-2343307, (get-in-car bob accord raleigh)-2397777)
+((get-in-car bob accord raleigh)-2397777, (goal)-2343308)
+((get-in-car bob accord raleigh)-2397777, (drive bob accord raleigh la)-2396330)
+((get-in-car bob accord raleigh)-2397777, (get-out-of-car bob accord la)-2395216)
+((drive bob accord raleigh la)-2396330, (get-in-car sara accord la)-2395274)

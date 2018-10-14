@@ -1,0 +1,32 @@
+problem	7
+selection	E0-NumOCsHeuristic
+search	BestFirst
+runtime	17
+opened	110
+expanded	26
+primitives	3
+decomps	0
+composites	0
+hdepth	0
+
+
+(get-in-car bob accord raleigh)-8237095
+(drive bob accord raleigh la)-8237079
+(get-out-of-car bob accord la)-8236951
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-8236537, (goal)-8236538)
+((initial)-8236537, (get-out-of-car bob accord la)-8236951)
+((get-out-of-car bob accord la)-8236951, (goal)-8236538)
+((initial)-8236537, (drive bob accord raleigh la)-8237079)
+((drive bob accord raleigh la)-8237079, (goal)-8236538)
+((drive bob accord raleigh la)-8237079, (get-out-of-car bob accord la)-8236951)
+((initial)-8236537, (get-in-car bob accord raleigh)-8237095)
+((get-in-car bob accord raleigh)-8237095, (goal)-8236538)
+((get-in-car bob accord raleigh)-8237095, (drive bob accord raleigh la)-8237079)
+((get-in-car bob accord raleigh)-8237095, (get-out-of-car bob accord la)-8236951)

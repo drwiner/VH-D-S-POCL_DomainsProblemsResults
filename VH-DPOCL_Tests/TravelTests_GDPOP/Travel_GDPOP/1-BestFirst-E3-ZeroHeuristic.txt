@@ -1,0 +1,91 @@
+problem	1
+selection	E3-ZeroHeuristic
+search	BestFirst
+runtime	60013
+opened	66153
+expanded	6436
+primitives	15
+decomps	6
+composites	6
+hdepth	9
+
+
+(DummyInit)-336871
+(DummyInit)-336874
+(deplane bea delta raleigh)-336876
+(DummyGoal)-336875
+(DummyGoal)-336872
+(DummyInit)-335831
+(DummyInit)-335834
+(deplane sara delta raleigh)-335836
+(DummyGoal)-335835
+(DummyGoal)-335832
+(DummyInit)-335681
+(DummyInit)-335684
+(get-out-of-car david mazda raleigh)-335686
+(DummyGoal)-335685
+(DummyGoal)-335682
+
+
+Composites:
+
+(generic-travel david slc raleigh)-335680
+(generic-travel david slc raleigh)-335683
+(generic-travel sara slc raleigh)-335830
+(generic-travel sara slc raleigh)-335833
+(generic-travel bea slc raleigh)-336870
+(generic-travel bea slc raleigh)-336873
+
+Orderings:
+
+((initial)-211, (goal)-212)
+((initial)-211, (DummyInit)-335681)
+((DummyInit)-335681, (goal)-212)
+((initial)-211, (DummyGoal)-335682)
+((DummyGoal)-335682, (goal)-212)
+((DummyInit)-335681, (DummyGoal)-335682)
+((initial)-211, (DummyInit)-335684)
+((DummyInit)-335684, (goal)-212)
+((initial)-211, (DummyGoal)-335685)
+((DummyGoal)-335685, (goal)-212)
+((DummyInit)-335684, (DummyGoal)-335685)
+((get-out-of-car david mazda raleigh)-335686, (DummyGoal)-335685)
+((DummyInit)-335684, (get-out-of-car david mazda raleigh)-335686)
+((initial)-211, (get-out-of-car david mazda raleigh)-335686)
+((get-out-of-car david mazda raleigh)-335686, (goal)-212)
+((DummyGoal)-335685, (DummyGoal)-335682)
+((DummyInit)-335681, (DummyInit)-335684)
+((initial)-211, (DummyInit)-335831)
+((DummyInit)-335831, (goal)-212)
+((initial)-211, (DummyGoal)-335832)
+((DummyGoal)-335832, (goal)-212)
+((DummyInit)-335831, (DummyGoal)-335832)
+((initial)-211, (DummyInit)-335834)
+((DummyInit)-335834, (goal)-212)
+((initial)-211, (DummyGoal)-335835)
+((DummyGoal)-335835, (goal)-212)
+((DummyInit)-335834, (DummyGoal)-335835)
+((deplane sara delta raleigh)-335836, (DummyGoal)-335835)
+((DummyInit)-335834, (deplane sara delta raleigh)-335836)
+((initial)-211, (deplane sara delta raleigh)-335836)
+((deplane sara delta raleigh)-335836, (goal)-212)
+((DummyGoal)-335835, (DummyGoal)-335832)
+((DummyInit)-335831, (DummyInit)-335834)
+((initial)-211, (DummyInit)-336871)
+((DummyInit)-336871, (goal)-212)
+((initial)-211, (DummyGoal)-336872)
+((DummyGoal)-336872, (goal)-212)
+((DummyInit)-336871, (DummyGoal)-336872)
+((initial)-211, (DummyInit)-336874)
+((DummyInit)-336874, (goal)-212)
+((initial)-211, (DummyGoal)-336875)
+((DummyGoal)-336875, (goal)-212)
+((DummyInit)-336874, (DummyGoal)-336875)
+((deplane bea delta raleigh)-336876, (DummyGoal)-336875)
+((DummyInit)-336874, (deplane bea delta raleigh)-336876)
+((initial)-211, (deplane bea delta raleigh)-336876)
+((deplane bea delta raleigh)-336876, (goal)-212)
+((DummyGoal)-336875, (DummyGoal)-336872)
+((DummyInit)-336871, (DummyInit)-336874)
+((deplane bea delta raleigh)-336876, (DummyGoal)-335682)
+((DummyGoal)-336875, (DummyGoal)-335832)

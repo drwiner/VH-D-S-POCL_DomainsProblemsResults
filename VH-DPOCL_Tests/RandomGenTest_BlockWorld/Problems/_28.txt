@@ -1,0 +1,49 @@
+Problem 28 of Domain blocks
+----------------------------
+Objects of Problem 28
+location_0
+location_1
+location_2
+location_3
+location_4
+location_5
+location_6
+block_0
+block_1
+agent_0
+
+Initial State of Problem 28
+(adjacent location_0 location_1)
+(adjacent location_1 location_0)
+(adjacent location_1 location_2)
+(adjacent location_2 location_1)
+(adjacent location_0 location_2)
+(adjacent location_2 location_0)
+(adjacent location_1 location_3)
+(adjacent location_3 location_1)
+(adjacent location_2 location_3)
+(adjacent location_3 location_2)
+(adjacent location_2 location_4)
+(adjacent location_4 location_2)
+(adjacent location_1 location_4)
+(adjacent location_4 location_1)
+(adjacent location_2 location_5)
+(adjacent location_5 location_2)
+(adjacent location_4 location_5)
+(adjacent location_5 location_4)
+(adjacent location_1 location_5)
+(adjacent location_5 location_1)
+(adjacent location_1 location_6)
+(adjacent location_6 location_1)
+(adjacent location_4 location_6)
+(adjacent location_6 location_4)
+(at block_0 location_2)
+(occupied location_2)
+(at block_1 location_3)
+(occupied location_3)
+(at agent_0 location_4)
+(freehands agent_0)
+(occupied location_4)
+
+Goal State of Problem 28
+(at block_0 location_0)

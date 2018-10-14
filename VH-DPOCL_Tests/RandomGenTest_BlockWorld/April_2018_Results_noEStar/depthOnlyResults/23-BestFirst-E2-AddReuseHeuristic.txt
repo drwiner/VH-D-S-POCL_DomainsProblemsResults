@@ -1,0 +1,17 @@
+problem	23
+selection	E2-AddReuseHeuristic
+search	BestFirst
+runtime	60057
+opened	19862
+expanded	770
+primitives	4
+decomps	0
+composites	0
+hdepth	0
+
+
+(pickup agent_1 block_1 location_0 location_2)-20789261
+(putdown agent_1 block_0 location_2 location_0)-20787917
+(pickup agent_2 block_0 location_0 location_1)-20786144
+(putdown agent_2 block_0 location_1 location_0)-20637311
+

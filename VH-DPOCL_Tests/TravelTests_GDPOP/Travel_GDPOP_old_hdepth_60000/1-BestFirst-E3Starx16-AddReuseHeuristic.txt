@@ -1,0 +1,65 @@
+problem	1
+selection	E3Starx16-AddReuseHeuristic
+search	BestFirst
+runtime	113
+opened	58
+expanded	16
+primitives	9
+decomps	1
+composites	1
+hdepth	4
+
+
+(buy-tickets sara)-1455848
+(board-plane sara delta slc)-1455702
+(DummyInit)-1455027
+(buy-tickets david)-1455029
+(board-plane david delta slc)-1455030
+(fly david delta slc raleigh)-1455031
+(deplane sara delta raleigh)-1455133
+(deplane david delta raleigh)-1455032
+(DummyGoal)-1455028
+
+
+Composites:
+
+(travel-by-plane david slc raleigh delta)-1455026
+
+Orderings:
+
+((initial)-220, (goal)-221)
+((initial)-220, (DummyInit)-1455027)
+((DummyInit)-1455027, (goal)-221)
+((initial)-220, (DummyGoal)-1455028)
+((DummyGoal)-1455028, (goal)-221)
+((DummyInit)-1455027, (DummyGoal)-1455028)
+((buy-tickets david)-1455029, (DummyGoal)-1455028)
+((DummyInit)-1455027, (buy-tickets david)-1455029)
+((initial)-220, (buy-tickets david)-1455029)
+((buy-tickets david)-1455029, (goal)-221)
+((board-plane david delta slc)-1455030, (DummyGoal)-1455028)
+((DummyInit)-1455027, (board-plane david delta slc)-1455030)
+((initial)-220, (board-plane david delta slc)-1455030)
+((board-plane david delta slc)-1455030, (goal)-221)
+((fly david delta slc raleigh)-1455031, (DummyGoal)-1455028)
+((DummyInit)-1455027, (fly david delta slc raleigh)-1455031)
+((initial)-220, (fly david delta slc raleigh)-1455031)
+((fly david delta slc raleigh)-1455031, (goal)-221)
+((deplane david delta raleigh)-1455032, (DummyGoal)-1455028)
+((DummyInit)-1455027, (deplane david delta raleigh)-1455032)
+((initial)-220, (deplane david delta raleigh)-1455032)
+((deplane david delta raleigh)-1455032, (goal)-221)
+((buy-tickets david)-1455029, (board-plane david delta slc)-1455030)
+((board-plane david delta slc)-1455030, (fly david delta slc raleigh)-1455031)
+((fly david delta slc raleigh)-1455031, (deplane david delta raleigh)-1455032)
+((board-plane david delta slc)-1455030, (deplane david delta raleigh)-1455032)
+((initial)-220, (deplane sara delta raleigh)-1455133)
+((deplane sara delta raleigh)-1455133, (goal)-221)
+((fly david delta slc raleigh)-1455031, (deplane sara delta raleigh)-1455133)
+((initial)-220, (board-plane sara delta slc)-1455702)
+((board-plane sara delta slc)-1455702, (goal)-221)
+((board-plane sara delta slc)-1455702, (deplane sara delta raleigh)-1455133)
+((board-plane sara delta slc)-1455702, (fly david delta slc raleigh)-1455031)
+((initial)-220, (buy-tickets sara)-1455848)
+((buy-tickets sara)-1455848, (goal)-221)
+((buy-tickets sara)-1455848, (board-plane sara delta slc)-1455702)

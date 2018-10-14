@@ -1,0 +1,55 @@
+problem	8
+selection	E3Starx1-AddReuseHeuristic
+search	BestFirst
+runtime	60174
+opened	49422
+expanded	4614
+primitives	7
+decomps	1
+composites	1
+hdepth	3
+
+
+(DummyInit)-4879022
+(pickup agent_0 block_1 location_0 location_3)-4879024
+(pickup agent_0 block_1 location_0 location_3)-4939005
+(putdown agent_0 block_0 location_1 location_0)-4934806
+(move agent_0 location_3 location_0)-4879025
+(putdown agent_0 block_1 location_0 location_1)-4879026
+(DummyGoal)-4879023
+
+
+Composites:
+
+(transport agent_0 block_1 location_3 location_0 location_1)-4879021
+
+Orderings:
+
+((initial)-16357, (goal)-16358)
+((initial)-16357, (DummyInit)-4879022)
+((DummyInit)-4879022, (goal)-16358)
+((initial)-16357, (DummyGoal)-4879023)
+((DummyGoal)-4879023, (goal)-16358)
+((DummyInit)-4879022, (DummyGoal)-4879023)
+((pickup agent_0 block_1 location_0 location_3)-4879024, (DummyGoal)-4879023)
+((DummyInit)-4879022, (pickup agent_0 block_1 location_0 location_3)-4879024)
+((initial)-16357, (pickup agent_0 block_1 location_0 location_3)-4879024)
+((pickup agent_0 block_1 location_0 location_3)-4879024, (goal)-16358)
+((move agent_0 location_3 location_0)-4879025, (DummyGoal)-4879023)
+((DummyInit)-4879022, (move agent_0 location_3 location_0)-4879025)
+((initial)-16357, (move agent_0 location_3 location_0)-4879025)
+((move agent_0 location_3 location_0)-4879025, (goal)-16358)
+((putdown agent_0 block_1 location_0 location_1)-4879026, (DummyGoal)-4879023)
+((DummyInit)-4879022, (putdown agent_0 block_1 location_0 location_1)-4879026)
+((initial)-16357, (putdown agent_0 block_1 location_0 location_1)-4879026)
+((putdown agent_0 block_1 location_0 location_1)-4879026, (goal)-16358)
+((pickup agent_0 block_1 location_0 location_3)-4879024, (move agent_0 location_3 location_0)-4879025)
+((move agent_0 location_3 location_0)-4879025, (putdown agent_0 block_1 location_0 location_1)-4879026)
+((pickup agent_0 block_1 location_0 location_3)-4879024, (putdown agent_0 block_1 location_0 location_1)-4879026)
+((initial)-16357, (putdown agent_0 block_0 location_1 location_0)-4934806)
+((putdown agent_0 block_0 location_1 location_0)-4934806, (goal)-16358)
+((initial)-16357, (pickup agent_0 block_1 location_0 location_3)-4939005)
+((pickup agent_0 block_1 location_0 location_3)-4939005, (goal)-16358)
+((pickup agent_0 block_1 location_0 location_3)-4939005, (putdown agent_0 block_0 location_1 location_0)-4934806)
+((pickup agent_0 block_1 location_0 location_3)-4879024, (pickup agent_0 block_1 location_0 location_3)-4939005)
+((putdown agent_0 block_0 location_1 location_0)-4934806, (move agent_0 location_3 location_0)-4879025)

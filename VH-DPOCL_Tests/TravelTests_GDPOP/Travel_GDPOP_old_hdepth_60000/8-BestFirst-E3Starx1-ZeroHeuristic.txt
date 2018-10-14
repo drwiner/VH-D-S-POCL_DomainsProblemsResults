@@ -1,0 +1,64 @@
+problem	8
+selection	E3Starx1-ZeroHeuristic
+search	BestFirst
+runtime	60004
+opened	93411
+expanded	13071
+primitives	9
+decomps	1
+composites	1
+hdepth	4
+
+
+(board-plane roger 747 raleigh)-11138204
+(DummyInit)-11092694
+(buy-tickets dave)-11092696
+(board-plane dave 747 la)-11092697
+(fly dave 747 la ny)-11092698
+(fly roger 747 slc la)-11096876
+(deplane roger 747 la)-11093522
+(deplane dave 747 ny)-11092699
+(DummyGoal)-11092695
+
+
+Composites:
+
+(travel-by-plane dave la ny 747)-11092693
+
+Orderings:
+
+((initial)-8658127, (goal)-8658128)
+((initial)-8658127, (DummyInit)-11092694)
+((DummyInit)-11092694, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-11092695)
+((DummyGoal)-11092695, (goal)-8658128)
+((DummyInit)-11092694, (DummyGoal)-11092695)
+((buy-tickets dave)-11092696, (DummyGoal)-11092695)
+((DummyInit)-11092694, (buy-tickets dave)-11092696)
+((initial)-8658127, (buy-tickets dave)-11092696)
+((buy-tickets dave)-11092696, (goal)-8658128)
+((board-plane dave 747 la)-11092697, (DummyGoal)-11092695)
+((DummyInit)-11092694, (board-plane dave 747 la)-11092697)
+((initial)-8658127, (board-plane dave 747 la)-11092697)
+((board-plane dave 747 la)-11092697, (goal)-8658128)
+((fly dave 747 la ny)-11092698, (DummyGoal)-11092695)
+((DummyInit)-11092694, (fly dave 747 la ny)-11092698)
+((initial)-8658127, (fly dave 747 la ny)-11092698)
+((fly dave 747 la ny)-11092698, (goal)-8658128)
+((deplane dave 747 ny)-11092699, (DummyGoal)-11092695)
+((DummyInit)-11092694, (deplane dave 747 ny)-11092699)
+((initial)-8658127, (deplane dave 747 ny)-11092699)
+((deplane dave 747 ny)-11092699, (goal)-8658128)
+((buy-tickets dave)-11092696, (board-plane dave 747 la)-11092697)
+((board-plane dave 747 la)-11092697, (fly dave 747 la ny)-11092698)
+((fly dave 747 la ny)-11092698, (deplane dave 747 ny)-11092699)
+((board-plane dave 747 la)-11092697, (deplane dave 747 ny)-11092699)
+((initial)-8658127, (deplane roger 747 la)-11093522)
+((deplane roger 747 la)-11093522, (goal)-8658128)
+((initial)-8658127, (fly roger 747 slc la)-11096876)
+((fly roger 747 slc la)-11096876, (goal)-8658128)
+((fly roger 747 slc la)-11096876, (deplane roger 747 la)-11093522)
+((fly dave 747 la ny)-11092698, (fly roger 747 slc la)-11096876)
+((initial)-8658127, (board-plane roger 747 raleigh)-11138204)
+((board-plane roger 747 raleigh)-11138204, (goal)-8658128)
+((board-plane roger 747 raleigh)-11138204, (fly roger 747 slc la)-11096876)

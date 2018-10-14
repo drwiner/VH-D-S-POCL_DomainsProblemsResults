@@ -1,0 +1,80 @@
+problem	22
+selection	E3Starx8-AddReuseHeuristic
+search	BestFirst
+runtime	60139
+opened	28117
+expanded	911
+primitives	11
+decomps	2
+composites	2
+hdepth	6
+
+
+(DummyInit)-9774243
+(pickup agent_1 block_0 location_5 location_3)-9774245
+(move agent_1 location_3 location_2)-9774246
+(putdown agent_1 block_0 location_2 location_3)-9774247
+(DummyGoal)-9774244
+(move agent_0 location_0 location_3)-9969697
+(DummyInit)-9742719
+(pickup agent_1 block_0 location_3 location_2)-9742721
+(move agent_1 location_2 location_3)-9742722
+(putdown agent_1 block_0 location_3 location_0)-9742723
+(DummyGoal)-9742720
+
+
+Composites:
+
+(transport agent_1 block_0 location_2 location_3 location_0)-9742718
+(transport agent_1 block_0 location_3 location_5 location_3 location_2)-9774242
+
+Orderings:
+
+((initial)-13021, (goal)-13022)
+((initial)-13021, (DummyInit)-9742719)
+((DummyInit)-9742719, (goal)-13022)
+((initial)-13021, (DummyGoal)-9742720)
+((DummyGoal)-9742720, (goal)-13022)
+((DummyInit)-9742719, (DummyGoal)-9742720)
+((pickup agent_1 block_0 location_3 location_2)-9742721, (DummyGoal)-9742720)
+((DummyInit)-9742719, (pickup agent_1 block_0 location_3 location_2)-9742721)
+((initial)-13021, (pickup agent_1 block_0 location_3 location_2)-9742721)
+((pickup agent_1 block_0 location_3 location_2)-9742721, (goal)-13022)
+((move agent_1 location_2 location_3)-9742722, (DummyGoal)-9742720)
+((DummyInit)-9742719, (move agent_1 location_2 location_3)-9742722)
+((initial)-13021, (move agent_1 location_2 location_3)-9742722)
+((move agent_1 location_2 location_3)-9742722, (goal)-13022)
+((putdown agent_1 block_0 location_3 location_0)-9742723, (DummyGoal)-9742720)
+((DummyInit)-9742719, (putdown agent_1 block_0 location_3 location_0)-9742723)
+((initial)-13021, (putdown agent_1 block_0 location_3 location_0)-9742723)
+((putdown agent_1 block_0 location_3 location_0)-9742723, (goal)-13022)
+((pickup agent_1 block_0 location_3 location_2)-9742721, (move agent_1 location_2 location_3)-9742722)
+((move agent_1 location_2 location_3)-9742722, (putdown agent_1 block_0 location_3 location_0)-9742723)
+((pickup agent_1 block_0 location_3 location_2)-9742721, (putdown agent_1 block_0 location_3 location_0)-9742723)
+((initial)-13021, (DummyInit)-9774243)
+((DummyInit)-9774243, (goal)-13022)
+((initial)-13021, (DummyGoal)-9774244)
+((DummyGoal)-9774244, (goal)-13022)
+((DummyInit)-9774243, (DummyGoal)-9774244)
+((pickup agent_1 block_0 location_5 location_3)-9774245, (DummyGoal)-9774244)
+((DummyInit)-9774243, (pickup agent_1 block_0 location_5 location_3)-9774245)
+((initial)-13021, (pickup agent_1 block_0 location_5 location_3)-9774245)
+((pickup agent_1 block_0 location_5 location_3)-9774245, (goal)-13022)
+((move agent_1 location_3 location_2)-9774246, (DummyGoal)-9774244)
+((DummyInit)-9774243, (move agent_1 location_3 location_2)-9774246)
+((initial)-13021, (move agent_1 location_3 location_2)-9774246)
+((move agent_1 location_3 location_2)-9774246, (goal)-13022)
+((putdown agent_1 block_0 location_2 location_3)-9774247, (DummyGoal)-9774244)
+((DummyInit)-9774243, (putdown agent_1 block_0 location_2 location_3)-9774247)
+((initial)-13021, (putdown agent_1 block_0 location_2 location_3)-9774247)
+((putdown agent_1 block_0 location_2 location_3)-9774247, (goal)-13022)
+((pickup agent_1 block_0 location_5 location_3)-9774245, (move agent_1 location_3 location_2)-9774246)
+((move agent_1 location_3 location_2)-9774246, (putdown agent_1 block_0 location_2 location_3)-9774247)
+((pickup agent_1 block_0 location_5 location_3)-9774245, (putdown agent_1 block_0 location_2 location_3)-9774247)
+((DummyGoal)-9774244, (DummyInit)-9742719)
+((initial)-13021, (move agent_0 location_0 location_3)-9969697)
+((move agent_0 location_0 location_3)-9969697, (goal)-13022)
+((move agent_0 location_0 location_3)-9969697, (DummyInit)-9742719)
+((DummyGoal)-9774244, (move agent_0 location_0 location_3)-9969697)
+((DummyInit)-9774243, (move agent_0 location_0 location_3)-9969697)
+((putdown agent_1 block_0 location_2 location_3)-9774247, (move agent_0 location_0 location_3)-9969697)

@@ -1,0 +1,74 @@
+problem	13
+selection	E3-NumOCsHeuristic
+search	BestFirst
+runtime	60005
+opened	124748
+expanded	8943
+primitives	11
+decomps	1
+composites	1
+hdepth	1
+
+
+(pickup agent_0 block_0 location_0 location_1)-15807941
+(pickup agent_0 block_1 location_2 location_0)-15817005
+(move agent_1 location_1 location_2)-15216685
+(move agent_1 location_3 location_0)-15808109
+(move agent_1 location_0 location_3)-15023511
+(putdown agent_0 block_0 location_3 location_0)-14977505
+(DummyInit)-14967476
+(pickup agent_0 block_1 location_4 location_3)-14967478
+(move agent_0 location_3 location_0)-14967479
+(putdown agent_0 block_1 location_0 location_1)-14967480
+(DummyGoal)-14967477
+
+
+Composites:
+
+(transport agent_0 block_1 location_3 location_4 location_1 location_0)-14967475
+
+Orderings:
+
+((initial)-14781447, (goal)-14781448)
+((initial)-14781447, (DummyInit)-14967476)
+((DummyInit)-14967476, (goal)-14781448)
+((initial)-14781447, (DummyGoal)-14967477)
+((DummyGoal)-14967477, (goal)-14781448)
+((DummyInit)-14967476, (DummyGoal)-14967477)
+((pickup agent_0 block_1 location_4 location_3)-14967478, (DummyGoal)-14967477)
+((DummyInit)-14967476, (pickup agent_0 block_1 location_4 location_3)-14967478)
+((initial)-14781447, (pickup agent_0 block_1 location_4 location_3)-14967478)
+((pickup agent_0 block_1 location_4 location_3)-14967478, (goal)-14781448)
+((move agent_0 location_3 location_0)-14967479, (DummyGoal)-14967477)
+((DummyInit)-14967476, (move agent_0 location_3 location_0)-14967479)
+((initial)-14781447, (move agent_0 location_3 location_0)-14967479)
+((move agent_0 location_3 location_0)-14967479, (goal)-14781448)
+((putdown agent_0 block_1 location_0 location_1)-14967480, (DummyGoal)-14967477)
+((DummyInit)-14967476, (putdown agent_0 block_1 location_0 location_1)-14967480)
+((initial)-14781447, (putdown agent_0 block_1 location_0 location_1)-14967480)
+((putdown agent_0 block_1 location_0 location_1)-14967480, (goal)-14781448)
+((pickup agent_0 block_1 location_4 location_3)-14967478, (move agent_0 location_3 location_0)-14967479)
+((move agent_0 location_3 location_0)-14967479, (putdown agent_0 block_1 location_0 location_1)-14967480)
+((pickup agent_0 block_1 location_4 location_3)-14967478, (putdown agent_0 block_1 location_0 location_1)-14967480)
+((initial)-14781447, (putdown agent_0 block_0 location_3 location_0)-14977505)
+((putdown agent_0 block_0 location_3 location_0)-14977505, (goal)-14781448)
+((initial)-14781447, (move agent_1 location_0 location_3)-15023511)
+((move agent_1 location_0 location_3)-15023511, (goal)-14781448)
+((move agent_1 location_0 location_3)-15023511, (putdown agent_0 block_0 location_3 location_0)-14977505)
+((putdown agent_0 block_0 location_3 location_0)-14977505, (move agent_0 location_3 location_0)-14967479)
+((initial)-14781447, (move agent_1 location_1 location_2)-15216685)
+((move agent_1 location_1 location_2)-15216685, (goal)-14781448)
+((move agent_1 location_1 location_2)-15216685, (DummyInit)-14967476)
+((putdown agent_0 block_0 location_3 location_0)-14977505, (DummyInit)-14967476)
+((initial)-14781447, (pickup agent_0 block_0 location_0 location_1)-15807941)
+((pickup agent_0 block_0 location_0 location_1)-15807941, (goal)-14781448)
+((pickup agent_0 block_0 location_0 location_1)-15807941, (putdown agent_0 block_0 location_3 location_0)-14977505)
+((initial)-14781447, (move agent_1 location_3 location_0)-15808109)
+((move agent_1 location_3 location_0)-15808109, (goal)-14781448)
+((move agent_1 location_3 location_0)-15808109, (move agent_1 location_0 location_3)-15023511)
+((pickup agent_0 block_0 location_0 location_1)-15807941, (move agent_1 location_3 location_0)-15808109)
+((initial)-14781447, (pickup agent_0 block_1 location_2 location_0)-15817005)
+((pickup agent_0 block_1 location_2 location_0)-15817005, (goal)-14781448)
+((pickup agent_0 block_1 location_2 location_0)-15817005, (move agent_1 location_1 location_2)-15216685)
+((pickup agent_0 block_0 location_0 location_1)-15807941, (pickup agent_0 block_1 location_2 location_0)-15817005)
+((pickup agent_0 block_1 location_2 location_0)-15817005, (putdown agent_0 block_0 location_3 location_0)-14977505)

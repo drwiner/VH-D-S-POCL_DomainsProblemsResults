@@ -1,0 +1,32 @@
+problem	2
+selection	E3-NumOCsHeuristic
+search	BestFirst
+runtime	14
+opened	67
+expanded	19
+primitives	3
+decomps	0
+composites	0
+hdepth	0
+
+
+(get-in-car sara accord raleigh)-119924
+(drive sara accord raleigh la)-119904
+(get-out-of-car sara accord la)-119873
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-88294, (goal)-88295)
+((initial)-88294, (get-out-of-car sara accord la)-119873)
+((get-out-of-car sara accord la)-119873, (goal)-88295)
+((initial)-88294, (drive sara accord raleigh la)-119904)
+((drive sara accord raleigh la)-119904, (goal)-88295)
+((drive sara accord raleigh la)-119904, (get-out-of-car sara accord la)-119873)
+((initial)-88294, (get-in-car sara accord raleigh)-119924)
+((get-in-car sara accord raleigh)-119924, (goal)-88295)
+((get-in-car sara accord raleigh)-119924, (drive sara accord raleigh la)-119904)
+((get-in-car sara accord raleigh)-119924, (get-out-of-car sara accord la)-119873)

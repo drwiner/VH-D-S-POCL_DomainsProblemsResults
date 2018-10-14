@@ -1,0 +1,40 @@
+Problem 32 of Domain blocks
+----------------------------
+Objects of Problem 32
+location_0
+location_1
+location_2
+location_3
+location_4
+block_0
+agent_0
+agent_1
+
+Initial State of Problem 32
+(adjacent location_0 location_1)
+(adjacent location_1 location_0)
+(adjacent location_1 location_2)
+(adjacent location_2 location_1)
+(adjacent location_0 location_2)
+(adjacent location_2 location_0)
+(adjacent location_0 location_3)
+(adjacent location_3 location_0)
+(adjacent location_1 location_3)
+(adjacent location_3 location_1)
+(adjacent location_0 location_4)
+(adjacent location_4 location_0)
+(adjacent location_1 location_4)
+(adjacent location_4 location_1)
+(adjacent location_3 location_4)
+(adjacent location_4 location_3)
+(at block_0 location_1)
+(occupied location_1)
+(at agent_0 location_2)
+(freehands agent_0)
+(occupied location_2)
+(at agent_1 location_0)
+(freehands agent_1)
+(occupied location_0)
+
+Goal State of Problem 32
+(at block_0 location_0)

@@ -1,0 +1,736 @@
+problem	3
+selection	Nada-ZeroHeuristic
+search	DFS
+runtime	60058
+opened	2434
+expanded	2106
+primitives	144
+decomps	56
+composites	56
+hdepth	56
+
+
+(fly sara 747 raleigh la)-2910619
+(DummyInit)-2902874
+(DummyInit)-2902960
+(DummyInit)-2903062
+(DummyInit)-2903180
+(DummyInit)-2903314
+(DummyInit)-2903464
+(DummyInit)-2903630
+(DummyInit)-2903812
+(DummyInit)-2904010
+(DummyInit)-2904224
+(DummyInit)-2904454
+(DummyInit)-2904700
+(DummyInit)-2904962
+(DummyInit)-2905240
+(DummyInit)-2905534
+(DummyInit)-2905844
+(DummyInit)-2906170
+(DummyInit)-2906512
+(DummyInit)-2906870
+(DummyInit)-2907244
+(DummyInit)-2907634
+(DummyInit)-2908040
+(DummyInit)-2908462
+(DummyInit)-2908900
+(DummyInit)-2909354
+(DummyInit)-2909824
+(DummyInit)-2909827
+(deplane sara 747 la)-2909829
+(DummyGoal)-2909828
+(DummyInit)-2909357
+(deplane sara 747 la)-2909359
+(DummyGoal)-2909358
+(DummyInit)-2908903
+(deplane sara 747 la)-2908905
+(DummyGoal)-2908904
+(DummyInit)-2908465
+(deplane sara 747 la)-2908467
+(DummyGoal)-2908466
+(DummyInit)-2908043
+(deplane sara 747 la)-2908045
+(DummyGoal)-2908044
+(DummyInit)-2907637
+(deplane sara 747 la)-2907639
+(DummyGoal)-2907638
+(DummyInit)-2907247
+(deplane sara 747 la)-2907249
+(DummyGoal)-2907248
+(DummyInit)-2906873
+(deplane sara 747 la)-2906875
+(DummyGoal)-2906874
+(DummyInit)-2906515
+(deplane sara 747 la)-2906517
+(DummyGoal)-2906516
+(DummyInit)-2906173
+(deplane sara 747 la)-2906175
+(DummyGoal)-2906174
+(DummyInit)-2905847
+(deplane sara 747 la)-2905849
+(DummyGoal)-2905848
+(DummyInit)-2905537
+(deplane sara 747 la)-2905539
+(DummyGoal)-2905538
+(DummyInit)-2905243
+(deplane sara 747 la)-2905245
+(DummyGoal)-2905244
+(DummyInit)-2904965
+(deplane sara 747 la)-2904967
+(DummyGoal)-2904966
+(DummyInit)-2904703
+(deplane sara 747 la)-2904705
+(DummyGoal)-2904704
+(DummyInit)-2904457
+(deplane sara 747 la)-2904459
+(DummyGoal)-2904458
+(DummyInit)-2904227
+(deplane sara 747 la)-2904229
+(DummyGoal)-2904228
+(DummyInit)-2904013
+(deplane sara 747 la)-2904015
+(DummyGoal)-2904014
+(DummyInit)-2903815
+(deplane sara 747 la)-2903817
+(DummyGoal)-2903816
+(DummyGoal)-2909825
+(DummyGoal)-2909355
+(DummyGoal)-2908901
+(DummyGoal)-2908463
+(DummyGoal)-2908041
+(DummyGoal)-2907635
+(DummyGoal)-2907245
+(DummyGoal)-2906871
+(DummyGoal)-2906513
+(DummyGoal)-2906171
+(DummyGoal)-2905845
+(DummyGoal)-2905535
+(DummyGoal)-2905241
+(DummyGoal)-2904963
+(DummyGoal)-2904701
+(DummyGoal)-2904455
+(DummyGoal)-2904225
+(DummyGoal)-2904011
+(DummyGoal)-2903813
+(DummyInit)-2903633
+(deplane sara 747 la)-2903635
+(DummyGoal)-2903634
+(DummyGoal)-2903631
+(DummyInit)-2903467
+(deplane sara 747 la)-2903469
+(DummyGoal)-2903468
+(DummyGoal)-2903465
+(DummyInit)-2903317
+(deplane sara 747 la)-2903319
+(DummyGoal)-2903318
+(DummyGoal)-2903315
+(DummyInit)-2903183
+(deplane sara 747 la)-2903185
+(DummyGoal)-2903184
+(DummyGoal)-2903181
+(DummyInit)-2903065
+(deplane sara 747 la)-2903067
+(DummyGoal)-2903066
+(DummyGoal)-2903063
+(DummyInit)-2902963
+(deplane sara 747 la)-2902965
+(DummyGoal)-2902964
+(DummyGoal)-2902961
+(DummyInit)-2902877
+(deplane sara 747 la)-2902879
+(DummyGoal)-2902878
+(DummyGoal)-2902875
+(board-plane sara 747 la)-2902761
+(fly sara 747 raleigh la)-2902753
+(board-plane bob 747 la)-2902785
+(DummyInit)-2902396
+(DummyInit)-2902399
+(deplane bob 747 la)-2902401
+(DummyGoal)-2902400
+(DummyGoal)-2902397
+(DummyInit)-2902310
+(DummyInit)-2902313
+(deplane sara 747 la)-2902315
+(DummyGoal)-2902314
+(DummyGoal)-2902311
+
+
+Composites:
+
+(generic-travel sara la)-2902309
+(generic-travel sara la)-2902312
+(generic-travel bob la)-2902395
+(generic-travel bob la)-2902398
+(generic-travel sara la)-2902873
+(generic-travel sara la)-2902876
+(generic-travel sara la)-2902959
+(generic-travel sara la)-2902962
+(generic-travel sara la)-2903061
+(generic-travel sara la)-2903064
+(generic-travel sara la)-2903179
+(generic-travel sara la)-2903182
+(generic-travel sara la)-2903313
+(generic-travel sara la)-2903316
+(generic-travel sara la)-2903463
+(generic-travel sara la)-2903466
+(generic-travel sara la)-2903629
+(generic-travel sara la)-2903632
+(generic-travel sara la)-2903811
+(generic-travel sara la)-2903814
+(generic-travel sara la)-2904009
+(generic-travel sara la)-2904012
+(generic-travel sara la)-2904223
+(generic-travel sara la)-2904226
+(generic-travel sara la)-2904453
+(generic-travel sara la)-2904456
+(generic-travel sara la)-2904699
+(generic-travel sara la)-2904702
+(generic-travel sara la)-2904961
+(generic-travel sara la)-2904964
+(generic-travel sara la)-2905239
+(generic-travel sara la)-2905242
+(generic-travel sara la)-2905533
+(generic-travel sara la)-2905536
+(generic-travel sara la)-2905843
+(generic-travel sara la)-2905846
+(generic-travel sara la)-2906169
+(generic-travel sara la)-2906172
+(generic-travel sara la)-2906511
+(generic-travel sara la)-2906514
+(generic-travel sara la)-2906869
+(generic-travel sara la)-2906872
+(generic-travel sara la)-2907243
+(generic-travel sara la)-2907246
+(generic-travel sara la)-2907633
+(generic-travel sara la)-2907636
+(generic-travel sara la)-2908039
+(generic-travel sara la)-2908042
+(generic-travel sara la)-2908461
+(generic-travel sara la)-2908464
+(generic-travel sara la)-2908899
+(generic-travel sara la)-2908902
+(generic-travel sara la)-2909353
+(generic-travel sara la)-2909356
+(generic-travel sara la)-2909823
+(generic-travel sara la)-2909826
+
+Orderings:
+
+((initial)-2385552, (goal)-2385553)
+((initial)-2385552, (DummyInit)-2902310)
+((DummyInit)-2902310, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2902311)
+((DummyGoal)-2902311, (goal)-2385553)
+((DummyInit)-2902310, (DummyGoal)-2902311)
+((initial)-2385552, (DummyInit)-2902313)
+((DummyInit)-2902313, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2902314)
+((DummyGoal)-2902314, (goal)-2385553)
+((DummyInit)-2902313, (DummyGoal)-2902314)
+((deplane sara 747 la)-2902315, (DummyGoal)-2902314)
+((DummyInit)-2902313, (deplane sara 747 la)-2902315)
+((initial)-2385552, (deplane sara 747 la)-2902315)
+((deplane sara 747 la)-2902315, (goal)-2385553)
+((DummyGoal)-2902314, (DummyGoal)-2902311)
+((DummyInit)-2902310, (DummyInit)-2902313)
+((initial)-2385552, (DummyInit)-2902396)
+((DummyInit)-2902396, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2902397)
+((DummyGoal)-2902397, (goal)-2385553)
+((DummyInit)-2902396, (DummyGoal)-2902397)
+((initial)-2385552, (DummyInit)-2902399)
+((DummyInit)-2902399, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2902400)
+((DummyGoal)-2902400, (goal)-2385553)
+((DummyInit)-2902399, (DummyGoal)-2902400)
+((deplane bob 747 la)-2902401, (DummyGoal)-2902400)
+((DummyInit)-2902399, (deplane bob 747 la)-2902401)
+((initial)-2385552, (deplane bob 747 la)-2902401)
+((deplane bob 747 la)-2902401, (goal)-2385553)
+((DummyGoal)-2902400, (DummyGoal)-2902397)
+((DummyInit)-2902396, (DummyInit)-2902399)
+((deplane sara 747 la)-2902315, (DummyGoal)-2902311)
+((deplane bob 747 la)-2902401, (DummyGoal)-2902397)
+((initial)-2385552, (fly sara 747 raleigh la)-2902753)
+((fly sara 747 raleigh la)-2902753, (goal)-2385553)
+((fly sara 747 raleigh la)-2902753, (deplane sara 747 la)-2902315)
+((initial)-2385552, (board-plane sara 747 la)-2902761)
+((board-plane sara 747 la)-2902761, (goal)-2385553)
+((board-plane sara 747 la)-2902761, (fly sara 747 raleigh la)-2902753)
+((board-plane sara 747 la)-2902761, (deplane sara 747 la)-2902315)
+((fly sara 747 raleigh la)-2902753, (deplane bob 747 la)-2902401)
+((initial)-2385552, (board-plane bob 747 la)-2902785)
+((board-plane bob 747 la)-2902785, (goal)-2385553)
+((board-plane bob 747 la)-2902785, (deplane bob 747 la)-2902401)
+((initial)-2385552, (DummyInit)-2902874)
+((DummyInit)-2902874, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2902875)
+((DummyGoal)-2902875, (goal)-2385553)
+((DummyInit)-2902874, (DummyGoal)-2902875)
+((initial)-2385552, (DummyInit)-2902877)
+((DummyInit)-2902877, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2902878)
+((DummyGoal)-2902878, (goal)-2385553)
+((DummyInit)-2902877, (DummyGoal)-2902878)
+((deplane sara 747 la)-2902879, (DummyGoal)-2902878)
+((DummyInit)-2902877, (deplane sara 747 la)-2902879)
+((initial)-2385552, (deplane sara 747 la)-2902879)
+((deplane sara 747 la)-2902879, (goal)-2385553)
+((DummyGoal)-2902878, (DummyGoal)-2902875)
+((DummyInit)-2902874, (DummyInit)-2902877)
+((DummyGoal)-2902875, (board-plane sara 747 la)-2902761)
+((initial)-2385552, (DummyInit)-2902960)
+((DummyInit)-2902960, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2902961)
+((DummyGoal)-2902961, (goal)-2385553)
+((DummyInit)-2902960, (DummyGoal)-2902961)
+((initial)-2385552, (DummyInit)-2902963)
+((DummyInit)-2902963, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2902964)
+((DummyGoal)-2902964, (goal)-2385553)
+((DummyInit)-2902963, (DummyGoal)-2902964)
+((deplane sara 747 la)-2902965, (DummyGoal)-2902964)
+((DummyInit)-2902963, (deplane sara 747 la)-2902965)
+((initial)-2385552, (deplane sara 747 la)-2902965)
+((deplane sara 747 la)-2902965, (goal)-2385553)
+((DummyGoal)-2902964, (DummyGoal)-2902961)
+((DummyInit)-2902960, (DummyInit)-2902963)
+((DummyGoal)-2902961, (DummyGoal)-2902875)
+((DummyInit)-2902874, (DummyInit)-2902960)
+((initial)-2385552, (DummyInit)-2903062)
+((DummyInit)-2903062, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2903063)
+((DummyGoal)-2903063, (goal)-2385553)
+((DummyInit)-2903062, (DummyGoal)-2903063)
+((initial)-2385552, (DummyInit)-2903065)
+((DummyInit)-2903065, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2903066)
+((DummyGoal)-2903066, (goal)-2385553)
+((DummyInit)-2903065, (DummyGoal)-2903066)
+((deplane sara 747 la)-2903067, (DummyGoal)-2903066)
+((DummyInit)-2903065, (deplane sara 747 la)-2903067)
+((initial)-2385552, (deplane sara 747 la)-2903067)
+((deplane sara 747 la)-2903067, (goal)-2385553)
+((DummyGoal)-2903066, (DummyGoal)-2903063)
+((DummyInit)-2903062, (DummyInit)-2903065)
+((DummyGoal)-2903063, (DummyGoal)-2902961)
+((DummyInit)-2902960, (DummyInit)-2903062)
+((initial)-2385552, (DummyInit)-2903180)
+((DummyInit)-2903180, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2903181)
+((DummyGoal)-2903181, (goal)-2385553)
+((DummyInit)-2903180, (DummyGoal)-2903181)
+((initial)-2385552, (DummyInit)-2903183)
+((DummyInit)-2903183, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2903184)
+((DummyGoal)-2903184, (goal)-2385553)
+((DummyInit)-2903183, (DummyGoal)-2903184)
+((deplane sara 747 la)-2903185, (DummyGoal)-2903184)
+((DummyInit)-2903183, (deplane sara 747 la)-2903185)
+((initial)-2385552, (deplane sara 747 la)-2903185)
+((deplane sara 747 la)-2903185, (goal)-2385553)
+((DummyGoal)-2903184, (DummyGoal)-2903181)
+((DummyInit)-2903180, (DummyInit)-2903183)
+((DummyGoal)-2903181, (DummyGoal)-2903063)
+((DummyInit)-2903062, (DummyInit)-2903180)
+((initial)-2385552, (DummyInit)-2903314)
+((DummyInit)-2903314, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2903315)
+((DummyGoal)-2903315, (goal)-2385553)
+((DummyInit)-2903314, (DummyGoal)-2903315)
+((initial)-2385552, (DummyInit)-2903317)
+((DummyInit)-2903317, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2903318)
+((DummyGoal)-2903318, (goal)-2385553)
+((DummyInit)-2903317, (DummyGoal)-2903318)
+((deplane sara 747 la)-2903319, (DummyGoal)-2903318)
+((DummyInit)-2903317, (deplane sara 747 la)-2903319)
+((initial)-2385552, (deplane sara 747 la)-2903319)
+((deplane sara 747 la)-2903319, (goal)-2385553)
+((DummyGoal)-2903318, (DummyGoal)-2903315)
+((DummyInit)-2903314, (DummyInit)-2903317)
+((DummyGoal)-2903315, (DummyGoal)-2903181)
+((DummyInit)-2903180, (DummyInit)-2903314)
+((initial)-2385552, (DummyInit)-2903464)
+((DummyInit)-2903464, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2903465)
+((DummyGoal)-2903465, (goal)-2385553)
+((DummyInit)-2903464, (DummyGoal)-2903465)
+((initial)-2385552, (DummyInit)-2903467)
+((DummyInit)-2903467, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2903468)
+((DummyGoal)-2903468, (goal)-2385553)
+((DummyInit)-2903467, (DummyGoal)-2903468)
+((deplane sara 747 la)-2903469, (DummyGoal)-2903468)
+((DummyInit)-2903467, (deplane sara 747 la)-2903469)
+((initial)-2385552, (deplane sara 747 la)-2903469)
+((deplane sara 747 la)-2903469, (goal)-2385553)
+((DummyGoal)-2903468, (DummyGoal)-2903465)
+((DummyInit)-2903464, (DummyInit)-2903467)
+((DummyGoal)-2903465, (DummyGoal)-2903315)
+((DummyInit)-2903314, (DummyInit)-2903464)
+((initial)-2385552, (DummyInit)-2903630)
+((DummyInit)-2903630, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2903631)
+((DummyGoal)-2903631, (goal)-2385553)
+((DummyInit)-2903630, (DummyGoal)-2903631)
+((initial)-2385552, (DummyInit)-2903633)
+((DummyInit)-2903633, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2903634)
+((DummyGoal)-2903634, (goal)-2385553)
+((DummyInit)-2903633, (DummyGoal)-2903634)
+((deplane sara 747 la)-2903635, (DummyGoal)-2903634)
+((DummyInit)-2903633, (deplane sara 747 la)-2903635)
+((initial)-2385552, (deplane sara 747 la)-2903635)
+((deplane sara 747 la)-2903635, (goal)-2385553)
+((DummyGoal)-2903634, (DummyGoal)-2903631)
+((DummyInit)-2903630, (DummyInit)-2903633)
+((DummyGoal)-2903631, (DummyGoal)-2903465)
+((DummyInit)-2903464, (DummyInit)-2903630)
+((initial)-2385552, (DummyInit)-2903812)
+((DummyInit)-2903812, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2903813)
+((DummyGoal)-2903813, (goal)-2385553)
+((DummyInit)-2903812, (DummyGoal)-2903813)
+((initial)-2385552, (DummyInit)-2903815)
+((DummyInit)-2903815, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2903816)
+((DummyGoal)-2903816, (goal)-2385553)
+((DummyInit)-2903815, (DummyGoal)-2903816)
+((deplane sara 747 la)-2903817, (DummyGoal)-2903816)
+((DummyInit)-2903815, (deplane sara 747 la)-2903817)
+((initial)-2385552, (deplane sara 747 la)-2903817)
+((deplane sara 747 la)-2903817, (goal)-2385553)
+((DummyGoal)-2903816, (DummyGoal)-2903813)
+((DummyInit)-2903812, (DummyInit)-2903815)
+((DummyGoal)-2903813, (DummyGoal)-2903631)
+((DummyInit)-2903630, (DummyInit)-2903812)
+((initial)-2385552, (DummyInit)-2904010)
+((DummyInit)-2904010, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2904011)
+((DummyGoal)-2904011, (goal)-2385553)
+((DummyInit)-2904010, (DummyGoal)-2904011)
+((initial)-2385552, (DummyInit)-2904013)
+((DummyInit)-2904013, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2904014)
+((DummyGoal)-2904014, (goal)-2385553)
+((DummyInit)-2904013, (DummyGoal)-2904014)
+((deplane sara 747 la)-2904015, (DummyGoal)-2904014)
+((DummyInit)-2904013, (deplane sara 747 la)-2904015)
+((initial)-2385552, (deplane sara 747 la)-2904015)
+((deplane sara 747 la)-2904015, (goal)-2385553)
+((DummyGoal)-2904014, (DummyGoal)-2904011)
+((DummyInit)-2904010, (DummyInit)-2904013)
+((DummyGoal)-2904011, (DummyGoal)-2903813)
+((DummyInit)-2903812, (DummyInit)-2904010)
+((initial)-2385552, (DummyInit)-2904224)
+((DummyInit)-2904224, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2904225)
+((DummyGoal)-2904225, (goal)-2385553)
+((DummyInit)-2904224, (DummyGoal)-2904225)
+((initial)-2385552, (DummyInit)-2904227)
+((DummyInit)-2904227, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2904228)
+((DummyGoal)-2904228, (goal)-2385553)
+((DummyInit)-2904227, (DummyGoal)-2904228)
+((deplane sara 747 la)-2904229, (DummyGoal)-2904228)
+((DummyInit)-2904227, (deplane sara 747 la)-2904229)
+((initial)-2385552, (deplane sara 747 la)-2904229)
+((deplane sara 747 la)-2904229, (goal)-2385553)
+((DummyGoal)-2904228, (DummyGoal)-2904225)
+((DummyInit)-2904224, (DummyInit)-2904227)
+((DummyGoal)-2904225, (DummyGoal)-2904011)
+((DummyInit)-2904010, (DummyInit)-2904224)
+((initial)-2385552, (DummyInit)-2904454)
+((DummyInit)-2904454, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2904455)
+((DummyGoal)-2904455, (goal)-2385553)
+((DummyInit)-2904454, (DummyGoal)-2904455)
+((initial)-2385552, (DummyInit)-2904457)
+((DummyInit)-2904457, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2904458)
+((DummyGoal)-2904458, (goal)-2385553)
+((DummyInit)-2904457, (DummyGoal)-2904458)
+((deplane sara 747 la)-2904459, (DummyGoal)-2904458)
+((DummyInit)-2904457, (deplane sara 747 la)-2904459)
+((initial)-2385552, (deplane sara 747 la)-2904459)
+((deplane sara 747 la)-2904459, (goal)-2385553)
+((DummyGoal)-2904458, (DummyGoal)-2904455)
+((DummyInit)-2904454, (DummyInit)-2904457)
+((DummyGoal)-2904455, (DummyGoal)-2904225)
+((DummyInit)-2904224, (DummyInit)-2904454)
+((initial)-2385552, (DummyInit)-2904700)
+((DummyInit)-2904700, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2904701)
+((DummyGoal)-2904701, (goal)-2385553)
+((DummyInit)-2904700, (DummyGoal)-2904701)
+((initial)-2385552, (DummyInit)-2904703)
+((DummyInit)-2904703, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2904704)
+((DummyGoal)-2904704, (goal)-2385553)
+((DummyInit)-2904703, (DummyGoal)-2904704)
+((deplane sara 747 la)-2904705, (DummyGoal)-2904704)
+((DummyInit)-2904703, (deplane sara 747 la)-2904705)
+((initial)-2385552, (deplane sara 747 la)-2904705)
+((deplane sara 747 la)-2904705, (goal)-2385553)
+((DummyGoal)-2904704, (DummyGoal)-2904701)
+((DummyInit)-2904700, (DummyInit)-2904703)
+((DummyGoal)-2904701, (DummyGoal)-2904455)
+((DummyInit)-2904454, (DummyInit)-2904700)
+((initial)-2385552, (DummyInit)-2904962)
+((DummyInit)-2904962, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2904963)
+((DummyGoal)-2904963, (goal)-2385553)
+((DummyInit)-2904962, (DummyGoal)-2904963)
+((initial)-2385552, (DummyInit)-2904965)
+((DummyInit)-2904965, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2904966)
+((DummyGoal)-2904966, (goal)-2385553)
+((DummyInit)-2904965, (DummyGoal)-2904966)
+((deplane sara 747 la)-2904967, (DummyGoal)-2904966)
+((DummyInit)-2904965, (deplane sara 747 la)-2904967)
+((initial)-2385552, (deplane sara 747 la)-2904967)
+((deplane sara 747 la)-2904967, (goal)-2385553)
+((DummyGoal)-2904966, (DummyGoal)-2904963)
+((DummyInit)-2904962, (DummyInit)-2904965)
+((DummyGoal)-2904963, (DummyGoal)-2904701)
+((DummyInit)-2904700, (DummyInit)-2904962)
+((initial)-2385552, (DummyInit)-2905240)
+((DummyInit)-2905240, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2905241)
+((DummyGoal)-2905241, (goal)-2385553)
+((DummyInit)-2905240, (DummyGoal)-2905241)
+((initial)-2385552, (DummyInit)-2905243)
+((DummyInit)-2905243, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2905244)
+((DummyGoal)-2905244, (goal)-2385553)
+((DummyInit)-2905243, (DummyGoal)-2905244)
+((deplane sara 747 la)-2905245, (DummyGoal)-2905244)
+((DummyInit)-2905243, (deplane sara 747 la)-2905245)
+((initial)-2385552, (deplane sara 747 la)-2905245)
+((deplane sara 747 la)-2905245, (goal)-2385553)
+((DummyGoal)-2905244, (DummyGoal)-2905241)
+((DummyInit)-2905240, (DummyInit)-2905243)
+((DummyGoal)-2905241, (DummyGoal)-2904963)
+((DummyInit)-2904962, (DummyInit)-2905240)
+((initial)-2385552, (DummyInit)-2905534)
+((DummyInit)-2905534, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2905535)
+((DummyGoal)-2905535, (goal)-2385553)
+((DummyInit)-2905534, (DummyGoal)-2905535)
+((initial)-2385552, (DummyInit)-2905537)
+((DummyInit)-2905537, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2905538)
+((DummyGoal)-2905538, (goal)-2385553)
+((DummyInit)-2905537, (DummyGoal)-2905538)
+((deplane sara 747 la)-2905539, (DummyGoal)-2905538)
+((DummyInit)-2905537, (deplane sara 747 la)-2905539)
+((initial)-2385552, (deplane sara 747 la)-2905539)
+((deplane sara 747 la)-2905539, (goal)-2385553)
+((DummyGoal)-2905538, (DummyGoal)-2905535)
+((DummyInit)-2905534, (DummyInit)-2905537)
+((DummyGoal)-2905535, (DummyGoal)-2905241)
+((DummyInit)-2905240, (DummyInit)-2905534)
+((initial)-2385552, (DummyInit)-2905844)
+((DummyInit)-2905844, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2905845)
+((DummyGoal)-2905845, (goal)-2385553)
+((DummyInit)-2905844, (DummyGoal)-2905845)
+((initial)-2385552, (DummyInit)-2905847)
+((DummyInit)-2905847, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2905848)
+((DummyGoal)-2905848, (goal)-2385553)
+((DummyInit)-2905847, (DummyGoal)-2905848)
+((deplane sara 747 la)-2905849, (DummyGoal)-2905848)
+((DummyInit)-2905847, (deplane sara 747 la)-2905849)
+((initial)-2385552, (deplane sara 747 la)-2905849)
+((deplane sara 747 la)-2905849, (goal)-2385553)
+((DummyGoal)-2905848, (DummyGoal)-2905845)
+((DummyInit)-2905844, (DummyInit)-2905847)
+((DummyGoal)-2905845, (DummyGoal)-2905535)
+((DummyInit)-2905534, (DummyInit)-2905844)
+((initial)-2385552, (DummyInit)-2906170)
+((DummyInit)-2906170, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2906171)
+((DummyGoal)-2906171, (goal)-2385553)
+((DummyInit)-2906170, (DummyGoal)-2906171)
+((initial)-2385552, (DummyInit)-2906173)
+((DummyInit)-2906173, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2906174)
+((DummyGoal)-2906174, (goal)-2385553)
+((DummyInit)-2906173, (DummyGoal)-2906174)
+((deplane sara 747 la)-2906175, (DummyGoal)-2906174)
+((DummyInit)-2906173, (deplane sara 747 la)-2906175)
+((initial)-2385552, (deplane sara 747 la)-2906175)
+((deplane sara 747 la)-2906175, (goal)-2385553)
+((DummyGoal)-2906174, (DummyGoal)-2906171)
+((DummyInit)-2906170, (DummyInit)-2906173)
+((DummyGoal)-2906171, (DummyGoal)-2905845)
+((DummyInit)-2905844, (DummyInit)-2906170)
+((initial)-2385552, (DummyInit)-2906512)
+((DummyInit)-2906512, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2906513)
+((DummyGoal)-2906513, (goal)-2385553)
+((DummyInit)-2906512, (DummyGoal)-2906513)
+((initial)-2385552, (DummyInit)-2906515)
+((DummyInit)-2906515, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2906516)
+((DummyGoal)-2906516, (goal)-2385553)
+((DummyInit)-2906515, (DummyGoal)-2906516)
+((deplane sara 747 la)-2906517, (DummyGoal)-2906516)
+((DummyInit)-2906515, (deplane sara 747 la)-2906517)
+((initial)-2385552, (deplane sara 747 la)-2906517)
+((deplane sara 747 la)-2906517, (goal)-2385553)
+((DummyGoal)-2906516, (DummyGoal)-2906513)
+((DummyInit)-2906512, (DummyInit)-2906515)
+((DummyGoal)-2906513, (DummyGoal)-2906171)
+((DummyInit)-2906170, (DummyInit)-2906512)
+((initial)-2385552, (DummyInit)-2906870)
+((DummyInit)-2906870, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2906871)
+((DummyGoal)-2906871, (goal)-2385553)
+((DummyInit)-2906870, (DummyGoal)-2906871)
+((initial)-2385552, (DummyInit)-2906873)
+((DummyInit)-2906873, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2906874)
+((DummyGoal)-2906874, (goal)-2385553)
+((DummyInit)-2906873, (DummyGoal)-2906874)
+((deplane sara 747 la)-2906875, (DummyGoal)-2906874)
+((DummyInit)-2906873, (deplane sara 747 la)-2906875)
+((initial)-2385552, (deplane sara 747 la)-2906875)
+((deplane sara 747 la)-2906875, (goal)-2385553)
+((DummyGoal)-2906874, (DummyGoal)-2906871)
+((DummyInit)-2906870, (DummyInit)-2906873)
+((DummyGoal)-2906871, (DummyGoal)-2906513)
+((DummyInit)-2906512, (DummyInit)-2906870)
+((initial)-2385552, (DummyInit)-2907244)
+((DummyInit)-2907244, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2907245)
+((DummyGoal)-2907245, (goal)-2385553)
+((DummyInit)-2907244, (DummyGoal)-2907245)
+((initial)-2385552, (DummyInit)-2907247)
+((DummyInit)-2907247, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2907248)
+((DummyGoal)-2907248, (goal)-2385553)
+((DummyInit)-2907247, (DummyGoal)-2907248)
+((deplane sara 747 la)-2907249, (DummyGoal)-2907248)
+((DummyInit)-2907247, (deplane sara 747 la)-2907249)
+((initial)-2385552, (deplane sara 747 la)-2907249)
+((deplane sara 747 la)-2907249, (goal)-2385553)
+((DummyGoal)-2907248, (DummyGoal)-2907245)
+((DummyInit)-2907244, (DummyInit)-2907247)
+((DummyGoal)-2907245, (DummyGoal)-2906871)
+((DummyInit)-2906870, (DummyInit)-2907244)
+((initial)-2385552, (DummyInit)-2907634)
+((DummyInit)-2907634, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2907635)
+((DummyGoal)-2907635, (goal)-2385553)
+((DummyInit)-2907634, (DummyGoal)-2907635)
+((initial)-2385552, (DummyInit)-2907637)
+((DummyInit)-2907637, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2907638)
+((DummyGoal)-2907638, (goal)-2385553)
+((DummyInit)-2907637, (DummyGoal)-2907638)
+((deplane sara 747 la)-2907639, (DummyGoal)-2907638)
+((DummyInit)-2907637, (deplane sara 747 la)-2907639)
+((initial)-2385552, (deplane sara 747 la)-2907639)
+((deplane sara 747 la)-2907639, (goal)-2385553)
+((DummyGoal)-2907638, (DummyGoal)-2907635)
+((DummyInit)-2907634, (DummyInit)-2907637)
+((DummyGoal)-2907635, (DummyGoal)-2907245)
+((DummyInit)-2907244, (DummyInit)-2907634)
+((initial)-2385552, (DummyInit)-2908040)
+((DummyInit)-2908040, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2908041)
+((DummyGoal)-2908041, (goal)-2385553)
+((DummyInit)-2908040, (DummyGoal)-2908041)
+((initial)-2385552, (DummyInit)-2908043)
+((DummyInit)-2908043, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2908044)
+((DummyGoal)-2908044, (goal)-2385553)
+((DummyInit)-2908043, (DummyGoal)-2908044)
+((deplane sara 747 la)-2908045, (DummyGoal)-2908044)
+((DummyInit)-2908043, (deplane sara 747 la)-2908045)
+((initial)-2385552, (deplane sara 747 la)-2908045)
+((deplane sara 747 la)-2908045, (goal)-2385553)
+((DummyGoal)-2908044, (DummyGoal)-2908041)
+((DummyInit)-2908040, (DummyInit)-2908043)
+((DummyGoal)-2908041, (DummyGoal)-2907635)
+((DummyInit)-2907634, (DummyInit)-2908040)
+((initial)-2385552, (DummyInit)-2908462)
+((DummyInit)-2908462, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2908463)
+((DummyGoal)-2908463, (goal)-2385553)
+((DummyInit)-2908462, (DummyGoal)-2908463)
+((initial)-2385552, (DummyInit)-2908465)
+((DummyInit)-2908465, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2908466)
+((DummyGoal)-2908466, (goal)-2385553)
+((DummyInit)-2908465, (DummyGoal)-2908466)
+((deplane sara 747 la)-2908467, (DummyGoal)-2908466)
+((DummyInit)-2908465, (deplane sara 747 la)-2908467)
+((initial)-2385552, (deplane sara 747 la)-2908467)
+((deplane sara 747 la)-2908467, (goal)-2385553)
+((DummyGoal)-2908466, (DummyGoal)-2908463)
+((DummyInit)-2908462, (DummyInit)-2908465)
+((DummyGoal)-2908463, (DummyGoal)-2908041)
+((DummyInit)-2908040, (DummyInit)-2908462)
+((initial)-2385552, (DummyInit)-2908900)
+((DummyInit)-2908900, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2908901)
+((DummyGoal)-2908901, (goal)-2385553)
+((DummyInit)-2908900, (DummyGoal)-2908901)
+((initial)-2385552, (DummyInit)-2908903)
+((DummyInit)-2908903, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2908904)
+((DummyGoal)-2908904, (goal)-2385553)
+((DummyInit)-2908903, (DummyGoal)-2908904)
+((deplane sara 747 la)-2908905, (DummyGoal)-2908904)
+((DummyInit)-2908903, (deplane sara 747 la)-2908905)
+((initial)-2385552, (deplane sara 747 la)-2908905)
+((deplane sara 747 la)-2908905, (goal)-2385553)
+((DummyGoal)-2908904, (DummyGoal)-2908901)
+((DummyInit)-2908900, (DummyInit)-2908903)
+((DummyGoal)-2908901, (DummyGoal)-2908463)
+((DummyInit)-2908462, (DummyInit)-2908900)
+((initial)-2385552, (DummyInit)-2909354)
+((DummyInit)-2909354, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2909355)
+((DummyGoal)-2909355, (goal)-2385553)
+((DummyInit)-2909354, (DummyGoal)-2909355)
+((initial)-2385552, (DummyInit)-2909357)
+((DummyInit)-2909357, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2909358)
+((DummyGoal)-2909358, (goal)-2385553)
+((DummyInit)-2909357, (DummyGoal)-2909358)
+((deplane sara 747 la)-2909359, (DummyGoal)-2909358)
+((DummyInit)-2909357, (deplane sara 747 la)-2909359)
+((initial)-2385552, (deplane sara 747 la)-2909359)
+((deplane sara 747 la)-2909359, (goal)-2385553)
+((DummyGoal)-2909358, (DummyGoal)-2909355)
+((DummyInit)-2909354, (DummyInit)-2909357)
+((DummyGoal)-2909355, (DummyGoal)-2908901)
+((DummyInit)-2908900, (DummyInit)-2909354)
+((initial)-2385552, (DummyInit)-2909824)
+((DummyInit)-2909824, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2909825)
+((DummyGoal)-2909825, (goal)-2385553)
+((DummyInit)-2909824, (DummyGoal)-2909825)
+((initial)-2385552, (DummyInit)-2909827)
+((DummyInit)-2909827, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2909828)
+((DummyGoal)-2909828, (goal)-2385553)
+((DummyInit)-2909827, (DummyGoal)-2909828)
+((deplane sara 747 la)-2909829, (DummyGoal)-2909828)
+((DummyInit)-2909827, (deplane sara 747 la)-2909829)
+((initial)-2385552, (deplane sara 747 la)-2909829)
+((deplane sara 747 la)-2909829, (goal)-2385553)
+((DummyGoal)-2909828, (DummyGoal)-2909825)
+((DummyInit)-2909824, (DummyInit)-2909827)
+((DummyGoal)-2909825, (DummyGoal)-2909355)
+((DummyInit)-2909354, (DummyInit)-2909824)
+((DummyGoal)-2903816, (DummyGoal)-2909825)
+((initial)-2385552, (fly sara 747 raleigh la)-2910619)
+((fly sara 747 raleigh la)-2910619, (goal)-2385553)
+((fly sara 747 raleigh la)-2910619, (board-plane sara 747 la)-2902761)

@@ -1,0 +1,113 @@
+problem	1
+selection	E3-NumOCsHeuristic
+search	BestFirst
+runtime	180
+opened	85
+expanded	9
+primitives	20
+decomps	5
+composites	5
+hdepth	5
+
+
+(DummyInit)-159288
+( Full h85 Eye )-159291
+(Drive SmallCar L1 L12)-159290
+(DummyGoal)-159289
+(DummyInit)-159122
+( Full h85 Eye )-159125
+(Drive SmallCar L12 Lfinish)-159124
+(DummyGoal)-159123
+(DummyInit)-158723
+( Full h85 Eye )-158726
+(Drive SmallCar Lfinish L12)-158725
+(DummyGoal)-158724
+(DummyInit)-158452
+( Full h85 Eye )-158455
+(Drive SmallCar L12 Lfinish)-158454
+(DummyGoal)-158453
+(DummyInit)-158715
+( Full h85 Eye )-158718
+(Drive SportsCar L0 Lstop)-158717
+(DummyGoal)-158716
+
+
+Composites:
+
+(PanDriveLeftRight SmallCar L12 Lfinish)-158451
+(PanDriveLeftRight SportsCar L0 Lstop)-158714
+(PanDriveLeftRight SmallCar Lfinish L12)-158722
+(PanDriveLeftRight SmallCar L12 Lfinish)-159121
+(PanDriveLeftRight SmallCar L1 L12)-159287
+
+Orderings:
+
+((initial)-158434, (goal)-158435)
+((initial)-158434, (DummyInit)-158452)
+((DummyInit)-158452, (goal)-158435)
+((initial)-158434, (DummyGoal)-158453)
+((DummyGoal)-158453, (goal)-158435)
+((DummyInit)-158452, (DummyGoal)-158453)
+((Drive SmallCar L12 Lfinish)-158454, (DummyGoal)-158453)
+((DummyInit)-158452, (Drive SmallCar L12 Lfinish)-158454)
+((initial)-158434, (Drive SmallCar L12 Lfinish)-158454)
+((Drive SmallCar L12 Lfinish)-158454, (goal)-158435)
+(( Full h85 Eye )-158455, (DummyGoal)-158453)
+((DummyInit)-158452, ( Full h85 Eye )-158455)
+((initial)-158434, ( Full h85 Eye )-158455)
+(( Full h85 Eye )-158455, (goal)-158435)
+((initial)-158434, (DummyInit)-158715)
+((DummyInit)-158715, (goal)-158435)
+((initial)-158434, (DummyGoal)-158716)
+((DummyGoal)-158716, (goal)-158435)
+((DummyInit)-158715, (DummyGoal)-158716)
+((Drive SportsCar L0 Lstop)-158717, (DummyGoal)-158716)
+((DummyInit)-158715, (Drive SportsCar L0 Lstop)-158717)
+((initial)-158434, (Drive SportsCar L0 Lstop)-158717)
+((Drive SportsCar L0 Lstop)-158717, (goal)-158435)
+(( Full h85 Eye )-158718, (DummyGoal)-158716)
+((DummyInit)-158715, ( Full h85 Eye )-158718)
+((initial)-158434, ( Full h85 Eye )-158718)
+(( Full h85 Eye )-158718, (goal)-158435)
+((initial)-158434, (DummyInit)-158723)
+((DummyInit)-158723, (goal)-158435)
+((initial)-158434, (DummyGoal)-158724)
+((DummyGoal)-158724, (goal)-158435)
+((DummyInit)-158723, (DummyGoal)-158724)
+((Drive SmallCar Lfinish L12)-158725, (DummyGoal)-158724)
+((DummyInit)-158723, (Drive SmallCar Lfinish L12)-158725)
+((initial)-158434, (Drive SmallCar Lfinish L12)-158725)
+((Drive SmallCar Lfinish L12)-158725, (goal)-158435)
+(( Full h85 Eye )-158726, (DummyGoal)-158724)
+((DummyInit)-158723, ( Full h85 Eye )-158726)
+((initial)-158434, ( Full h85 Eye )-158726)
+(( Full h85 Eye )-158726, (goal)-158435)
+((DummyGoal)-158724, (DummyInit)-158452)
+((initial)-158434, (DummyInit)-159122)
+((DummyInit)-159122, (goal)-158435)
+((initial)-158434, (DummyGoal)-159123)
+((DummyGoal)-159123, (goal)-158435)
+((DummyInit)-159122, (DummyGoal)-159123)
+((Drive SmallCar L12 Lfinish)-159124, (DummyGoal)-159123)
+((DummyInit)-159122, (Drive SmallCar L12 Lfinish)-159124)
+((initial)-158434, (Drive SmallCar L12 Lfinish)-159124)
+((Drive SmallCar L12 Lfinish)-159124, (goal)-158435)
+(( Full h85 Eye )-159125, (DummyGoal)-159123)
+((DummyInit)-159122, ( Full h85 Eye )-159125)
+((initial)-158434, ( Full h85 Eye )-159125)
+(( Full h85 Eye )-159125, (goal)-158435)
+((DummyGoal)-159123, (DummyInit)-158723)
+((initial)-158434, (DummyInit)-159288)
+((DummyInit)-159288, (goal)-158435)
+((initial)-158434, (DummyGoal)-159289)
+((DummyGoal)-159289, (goal)-158435)
+((DummyInit)-159288, (DummyGoal)-159289)
+((Drive SmallCar L1 L12)-159290, (DummyGoal)-159289)
+((DummyInit)-159288, (Drive SmallCar L1 L12)-159290)
+((initial)-158434, (Drive SmallCar L1 L12)-159290)
+((Drive SmallCar L1 L12)-159290, (goal)-158435)
+(( Full h85 Eye )-159291, (DummyGoal)-159289)
+((DummyInit)-159288, ( Full h85 Eye )-159291)
+((initial)-158434, ( Full h85 Eye )-159291)
+(( Full h85 Eye )-159291, (goal)-158435)
+((DummyGoal)-159289, (DummyInit)-159122)

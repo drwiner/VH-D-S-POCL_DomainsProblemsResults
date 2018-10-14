@@ -1,0 +1,154 @@
+problem	2
+selection	Nada-ZeroHeuristic
+search	BFS
+runtime	60026
+opened	50113
+expanded	7154
+primitives	26
+decomps	8
+composites	8
+hdepth	13
+
+
+(DummyInit)-2104915
+(DummyInit)-2106015
+(DummyInit)-2110263
+(DummyInit)-2147099
+(DummyInit)-2147102
+(deplane sara 747 raleigh)-2147104
+(DummyGoal)-2147103
+(DummyGoal)-2147100
+(DummyInit)-2110266
+(get-out-of-car sara accord raleigh)-2110268
+(DummyGoal)-2110267
+(DummyGoal)-2110264
+(get-out-of-car sara accord raleigh)-2106017
+(DummyGoal)-2106016
+(DummyInit)-2104918
+(buy-tickets sara)-2104920
+(board-plane sara 747 la)-2104921
+(fly sara 747 la raleigh)-2104922
+(deplane sara 747 raleigh)-2104923
+(DummyGoal)-2104919
+(DummyGoal)-2104916
+(DummyInit)-2104768
+(get-in-car sara accord raleigh)-2104770
+(drive sara accord raleigh la)-2104771
+(get-out-of-car sara accord la)-2104772
+(DummyGoal)-2104769
+
+
+Composites:
+
+(travel-by-car sara raleigh la accord)-2104767
+(generic-travel sara raleigh)-2104914
+(travel-by-plane sara la raleigh 747)-2104917
+(generic-travel sara raleigh)-2106014
+(generic-travel sara raleigh)-2110262
+(generic-travel sara raleigh)-2110265
+(generic-travel sara raleigh)-2147098
+(generic-travel sara raleigh)-2147101
+
+Orderings:
+
+((initial)-2080002, (goal)-2080003)
+((initial)-2080002, (DummyInit)-2104768)
+((DummyInit)-2104768, (goal)-2080003)
+((initial)-2080002, (DummyGoal)-2104769)
+((DummyGoal)-2104769, (goal)-2080003)
+((DummyInit)-2104768, (DummyGoal)-2104769)
+((get-in-car sara accord raleigh)-2104770, (DummyGoal)-2104769)
+((DummyInit)-2104768, (get-in-car sara accord raleigh)-2104770)
+((initial)-2080002, (get-in-car sara accord raleigh)-2104770)
+((get-in-car sara accord raleigh)-2104770, (goal)-2080003)
+((drive sara accord raleigh la)-2104771, (DummyGoal)-2104769)
+((DummyInit)-2104768, (drive sara accord raleigh la)-2104771)
+((initial)-2080002, (drive sara accord raleigh la)-2104771)
+((drive sara accord raleigh la)-2104771, (goal)-2080003)
+((get-out-of-car sara accord la)-2104772, (DummyGoal)-2104769)
+((DummyInit)-2104768, (get-out-of-car sara accord la)-2104772)
+((initial)-2080002, (get-out-of-car sara accord la)-2104772)
+((get-out-of-car sara accord la)-2104772, (goal)-2080003)
+((get-in-car sara accord raleigh)-2104770, (drive sara accord raleigh la)-2104771)
+((drive sara accord raleigh la)-2104771, (get-out-of-car sara accord la)-2104772)
+((get-in-car sara accord raleigh)-2104770, (get-out-of-car sara accord la)-2104772)
+((initial)-2080002, (DummyInit)-2104915)
+((DummyInit)-2104915, (goal)-2080003)
+((initial)-2080002, (DummyGoal)-2104916)
+((DummyGoal)-2104916, (goal)-2080003)
+((DummyInit)-2104915, (DummyGoal)-2104916)
+((initial)-2080002, (DummyInit)-2104918)
+((DummyInit)-2104918, (goal)-2080003)
+((initial)-2080002, (DummyGoal)-2104919)
+((DummyGoal)-2104919, (goal)-2080003)
+((DummyInit)-2104918, (DummyGoal)-2104919)
+((buy-tickets sara)-2104920, (DummyGoal)-2104919)
+((DummyInit)-2104918, (buy-tickets sara)-2104920)
+((initial)-2080002, (buy-tickets sara)-2104920)
+((buy-tickets sara)-2104920, (goal)-2080003)
+((board-plane sara 747 la)-2104921, (DummyGoal)-2104919)
+((DummyInit)-2104918, (board-plane sara 747 la)-2104921)
+((initial)-2080002, (board-plane sara 747 la)-2104921)
+((board-plane sara 747 la)-2104921, (goal)-2080003)
+((fly sara 747 la raleigh)-2104922, (DummyGoal)-2104919)
+((DummyInit)-2104918, (fly sara 747 la raleigh)-2104922)
+((initial)-2080002, (fly sara 747 la raleigh)-2104922)
+((fly sara 747 la raleigh)-2104922, (goal)-2080003)
+((deplane sara 747 raleigh)-2104923, (DummyGoal)-2104919)
+((DummyInit)-2104918, (deplane sara 747 raleigh)-2104923)
+((initial)-2080002, (deplane sara 747 raleigh)-2104923)
+((deplane sara 747 raleigh)-2104923, (goal)-2080003)
+((buy-tickets sara)-2104920, (board-plane sara 747 la)-2104921)
+((board-plane sara 747 la)-2104921, (fly sara 747 la raleigh)-2104922)
+((fly sara 747 la raleigh)-2104922, (deplane sara 747 raleigh)-2104923)
+((board-plane sara 747 la)-2104921, (deplane sara 747 raleigh)-2104923)
+((DummyGoal)-2104919, (DummyGoal)-2104916)
+((DummyInit)-2104915, (DummyInit)-2104918)
+((DummyGoal)-2104916, (DummyInit)-2104768)
+((initial)-2080002, (DummyInit)-2106015)
+((DummyInit)-2106015, (goal)-2080003)
+((initial)-2080002, (DummyGoal)-2106016)
+((DummyGoal)-2106016, (goal)-2080003)
+((DummyInit)-2106015, (DummyGoal)-2106016)
+((get-out-of-car sara accord raleigh)-2106017, (DummyGoal)-2106016)
+((DummyInit)-2106015, (get-out-of-car sara accord raleigh)-2106017)
+((initial)-2080002, (get-out-of-car sara accord raleigh)-2106017)
+((get-out-of-car sara accord raleigh)-2106017, (goal)-2080003)
+((DummyGoal)-2106016, (DummyGoal)-2104916)
+((DummyInit)-2104915, (DummyInit)-2106015)
+((initial)-2080002, (DummyInit)-2110263)
+((DummyInit)-2110263, (goal)-2080003)
+((initial)-2080002, (DummyGoal)-2110264)
+((DummyGoal)-2110264, (goal)-2080003)
+((DummyInit)-2110263, (DummyGoal)-2110264)
+((initial)-2080002, (DummyInit)-2110266)
+((DummyInit)-2110266, (goal)-2080003)
+((initial)-2080002, (DummyGoal)-2110267)
+((DummyGoal)-2110267, (goal)-2080003)
+((DummyInit)-2110266, (DummyGoal)-2110267)
+((get-out-of-car sara accord raleigh)-2110268, (DummyGoal)-2110267)
+((DummyInit)-2110266, (get-out-of-car sara accord raleigh)-2110268)
+((initial)-2080002, (get-out-of-car sara accord raleigh)-2110268)
+((get-out-of-car sara accord raleigh)-2110268, (goal)-2080003)
+((DummyGoal)-2110267, (DummyGoal)-2110264)
+((DummyInit)-2110263, (DummyInit)-2110266)
+((DummyGoal)-2110264, (DummyGoal)-2106016)
+((DummyInit)-2106015, (DummyInit)-2110263)
+((initial)-2080002, (DummyInit)-2147099)
+((DummyInit)-2147099, (goal)-2080003)
+((initial)-2080002, (DummyGoal)-2147100)
+((DummyGoal)-2147100, (goal)-2080003)
+((DummyInit)-2147099, (DummyGoal)-2147100)
+((initial)-2080002, (DummyInit)-2147102)
+((DummyInit)-2147102, (goal)-2080003)
+((initial)-2080002, (DummyGoal)-2147103)
+((DummyGoal)-2147103, (goal)-2080003)
+((DummyInit)-2147102, (DummyGoal)-2147103)
+((deplane sara 747 raleigh)-2147104, (DummyGoal)-2147103)
+((DummyInit)-2147102, (deplane sara 747 raleigh)-2147104)
+((initial)-2080002, (deplane sara 747 raleigh)-2147104)
+((deplane sara 747 raleigh)-2147104, (goal)-2080003)
+((DummyGoal)-2147103, (DummyGoal)-2147100)
+((DummyInit)-2147099, (DummyInit)-2147102)
+((DummyGoal)-2147100, (DummyGoal)-2110264)
+((DummyInit)-2110263, (DummyInit)-2147099)

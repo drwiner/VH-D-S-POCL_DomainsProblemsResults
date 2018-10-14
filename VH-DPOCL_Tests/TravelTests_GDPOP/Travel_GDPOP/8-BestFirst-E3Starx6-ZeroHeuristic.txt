@@ -1,0 +1,74 @@
+problem	8
+selection	E3Starx6-ZeroHeuristic
+search	BestFirst
+runtime	60029
+opened	91897
+expanded	13579
+primitives	11
+decomps	1
+composites	1
+hdepth	8
+
+
+(get-out-of-car roger accord la)-14595923
+(DummyInit)-14595566
+(buy-tickets dave)-14595568
+(board-plane dave 747 slc)-14595569
+(fly dave 747 slc ny)-14595570
+(fly sara 747 la slc)-14664607
+(board-plane bob 747 slc)-14616375
+(fly bob 747 raleigh slc)-14598741
+(deplane bob 747 slc)-14597019
+(deplane dave 747 ny)-14595571
+(DummyGoal)-14595567
+
+
+Composites:
+
+(travel-by-plane dave slc ny 747)-14595565
+
+Orderings:
+
+((initial)-8192546, (goal)-8192547)
+((initial)-8192546, (DummyInit)-14595566)
+((DummyInit)-14595566, (goal)-8192547)
+((initial)-8192546, (DummyGoal)-14595567)
+((DummyGoal)-14595567, (goal)-8192547)
+((DummyInit)-14595566, (DummyGoal)-14595567)
+((buy-tickets dave)-14595568, (DummyGoal)-14595567)
+((DummyInit)-14595566, (buy-tickets dave)-14595568)
+((initial)-8192546, (buy-tickets dave)-14595568)
+((buy-tickets dave)-14595568, (goal)-8192547)
+((board-plane dave 747 slc)-14595569, (DummyGoal)-14595567)
+((DummyInit)-14595566, (board-plane dave 747 slc)-14595569)
+((initial)-8192546, (board-plane dave 747 slc)-14595569)
+((board-plane dave 747 slc)-14595569, (goal)-8192547)
+((fly dave 747 slc ny)-14595570, (DummyGoal)-14595567)
+((DummyInit)-14595566, (fly dave 747 slc ny)-14595570)
+((initial)-8192546, (fly dave 747 slc ny)-14595570)
+((fly dave 747 slc ny)-14595570, (goal)-8192547)
+((deplane dave 747 ny)-14595571, (DummyGoal)-14595567)
+((DummyInit)-14595566, (deplane dave 747 ny)-14595571)
+((initial)-8192546, (deplane dave 747 ny)-14595571)
+((deplane dave 747 ny)-14595571, (goal)-8192547)
+((buy-tickets dave)-14595568, (board-plane dave 747 slc)-14595569)
+((board-plane dave 747 slc)-14595569, (fly dave 747 slc ny)-14595570)
+((fly dave 747 slc ny)-14595570, (deplane dave 747 ny)-14595571)
+((board-plane dave 747 slc)-14595569, (deplane dave 747 ny)-14595571)
+((initial)-8192546, (get-out-of-car roger accord la)-14595923)
+((get-out-of-car roger accord la)-14595923, (goal)-8192547)
+((initial)-8192546, (deplane bob 747 slc)-14597019)
+((deplane bob 747 slc)-14597019, (goal)-8192547)
+((deplane bob 747 slc)-14597019, (DummyGoal)-14595567)
+((DummyInit)-14595566, (deplane bob 747 slc)-14597019)
+((initial)-8192546, (fly bob 747 raleigh slc)-14598741)
+((fly bob 747 raleigh slc)-14598741, (goal)-8192547)
+((fly bob 747 raleigh slc)-14598741, (deplane bob 747 slc)-14597019)
+((fly dave 747 slc ny)-14595570, (fly bob 747 raleigh slc)-14598741)
+((initial)-8192546, (board-plane bob 747 slc)-14616375)
+((board-plane bob 747 slc)-14616375, (goal)-8192547)
+((board-plane bob 747 slc)-14616375, (fly bob 747 raleigh slc)-14598741)
+((initial)-8192546, (fly sara 747 la slc)-14664607)
+((fly sara 747 la slc)-14664607, (goal)-8192547)
+((fly sara 747 la slc)-14664607, (board-plane bob 747 slc)-14616375)
+((fly dave 747 slc ny)-14595570, (fly sara 747 la slc)-14664607)

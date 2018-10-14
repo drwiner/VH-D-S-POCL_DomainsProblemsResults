@@ -1,0 +1,94 @@
+problem	8
+selection	E3Starx16-AddReuseHeuristic
+search	BestFirst
+runtime	60009
+opened	19666
+expanded	4158
+primitives	15
+decomps	1
+composites	1
+hdepth	4
+
+
+(get-in-car roger accord slc)-16613979
+(get-in-car roger accord la)-16602359
+(drive roger accord la slc)-16611765
+(get-in-car dave accord slc)-16610929
+(drive roger accord slc la)-16603342
+(drive roger accord raleigh slc)-16622771
+(drive roger accord slc raleigh)-16612037
+(get-out-of-car roger accord la)-16593035
+(get-out-of-car dave accord raleigh)-16593209
+(DummyInit)-16592897
+(buy-tickets dave)-16592899
+(board-plane dave 747 raleigh)-16592900
+(fly dave 747 raleigh ny)-16592901
+(deplane dave 747 ny)-16592902
+(DummyGoal)-16592898
+
+
+Composites:
+
+(travel-by-plane dave raleigh ny 747)-16592896
+
+Orderings:
+
+((initial)-8658127, (goal)-8658128)
+((initial)-8658127, (DummyInit)-16592897)
+((DummyInit)-16592897, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-16592898)
+((DummyGoal)-16592898, (goal)-8658128)
+((DummyInit)-16592897, (DummyGoal)-16592898)
+((buy-tickets dave)-16592899, (DummyGoal)-16592898)
+((DummyInit)-16592897, (buy-tickets dave)-16592899)
+((initial)-8658127, (buy-tickets dave)-16592899)
+((buy-tickets dave)-16592899, (goal)-8658128)
+((board-plane dave 747 raleigh)-16592900, (DummyGoal)-16592898)
+((DummyInit)-16592897, (board-plane dave 747 raleigh)-16592900)
+((initial)-8658127, (board-plane dave 747 raleigh)-16592900)
+((board-plane dave 747 raleigh)-16592900, (goal)-8658128)
+((fly dave 747 raleigh ny)-16592901, (DummyGoal)-16592898)
+((DummyInit)-16592897, (fly dave 747 raleigh ny)-16592901)
+((initial)-8658127, (fly dave 747 raleigh ny)-16592901)
+((fly dave 747 raleigh ny)-16592901, (goal)-8658128)
+((deplane dave 747 ny)-16592902, (DummyGoal)-16592898)
+((DummyInit)-16592897, (deplane dave 747 ny)-16592902)
+((initial)-8658127, (deplane dave 747 ny)-16592902)
+((deplane dave 747 ny)-16592902, (goal)-8658128)
+((buy-tickets dave)-16592899, (board-plane dave 747 raleigh)-16592900)
+((board-plane dave 747 raleigh)-16592900, (fly dave 747 raleigh ny)-16592901)
+((fly dave 747 raleigh ny)-16592901, (deplane dave 747 ny)-16592902)
+((board-plane dave 747 raleigh)-16592900, (deplane dave 747 ny)-16592902)
+((initial)-8658127, (get-out-of-car roger accord la)-16593035)
+((get-out-of-car roger accord la)-16593035, (goal)-8658128)
+((initial)-8658127, (get-out-of-car dave accord raleigh)-16593209)
+((get-out-of-car dave accord raleigh)-16593209, (goal)-8658128)
+((get-out-of-car dave accord raleigh)-16593209, (DummyInit)-16592897)
+((initial)-8658127, (get-in-car roger accord la)-16602359)
+((get-in-car roger accord la)-16602359, (goal)-8658128)
+((get-in-car roger accord la)-16602359, (get-out-of-car roger accord la)-16593035)
+((initial)-8658127, (drive roger accord slc la)-16603342)
+((drive roger accord slc la)-16603342, (goal)-8658128)
+((drive roger accord slc la)-16603342, (get-out-of-car roger accord la)-16593035)
+((get-in-car roger accord la)-16602359, (drive roger accord slc la)-16603342)
+((initial)-8658127, (get-in-car dave accord slc)-16610929)
+((get-in-car dave accord slc)-16610929, (goal)-8658128)
+((get-in-car dave accord slc)-16610929, (get-out-of-car dave accord raleigh)-16593209)
+((initial)-8658127, (drive roger accord la slc)-16611765)
+((drive roger accord la slc)-16611765, (goal)-8658128)
+((drive roger accord la slc)-16611765, (get-in-car dave accord slc)-16610929)
+((drive roger accord la slc)-16611765, (drive roger accord slc la)-16603342)
+((get-in-car dave accord slc)-16610929, (drive roger accord slc la)-16603342)
+((get-in-car roger accord la)-16602359, (drive roger accord la slc)-16611765)
+((initial)-8658127, (drive roger accord slc raleigh)-16612037)
+((drive roger accord slc raleigh)-16612037, (goal)-8658128)
+((drive roger accord slc raleigh)-16612037, (get-out-of-car dave accord raleigh)-16593209)
+((get-in-car dave accord slc)-16610929, (drive roger accord slc raleigh)-16612037)
+((initial)-8658127, (get-in-car roger accord slc)-16613979)
+((get-in-car roger accord slc)-16613979, (goal)-8658128)
+((get-in-car roger accord slc)-16613979, (drive roger accord slc raleigh)-16612037)
+((drive roger accord slc raleigh)-16612037, (get-out-of-car roger accord la)-16593035)
+((initial)-8658127, (drive roger accord raleigh slc)-16622771)
+((drive roger accord raleigh slc)-16622771, (goal)-8658128)
+((drive roger accord raleigh slc)-16622771, (drive roger accord slc raleigh)-16612037)
+((drive roger accord slc la)-16603342, (drive roger accord raleigh slc)-16622771)

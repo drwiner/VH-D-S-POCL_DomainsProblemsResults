@@ -1,0 +1,61 @@
+problem	5
+selection	E2-AddReuseHeuristic
+search	BestFirst
+runtime	612
+opened	444
+expanded	113
+primitives	8
+decomps	1
+composites	1
+hdepth	1
+
+
+(DummyInit)-4559704
+(get-in-car bob accord raleigh)-4559706
+(drive bob accord raleigh la)-4559707
+(get-in-car sara accord la)-4559829
+(get-out-of-car bob accord la)-4559708
+(drive sara accord la raleigh)-4559861
+(get-out-of-car sara accord raleigh)-4559565
+(DummyGoal)-4559705
+
+
+Composites:
+
+(travel-by-car bob raleigh la accord)-4559703
+
+Orderings:
+
+((initial)-4554657, (goal)-4554658)
+((initial)-4554657, (get-out-of-car sara accord raleigh)-4559565)
+((get-out-of-car sara accord raleigh)-4559565, (goal)-4554658)
+((initial)-4554657, (DummyInit)-4559704)
+((DummyInit)-4559704, (goal)-4554658)
+((initial)-4554657, (DummyGoal)-4559705)
+((DummyGoal)-4559705, (goal)-4554658)
+((DummyInit)-4559704, (DummyGoal)-4559705)
+((get-in-car bob accord raleigh)-4559706, (DummyGoal)-4559705)
+((DummyInit)-4559704, (get-in-car bob accord raleigh)-4559706)
+((initial)-4554657, (get-in-car bob accord raleigh)-4559706)
+((get-in-car bob accord raleigh)-4559706, (goal)-4554658)
+((drive bob accord raleigh la)-4559707, (DummyGoal)-4559705)
+((DummyInit)-4559704, (drive bob accord raleigh la)-4559707)
+((initial)-4554657, (drive bob accord raleigh la)-4559707)
+((drive bob accord raleigh la)-4559707, (goal)-4554658)
+((get-out-of-car bob accord la)-4559708, (DummyGoal)-4559705)
+((DummyInit)-4559704, (get-out-of-car bob accord la)-4559708)
+((initial)-4554657, (get-out-of-car bob accord la)-4559708)
+((get-out-of-car bob accord la)-4559708, (goal)-4554658)
+((get-in-car bob accord raleigh)-4559706, (drive bob accord raleigh la)-4559707)
+((drive bob accord raleigh la)-4559707, (get-out-of-car bob accord la)-4559708)
+((get-in-car bob accord raleigh)-4559706, (get-out-of-car bob accord la)-4559708)
+((initial)-4554657, (get-in-car sara accord la)-4559829)
+((get-in-car sara accord la)-4559829, (goal)-4554658)
+((get-in-car sara accord la)-4559829, (get-out-of-car sara accord raleigh)-4559565)
+((initial)-4554657, (drive sara accord la raleigh)-4559861)
+((drive sara accord la raleigh)-4559861, (goal)-4554658)
+((drive sara accord la raleigh)-4559861, (get-out-of-car sara accord raleigh)-4559565)
+((get-out-of-car bob accord la)-4559708, (drive sara accord la raleigh)-4559861)
+((drive bob accord raleigh la)-4559707, (drive sara accord la raleigh)-4559861)
+((get-in-car sara accord la)-4559829, (drive sara accord la raleigh)-4559861)
+((drive bob accord raleigh la)-4559707, (get-in-car sara accord la)-4559829)

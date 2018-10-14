@@ -1,0 +1,67 @@
+problem	8
+selection	E0-NumOCsHeuristic
+search	BestFirst
+runtime	5732
+opened	19866
+expanded	2524
+primitives	10
+decomps	1
+composites	1
+hdepth	1
+
+
+(get-in-car sara accord raleigh)-8777749
+(drive sara accord raleigh slc)-8730039
+(get-in-car dave accord slc)-8796929
+(get-in-car roger accord slc)-8719533
+(drive roger accord slc la)-8720211
+(get-out-of-car roger accord la)-8718171
+(drive sara accord la ny)-8797145
+(DummyInit)-8717651
+(get-out-of-car dave accord ny)-8717653
+(DummyGoal)-8717652
+
+
+Composites:
+
+(generic-travel dave ny)-8717650
+
+Orderings:
+
+((initial)-8658127, (goal)-8658128)
+((initial)-8658127, (DummyInit)-8717651)
+((DummyInit)-8717651, (goal)-8658128)
+((initial)-8658127, (DummyGoal)-8717652)
+((DummyGoal)-8717652, (goal)-8658128)
+((DummyInit)-8717651, (DummyGoal)-8717652)
+((get-out-of-car dave accord ny)-8717653, (DummyGoal)-8717652)
+((DummyInit)-8717651, (get-out-of-car dave accord ny)-8717653)
+((initial)-8658127, (get-out-of-car dave accord ny)-8717653)
+((get-out-of-car dave accord ny)-8717653, (goal)-8658128)
+((initial)-8658127, (get-out-of-car roger accord la)-8718171)
+((get-out-of-car roger accord la)-8718171, (goal)-8658128)
+((initial)-8658127, (get-in-car roger accord slc)-8719533)
+((get-in-car roger accord slc)-8719533, (goal)-8658128)
+((get-in-car roger accord slc)-8719533, (get-out-of-car roger accord la)-8718171)
+((initial)-8658127, (drive roger accord slc la)-8720211)
+((drive roger accord slc la)-8720211, (goal)-8658128)
+((drive roger accord slc la)-8720211, (get-out-of-car roger accord la)-8718171)
+((get-in-car roger accord slc)-8719533, (drive roger accord slc la)-8720211)
+((initial)-8658127, (drive sara accord raleigh slc)-8730039)
+((drive sara accord raleigh slc)-8730039, (goal)-8658128)
+((drive sara accord raleigh slc)-8730039, (get-in-car roger accord slc)-8719533)
+((drive sara accord raleigh slc)-8730039, (drive roger accord slc la)-8720211)
+((initial)-8658127, (get-in-car sara accord raleigh)-8777749)
+((get-in-car sara accord raleigh)-8777749, (goal)-8658128)
+((get-in-car sara accord raleigh)-8777749, (drive sara accord raleigh slc)-8730039)
+((initial)-8658127, (get-in-car dave accord slc)-8796929)
+((get-in-car dave accord slc)-8796929, (goal)-8658128)
+((get-in-car dave accord slc)-8796929, (get-out-of-car dave accord ny)-8717653)
+((drive sara accord raleigh slc)-8730039, (get-in-car dave accord slc)-8796929)
+((get-in-car dave accord slc)-8796929, (drive roger accord slc la)-8720211)
+((initial)-8658127, (drive sara accord la ny)-8797145)
+((drive sara accord la ny)-8797145, (goal)-8658128)
+((drive sara accord la ny)-8797145, (get-out-of-car dave accord ny)-8717653)
+((get-out-of-car roger accord la)-8718171, (drive sara accord la ny)-8797145)
+((drive roger accord slc la)-8720211, (drive sara accord la ny)-8797145)
+((get-in-car sara accord raleigh)-8777749, (drive sara accord la ny)-8797145)

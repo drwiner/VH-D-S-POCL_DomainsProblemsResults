@@ -1,0 +1,92 @@
+problem	1
+selection	Nada-ZeroHeuristic
+search	BFS
+runtime	60006
+opened	83532
+expanded	7666
+primitives	14
+decomps	3
+composites	3
+hdepth	8
+
+
+(DummyInit)-1519940
+(buy-tickets david)-1519942
+(board-plane david united raleigh)-1519943
+(fly david united raleigh slc)-1519944
+(deplane david united slc)-1519945
+(DummyGoal)-1519941
+(DummyInit)-1466491
+(get-in-car david mazda slc)-1466493
+(drive david mazda slc raleigh)-1466494
+(get-out-of-car david mazda raleigh)-1466495
+(DummyGoal)-1466492
+(DummyInit)-1467040
+(get-out-of-car sara mazda raleigh)-1467042
+(DummyGoal)-1467041
+
+
+Composites:
+
+(travel-by-car david slc raleigh mazda)-1466490
+(generic-travel sara raleigh)-1467039
+(travel-by-plane david raleigh slc united)-1519939
+
+Orderings:
+
+((initial)-220, (goal)-221)
+((initial)-220, (DummyInit)-1466491)
+((DummyInit)-1466491, (goal)-221)
+((initial)-220, (DummyGoal)-1466492)
+((DummyGoal)-1466492, (goal)-221)
+((DummyInit)-1466491, (DummyGoal)-1466492)
+((get-in-car david mazda slc)-1466493, (DummyGoal)-1466492)
+((DummyInit)-1466491, (get-in-car david mazda slc)-1466493)
+((initial)-220, (get-in-car david mazda slc)-1466493)
+((get-in-car david mazda slc)-1466493, (goal)-221)
+((drive david mazda slc raleigh)-1466494, (DummyGoal)-1466492)
+((DummyInit)-1466491, (drive david mazda slc raleigh)-1466494)
+((initial)-220, (drive david mazda slc raleigh)-1466494)
+((drive david mazda slc raleigh)-1466494, (goal)-221)
+((get-out-of-car david mazda raleigh)-1466495, (DummyGoal)-1466492)
+((DummyInit)-1466491, (get-out-of-car david mazda raleigh)-1466495)
+((initial)-220, (get-out-of-car david mazda raleigh)-1466495)
+((get-out-of-car david mazda raleigh)-1466495, (goal)-221)
+((get-in-car david mazda slc)-1466493, (drive david mazda slc raleigh)-1466494)
+((drive david mazda slc raleigh)-1466494, (get-out-of-car david mazda raleigh)-1466495)
+((get-in-car david mazda slc)-1466493, (get-out-of-car david mazda raleigh)-1466495)
+((initial)-220, (DummyInit)-1467040)
+((DummyInit)-1467040, (goal)-221)
+((initial)-220, (DummyGoal)-1467041)
+((DummyGoal)-1467041, (goal)-221)
+((DummyInit)-1467040, (DummyGoal)-1467041)
+((get-out-of-car sara mazda raleigh)-1467042, (DummyGoal)-1467041)
+((DummyInit)-1467040, (get-out-of-car sara mazda raleigh)-1467042)
+((initial)-220, (get-out-of-car sara mazda raleigh)-1467042)
+((get-out-of-car sara mazda raleigh)-1467042, (goal)-221)
+((initial)-220, (DummyInit)-1519940)
+((DummyInit)-1519940, (goal)-221)
+((initial)-220, (DummyGoal)-1519941)
+((DummyGoal)-1519941, (goal)-221)
+((DummyInit)-1519940, (DummyGoal)-1519941)
+((buy-tickets david)-1519942, (DummyGoal)-1519941)
+((DummyInit)-1519940, (buy-tickets david)-1519942)
+((initial)-220, (buy-tickets david)-1519942)
+((buy-tickets david)-1519942, (goal)-221)
+((board-plane david united raleigh)-1519943, (DummyGoal)-1519941)
+((DummyInit)-1519940, (board-plane david united raleigh)-1519943)
+((initial)-220, (board-plane david united raleigh)-1519943)
+((board-plane david united raleigh)-1519943, (goal)-221)
+((fly david united raleigh slc)-1519944, (DummyGoal)-1519941)
+((DummyInit)-1519940, (fly david united raleigh slc)-1519944)
+((initial)-220, (fly david united raleigh slc)-1519944)
+((fly david united raleigh slc)-1519944, (goal)-221)
+((deplane david united slc)-1519945, (DummyGoal)-1519941)
+((DummyInit)-1519940, (deplane david united slc)-1519945)
+((initial)-220, (deplane david united slc)-1519945)
+((deplane david united slc)-1519945, (goal)-221)
+((buy-tickets david)-1519942, (board-plane david united raleigh)-1519943)
+((board-plane david united raleigh)-1519943, (fly david united raleigh slc)-1519944)
+((fly david united raleigh slc)-1519944, (deplane david united slc)-1519945)
+((board-plane david united raleigh)-1519943, (deplane david united slc)-1519945)
+((DummyGoal)-1519941, (DummyInit)-1466491)

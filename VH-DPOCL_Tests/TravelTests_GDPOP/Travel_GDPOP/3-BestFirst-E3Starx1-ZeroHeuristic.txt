@@ -1,0 +1,66 @@
+problem	3
+selection	E3Starx1-ZeroHeuristic
+search	BestFirst
+runtime	666
+opened	1295
+expanded	376
+primitives	9
+decomps	1
+composites	1
+hdepth	8
+
+
+(DummyInit)-2168923
+(buy-tickets bob)-2168925
+(board-plane bob 747 raleigh)-2168926
+(fly bob 747 raleigh la)-2168927
+(deplane bob 747 la)-2168928
+(DummyGoal)-2168924
+(get-in-car sara accord raleigh)-2169120
+(drive sara accord raleigh la)-2169022
+(get-out-of-car sara accord la)-2163396
+
+
+Composites:
+
+(travel-by-plane bob raleigh la 747)-2168922
+
+Orderings:
+
+((initial)-1699865, (goal)-1699866)
+((initial)-1699865, (get-out-of-car sara accord la)-2163396)
+((get-out-of-car sara accord la)-2163396, (goal)-1699866)
+((initial)-1699865, (DummyInit)-2168923)
+((DummyInit)-2168923, (goal)-1699866)
+((initial)-1699865, (DummyGoal)-2168924)
+((DummyGoal)-2168924, (goal)-1699866)
+((DummyInit)-2168923, (DummyGoal)-2168924)
+((buy-tickets bob)-2168925, (DummyGoal)-2168924)
+((DummyInit)-2168923, (buy-tickets bob)-2168925)
+((initial)-1699865, (buy-tickets bob)-2168925)
+((buy-tickets bob)-2168925, (goal)-1699866)
+((board-plane bob 747 raleigh)-2168926, (DummyGoal)-2168924)
+((DummyInit)-2168923, (board-plane bob 747 raleigh)-2168926)
+((initial)-1699865, (board-plane bob 747 raleigh)-2168926)
+((board-plane bob 747 raleigh)-2168926, (goal)-1699866)
+((fly bob 747 raleigh la)-2168927, (DummyGoal)-2168924)
+((DummyInit)-2168923, (fly bob 747 raleigh la)-2168927)
+((initial)-1699865, (fly bob 747 raleigh la)-2168927)
+((fly bob 747 raleigh la)-2168927, (goal)-1699866)
+((deplane bob 747 la)-2168928, (DummyGoal)-2168924)
+((DummyInit)-2168923, (deplane bob 747 la)-2168928)
+((initial)-1699865, (deplane bob 747 la)-2168928)
+((deplane bob 747 la)-2168928, (goal)-1699866)
+((buy-tickets bob)-2168925, (board-plane bob 747 raleigh)-2168926)
+((board-plane bob 747 raleigh)-2168926, (fly bob 747 raleigh la)-2168927)
+((fly bob 747 raleigh la)-2168927, (deplane bob 747 la)-2168928)
+((board-plane bob 747 raleigh)-2168926, (deplane bob 747 la)-2168928)
+((DummyGoal)-2168924, (get-out-of-car sara accord la)-2163396)
+((initial)-1699865, (drive sara accord raleigh la)-2169022)
+((drive sara accord raleigh la)-2169022, (goal)-1699866)
+((drive sara accord raleigh la)-2169022, (get-out-of-car sara accord la)-2163396)
+((initial)-1699865, (get-in-car sara accord raleigh)-2169120)
+((get-in-car sara accord raleigh)-2169120, (goal)-1699866)
+((get-in-car sara accord raleigh)-2169120, (drive sara accord raleigh la)-2169022)
+((get-in-car sara accord raleigh)-2169120, (get-out-of-car sara accord la)-2163396)
+((DummyGoal)-2168924, (get-in-car sara accord raleigh)-2169120)

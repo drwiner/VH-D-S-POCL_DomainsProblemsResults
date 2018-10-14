@@ -1,0 +1,10 @@
+problem	1
+heuristic	ZeroHeuristic
+search	BestFirst
+runtime	98
+opened	61
+expanded	34
+primitives	3
+decomps	0
+composites	0
+hdepth	0

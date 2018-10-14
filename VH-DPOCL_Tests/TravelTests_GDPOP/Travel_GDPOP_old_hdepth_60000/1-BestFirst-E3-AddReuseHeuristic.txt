@@ -1,0 +1,55 @@
+problem	1
+selection	E3-AddReuseHeuristic
+search	BestFirst
+runtime	210
+opened	82
+expanded	20
+primitives	7
+decomps	1
+composites	1
+hdepth	1
+
+
+(get-in-car sara mazda slc)-3504
+(DummyInit)-2249
+(get-in-car david mazda slc)-2251
+(drive david mazda slc raleigh)-2252
+(get-out-of-car sara mazda raleigh)-2366
+(get-out-of-car david mazda raleigh)-2253
+(DummyGoal)-2250
+
+
+Composites:
+
+(travel-by-car david slc raleigh mazda)-2248
+
+Orderings:
+
+((initial)-220, (goal)-221)
+((initial)-220, (DummyInit)-2249)
+((DummyInit)-2249, (goal)-221)
+((initial)-220, (DummyGoal)-2250)
+((DummyGoal)-2250, (goal)-221)
+((DummyInit)-2249, (DummyGoal)-2250)
+((get-in-car david mazda slc)-2251, (DummyGoal)-2250)
+((DummyInit)-2249, (get-in-car david mazda slc)-2251)
+((initial)-220, (get-in-car david mazda slc)-2251)
+((get-in-car david mazda slc)-2251, (goal)-221)
+((drive david mazda slc raleigh)-2252, (DummyGoal)-2250)
+((DummyInit)-2249, (drive david mazda slc raleigh)-2252)
+((initial)-220, (drive david mazda slc raleigh)-2252)
+((drive david mazda slc raleigh)-2252, (goal)-221)
+((get-out-of-car david mazda raleigh)-2253, (DummyGoal)-2250)
+((DummyInit)-2249, (get-out-of-car david mazda raleigh)-2253)
+((initial)-220, (get-out-of-car david mazda raleigh)-2253)
+((get-out-of-car david mazda raleigh)-2253, (goal)-221)
+((get-in-car david mazda slc)-2251, (drive david mazda slc raleigh)-2252)
+((drive david mazda slc raleigh)-2252, (get-out-of-car david mazda raleigh)-2253)
+((get-in-car david mazda slc)-2251, (get-out-of-car david mazda raleigh)-2253)
+((initial)-220, (get-out-of-car sara mazda raleigh)-2366)
+((get-out-of-car sara mazda raleigh)-2366, (goal)-221)
+((drive david mazda slc raleigh)-2252, (get-out-of-car sara mazda raleigh)-2366)
+((initial)-220, (get-in-car sara mazda slc)-3504)
+((get-in-car sara mazda slc)-3504, (goal)-221)
+((get-in-car sara mazda slc)-3504, (get-out-of-car sara mazda raleigh)-2366)
+((get-in-car sara mazda slc)-3504, (drive david mazda slc raleigh)-2252)

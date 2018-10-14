@@ -1,0 +1,82 @@
+problem	1
+selection	E3Starx0.5-ZeroHeuristic
+search	BestFirst
+runtime	60002
+opened	95664
+expanded	16316
+primitives	13
+decomps	5
+composites	5
+hdepth	5
+
+
+(DummyInit)-89564
+(DummyInit)-112011
+(get-out-of-car sara mazda raleigh)-112013
+(DummyInit)-89567
+(deplane sara united raleigh)-89569
+(DummyGoal)-89568
+(DummyGoal)-112012
+(DummyGoal)-89565
+(DummyInit)-88914
+(DummyInit)-88917
+(deplane david united raleigh)-88919
+(DummyGoal)-88918
+(DummyGoal)-88915
+
+
+Composites:
+
+(generic-travel david raleigh)-88913
+(generic-travel david raleigh)-88916
+(generic-travel sara raleigh)-89563
+(generic-travel sara raleigh)-89566
+(generic-travel sara raleigh)-112010
+
+Orderings:
+
+((initial)-220, (goal)-221)
+((initial)-220, (DummyInit)-88914)
+((DummyInit)-88914, (goal)-221)
+((initial)-220, (DummyGoal)-88915)
+((DummyGoal)-88915, (goal)-221)
+((DummyInit)-88914, (DummyGoal)-88915)
+((initial)-220, (DummyInit)-88917)
+((DummyInit)-88917, (goal)-221)
+((initial)-220, (DummyGoal)-88918)
+((DummyGoal)-88918, (goal)-221)
+((DummyInit)-88917, (DummyGoal)-88918)
+((deplane david united raleigh)-88919, (DummyGoal)-88918)
+((DummyInit)-88917, (deplane david united raleigh)-88919)
+((initial)-220, (deplane david united raleigh)-88919)
+((deplane david united raleigh)-88919, (goal)-221)
+((DummyGoal)-88918, (DummyGoal)-88915)
+((DummyInit)-88914, (DummyInit)-88917)
+((initial)-220, (DummyInit)-89564)
+((DummyInit)-89564, (goal)-221)
+((initial)-220, (DummyGoal)-89565)
+((DummyGoal)-89565, (goal)-221)
+((DummyInit)-89564, (DummyGoal)-89565)
+((initial)-220, (DummyInit)-89567)
+((DummyInit)-89567, (goal)-221)
+((initial)-220, (DummyGoal)-89568)
+((DummyGoal)-89568, (goal)-221)
+((DummyInit)-89567, (DummyGoal)-89568)
+((deplane sara united raleigh)-89569, (DummyGoal)-89568)
+((DummyInit)-89567, (deplane sara united raleigh)-89569)
+((initial)-220, (deplane sara united raleigh)-89569)
+((deplane sara united raleigh)-89569, (goal)-221)
+((DummyGoal)-89568, (DummyGoal)-89565)
+((DummyInit)-89564, (DummyInit)-89567)
+((initial)-220, (DummyInit)-112011)
+((DummyInit)-112011, (goal)-221)
+((initial)-220, (DummyGoal)-112012)
+((DummyGoal)-112012, (goal)-221)
+((DummyInit)-112011, (DummyGoal)-112012)
+((get-out-of-car sara mazda raleigh)-112013, (DummyGoal)-112012)
+((DummyInit)-112011, (get-out-of-car sara mazda raleigh)-112013)
+((initial)-220, (get-out-of-car sara mazda raleigh)-112013)
+((get-out-of-car sara mazda raleigh)-112013, (goal)-221)
+((DummyGoal)-112012, (DummyGoal)-89565)
+((DummyInit)-89564, (DummyInit)-112011)
+((DummyGoal)-89568, (DummyGoal)-112012)

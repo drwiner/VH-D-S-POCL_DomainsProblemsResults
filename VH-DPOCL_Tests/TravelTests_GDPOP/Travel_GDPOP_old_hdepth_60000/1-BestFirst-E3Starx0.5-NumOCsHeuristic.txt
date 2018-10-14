@@ -1,0 +1,51 @@
+problem	1
+selection	E3Starx0.5-NumOCsHeuristic
+search	BestFirst
+runtime	276
+opened	1174
+expanded	199
+primitives	7
+decomps	1
+composites	1
+hdepth	1
+
+
+(get-in-car david mazda slc)-731710
+(get-in-car sara mazda slc)-728218
+(drive sara mazda slc raleigh)-728198
+(get-out-of-car sara mazda raleigh)-724348
+(DummyInit)-723870
+(get-out-of-car david mazda raleigh)-723872
+(DummyGoal)-723871
+
+
+Composites:
+
+(generic-travel david raleigh)-723869
+
+Orderings:
+
+((initial)-220, (goal)-221)
+((initial)-220, (DummyInit)-723870)
+((DummyInit)-723870, (goal)-221)
+((initial)-220, (DummyGoal)-723871)
+((DummyGoal)-723871, (goal)-221)
+((DummyInit)-723870, (DummyGoal)-723871)
+((get-out-of-car david mazda raleigh)-723872, (DummyGoal)-723871)
+((DummyInit)-723870, (get-out-of-car david mazda raleigh)-723872)
+((initial)-220, (get-out-of-car david mazda raleigh)-723872)
+((get-out-of-car david mazda raleigh)-723872, (goal)-221)
+((initial)-220, (get-out-of-car sara mazda raleigh)-724348)
+((get-out-of-car sara mazda raleigh)-724348, (goal)-221)
+((initial)-220, (drive sara mazda slc raleigh)-728198)
+((drive sara mazda slc raleigh)-728198, (goal)-221)
+((drive sara mazda slc raleigh)-728198, (get-out-of-car sara mazda raleigh)-724348)
+((initial)-220, (get-in-car sara mazda slc)-728218)
+((get-in-car sara mazda slc)-728218, (goal)-221)
+((get-in-car sara mazda slc)-728218, (drive sara mazda slc raleigh)-728198)
+((get-in-car sara mazda slc)-728218, (get-out-of-car sara mazda raleigh)-724348)
+((drive sara mazda slc raleigh)-728198, (get-out-of-car david mazda raleigh)-723872)
+((initial)-220, (get-in-car david mazda slc)-731710)
+((get-in-car david mazda slc)-731710, (goal)-221)
+((get-in-car david mazda slc)-731710, (get-out-of-car david mazda raleigh)-723872)
+((get-in-car david mazda slc)-731710, (drive sara mazda slc raleigh)-728198)

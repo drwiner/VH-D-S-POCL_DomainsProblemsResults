@@ -1,0 +1,81 @@
+problem	1
+selection	E3-ZeroHeuristic
+search	BestFirst
+runtime	6010
+opened	10030
+expanded	767
+primitives	13
+decomps	5
+composites	5
+hdepth	4
+
+
+(DummyInit)-14982
+(DummyInit)-25118
+(DummyInit)-25121
+(get-out-of-car bea mazda raleigh)-25123
+(DummyGoal)-25122
+(DummyGoal)-25119
+(get-out-of-car sara mazda raleigh)-14984
+(DummyGoal)-14983
+(DummyInit)-14911
+(DummyInit)-14914
+(get-out-of-car david mazda raleigh)-14916
+(DummyGoal)-14915
+(DummyGoal)-14912
+
+
+Composites:
+
+(generic-travel david slc raleigh)-14910
+(generic-travel david slc raleigh)-14913
+(generic-travel sara slc raleigh)-14981
+(generic-travel bea slc raleigh)-25117
+(generic-travel bea slc raleigh)-25120
+
+Orderings:
+
+((initial)-211, (goal)-212)
+((initial)-211, (DummyInit)-14911)
+((DummyInit)-14911, (goal)-212)
+((initial)-211, (DummyGoal)-14912)
+((DummyGoal)-14912, (goal)-212)
+((DummyInit)-14911, (DummyGoal)-14912)
+((initial)-211, (DummyInit)-14914)
+((DummyInit)-14914, (goal)-212)
+((initial)-211, (DummyGoal)-14915)
+((DummyGoal)-14915, (goal)-212)
+((DummyInit)-14914, (DummyGoal)-14915)
+((get-out-of-car david mazda raleigh)-14916, (DummyGoal)-14915)
+((DummyInit)-14914, (get-out-of-car david mazda raleigh)-14916)
+((initial)-211, (get-out-of-car david mazda raleigh)-14916)
+((get-out-of-car david mazda raleigh)-14916, (goal)-212)
+((DummyGoal)-14915, (DummyGoal)-14912)
+((DummyInit)-14911, (DummyInit)-14914)
+((initial)-211, (DummyInit)-14982)
+((DummyInit)-14982, (goal)-212)
+((initial)-211, (DummyGoal)-14983)
+((DummyGoal)-14983, (goal)-212)
+((DummyInit)-14982, (DummyGoal)-14983)
+((get-out-of-car sara mazda raleigh)-14984, (DummyGoal)-14983)
+((DummyInit)-14982, (get-out-of-car sara mazda raleigh)-14984)
+((initial)-211, (get-out-of-car sara mazda raleigh)-14984)
+((get-out-of-car sara mazda raleigh)-14984, (goal)-212)
+((initial)-211, (DummyInit)-25118)
+((DummyInit)-25118, (goal)-212)
+((initial)-211, (DummyGoal)-25119)
+((DummyGoal)-25119, (goal)-212)
+((DummyInit)-25118, (DummyGoal)-25119)
+((initial)-211, (DummyInit)-25121)
+((DummyInit)-25121, (goal)-212)
+((initial)-211, (DummyGoal)-25122)
+((DummyGoal)-25122, (goal)-212)
+((DummyInit)-25121, (DummyGoal)-25122)
+((get-out-of-car bea mazda raleigh)-25123, (DummyGoal)-25122)
+((DummyInit)-25121, (get-out-of-car bea mazda raleigh)-25123)
+((initial)-211, (get-out-of-car bea mazda raleigh)-25123)
+((get-out-of-car bea mazda raleigh)-25123, (goal)-212)
+((DummyGoal)-25122, (DummyGoal)-25119)
+((DummyInit)-25118, (DummyInit)-25121)
+((DummyGoal)-25119, (DummyGoal)-14983)
+((DummyInit)-14982, (DummyInit)-25118)

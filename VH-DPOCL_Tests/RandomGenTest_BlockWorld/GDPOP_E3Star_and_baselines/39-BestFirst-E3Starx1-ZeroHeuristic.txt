@@ -1,0 +1,48 @@
+problem	39
+selection	E3Starx1-ZeroHeuristic
+search	BestFirst
+runtime	60027
+opened	102959
+expanded	2713
+primitives	6
+decomps	1
+composites	1
+hdepth	2
+
+
+(pickup agent_0 block_0 location_5 location_2)-70053290
+(DummyInit)-70017471
+(move agent_0 location_2 location_1)-70017473
+(move agent_0 location_1 location_0)-70017474
+(DummyGoal)-70017472
+(putdown agent_0 block_0 location_0 location_1)-70002333
+
+
+Composites:
+
+(multimove agent_0 location_2 location_0 location_1)-70017470
+
+Orderings:
+
+((initial)-66907775, (goal)-66907776)
+((initial)-66907775, (putdown agent_0 block_0 location_0 location_1)-70002333)
+((putdown agent_0 block_0 location_0 location_1)-70002333, (goal)-66907776)
+((initial)-66907775, (DummyInit)-70017471)
+((DummyInit)-70017471, (goal)-66907776)
+((initial)-66907775, (DummyGoal)-70017472)
+((DummyGoal)-70017472, (goal)-66907776)
+((DummyInit)-70017471, (DummyGoal)-70017472)
+((move agent_0 location_2 location_1)-70017473, (DummyGoal)-70017472)
+((DummyInit)-70017471, (move agent_0 location_2 location_1)-70017473)
+((initial)-66907775, (move agent_0 location_2 location_1)-70017473)
+((move agent_0 location_2 location_1)-70017473, (goal)-66907776)
+((move agent_0 location_1 location_0)-70017474, (DummyGoal)-70017472)
+((DummyInit)-70017471, (move agent_0 location_1 location_0)-70017474)
+((initial)-66907775, (move agent_0 location_1 location_0)-70017474)
+((move agent_0 location_1 location_0)-70017474, (goal)-66907776)
+((move agent_0 location_2 location_1)-70017473, (move agent_0 location_1 location_0)-70017474)
+((DummyGoal)-70017472, (putdown agent_0 block_0 location_0 location_1)-70002333)
+((move agent_0 location_1 location_0)-70017474, (putdown agent_0 block_0 location_0 location_1)-70002333)
+((initial)-66907775, (pickup agent_0 block_0 location_5 location_2)-70053290)
+((pickup agent_0 block_0 location_5 location_2)-70053290, (goal)-66907776)
+((pickup agent_0 block_0 location_5 location_2)-70053290, (putdown agent_0 block_0 location_0 location_1)-70002333)

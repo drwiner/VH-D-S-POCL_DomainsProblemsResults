@@ -1,0 +1,55 @@
+problem	3
+selection	E3Starx1-ZeroHeuristic
+search	BestFirst
+runtime	7592
+opened	12568
+expanded	3287
+primitives	7
+decomps	1
+composites	1
+hdepth	3
+
+
+(get-in-car bob accord raleigh)-2811110
+(DummyInit)-2805095
+(get-in-car sara accord raleigh)-2805097
+(drive sara accord raleigh la)-2805098
+(get-out-of-car bob accord la)-2805172
+(get-out-of-car sara accord la)-2805099
+(DummyGoal)-2805096
+
+
+Composites:
+
+(travel-by-car sara raleigh la accord)-2805094
+
+Orderings:
+
+((initial)-2385552, (goal)-2385553)
+((initial)-2385552, (DummyInit)-2805095)
+((DummyInit)-2805095, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2805096)
+((DummyGoal)-2805096, (goal)-2385553)
+((DummyInit)-2805095, (DummyGoal)-2805096)
+((get-in-car sara accord raleigh)-2805097, (DummyGoal)-2805096)
+((DummyInit)-2805095, (get-in-car sara accord raleigh)-2805097)
+((initial)-2385552, (get-in-car sara accord raleigh)-2805097)
+((get-in-car sara accord raleigh)-2805097, (goal)-2385553)
+((drive sara accord raleigh la)-2805098, (DummyGoal)-2805096)
+((DummyInit)-2805095, (drive sara accord raleigh la)-2805098)
+((initial)-2385552, (drive sara accord raleigh la)-2805098)
+((drive sara accord raleigh la)-2805098, (goal)-2385553)
+((get-out-of-car sara accord la)-2805099, (DummyGoal)-2805096)
+((DummyInit)-2805095, (get-out-of-car sara accord la)-2805099)
+((initial)-2385552, (get-out-of-car sara accord la)-2805099)
+((get-out-of-car sara accord la)-2805099, (goal)-2385553)
+((get-in-car sara accord raleigh)-2805097, (drive sara accord raleigh la)-2805098)
+((drive sara accord raleigh la)-2805098, (get-out-of-car sara accord la)-2805099)
+((get-in-car sara accord raleigh)-2805097, (get-out-of-car sara accord la)-2805099)
+((initial)-2385552, (get-out-of-car bob accord la)-2805172)
+((get-out-of-car bob accord la)-2805172, (goal)-2385553)
+((drive sara accord raleigh la)-2805098, (get-out-of-car bob accord la)-2805172)
+((initial)-2385552, (get-in-car bob accord raleigh)-2811110)
+((get-in-car bob accord raleigh)-2811110, (goal)-2385553)
+((get-in-car bob accord raleigh)-2811110, (get-out-of-car bob accord la)-2805172)
+((get-in-car bob accord raleigh)-2811110, (drive sara accord raleigh la)-2805098)

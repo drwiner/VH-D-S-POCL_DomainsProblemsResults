@@ -1,0 +1,17 @@
+problem	34
+selection	Nada-ZeroHeuristic
+search	BFS
+runtime	60031
+opened	130297
+expanded	42063
+primitives	4
+decomps	0
+composites	0
+hdepth	0
+
+
+(pickup agent_0 block_1 location_1 location_2)-30936753
+(move agent_0 location_0 location_5)-30892379
+(putdown agent_0 block_1 location_5 location_0)-30885871
+(putdown agent_0 block_0 location_4 location_1)-30888019
+

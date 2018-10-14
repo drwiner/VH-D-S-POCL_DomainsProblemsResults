@@ -1,0 +1,119 @@
+problem	3
+selection	E3-ZeroHeuristic
+search	BestFirst
+runtime	60003
+opened	67534
+expanded	14596
+primitives	20
+decomps	8
+composites	8
+hdepth	3
+
+
+(DummyInit)-2976861
+(DummyInit)-2976864
+(get-out-of-car bob accord la)-2976866
+(DummyGoal)-2976865
+(DummyGoal)-2976862
+(DummyInit)-2976699
+(DummyInit)-2977989
+(DummyInit)-2977992
+(DummyInit)-3128141
+(DummyInit)-3128144
+(deplane sara 747 la)-3128146
+(DummyGoal)-3128145
+(DummyGoal)-3128142
+(deplane sara 747 la)-2977994
+(DummyGoal)-2977993
+(DummyGoal)-2977990
+(DummyInit)-2976702
+(deplane sara 747 la)-2976704
+(DummyGoal)-2976703
+(DummyGoal)-2976700
+
+
+Composites:
+
+(generic-travel sara la)-2976698
+(generic-travel sara la)-2976701
+(generic-travel bob la)-2976860
+(generic-travel bob la)-2976863
+(generic-travel sara la)-2977988
+(generic-travel sara la)-2977991
+(generic-travel sara la)-3128140
+(generic-travel sara la)-3128143
+
+Orderings:
+
+((initial)-2218974, (goal)-2218975)
+((initial)-2218974, (DummyInit)-2976699)
+((DummyInit)-2976699, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-2976700)
+((DummyGoal)-2976700, (goal)-2218975)
+((DummyInit)-2976699, (DummyGoal)-2976700)
+((initial)-2218974, (DummyInit)-2976702)
+((DummyInit)-2976702, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-2976703)
+((DummyGoal)-2976703, (goal)-2218975)
+((DummyInit)-2976702, (DummyGoal)-2976703)
+((deplane sara 747 la)-2976704, (DummyGoal)-2976703)
+((DummyInit)-2976702, (deplane sara 747 la)-2976704)
+((initial)-2218974, (deplane sara 747 la)-2976704)
+((deplane sara 747 la)-2976704, (goal)-2218975)
+((DummyGoal)-2976703, (DummyGoal)-2976700)
+((DummyInit)-2976699, (DummyInit)-2976702)
+((initial)-2218974, (DummyInit)-2976861)
+((DummyInit)-2976861, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-2976862)
+((DummyGoal)-2976862, (goal)-2218975)
+((DummyInit)-2976861, (DummyGoal)-2976862)
+((initial)-2218974, (DummyInit)-2976864)
+((DummyInit)-2976864, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-2976865)
+((DummyGoal)-2976865, (goal)-2218975)
+((DummyInit)-2976864, (DummyGoal)-2976865)
+((get-out-of-car bob accord la)-2976866, (DummyGoal)-2976865)
+((DummyInit)-2976864, (get-out-of-car bob accord la)-2976866)
+((initial)-2218974, (get-out-of-car bob accord la)-2976866)
+((get-out-of-car bob accord la)-2976866, (goal)-2218975)
+((DummyGoal)-2976865, (DummyGoal)-2976862)
+((DummyInit)-2976861, (DummyInit)-2976864)
+((initial)-2218974, (DummyInit)-2977989)
+((DummyInit)-2977989, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-2977990)
+((DummyGoal)-2977990, (goal)-2218975)
+((DummyInit)-2977989, (DummyGoal)-2977990)
+((initial)-2218974, (DummyInit)-2977992)
+((DummyInit)-2977992, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-2977993)
+((DummyGoal)-2977993, (goal)-2218975)
+((DummyInit)-2977992, (DummyGoal)-2977993)
+((deplane sara 747 la)-2977994, (DummyGoal)-2977993)
+((DummyInit)-2977992, (deplane sara 747 la)-2977994)
+((initial)-2218974, (deplane sara 747 la)-2977994)
+((deplane sara 747 la)-2977994, (goal)-2218975)
+((DummyGoal)-2977993, (DummyGoal)-2977990)
+((DummyInit)-2977989, (DummyInit)-2977992)
+((DummyGoal)-2977990, (DummyGoal)-2976700)
+((DummyInit)-2976699, (DummyInit)-2977989)
+((get-out-of-car bob accord la)-2976866, (DummyGoal)-2976862)
+((deplane sara 747 la)-2977994, (DummyGoal)-2977990)
+((deplane sara 747 la)-2977994, (DummyGoal)-2976703)
+((initial)-2218974, (DummyInit)-3128141)
+((DummyInit)-3128141, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-3128142)
+((DummyGoal)-3128142, (goal)-2218975)
+((DummyInit)-3128141, (DummyGoal)-3128142)
+((initial)-2218974, (DummyInit)-3128144)
+((DummyInit)-3128144, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-3128145)
+((DummyGoal)-3128145, (goal)-2218975)
+((DummyInit)-3128144, (DummyGoal)-3128145)
+((deplane sara 747 la)-3128146, (DummyGoal)-3128145)
+((DummyInit)-3128144, (deplane sara 747 la)-3128146)
+((initial)-2218974, (deplane sara 747 la)-3128146)
+((deplane sara 747 la)-3128146, (goal)-2218975)
+((DummyGoal)-3128145, (DummyGoal)-3128142)
+((DummyInit)-3128141, (DummyInit)-3128144)
+((DummyGoal)-3128142, (DummyGoal)-2977993)
+((DummyInit)-2977992, (DummyInit)-3128141)

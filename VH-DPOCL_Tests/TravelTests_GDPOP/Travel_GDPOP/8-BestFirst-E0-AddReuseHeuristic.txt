@@ -1,0 +1,62 @@
+problem	8
+selection	E0-AddReuseHeuristic
+search	BestFirst
+runtime	9139
+opened	11318
+expanded	1432
+primitives	9
+decomps	0
+composites	0
+hdepth	0
+
+
+(get-in-car sara accord raleigh)-8250001
+(drive sara accord raleigh slc)-8193055
+(get-in-car roger accord slc)-8192875
+(get-in-car dave accord slc)-8192795
+(drive roger accord slc raleigh)-8197751
+(drive dave accord raleigh ny)-8192827
+(get-out-of-car dave accord ny)-8192548
+(drive roger accord ny la)-8192891
+(get-out-of-car roger accord la)-8192613
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-8192546, (goal)-8192547)
+((initial)-8192546, (get-out-of-car dave accord ny)-8192548)
+((get-out-of-car dave accord ny)-8192548, (goal)-8192547)
+((initial)-8192546, (get-out-of-car roger accord la)-8192613)
+((get-out-of-car roger accord la)-8192613, (goal)-8192547)
+((initial)-8192546, (get-in-car dave accord slc)-8192795)
+((get-in-car dave accord slc)-8192795, (goal)-8192547)
+((get-in-car dave accord slc)-8192795, (get-out-of-car dave accord ny)-8192548)
+((initial)-8192546, (drive dave accord raleigh ny)-8192827)
+((drive dave accord raleigh ny)-8192827, (goal)-8192547)
+((drive dave accord raleigh ny)-8192827, (get-out-of-car dave accord ny)-8192548)
+((get-in-car dave accord slc)-8192795, (drive dave accord raleigh ny)-8192827)
+((initial)-8192546, (get-in-car roger accord slc)-8192875)
+((get-in-car roger accord slc)-8192875, (goal)-8192547)
+((get-in-car roger accord slc)-8192875, (get-out-of-car roger accord la)-8192613)
+((initial)-8192546, (drive roger accord ny la)-8192891)
+((drive roger accord ny la)-8192891, (goal)-8192547)
+((drive roger accord ny la)-8192891, (get-out-of-car roger accord la)-8192613)
+((get-out-of-car dave accord ny)-8192548, (drive roger accord ny la)-8192891)
+((get-in-car roger accord slc)-8192875, (drive roger accord ny la)-8192891)
+((initial)-8192546, (drive sara accord raleigh slc)-8193055)
+((drive sara accord raleigh slc)-8193055, (goal)-8192547)
+((drive sara accord raleigh slc)-8193055, (get-in-car dave accord slc)-8192795)
+((initial)-8192546, (drive roger accord slc raleigh)-8197751)
+((drive roger accord slc raleigh)-8197751, (goal)-8192547)
+((drive roger accord slc raleigh)-8197751, (drive dave accord raleigh ny)-8192827)
+((get-in-car dave accord slc)-8192795, (drive roger accord slc raleigh)-8197751)
+((drive sara accord raleigh slc)-8193055, (drive roger accord slc raleigh)-8197751)
+((get-in-car roger accord slc)-8192875, (drive roger accord slc raleigh)-8197751)
+((drive sara accord raleigh slc)-8193055, (get-in-car roger accord slc)-8192875)
+((drive dave accord raleigh ny)-8192827, (drive roger accord ny la)-8192891)
+((initial)-8192546, (get-in-car sara accord raleigh)-8250001)
+((get-in-car sara accord raleigh)-8250001, (goal)-8192547)
+((get-in-car sara accord raleigh)-8250001, (drive sara accord raleigh slc)-8193055)

@@ -1,0 +1,61 @@
+problem	4
+selection	E3Starx1-AddReuseHeuristic
+search	BestFirst
+runtime	406
+opened	320
+expanded	113
+primitives	8
+decomps	1
+composites	1
+hdepth	3
+
+
+(DummyInit)-4171822
+(get-in-car bob accord raleigh)-4171824
+(drive bob accord raleigh la)-4171825
+(get-in-car sara accord la)-4171903
+(get-out-of-car bob accord la)-4171826
+(drive sara accord la raleigh)-4171919
+(get-out-of-car sara accord raleigh)-4171727
+(DummyGoal)-4171823
+
+
+Composites:
+
+(travel-by-car bob raleigh la accord)-4171821
+
+Orderings:
+
+((initial)-3268209, (goal)-3268210)
+((initial)-3268209, (get-out-of-car sara accord raleigh)-4171727)
+((get-out-of-car sara accord raleigh)-4171727, (goal)-3268210)
+((initial)-3268209, (DummyInit)-4171822)
+((DummyInit)-4171822, (goal)-3268210)
+((initial)-3268209, (DummyGoal)-4171823)
+((DummyGoal)-4171823, (goal)-3268210)
+((DummyInit)-4171822, (DummyGoal)-4171823)
+((get-in-car bob accord raleigh)-4171824, (DummyGoal)-4171823)
+((DummyInit)-4171822, (get-in-car bob accord raleigh)-4171824)
+((initial)-3268209, (get-in-car bob accord raleigh)-4171824)
+((get-in-car bob accord raleigh)-4171824, (goal)-3268210)
+((drive bob accord raleigh la)-4171825, (DummyGoal)-4171823)
+((DummyInit)-4171822, (drive bob accord raleigh la)-4171825)
+((initial)-3268209, (drive bob accord raleigh la)-4171825)
+((drive bob accord raleigh la)-4171825, (goal)-3268210)
+((get-out-of-car bob accord la)-4171826, (DummyGoal)-4171823)
+((DummyInit)-4171822, (get-out-of-car bob accord la)-4171826)
+((initial)-3268209, (get-out-of-car bob accord la)-4171826)
+((get-out-of-car bob accord la)-4171826, (goal)-3268210)
+((get-in-car bob accord raleigh)-4171824, (drive bob accord raleigh la)-4171825)
+((drive bob accord raleigh la)-4171825, (get-out-of-car bob accord la)-4171826)
+((get-in-car bob accord raleigh)-4171824, (get-out-of-car bob accord la)-4171826)
+((initial)-3268209, (get-in-car sara accord la)-4171903)
+((get-in-car sara accord la)-4171903, (goal)-3268210)
+((get-in-car sara accord la)-4171903, (get-out-of-car sara accord raleigh)-4171727)
+((initial)-3268209, (drive sara accord la raleigh)-4171919)
+((drive sara accord la raleigh)-4171919, (goal)-3268210)
+((drive sara accord la raleigh)-4171919, (get-out-of-car sara accord raleigh)-4171727)
+((get-out-of-car bob accord la)-4171826, (drive sara accord la raleigh)-4171919)
+((drive bob accord raleigh la)-4171825, (drive sara accord la raleigh)-4171919)
+((get-in-car sara accord la)-4171903, (drive sara accord la raleigh)-4171919)
+((drive bob accord raleigh la)-4171825, (get-in-car sara accord la)-4171903)

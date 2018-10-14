@@ -1,0 +1,1028 @@
+problem	4
+selection	Nada-ZeroHeuristic
+search	DFS
+runtime	60536
+opened	766
+expanded	497
+primitives	201
+decomps	6
+composites	6
+hdepth	6
+
+
+(fly sara 747 raleigh la)-4254291
+(board-plane sara 747 la)-4252603
+(DummyInit)-4252246
+(DummyInit)-4252249
+(DummyInit)-4252160
+(DummyInit)-4252163
+(deplane sara 747 raleigh)-4252165
+(board-plane sara 747 la)-4254283
+(fly sara 747 raleigh la)-4254275
+(board-plane sara 747 la)-4254267
+(fly sara 747 raleigh la)-4254259
+(board-plane sara 747 la)-4254251
+(fly sara 747 raleigh la)-4254243
+(board-plane sara 747 la)-4254235
+(fly sara 747 raleigh la)-4254227
+(board-plane sara 747 la)-4254219
+(fly sara 747 raleigh la)-4254211
+(board-plane sara 747 la)-4254203
+(fly sara 747 raleigh la)-4254195
+(board-plane sara 747 la)-4254187
+(fly sara 747 raleigh la)-4254179
+(board-plane sara 747 la)-4254171
+(fly sara 747 raleigh la)-4254163
+(board-plane sara 747 la)-4254155
+(fly sara 747 raleigh la)-4254147
+(board-plane sara 747 la)-4254139
+(fly sara 747 raleigh la)-4254131
+(board-plane sara 747 la)-4254123
+(fly sara 747 raleigh la)-4254115
+(board-plane sara 747 la)-4254107
+(fly sara 747 raleigh la)-4254099
+(board-plane sara 747 la)-4254091
+(fly sara 747 raleigh la)-4254083
+(board-plane sara 747 la)-4254075
+(fly sara 747 raleigh la)-4254067
+(board-plane sara 747 la)-4254059
+(fly sara 747 raleigh la)-4254051
+(board-plane sara 747 la)-4254043
+(fly sara 747 raleigh la)-4254035
+(board-plane sara 747 la)-4254027
+(fly sara 747 raleigh la)-4254019
+(board-plane sara 747 la)-4254011
+(fly sara 747 raleigh la)-4254003
+(board-plane sara 747 la)-4253995
+(fly sara 747 raleigh la)-4253987
+(board-plane sara 747 la)-4253979
+(fly sara 747 raleigh la)-4253971
+(board-plane sara 747 la)-4253963
+(fly sara 747 raleigh la)-4253955
+(board-plane sara 747 la)-4253947
+(fly sara 747 raleigh la)-4253939
+(board-plane sara 747 la)-4253931
+(fly sara 747 raleigh la)-4253923
+(board-plane sara 747 la)-4253915
+(fly sara 747 raleigh la)-4253907
+(board-plane sara 747 la)-4253899
+(fly sara 747 raleigh la)-4253891
+(board-plane sara 747 la)-4253883
+(fly sara 747 raleigh la)-4253875
+(board-plane sara 747 la)-4253867
+(fly sara 747 raleigh la)-4253859
+(board-plane sara 747 la)-4253851
+(fly sara 747 raleigh la)-4253843
+(board-plane sara 747 la)-4253835
+(fly sara 747 raleigh la)-4253827
+(board-plane sara 747 la)-4253819
+(fly sara 747 raleigh la)-4253811
+(board-plane sara 747 la)-4253803
+(fly sara 747 raleigh la)-4253795
+(board-plane sara 747 la)-4253787
+(fly sara 747 raleigh la)-4253779
+(board-plane sara 747 la)-4253771
+(fly sara 747 raleigh la)-4253763
+(board-plane sara 747 la)-4253755
+(fly sara 747 raleigh la)-4253747
+(board-plane sara 747 la)-4253739
+(fly sara 747 raleigh la)-4253731
+(board-plane sara 747 la)-4253723
+(fly sara 747 raleigh la)-4253715
+(board-plane sara 747 la)-4253707
+(fly sara 747 raleigh la)-4253699
+(board-plane sara 747 la)-4253691
+(fly sara 747 raleigh la)-4253683
+(board-plane sara 747 la)-4253675
+(fly sara 747 raleigh la)-4253667
+(board-plane sara 747 la)-4253659
+(fly sara 747 raleigh la)-4253651
+(board-plane sara 747 la)-4253643
+(fly sara 747 raleigh la)-4253635
+(board-plane sara 747 la)-4253627
+(fly sara 747 raleigh la)-4253619
+(board-plane sara 747 la)-4253611
+(fly sara 747 raleigh la)-4253603
+(board-plane sara 747 la)-4253595
+(fly sara 747 raleigh la)-4253587
+(board-plane sara 747 la)-4253579
+(fly sara 747 raleigh la)-4253571
+(board-plane sara 747 la)-4253563
+(fly sara 747 raleigh la)-4253555
+(board-plane sara 747 la)-4253547
+(fly sara 747 raleigh la)-4253539
+(board-plane sara 747 la)-4253531
+(fly sara 747 raleigh la)-4253523
+(board-plane sara 747 la)-4253515
+(fly sara 747 raleigh la)-4253507
+(board-plane sara 747 la)-4253499
+(fly sara 747 raleigh la)-4253491
+(board-plane sara 747 la)-4253483
+(fly sara 747 raleigh la)-4253475
+(board-plane sara 747 la)-4253467
+(fly sara 747 raleigh la)-4253459
+(board-plane sara 747 la)-4253451
+(fly sara 747 raleigh la)-4253443
+(board-plane sara 747 la)-4253435
+(fly sara 747 raleigh la)-4253427
+(board-plane sara 747 la)-4253419
+(fly sara 747 raleigh la)-4253411
+(board-plane sara 747 la)-4253403
+(fly sara 747 raleigh la)-4253395
+(board-plane sara 747 la)-4253387
+(fly sara 747 raleigh la)-4253379
+(board-plane sara 747 la)-4253371
+(fly sara 747 raleigh la)-4253363
+(board-plane sara 747 la)-4253355
+(fly sara 747 raleigh la)-4253347
+(board-plane sara 747 la)-4253339
+(fly sara 747 raleigh la)-4253331
+(board-plane sara 747 la)-4253323
+(fly sara 747 raleigh la)-4253315
+(board-plane sara 747 la)-4253307
+(fly sara 747 raleigh la)-4253299
+(board-plane sara 747 la)-4253291
+(fly sara 747 raleigh la)-4253283
+(board-plane sara 747 la)-4253275
+(fly sara 747 raleigh la)-4253267
+(board-plane sara 747 la)-4253259
+(fly sara 747 raleigh la)-4253251
+(board-plane sara 747 la)-4253243
+(fly sara 747 raleigh la)-4253235
+(board-plane sara 747 la)-4253227
+(fly sara 747 raleigh la)-4253219
+(board-plane sara 747 la)-4253211
+(fly sara 747 raleigh la)-4253203
+(board-plane sara 747 la)-4253195
+(fly sara 747 raleigh la)-4253187
+(board-plane sara 747 la)-4253179
+(fly sara 747 raleigh la)-4253171
+(board-plane sara 747 la)-4253163
+(fly sara 747 raleigh la)-4253155
+(board-plane sara 747 la)-4253147
+(fly sara 747 raleigh la)-4253139
+(board-plane sara 747 la)-4253131
+(fly sara 747 raleigh la)-4253123
+(board-plane sara 747 la)-4253115
+(fly sara 747 raleigh la)-4253107
+(board-plane sara 747 la)-4253099
+(fly sara 747 raleigh la)-4253091
+(board-plane sara 747 la)-4253083
+(fly sara 747 raleigh la)-4253075
+(board-plane sara 747 la)-4253067
+(fly sara 747 raleigh la)-4253059
+(board-plane sara 747 la)-4253051
+(fly sara 747 raleigh la)-4253043
+(board-plane sara 747 la)-4253035
+(fly sara 747 raleigh la)-4253027
+(board-plane sara 747 la)-4253019
+(fly sara 747 raleigh la)-4253011
+(board-plane sara 747 la)-4253003
+(fly sara 747 raleigh la)-4252995
+(board-plane sara 747 la)-4252987
+(fly sara 747 raleigh la)-4252979
+(board-plane sara 747 la)-4252971
+(fly sara 747 raleigh la)-4252963
+(board-plane sara 747 la)-4252955
+(fly sara 747 raleigh la)-4252947
+(board-plane sara 747 la)-4252939
+(fly sara 747 raleigh la)-4252931
+(board-plane sara 747 la)-4252923
+(fly sara 747 raleigh la)-4252915
+(board-plane sara 747 la)-4252907
+(fly sara 747 raleigh la)-4252899
+(board-plane sara 747 la)-4252891
+(fly sara 747 raleigh la)-4252883
+(board-plane sara 747 la)-4252875
+(fly sara 747 raleigh la)-4252867
+(board-plane sara 747 la)-4252843
+(buy-tickets sara)-4252631
+(DummyInit)-4252712
+(DummyInit)-4252715
+(fly sara 747 la raleigh)-4252827
+(deplane sara 747 la)-4252717
+(DummyGoal)-4252716
+(DummyGoal)-4252713
+(board-plane sara 747 la)-4252627
+(board-plane bob 747 raleigh)-4252807
+(fly sara 747 raleigh la)-4252619
+(deplane bob 747 la)-4252251
+(DummyGoal)-4252250
+(DummyGoal)-4252247
+(DummyGoal)-4252164
+(DummyGoal)-4252161
+
+
+Composites:
+
+(generic-travel sara raleigh)-4252159
+(generic-travel sara raleigh)-4252162
+(generic-travel bob la)-4252245
+(generic-travel bob la)-4252248
+(generic-travel sara la)-4252711
+(generic-travel sara la)-4252714
+
+Orderings:
+
+((initial)-3268209, (goal)-3268210)
+((initial)-3268209, (DummyInit)-4252160)
+((DummyInit)-4252160, (goal)-3268210)
+((initial)-3268209, (DummyGoal)-4252161)
+((DummyGoal)-4252161, (goal)-3268210)
+((DummyInit)-4252160, (DummyGoal)-4252161)
+((initial)-3268209, (DummyInit)-4252163)
+((DummyInit)-4252163, (goal)-3268210)
+((initial)-3268209, (DummyGoal)-4252164)
+((DummyGoal)-4252164, (goal)-3268210)
+((DummyInit)-4252163, (DummyGoal)-4252164)
+((deplane sara 747 raleigh)-4252165, (DummyGoal)-4252164)
+((DummyInit)-4252163, (deplane sara 747 raleigh)-4252165)
+((initial)-3268209, (deplane sara 747 raleigh)-4252165)
+((deplane sara 747 raleigh)-4252165, (goal)-3268210)
+((DummyGoal)-4252164, (DummyGoal)-4252161)
+((DummyInit)-4252160, (DummyInit)-4252163)
+((initial)-3268209, (DummyInit)-4252246)
+((DummyInit)-4252246, (goal)-3268210)
+((initial)-3268209, (DummyGoal)-4252247)
+((DummyGoal)-4252247, (goal)-3268210)
+((DummyInit)-4252246, (DummyGoal)-4252247)
+((initial)-3268209, (DummyInit)-4252249)
+((DummyInit)-4252249, (goal)-3268210)
+((initial)-3268209, (DummyGoal)-4252250)
+((DummyGoal)-4252250, (goal)-3268210)
+((DummyInit)-4252249, (DummyGoal)-4252250)
+((deplane bob 747 la)-4252251, (DummyGoal)-4252250)
+((DummyInit)-4252249, (deplane bob 747 la)-4252251)
+((initial)-3268209, (deplane bob 747 la)-4252251)
+((deplane bob 747 la)-4252251, (goal)-3268210)
+((DummyGoal)-4252250, (DummyGoal)-4252247)
+((DummyInit)-4252246, (DummyInit)-4252249)
+((deplane sara 747 raleigh)-4252165, (DummyGoal)-4252161)
+((deplane bob 747 la)-4252251, (DummyGoal)-4252247)
+((initial)-3268209, (board-plane sara 747 la)-4252603)
+((board-plane sara 747 la)-4252603, (goal)-3268210)
+((board-plane sara 747 la)-4252603, (deplane sara 747 raleigh)-4252165)
+((initial)-3268209, (fly sara 747 raleigh la)-4252619)
+((fly sara 747 raleigh la)-4252619, (goal)-3268210)
+((fly sara 747 raleigh la)-4252619, (deplane bob 747 la)-4252251)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4252619)
+((initial)-3268209, (board-plane sara 747 la)-4252627)
+((board-plane sara 747 la)-4252627, (goal)-3268210)
+((board-plane sara 747 la)-4252627, (fly sara 747 raleigh la)-4252619)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4252627)
+((initial)-3268209, (buy-tickets sara)-4252631)
+((buy-tickets sara)-4252631, (goal)-3268210)
+((buy-tickets sara)-4252631, (board-plane sara 747 la)-4252627)
+((board-plane sara 747 la)-4252603, (buy-tickets sara)-4252631)
+((initial)-3268209, (DummyInit)-4252712)
+((DummyInit)-4252712, (goal)-3268210)
+((initial)-3268209, (DummyGoal)-4252713)
+((DummyGoal)-4252713, (goal)-3268210)
+((DummyInit)-4252712, (DummyGoal)-4252713)
+((initial)-3268209, (DummyInit)-4252715)
+((DummyInit)-4252715, (goal)-3268210)
+((initial)-3268209, (DummyGoal)-4252716)
+((DummyGoal)-4252716, (goal)-3268210)
+((DummyInit)-4252715, (DummyGoal)-4252716)
+((deplane sara 747 la)-4252717, (DummyGoal)-4252716)
+((DummyInit)-4252715, (deplane sara 747 la)-4252717)
+((initial)-3268209, (deplane sara 747 la)-4252717)
+((deplane sara 747 la)-4252717, (goal)-3268210)
+((DummyGoal)-4252716, (DummyGoal)-4252713)
+((DummyInit)-4252712, (DummyInit)-4252715)
+((DummyGoal)-4252713, (board-plane sara 747 la)-4252627)
+((board-plane sara 747 la)-4252603, (DummyInit)-4252712)
+((board-plane sara 747 la)-4252603, (DummyGoal)-4252713)
+((deplane sara 747 la)-4252717, (DummyGoal)-4252713)
+((initial)-3268209, (board-plane bob 747 raleigh)-4252807)
+((board-plane bob 747 raleigh)-4252807, (goal)-3268210)
+((board-plane bob 747 raleigh)-4252807, (deplane bob 747 la)-4252251)
+((initial)-3268209, (fly sara 747 la raleigh)-4252827)
+((fly sara 747 la raleigh)-4252827, (goal)-3268210)
+((fly sara 747 la raleigh)-4252827, (board-plane bob 747 raleigh)-4252807)
+((fly sara 747 la raleigh)-4252827, (fly sara 747 raleigh la)-4252619)
+((board-plane bob 747 raleigh)-4252807, (fly sara 747 raleigh la)-4252619)
+((initial)-3268209, (board-plane sara 747 la)-4252843)
+((board-plane sara 747 la)-4252843, (goal)-3268210)
+((board-plane sara 747 la)-4252843, (fly sara 747 la raleigh)-4252827)
+((board-plane sara 747 la)-4252843, (deplane sara 747 la)-4252717)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4252843)
+((board-plane sara 747 la)-4252843, (DummyInit)-4252712)
+((board-plane sara 747 la)-4252843, (DummyGoal)-4252713)
+((fly sara 747 la raleigh)-4252827, (deplane sara 747 la)-4252717)
+((board-plane sara 747 la)-4252843, (buy-tickets sara)-4252631)
+((initial)-3268209, (fly sara 747 raleigh la)-4252867)
+((fly sara 747 raleigh la)-4252867, (goal)-3268210)
+((fly sara 747 raleigh la)-4252867, (board-plane sara 747 la)-4252843)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4252867)
+((initial)-3268209, (board-plane sara 747 la)-4252875)
+((board-plane sara 747 la)-4252875, (goal)-3268210)
+((board-plane sara 747 la)-4252875, (fly sara 747 raleigh la)-4252867)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4252875)
+((initial)-3268209, (fly sara 747 raleigh la)-4252883)
+((fly sara 747 raleigh la)-4252883, (goal)-3268210)
+((fly sara 747 raleigh la)-4252883, (board-plane sara 747 la)-4252875)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4252883)
+((initial)-3268209, (board-plane sara 747 la)-4252891)
+((board-plane sara 747 la)-4252891, (goal)-3268210)
+((board-plane sara 747 la)-4252891, (fly sara 747 raleigh la)-4252883)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4252891)
+((initial)-3268209, (fly sara 747 raleigh la)-4252899)
+((fly sara 747 raleigh la)-4252899, (goal)-3268210)
+((fly sara 747 raleigh la)-4252899, (board-plane sara 747 la)-4252891)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4252899)
+((initial)-3268209, (board-plane sara 747 la)-4252907)
+((board-plane sara 747 la)-4252907, (goal)-3268210)
+((board-plane sara 747 la)-4252907, (fly sara 747 raleigh la)-4252899)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4252907)
+((initial)-3268209, (fly sara 747 raleigh la)-4252915)
+((fly sara 747 raleigh la)-4252915, (goal)-3268210)
+((fly sara 747 raleigh la)-4252915, (board-plane sara 747 la)-4252907)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4252915)
+((initial)-3268209, (board-plane sara 747 la)-4252923)
+((board-plane sara 747 la)-4252923, (goal)-3268210)
+((board-plane sara 747 la)-4252923, (fly sara 747 raleigh la)-4252915)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4252923)
+((initial)-3268209, (fly sara 747 raleigh la)-4252931)
+((fly sara 747 raleigh la)-4252931, (goal)-3268210)
+((fly sara 747 raleigh la)-4252931, (board-plane sara 747 la)-4252923)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4252931)
+((initial)-3268209, (board-plane sara 747 la)-4252939)
+((board-plane sara 747 la)-4252939, (goal)-3268210)
+((board-plane sara 747 la)-4252939, (fly sara 747 raleigh la)-4252931)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4252939)
+((initial)-3268209, (fly sara 747 raleigh la)-4252947)
+((fly sara 747 raleigh la)-4252947, (goal)-3268210)
+((fly sara 747 raleigh la)-4252947, (board-plane sara 747 la)-4252939)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4252947)
+((initial)-3268209, (board-plane sara 747 la)-4252955)
+((board-plane sara 747 la)-4252955, (goal)-3268210)
+((board-plane sara 747 la)-4252955, (fly sara 747 raleigh la)-4252947)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4252955)
+((initial)-3268209, (fly sara 747 raleigh la)-4252963)
+((fly sara 747 raleigh la)-4252963, (goal)-3268210)
+((fly sara 747 raleigh la)-4252963, (board-plane sara 747 la)-4252955)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4252963)
+((initial)-3268209, (board-plane sara 747 la)-4252971)
+((board-plane sara 747 la)-4252971, (goal)-3268210)
+((board-plane sara 747 la)-4252971, (fly sara 747 raleigh la)-4252963)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4252971)
+((initial)-3268209, (fly sara 747 raleigh la)-4252979)
+((fly sara 747 raleigh la)-4252979, (goal)-3268210)
+((fly sara 747 raleigh la)-4252979, (board-plane sara 747 la)-4252971)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4252979)
+((initial)-3268209, (board-plane sara 747 la)-4252987)
+((board-plane sara 747 la)-4252987, (goal)-3268210)
+((board-plane sara 747 la)-4252987, (fly sara 747 raleigh la)-4252979)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4252987)
+((initial)-3268209, (fly sara 747 raleigh la)-4252995)
+((fly sara 747 raleigh la)-4252995, (goal)-3268210)
+((fly sara 747 raleigh la)-4252995, (board-plane sara 747 la)-4252987)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4252995)
+((initial)-3268209, (board-plane sara 747 la)-4253003)
+((board-plane sara 747 la)-4253003, (goal)-3268210)
+((board-plane sara 747 la)-4253003, (fly sara 747 raleigh la)-4252995)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253003)
+((initial)-3268209, (fly sara 747 raleigh la)-4253011)
+((fly sara 747 raleigh la)-4253011, (goal)-3268210)
+((fly sara 747 raleigh la)-4253011, (board-plane sara 747 la)-4253003)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253011)
+((initial)-3268209, (board-plane sara 747 la)-4253019)
+((board-plane sara 747 la)-4253019, (goal)-3268210)
+((board-plane sara 747 la)-4253019, (fly sara 747 raleigh la)-4253011)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253019)
+((initial)-3268209, (fly sara 747 raleigh la)-4253027)
+((fly sara 747 raleigh la)-4253027, (goal)-3268210)
+((fly sara 747 raleigh la)-4253027, (board-plane sara 747 la)-4253019)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253027)
+((initial)-3268209, (board-plane sara 747 la)-4253035)
+((board-plane sara 747 la)-4253035, (goal)-3268210)
+((board-plane sara 747 la)-4253035, (fly sara 747 raleigh la)-4253027)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253035)
+((initial)-3268209, (fly sara 747 raleigh la)-4253043)
+((fly sara 747 raleigh la)-4253043, (goal)-3268210)
+((fly sara 747 raleigh la)-4253043, (board-plane sara 747 la)-4253035)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253043)
+((initial)-3268209, (board-plane sara 747 la)-4253051)
+((board-plane sara 747 la)-4253051, (goal)-3268210)
+((board-plane sara 747 la)-4253051, (fly sara 747 raleigh la)-4253043)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253051)
+((initial)-3268209, (fly sara 747 raleigh la)-4253059)
+((fly sara 747 raleigh la)-4253059, (goal)-3268210)
+((fly sara 747 raleigh la)-4253059, (board-plane sara 747 la)-4253051)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253059)
+((initial)-3268209, (board-plane sara 747 la)-4253067)
+((board-plane sara 747 la)-4253067, (goal)-3268210)
+((board-plane sara 747 la)-4253067, (fly sara 747 raleigh la)-4253059)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253067)
+((initial)-3268209, (fly sara 747 raleigh la)-4253075)
+((fly sara 747 raleigh la)-4253075, (goal)-3268210)
+((fly sara 747 raleigh la)-4253075, (board-plane sara 747 la)-4253067)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253075)
+((initial)-3268209, (board-plane sara 747 la)-4253083)
+((board-plane sara 747 la)-4253083, (goal)-3268210)
+((board-plane sara 747 la)-4253083, (fly sara 747 raleigh la)-4253075)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253083)
+((initial)-3268209, (fly sara 747 raleigh la)-4253091)
+((fly sara 747 raleigh la)-4253091, (goal)-3268210)
+((fly sara 747 raleigh la)-4253091, (board-plane sara 747 la)-4253083)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253091)
+((initial)-3268209, (board-plane sara 747 la)-4253099)
+((board-plane sara 747 la)-4253099, (goal)-3268210)
+((board-plane sara 747 la)-4253099, (fly sara 747 raleigh la)-4253091)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253099)
+((initial)-3268209, (fly sara 747 raleigh la)-4253107)
+((fly sara 747 raleigh la)-4253107, (goal)-3268210)
+((fly sara 747 raleigh la)-4253107, (board-plane sara 747 la)-4253099)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253107)
+((initial)-3268209, (board-plane sara 747 la)-4253115)
+((board-plane sara 747 la)-4253115, (goal)-3268210)
+((board-plane sara 747 la)-4253115, (fly sara 747 raleigh la)-4253107)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253115)
+((initial)-3268209, (fly sara 747 raleigh la)-4253123)
+((fly sara 747 raleigh la)-4253123, (goal)-3268210)
+((fly sara 747 raleigh la)-4253123, (board-plane sara 747 la)-4253115)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253123)
+((initial)-3268209, (board-plane sara 747 la)-4253131)
+((board-plane sara 747 la)-4253131, (goal)-3268210)
+((board-plane sara 747 la)-4253131, (fly sara 747 raleigh la)-4253123)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253131)
+((initial)-3268209, (fly sara 747 raleigh la)-4253139)
+((fly sara 747 raleigh la)-4253139, (goal)-3268210)
+((fly sara 747 raleigh la)-4253139, (board-plane sara 747 la)-4253131)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253139)
+((initial)-3268209, (board-plane sara 747 la)-4253147)
+((board-plane sara 747 la)-4253147, (goal)-3268210)
+((board-plane sara 747 la)-4253147, (fly sara 747 raleigh la)-4253139)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253147)
+((initial)-3268209, (fly sara 747 raleigh la)-4253155)
+((fly sara 747 raleigh la)-4253155, (goal)-3268210)
+((fly sara 747 raleigh la)-4253155, (board-plane sara 747 la)-4253147)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253155)
+((initial)-3268209, (board-plane sara 747 la)-4253163)
+((board-plane sara 747 la)-4253163, (goal)-3268210)
+((board-plane sara 747 la)-4253163, (fly sara 747 raleigh la)-4253155)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253163)
+((initial)-3268209, (fly sara 747 raleigh la)-4253171)
+((fly sara 747 raleigh la)-4253171, (goal)-3268210)
+((fly sara 747 raleigh la)-4253171, (board-plane sara 747 la)-4253163)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253171)
+((initial)-3268209, (board-plane sara 747 la)-4253179)
+((board-plane sara 747 la)-4253179, (goal)-3268210)
+((board-plane sara 747 la)-4253179, (fly sara 747 raleigh la)-4253171)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253179)
+((initial)-3268209, (fly sara 747 raleigh la)-4253187)
+((fly sara 747 raleigh la)-4253187, (goal)-3268210)
+((fly sara 747 raleigh la)-4253187, (board-plane sara 747 la)-4253179)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253187)
+((initial)-3268209, (board-plane sara 747 la)-4253195)
+((board-plane sara 747 la)-4253195, (goal)-3268210)
+((board-plane sara 747 la)-4253195, (fly sara 747 raleigh la)-4253187)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253195)
+((initial)-3268209, (fly sara 747 raleigh la)-4253203)
+((fly sara 747 raleigh la)-4253203, (goal)-3268210)
+((fly sara 747 raleigh la)-4253203, (board-plane sara 747 la)-4253195)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253203)
+((initial)-3268209, (board-plane sara 747 la)-4253211)
+((board-plane sara 747 la)-4253211, (goal)-3268210)
+((board-plane sara 747 la)-4253211, (fly sara 747 raleigh la)-4253203)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253211)
+((initial)-3268209, (fly sara 747 raleigh la)-4253219)
+((fly sara 747 raleigh la)-4253219, (goal)-3268210)
+((fly sara 747 raleigh la)-4253219, (board-plane sara 747 la)-4253211)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253219)
+((initial)-3268209, (board-plane sara 747 la)-4253227)
+((board-plane sara 747 la)-4253227, (goal)-3268210)
+((board-plane sara 747 la)-4253227, (fly sara 747 raleigh la)-4253219)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253227)
+((initial)-3268209, (fly sara 747 raleigh la)-4253235)
+((fly sara 747 raleigh la)-4253235, (goal)-3268210)
+((fly sara 747 raleigh la)-4253235, (board-plane sara 747 la)-4253227)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253235)
+((initial)-3268209, (board-plane sara 747 la)-4253243)
+((board-plane sara 747 la)-4253243, (goal)-3268210)
+((board-plane sara 747 la)-4253243, (fly sara 747 raleigh la)-4253235)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253243)
+((initial)-3268209, (fly sara 747 raleigh la)-4253251)
+((fly sara 747 raleigh la)-4253251, (goal)-3268210)
+((fly sara 747 raleigh la)-4253251, (board-plane sara 747 la)-4253243)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253251)
+((initial)-3268209, (board-plane sara 747 la)-4253259)
+((board-plane sara 747 la)-4253259, (goal)-3268210)
+((board-plane sara 747 la)-4253259, (fly sara 747 raleigh la)-4253251)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253259)
+((initial)-3268209, (fly sara 747 raleigh la)-4253267)
+((fly sara 747 raleigh la)-4253267, (goal)-3268210)
+((fly sara 747 raleigh la)-4253267, (board-plane sara 747 la)-4253259)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253267)
+((initial)-3268209, (board-plane sara 747 la)-4253275)
+((board-plane sara 747 la)-4253275, (goal)-3268210)
+((board-plane sara 747 la)-4253275, (fly sara 747 raleigh la)-4253267)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253275)
+((initial)-3268209, (fly sara 747 raleigh la)-4253283)
+((fly sara 747 raleigh la)-4253283, (goal)-3268210)
+((fly sara 747 raleigh la)-4253283, (board-plane sara 747 la)-4253275)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253283)
+((initial)-3268209, (board-plane sara 747 la)-4253291)
+((board-plane sara 747 la)-4253291, (goal)-3268210)
+((board-plane sara 747 la)-4253291, (fly sara 747 raleigh la)-4253283)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253291)
+((initial)-3268209, (fly sara 747 raleigh la)-4253299)
+((fly sara 747 raleigh la)-4253299, (goal)-3268210)
+((fly sara 747 raleigh la)-4253299, (board-plane sara 747 la)-4253291)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253299)
+((initial)-3268209, (board-plane sara 747 la)-4253307)
+((board-plane sara 747 la)-4253307, (goal)-3268210)
+((board-plane sara 747 la)-4253307, (fly sara 747 raleigh la)-4253299)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253307)
+((initial)-3268209, (fly sara 747 raleigh la)-4253315)
+((fly sara 747 raleigh la)-4253315, (goal)-3268210)
+((fly sara 747 raleigh la)-4253315, (board-plane sara 747 la)-4253307)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253315)
+((initial)-3268209, (board-plane sara 747 la)-4253323)
+((board-plane sara 747 la)-4253323, (goal)-3268210)
+((board-plane sara 747 la)-4253323, (fly sara 747 raleigh la)-4253315)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253323)
+((initial)-3268209, (fly sara 747 raleigh la)-4253331)
+((fly sara 747 raleigh la)-4253331, (goal)-3268210)
+((fly sara 747 raleigh la)-4253331, (board-plane sara 747 la)-4253323)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253331)
+((initial)-3268209, (board-plane sara 747 la)-4253339)
+((board-plane sara 747 la)-4253339, (goal)-3268210)
+((board-plane sara 747 la)-4253339, (fly sara 747 raleigh la)-4253331)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253339)
+((initial)-3268209, (fly sara 747 raleigh la)-4253347)
+((fly sara 747 raleigh la)-4253347, (goal)-3268210)
+((fly sara 747 raleigh la)-4253347, (board-plane sara 747 la)-4253339)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253347)
+((initial)-3268209, (board-plane sara 747 la)-4253355)
+((board-plane sara 747 la)-4253355, (goal)-3268210)
+((board-plane sara 747 la)-4253355, (fly sara 747 raleigh la)-4253347)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253355)
+((initial)-3268209, (fly sara 747 raleigh la)-4253363)
+((fly sara 747 raleigh la)-4253363, (goal)-3268210)
+((fly sara 747 raleigh la)-4253363, (board-plane sara 747 la)-4253355)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253363)
+((initial)-3268209, (board-plane sara 747 la)-4253371)
+((board-plane sara 747 la)-4253371, (goal)-3268210)
+((board-plane sara 747 la)-4253371, (fly sara 747 raleigh la)-4253363)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253371)
+((initial)-3268209, (fly sara 747 raleigh la)-4253379)
+((fly sara 747 raleigh la)-4253379, (goal)-3268210)
+((fly sara 747 raleigh la)-4253379, (board-plane sara 747 la)-4253371)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253379)
+((initial)-3268209, (board-plane sara 747 la)-4253387)
+((board-plane sara 747 la)-4253387, (goal)-3268210)
+((board-plane sara 747 la)-4253387, (fly sara 747 raleigh la)-4253379)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253387)
+((initial)-3268209, (fly sara 747 raleigh la)-4253395)
+((fly sara 747 raleigh la)-4253395, (goal)-3268210)
+((fly sara 747 raleigh la)-4253395, (board-plane sara 747 la)-4253387)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253395)
+((initial)-3268209, (board-plane sara 747 la)-4253403)
+((board-plane sara 747 la)-4253403, (goal)-3268210)
+((board-plane sara 747 la)-4253403, (fly sara 747 raleigh la)-4253395)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253403)
+((initial)-3268209, (fly sara 747 raleigh la)-4253411)
+((fly sara 747 raleigh la)-4253411, (goal)-3268210)
+((fly sara 747 raleigh la)-4253411, (board-plane sara 747 la)-4253403)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253411)
+((initial)-3268209, (board-plane sara 747 la)-4253419)
+((board-plane sara 747 la)-4253419, (goal)-3268210)
+((board-plane sara 747 la)-4253419, (fly sara 747 raleigh la)-4253411)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253419)
+((initial)-3268209, (fly sara 747 raleigh la)-4253427)
+((fly sara 747 raleigh la)-4253427, (goal)-3268210)
+((fly sara 747 raleigh la)-4253427, (board-plane sara 747 la)-4253419)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253427)
+((initial)-3268209, (board-plane sara 747 la)-4253435)
+((board-plane sara 747 la)-4253435, (goal)-3268210)
+((board-plane sara 747 la)-4253435, (fly sara 747 raleigh la)-4253427)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253435)
+((initial)-3268209, (fly sara 747 raleigh la)-4253443)
+((fly sara 747 raleigh la)-4253443, (goal)-3268210)
+((fly sara 747 raleigh la)-4253443, (board-plane sara 747 la)-4253435)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253443)
+((initial)-3268209, (board-plane sara 747 la)-4253451)
+((board-plane sara 747 la)-4253451, (goal)-3268210)
+((board-plane sara 747 la)-4253451, (fly sara 747 raleigh la)-4253443)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253451)
+((initial)-3268209, (fly sara 747 raleigh la)-4253459)
+((fly sara 747 raleigh la)-4253459, (goal)-3268210)
+((fly sara 747 raleigh la)-4253459, (board-plane sara 747 la)-4253451)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253459)
+((initial)-3268209, (board-plane sara 747 la)-4253467)
+((board-plane sara 747 la)-4253467, (goal)-3268210)
+((board-plane sara 747 la)-4253467, (fly sara 747 raleigh la)-4253459)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253467)
+((initial)-3268209, (fly sara 747 raleigh la)-4253475)
+((fly sara 747 raleigh la)-4253475, (goal)-3268210)
+((fly sara 747 raleigh la)-4253475, (board-plane sara 747 la)-4253467)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253475)
+((initial)-3268209, (board-plane sara 747 la)-4253483)
+((board-plane sara 747 la)-4253483, (goal)-3268210)
+((board-plane sara 747 la)-4253483, (fly sara 747 raleigh la)-4253475)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253483)
+((initial)-3268209, (fly sara 747 raleigh la)-4253491)
+((fly sara 747 raleigh la)-4253491, (goal)-3268210)
+((fly sara 747 raleigh la)-4253491, (board-plane sara 747 la)-4253483)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253491)
+((initial)-3268209, (board-plane sara 747 la)-4253499)
+((board-plane sara 747 la)-4253499, (goal)-3268210)
+((board-plane sara 747 la)-4253499, (fly sara 747 raleigh la)-4253491)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253499)
+((initial)-3268209, (fly sara 747 raleigh la)-4253507)
+((fly sara 747 raleigh la)-4253507, (goal)-3268210)
+((fly sara 747 raleigh la)-4253507, (board-plane sara 747 la)-4253499)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253507)
+((initial)-3268209, (board-plane sara 747 la)-4253515)
+((board-plane sara 747 la)-4253515, (goal)-3268210)
+((board-plane sara 747 la)-4253515, (fly sara 747 raleigh la)-4253507)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253515)
+((initial)-3268209, (fly sara 747 raleigh la)-4253523)
+((fly sara 747 raleigh la)-4253523, (goal)-3268210)
+((fly sara 747 raleigh la)-4253523, (board-plane sara 747 la)-4253515)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253523)
+((initial)-3268209, (board-plane sara 747 la)-4253531)
+((board-plane sara 747 la)-4253531, (goal)-3268210)
+((board-plane sara 747 la)-4253531, (fly sara 747 raleigh la)-4253523)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253531)
+((initial)-3268209, (fly sara 747 raleigh la)-4253539)
+((fly sara 747 raleigh la)-4253539, (goal)-3268210)
+((fly sara 747 raleigh la)-4253539, (board-plane sara 747 la)-4253531)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253539)
+((initial)-3268209, (board-plane sara 747 la)-4253547)
+((board-plane sara 747 la)-4253547, (goal)-3268210)
+((board-plane sara 747 la)-4253547, (fly sara 747 raleigh la)-4253539)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253547)
+((initial)-3268209, (fly sara 747 raleigh la)-4253555)
+((fly sara 747 raleigh la)-4253555, (goal)-3268210)
+((fly sara 747 raleigh la)-4253555, (board-plane sara 747 la)-4253547)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253555)
+((initial)-3268209, (board-plane sara 747 la)-4253563)
+((board-plane sara 747 la)-4253563, (goal)-3268210)
+((board-plane sara 747 la)-4253563, (fly sara 747 raleigh la)-4253555)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253563)
+((initial)-3268209, (fly sara 747 raleigh la)-4253571)
+((fly sara 747 raleigh la)-4253571, (goal)-3268210)
+((fly sara 747 raleigh la)-4253571, (board-plane sara 747 la)-4253563)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253571)
+((initial)-3268209, (board-plane sara 747 la)-4253579)
+((board-plane sara 747 la)-4253579, (goal)-3268210)
+((board-plane sara 747 la)-4253579, (fly sara 747 raleigh la)-4253571)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253579)
+((initial)-3268209, (fly sara 747 raleigh la)-4253587)
+((fly sara 747 raleigh la)-4253587, (goal)-3268210)
+((fly sara 747 raleigh la)-4253587, (board-plane sara 747 la)-4253579)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253587)
+((initial)-3268209, (board-plane sara 747 la)-4253595)
+((board-plane sara 747 la)-4253595, (goal)-3268210)
+((board-plane sara 747 la)-4253595, (fly sara 747 raleigh la)-4253587)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253595)
+((initial)-3268209, (fly sara 747 raleigh la)-4253603)
+((fly sara 747 raleigh la)-4253603, (goal)-3268210)
+((fly sara 747 raleigh la)-4253603, (board-plane sara 747 la)-4253595)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253603)
+((initial)-3268209, (board-plane sara 747 la)-4253611)
+((board-plane sara 747 la)-4253611, (goal)-3268210)
+((board-plane sara 747 la)-4253611, (fly sara 747 raleigh la)-4253603)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253611)
+((initial)-3268209, (fly sara 747 raleigh la)-4253619)
+((fly sara 747 raleigh la)-4253619, (goal)-3268210)
+((fly sara 747 raleigh la)-4253619, (board-plane sara 747 la)-4253611)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253619)
+((initial)-3268209, (board-plane sara 747 la)-4253627)
+((board-plane sara 747 la)-4253627, (goal)-3268210)
+((board-plane sara 747 la)-4253627, (fly sara 747 raleigh la)-4253619)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253627)
+((initial)-3268209, (fly sara 747 raleigh la)-4253635)
+((fly sara 747 raleigh la)-4253635, (goal)-3268210)
+((fly sara 747 raleigh la)-4253635, (board-plane sara 747 la)-4253627)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253635)
+((initial)-3268209, (board-plane sara 747 la)-4253643)
+((board-plane sara 747 la)-4253643, (goal)-3268210)
+((board-plane sara 747 la)-4253643, (fly sara 747 raleigh la)-4253635)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253643)
+((initial)-3268209, (fly sara 747 raleigh la)-4253651)
+((fly sara 747 raleigh la)-4253651, (goal)-3268210)
+((fly sara 747 raleigh la)-4253651, (board-plane sara 747 la)-4253643)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253651)
+((initial)-3268209, (board-plane sara 747 la)-4253659)
+((board-plane sara 747 la)-4253659, (goal)-3268210)
+((board-plane sara 747 la)-4253659, (fly sara 747 raleigh la)-4253651)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253659)
+((initial)-3268209, (fly sara 747 raleigh la)-4253667)
+((fly sara 747 raleigh la)-4253667, (goal)-3268210)
+((fly sara 747 raleigh la)-4253667, (board-plane sara 747 la)-4253659)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253667)
+((initial)-3268209, (board-plane sara 747 la)-4253675)
+((board-plane sara 747 la)-4253675, (goal)-3268210)
+((board-plane sara 747 la)-4253675, (fly sara 747 raleigh la)-4253667)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253675)
+((initial)-3268209, (fly sara 747 raleigh la)-4253683)
+((fly sara 747 raleigh la)-4253683, (goal)-3268210)
+((fly sara 747 raleigh la)-4253683, (board-plane sara 747 la)-4253675)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253683)
+((initial)-3268209, (board-plane sara 747 la)-4253691)
+((board-plane sara 747 la)-4253691, (goal)-3268210)
+((board-plane sara 747 la)-4253691, (fly sara 747 raleigh la)-4253683)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253691)
+((initial)-3268209, (fly sara 747 raleigh la)-4253699)
+((fly sara 747 raleigh la)-4253699, (goal)-3268210)
+((fly sara 747 raleigh la)-4253699, (board-plane sara 747 la)-4253691)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253699)
+((initial)-3268209, (board-plane sara 747 la)-4253707)
+((board-plane sara 747 la)-4253707, (goal)-3268210)
+((board-plane sara 747 la)-4253707, (fly sara 747 raleigh la)-4253699)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253707)
+((initial)-3268209, (fly sara 747 raleigh la)-4253715)
+((fly sara 747 raleigh la)-4253715, (goal)-3268210)
+((fly sara 747 raleigh la)-4253715, (board-plane sara 747 la)-4253707)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253715)
+((initial)-3268209, (board-plane sara 747 la)-4253723)
+((board-plane sara 747 la)-4253723, (goal)-3268210)
+((board-plane sara 747 la)-4253723, (fly sara 747 raleigh la)-4253715)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253723)
+((initial)-3268209, (fly sara 747 raleigh la)-4253731)
+((fly sara 747 raleigh la)-4253731, (goal)-3268210)
+((fly sara 747 raleigh la)-4253731, (board-plane sara 747 la)-4253723)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253731)
+((initial)-3268209, (board-plane sara 747 la)-4253739)
+((board-plane sara 747 la)-4253739, (goal)-3268210)
+((board-plane sara 747 la)-4253739, (fly sara 747 raleigh la)-4253731)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253739)
+((initial)-3268209, (fly sara 747 raleigh la)-4253747)
+((fly sara 747 raleigh la)-4253747, (goal)-3268210)
+((fly sara 747 raleigh la)-4253747, (board-plane sara 747 la)-4253739)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253747)
+((initial)-3268209, (board-plane sara 747 la)-4253755)
+((board-plane sara 747 la)-4253755, (goal)-3268210)
+((board-plane sara 747 la)-4253755, (fly sara 747 raleigh la)-4253747)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253755)
+((initial)-3268209, (fly sara 747 raleigh la)-4253763)
+((fly sara 747 raleigh la)-4253763, (goal)-3268210)
+((fly sara 747 raleigh la)-4253763, (board-plane sara 747 la)-4253755)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253763)
+((initial)-3268209, (board-plane sara 747 la)-4253771)
+((board-plane sara 747 la)-4253771, (goal)-3268210)
+((board-plane sara 747 la)-4253771, (fly sara 747 raleigh la)-4253763)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253771)
+((initial)-3268209, (fly sara 747 raleigh la)-4253779)
+((fly sara 747 raleigh la)-4253779, (goal)-3268210)
+((fly sara 747 raleigh la)-4253779, (board-plane sara 747 la)-4253771)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253779)
+((initial)-3268209, (board-plane sara 747 la)-4253787)
+((board-plane sara 747 la)-4253787, (goal)-3268210)
+((board-plane sara 747 la)-4253787, (fly sara 747 raleigh la)-4253779)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253787)
+((initial)-3268209, (fly sara 747 raleigh la)-4253795)
+((fly sara 747 raleigh la)-4253795, (goal)-3268210)
+((fly sara 747 raleigh la)-4253795, (board-plane sara 747 la)-4253787)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253795)
+((initial)-3268209, (board-plane sara 747 la)-4253803)
+((board-plane sara 747 la)-4253803, (goal)-3268210)
+((board-plane sara 747 la)-4253803, (fly sara 747 raleigh la)-4253795)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253803)
+((initial)-3268209, (fly sara 747 raleigh la)-4253811)
+((fly sara 747 raleigh la)-4253811, (goal)-3268210)
+((fly sara 747 raleigh la)-4253811, (board-plane sara 747 la)-4253803)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253811)
+((initial)-3268209, (board-plane sara 747 la)-4253819)
+((board-plane sara 747 la)-4253819, (goal)-3268210)
+((board-plane sara 747 la)-4253819, (fly sara 747 raleigh la)-4253811)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253819)
+((initial)-3268209, (fly sara 747 raleigh la)-4253827)
+((fly sara 747 raleigh la)-4253827, (goal)-3268210)
+((fly sara 747 raleigh la)-4253827, (board-plane sara 747 la)-4253819)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253827)
+((initial)-3268209, (board-plane sara 747 la)-4253835)
+((board-plane sara 747 la)-4253835, (goal)-3268210)
+((board-plane sara 747 la)-4253835, (fly sara 747 raleigh la)-4253827)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253835)
+((initial)-3268209, (fly sara 747 raleigh la)-4253843)
+((fly sara 747 raleigh la)-4253843, (goal)-3268210)
+((fly sara 747 raleigh la)-4253843, (board-plane sara 747 la)-4253835)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253843)
+((initial)-3268209, (board-plane sara 747 la)-4253851)
+((board-plane sara 747 la)-4253851, (goal)-3268210)
+((board-plane sara 747 la)-4253851, (fly sara 747 raleigh la)-4253843)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253851)
+((initial)-3268209, (fly sara 747 raleigh la)-4253859)
+((fly sara 747 raleigh la)-4253859, (goal)-3268210)
+((fly sara 747 raleigh la)-4253859, (board-plane sara 747 la)-4253851)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253859)
+((initial)-3268209, (board-plane sara 747 la)-4253867)
+((board-plane sara 747 la)-4253867, (goal)-3268210)
+((board-plane sara 747 la)-4253867, (fly sara 747 raleigh la)-4253859)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253867)
+((initial)-3268209, (fly sara 747 raleigh la)-4253875)
+((fly sara 747 raleigh la)-4253875, (goal)-3268210)
+((fly sara 747 raleigh la)-4253875, (board-plane sara 747 la)-4253867)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253875)
+((initial)-3268209, (board-plane sara 747 la)-4253883)
+((board-plane sara 747 la)-4253883, (goal)-3268210)
+((board-plane sara 747 la)-4253883, (fly sara 747 raleigh la)-4253875)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253883)
+((initial)-3268209, (fly sara 747 raleigh la)-4253891)
+((fly sara 747 raleigh la)-4253891, (goal)-3268210)
+((fly sara 747 raleigh la)-4253891, (board-plane sara 747 la)-4253883)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253891)
+((initial)-3268209, (board-plane sara 747 la)-4253899)
+((board-plane sara 747 la)-4253899, (goal)-3268210)
+((board-plane sara 747 la)-4253899, (fly sara 747 raleigh la)-4253891)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253899)
+((initial)-3268209, (fly sara 747 raleigh la)-4253907)
+((fly sara 747 raleigh la)-4253907, (goal)-3268210)
+((fly sara 747 raleigh la)-4253907, (board-plane sara 747 la)-4253899)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253907)
+((initial)-3268209, (board-plane sara 747 la)-4253915)
+((board-plane sara 747 la)-4253915, (goal)-3268210)
+((board-plane sara 747 la)-4253915, (fly sara 747 raleigh la)-4253907)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253915)
+((initial)-3268209, (fly sara 747 raleigh la)-4253923)
+((fly sara 747 raleigh la)-4253923, (goal)-3268210)
+((fly sara 747 raleigh la)-4253923, (board-plane sara 747 la)-4253915)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253923)
+((initial)-3268209, (board-plane sara 747 la)-4253931)
+((board-plane sara 747 la)-4253931, (goal)-3268210)
+((board-plane sara 747 la)-4253931, (fly sara 747 raleigh la)-4253923)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253931)
+((initial)-3268209, (fly sara 747 raleigh la)-4253939)
+((fly sara 747 raleigh la)-4253939, (goal)-3268210)
+((fly sara 747 raleigh la)-4253939, (board-plane sara 747 la)-4253931)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253939)
+((initial)-3268209, (board-plane sara 747 la)-4253947)
+((board-plane sara 747 la)-4253947, (goal)-3268210)
+((board-plane sara 747 la)-4253947, (fly sara 747 raleigh la)-4253939)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253947)
+((initial)-3268209, (fly sara 747 raleigh la)-4253955)
+((fly sara 747 raleigh la)-4253955, (goal)-3268210)
+((fly sara 747 raleigh la)-4253955, (board-plane sara 747 la)-4253947)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253955)
+((initial)-3268209, (board-plane sara 747 la)-4253963)
+((board-plane sara 747 la)-4253963, (goal)-3268210)
+((board-plane sara 747 la)-4253963, (fly sara 747 raleigh la)-4253955)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253963)
+((initial)-3268209, (fly sara 747 raleigh la)-4253971)
+((fly sara 747 raleigh la)-4253971, (goal)-3268210)
+((fly sara 747 raleigh la)-4253971, (board-plane sara 747 la)-4253963)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253971)
+((initial)-3268209, (board-plane sara 747 la)-4253979)
+((board-plane sara 747 la)-4253979, (goal)-3268210)
+((board-plane sara 747 la)-4253979, (fly sara 747 raleigh la)-4253971)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253979)
+((initial)-3268209, (fly sara 747 raleigh la)-4253987)
+((fly sara 747 raleigh la)-4253987, (goal)-3268210)
+((fly sara 747 raleigh la)-4253987, (board-plane sara 747 la)-4253979)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4253987)
+((initial)-3268209, (board-plane sara 747 la)-4253995)
+((board-plane sara 747 la)-4253995, (goal)-3268210)
+((board-plane sara 747 la)-4253995, (fly sara 747 raleigh la)-4253987)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4253995)
+((initial)-3268209, (fly sara 747 raleigh la)-4254003)
+((fly sara 747 raleigh la)-4254003, (goal)-3268210)
+((fly sara 747 raleigh la)-4254003, (board-plane sara 747 la)-4253995)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254003)
+((initial)-3268209, (board-plane sara 747 la)-4254011)
+((board-plane sara 747 la)-4254011, (goal)-3268210)
+((board-plane sara 747 la)-4254011, (fly sara 747 raleigh la)-4254003)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254011)
+((initial)-3268209, (fly sara 747 raleigh la)-4254019)
+((fly sara 747 raleigh la)-4254019, (goal)-3268210)
+((fly sara 747 raleigh la)-4254019, (board-plane sara 747 la)-4254011)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254019)
+((initial)-3268209, (board-plane sara 747 la)-4254027)
+((board-plane sara 747 la)-4254027, (goal)-3268210)
+((board-plane sara 747 la)-4254027, (fly sara 747 raleigh la)-4254019)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254027)
+((initial)-3268209, (fly sara 747 raleigh la)-4254035)
+((fly sara 747 raleigh la)-4254035, (goal)-3268210)
+((fly sara 747 raleigh la)-4254035, (board-plane sara 747 la)-4254027)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254035)
+((initial)-3268209, (board-plane sara 747 la)-4254043)
+((board-plane sara 747 la)-4254043, (goal)-3268210)
+((board-plane sara 747 la)-4254043, (fly sara 747 raleigh la)-4254035)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254043)
+((initial)-3268209, (fly sara 747 raleigh la)-4254051)
+((fly sara 747 raleigh la)-4254051, (goal)-3268210)
+((fly sara 747 raleigh la)-4254051, (board-plane sara 747 la)-4254043)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254051)
+((initial)-3268209, (board-plane sara 747 la)-4254059)
+((board-plane sara 747 la)-4254059, (goal)-3268210)
+((board-plane sara 747 la)-4254059, (fly sara 747 raleigh la)-4254051)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254059)
+((initial)-3268209, (fly sara 747 raleigh la)-4254067)
+((fly sara 747 raleigh la)-4254067, (goal)-3268210)
+((fly sara 747 raleigh la)-4254067, (board-plane sara 747 la)-4254059)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254067)
+((initial)-3268209, (board-plane sara 747 la)-4254075)
+((board-plane sara 747 la)-4254075, (goal)-3268210)
+((board-plane sara 747 la)-4254075, (fly sara 747 raleigh la)-4254067)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254075)
+((initial)-3268209, (fly sara 747 raleigh la)-4254083)
+((fly sara 747 raleigh la)-4254083, (goal)-3268210)
+((fly sara 747 raleigh la)-4254083, (board-plane sara 747 la)-4254075)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254083)
+((initial)-3268209, (board-plane sara 747 la)-4254091)
+((board-plane sara 747 la)-4254091, (goal)-3268210)
+((board-plane sara 747 la)-4254091, (fly sara 747 raleigh la)-4254083)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254091)
+((initial)-3268209, (fly sara 747 raleigh la)-4254099)
+((fly sara 747 raleigh la)-4254099, (goal)-3268210)
+((fly sara 747 raleigh la)-4254099, (board-plane sara 747 la)-4254091)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254099)
+((initial)-3268209, (board-plane sara 747 la)-4254107)
+((board-plane sara 747 la)-4254107, (goal)-3268210)
+((board-plane sara 747 la)-4254107, (fly sara 747 raleigh la)-4254099)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254107)
+((initial)-3268209, (fly sara 747 raleigh la)-4254115)
+((fly sara 747 raleigh la)-4254115, (goal)-3268210)
+((fly sara 747 raleigh la)-4254115, (board-plane sara 747 la)-4254107)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254115)
+((initial)-3268209, (board-plane sara 747 la)-4254123)
+((board-plane sara 747 la)-4254123, (goal)-3268210)
+((board-plane sara 747 la)-4254123, (fly sara 747 raleigh la)-4254115)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254123)
+((initial)-3268209, (fly sara 747 raleigh la)-4254131)
+((fly sara 747 raleigh la)-4254131, (goal)-3268210)
+((fly sara 747 raleigh la)-4254131, (board-plane sara 747 la)-4254123)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254131)
+((initial)-3268209, (board-plane sara 747 la)-4254139)
+((board-plane sara 747 la)-4254139, (goal)-3268210)
+((board-plane sara 747 la)-4254139, (fly sara 747 raleigh la)-4254131)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254139)
+((initial)-3268209, (fly sara 747 raleigh la)-4254147)
+((fly sara 747 raleigh la)-4254147, (goal)-3268210)
+((fly sara 747 raleigh la)-4254147, (board-plane sara 747 la)-4254139)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254147)
+((initial)-3268209, (board-plane sara 747 la)-4254155)
+((board-plane sara 747 la)-4254155, (goal)-3268210)
+((board-plane sara 747 la)-4254155, (fly sara 747 raleigh la)-4254147)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254155)
+((initial)-3268209, (fly sara 747 raleigh la)-4254163)
+((fly sara 747 raleigh la)-4254163, (goal)-3268210)
+((fly sara 747 raleigh la)-4254163, (board-plane sara 747 la)-4254155)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254163)
+((initial)-3268209, (board-plane sara 747 la)-4254171)
+((board-plane sara 747 la)-4254171, (goal)-3268210)
+((board-plane sara 747 la)-4254171, (fly sara 747 raleigh la)-4254163)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254171)
+((initial)-3268209, (fly sara 747 raleigh la)-4254179)
+((fly sara 747 raleigh la)-4254179, (goal)-3268210)
+((fly sara 747 raleigh la)-4254179, (board-plane sara 747 la)-4254171)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254179)
+((initial)-3268209, (board-plane sara 747 la)-4254187)
+((board-plane sara 747 la)-4254187, (goal)-3268210)
+((board-plane sara 747 la)-4254187, (fly sara 747 raleigh la)-4254179)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254187)
+((initial)-3268209, (fly sara 747 raleigh la)-4254195)
+((fly sara 747 raleigh la)-4254195, (goal)-3268210)
+((fly sara 747 raleigh la)-4254195, (board-plane sara 747 la)-4254187)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254195)
+((initial)-3268209, (board-plane sara 747 la)-4254203)
+((board-plane sara 747 la)-4254203, (goal)-3268210)
+((board-plane sara 747 la)-4254203, (fly sara 747 raleigh la)-4254195)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254203)
+((initial)-3268209, (fly sara 747 raleigh la)-4254211)
+((fly sara 747 raleigh la)-4254211, (goal)-3268210)
+((fly sara 747 raleigh la)-4254211, (board-plane sara 747 la)-4254203)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254211)
+((initial)-3268209, (board-plane sara 747 la)-4254219)
+((board-plane sara 747 la)-4254219, (goal)-3268210)
+((board-plane sara 747 la)-4254219, (fly sara 747 raleigh la)-4254211)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254219)
+((initial)-3268209, (fly sara 747 raleigh la)-4254227)
+((fly sara 747 raleigh la)-4254227, (goal)-3268210)
+((fly sara 747 raleigh la)-4254227, (board-plane sara 747 la)-4254219)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254227)
+((initial)-3268209, (board-plane sara 747 la)-4254235)
+((board-plane sara 747 la)-4254235, (goal)-3268210)
+((board-plane sara 747 la)-4254235, (fly sara 747 raleigh la)-4254227)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254235)
+((initial)-3268209, (fly sara 747 raleigh la)-4254243)
+((fly sara 747 raleigh la)-4254243, (goal)-3268210)
+((fly sara 747 raleigh la)-4254243, (board-plane sara 747 la)-4254235)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254243)
+((initial)-3268209, (board-plane sara 747 la)-4254251)
+((board-plane sara 747 la)-4254251, (goal)-3268210)
+((board-plane sara 747 la)-4254251, (fly sara 747 raleigh la)-4254243)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254251)
+((initial)-3268209, (fly sara 747 raleigh la)-4254259)
+((fly sara 747 raleigh la)-4254259, (goal)-3268210)
+((fly sara 747 raleigh la)-4254259, (board-plane sara 747 la)-4254251)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254259)
+((initial)-3268209, (board-plane sara 747 la)-4254267)
+((board-plane sara 747 la)-4254267, (goal)-3268210)
+((board-plane sara 747 la)-4254267, (fly sara 747 raleigh la)-4254259)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254267)
+((initial)-3268209, (fly sara 747 raleigh la)-4254275)
+((fly sara 747 raleigh la)-4254275, (goal)-3268210)
+((fly sara 747 raleigh la)-4254275, (board-plane sara 747 la)-4254267)
+((deplane sara 747 raleigh)-4252165, (fly sara 747 raleigh la)-4254275)
+((initial)-3268209, (board-plane sara 747 la)-4254283)
+((board-plane sara 747 la)-4254283, (goal)-3268210)
+((board-plane sara 747 la)-4254283, (fly sara 747 raleigh la)-4254275)
+((deplane sara 747 raleigh)-4252165, (board-plane sara 747 la)-4254283)
+((initial)-3268209, (fly sara 747 raleigh la)-4254291)
+((fly sara 747 raleigh la)-4254291, (goal)-3268210)
+((fly sara 747 raleigh la)-4254291, (board-plane sara 747 la)-4254283)

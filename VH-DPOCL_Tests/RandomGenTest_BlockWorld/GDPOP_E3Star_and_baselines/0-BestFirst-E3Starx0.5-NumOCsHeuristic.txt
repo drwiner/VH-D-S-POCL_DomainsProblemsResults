@@ -1,0 +1,49 @@
+problem	0
+selection	E3Starx0.5-NumOCsHeuristic
+search	BestFirst
+runtime	60109
+opened	122116
+expanded	1966
+primitives	6
+decomps	1
+composites	1
+hdepth	3
+
+
+(putdown agent_0 block_1 location_4 location_1)-1076511
+(DummyInit)-981281
+(pickup agent_0 block_0 location_1 location_0)-981283
+(move agent_0 location_0 location_2)-981284
+(putdown agent_0 block_0 location_2 location_0)-981285
+(DummyGoal)-981282
+
+
+Composites:
+
+(transport agent_0 block_0 location_0 location_1 location_0 location_2)-981280
+
+Orderings:
+
+((initial)-23261, (goal)-23262)
+((initial)-23261, (DummyInit)-981281)
+((DummyInit)-981281, (goal)-23262)
+((initial)-23261, (DummyGoal)-981282)
+((DummyGoal)-981282, (goal)-23262)
+((DummyInit)-981281, (DummyGoal)-981282)
+((pickup agent_0 block_0 location_1 location_0)-981283, (DummyGoal)-981282)
+((DummyInit)-981281, (pickup agent_0 block_0 location_1 location_0)-981283)
+((initial)-23261, (pickup agent_0 block_0 location_1 location_0)-981283)
+((pickup agent_0 block_0 location_1 location_0)-981283, (goal)-23262)
+((move agent_0 location_0 location_2)-981284, (DummyGoal)-981282)
+((DummyInit)-981281, (move agent_0 location_0 location_2)-981284)
+((initial)-23261, (move agent_0 location_0 location_2)-981284)
+((move agent_0 location_0 location_2)-981284, (goal)-23262)
+((putdown agent_0 block_0 location_2 location_0)-981285, (DummyGoal)-981282)
+((DummyInit)-981281, (putdown agent_0 block_0 location_2 location_0)-981285)
+((initial)-23261, (putdown agent_0 block_0 location_2 location_0)-981285)
+((putdown agent_0 block_0 location_2 location_0)-981285, (goal)-23262)
+((pickup agent_0 block_0 location_1 location_0)-981283, (move agent_0 location_0 location_2)-981284)
+((move agent_0 location_0 location_2)-981284, (putdown agent_0 block_0 location_2 location_0)-981285)
+((pickup agent_0 block_0 location_1 location_0)-981283, (putdown agent_0 block_0 location_2 location_0)-981285)
+((initial)-23261, (putdown agent_0 block_1 location_4 location_1)-1076511)
+((putdown agent_0 block_1 location_4 location_1)-1076511, (goal)-23262)

@@ -1,0 +1,114 @@
+problem	6
+selection	E3-AddReuseHeuristic
+search	BestFirst
+runtime	6003
+opened	1451
+expanded	121
+primitives	20
+decomps	5
+composites	5
+hdepth	5
+
+
+(DummyInit)-421457
+(DummyInit)-421537
+(DummyInit)-421951
+(DummyInit)-424033
+(get-out-of-car sara accord raleigh)-424035
+(DummyGoal)-424034
+(get-out-of-car sara accord raleigh)-421953
+(DummyGoal)-421952
+(get-out-of-car sara accord la)-421539
+(DummyGoal)-421538
+(DummyInit)-421460
+(get-out-of-car bob accord raleigh)-421462
+(DummyGoal)-421461
+(DummyGoal)-421458
+(get-in-car sara accord slc)-421246
+(drive sara accord slc raleigh)-421278
+(get-in-car bob accord raleigh)-421166
+(drive bob accord la slc)-421198
+(get-out-of-car sara accord slc)-421074
+(get-out-of-car bob accord slc)-421028
+
+
+Composites:
+
+(generic-travel bob slc raleigh)-421456
+(generic-travel bob slc raleigh)-421459
+(generic-travel sara slc la)-421536
+(generic-travel sara slc raleigh)-421950
+(generic-travel sara slc raleigh)-424032
+
+Orderings:
+
+((initial)-421026, (goal)-421027)
+((initial)-421026, (get-out-of-car bob accord slc)-421028)
+((get-out-of-car bob accord slc)-421028, (goal)-421027)
+((initial)-421026, (get-out-of-car sara accord slc)-421074)
+((get-out-of-car sara accord slc)-421074, (goal)-421027)
+((initial)-421026, (get-in-car bob accord raleigh)-421166)
+((get-in-car bob accord raleigh)-421166, (goal)-421027)
+((get-in-car bob accord raleigh)-421166, (get-out-of-car bob accord slc)-421028)
+((initial)-421026, (drive bob accord la slc)-421198)
+((drive bob accord la slc)-421198, (goal)-421027)
+((drive bob accord la slc)-421198, (get-out-of-car bob accord slc)-421028)
+((get-in-car bob accord raleigh)-421166, (drive bob accord la slc)-421198)
+((drive bob accord la slc)-421198, (get-out-of-car sara accord slc)-421074)
+((initial)-421026, (get-in-car sara accord slc)-421246)
+((get-in-car sara accord slc)-421246, (goal)-421027)
+((get-in-car sara accord slc)-421246, (get-out-of-car sara accord slc)-421074)
+((initial)-421026, (drive sara accord slc raleigh)-421278)
+((drive sara accord slc raleigh)-421278, (goal)-421027)
+((drive sara accord slc raleigh)-421278, (get-in-car bob accord raleigh)-421166)
+((get-in-car sara accord slc)-421246, (drive sara accord slc raleigh)-421278)
+((initial)-421026, (DummyInit)-421457)
+((DummyInit)-421457, (goal)-421027)
+((initial)-421026, (DummyGoal)-421458)
+((DummyGoal)-421458, (goal)-421027)
+((DummyInit)-421457, (DummyGoal)-421458)
+((initial)-421026, (DummyInit)-421460)
+((DummyInit)-421460, (goal)-421027)
+((initial)-421026, (DummyGoal)-421461)
+((DummyGoal)-421461, (goal)-421027)
+((DummyInit)-421460, (DummyGoal)-421461)
+((get-out-of-car bob accord raleigh)-421462, (DummyGoal)-421461)
+((DummyInit)-421460, (get-out-of-car bob accord raleigh)-421462)
+((initial)-421026, (get-out-of-car bob accord raleigh)-421462)
+((get-out-of-car bob accord raleigh)-421462, (goal)-421027)
+((DummyGoal)-421461, (DummyGoal)-421458)
+((DummyInit)-421457, (DummyInit)-421460)
+((DummyGoal)-421458, (get-in-car bob accord raleigh)-421166)
+((initial)-421026, (DummyInit)-421537)
+((DummyInit)-421537, (goal)-421027)
+((initial)-421026, (DummyGoal)-421538)
+((DummyGoal)-421538, (goal)-421027)
+((DummyInit)-421537, (DummyGoal)-421538)
+((get-out-of-car sara accord la)-421539, (DummyGoal)-421538)
+((DummyInit)-421537, (get-out-of-car sara accord la)-421539)
+((initial)-421026, (get-out-of-car sara accord la)-421539)
+((get-out-of-car sara accord la)-421539, (goal)-421027)
+((DummyGoal)-421538, (DummyGoal)-421458)
+((DummyInit)-421457, (DummyInit)-421537)
+((initial)-421026, (DummyInit)-421951)
+((DummyInit)-421951, (goal)-421027)
+((initial)-421026, (DummyGoal)-421952)
+((DummyGoal)-421952, (goal)-421027)
+((DummyInit)-421951, (DummyGoal)-421952)
+((get-out-of-car sara accord raleigh)-421953, (DummyGoal)-421952)
+((DummyInit)-421951, (get-out-of-car sara accord raleigh)-421953)
+((initial)-421026, (get-out-of-car sara accord raleigh)-421953)
+((get-out-of-car sara accord raleigh)-421953, (goal)-421027)
+((DummyGoal)-421952, (DummyGoal)-421538)
+((DummyInit)-421537, (DummyInit)-421951)
+((initial)-421026, (DummyInit)-424033)
+((DummyInit)-424033, (goal)-421027)
+((initial)-421026, (DummyGoal)-424034)
+((DummyGoal)-424034, (goal)-421027)
+((DummyInit)-424033, (DummyGoal)-424034)
+((get-out-of-car sara accord raleigh)-424035, (DummyGoal)-424034)
+((DummyInit)-424033, (get-out-of-car sara accord raleigh)-424035)
+((initial)-421026, (get-out-of-car sara accord raleigh)-424035)
+((get-out-of-car sara accord raleigh)-424035, (goal)-421027)
+((DummyGoal)-424034, (DummyGoal)-421952)
+((DummyInit)-421951, (DummyInit)-424033)

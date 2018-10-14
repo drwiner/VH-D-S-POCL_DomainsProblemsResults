@@ -1,0 +1,55 @@
+problem	3
+selection	E0-AddReuseHeuristic
+search	BestFirst
+runtime	71
+opened	63
+expanded	17
+primitives	7
+decomps	1
+composites	1
+hdepth	3
+
+
+(get-in-car sara accord raleigh)-2385734
+(DummyInit)-2385649
+(get-in-car bob accord raleigh)-2385651
+(drive bob accord raleigh la)-2385652
+(get-out-of-car sara accord la)-2385554
+(get-out-of-car bob accord la)-2385653
+(DummyGoal)-2385650
+
+
+Composites:
+
+(travel-by-car bob raleigh la accord)-2385648
+
+Orderings:
+
+((initial)-2385552, (goal)-2385553)
+((initial)-2385552, (get-out-of-car sara accord la)-2385554)
+((get-out-of-car sara accord la)-2385554, (goal)-2385553)
+((initial)-2385552, (DummyInit)-2385649)
+((DummyInit)-2385649, (goal)-2385553)
+((initial)-2385552, (DummyGoal)-2385650)
+((DummyGoal)-2385650, (goal)-2385553)
+((DummyInit)-2385649, (DummyGoal)-2385650)
+((get-in-car bob accord raleigh)-2385651, (DummyGoal)-2385650)
+((DummyInit)-2385649, (get-in-car bob accord raleigh)-2385651)
+((initial)-2385552, (get-in-car bob accord raleigh)-2385651)
+((get-in-car bob accord raleigh)-2385651, (goal)-2385553)
+((drive bob accord raleigh la)-2385652, (DummyGoal)-2385650)
+((DummyInit)-2385649, (drive bob accord raleigh la)-2385652)
+((initial)-2385552, (drive bob accord raleigh la)-2385652)
+((drive bob accord raleigh la)-2385652, (goal)-2385553)
+((get-out-of-car bob accord la)-2385653, (DummyGoal)-2385650)
+((DummyInit)-2385649, (get-out-of-car bob accord la)-2385653)
+((initial)-2385552, (get-out-of-car bob accord la)-2385653)
+((get-out-of-car bob accord la)-2385653, (goal)-2385553)
+((get-in-car bob accord raleigh)-2385651, (drive bob accord raleigh la)-2385652)
+((drive bob accord raleigh la)-2385652, (get-out-of-car bob accord la)-2385653)
+((get-in-car bob accord raleigh)-2385651, (get-out-of-car bob accord la)-2385653)
+((drive bob accord raleigh la)-2385652, (get-out-of-car sara accord la)-2385554)
+((initial)-2385552, (get-in-car sara accord raleigh)-2385734)
+((get-in-car sara accord raleigh)-2385734, (goal)-2385553)
+((get-in-car sara accord raleigh)-2385734, (get-out-of-car sara accord la)-2385554)
+((get-in-car sara accord raleigh)-2385734, (drive bob accord raleigh la)-2385652)

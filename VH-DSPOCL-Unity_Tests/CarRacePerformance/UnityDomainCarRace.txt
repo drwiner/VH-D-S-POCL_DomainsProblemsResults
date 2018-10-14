@@ -1,0 +1,219 @@
+action: Drive
+	type: primitive
+	terms: 0 - SteeringAgent	1 - Location	
+			2 - Location	
+	preconditions: at 0 1	adjacent 1 2	
+	
+	(not (= 1 2))	
+	effects: not at 0 1	at 0 2	
+	
+	instructions: steer 0 1 2	
+	
+
+
+action: Idle
+	type: primitive
+	terms: 0 - SteeringAgent	1 - Location	
+			2 - Location	
+	preconditions: at 0 1	
+	
+	(not (= 1 2))		instructions: orient 0 1 2	
+	
+
+
+decomposition: PanDriveLeftRight
+	type: composite
+	value: 1
+	terms: 0 - SteeringAgent	1 - Location	
+			2 - Location	
+	sub-steps: (Drive 0 1 2)-439	
+	
+
+	shots: 
+
+		 ( Full h85 Eye )-440
+		Shot(Full..None.h85.Eye
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: Action [0%: 1%], id=0, type=0, target: 
+			 composition: Center, directive: Pan
+
+
+
+
+decomposition: ConveyRace
+	type: composite
+	value: 7
+	terms: slowCar - SteeringAgent	fastCar - SteeringAgent	
+			slowOrigin - Location	slowDest - Location	
+			fastOrigin - Location	fastDest - Location	
+			preconditions: (speedy fastCar)	(not (speedy slowCar))	
+	(not (= slowCar fastCar))	(not (= slowOrigin slowDest))	(not (= slowOrigin fastOrigin))	(not (= slowOrigin fastDest))	(not (= slowDest fastOrigin))	(not (= slowDest fastDest))	(not (= fastOrigin fastDest))	
+	effects: (obs-starts 522)	(bel-faster fastCar slowCar)	
+	
+
+	sub-steps: (Drive slowCar slowOrigin slowDest)-451	(Drive fastCar fastOrigin fastDest)-452	
+	
+
+	sub-cntgs: ((Drive slowCar slowOrigin slowDest)-451, (Drive fastCar fastOrigin fastDest)-452)	
+	
+
+	shots: 
+
+		 ( Full h275 High )-453
+		Shot(Full..None.h275.High
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: slowCarDrive [0.05%: 0.17%], id=0, type=0, target: 
+			 composition: Center, directive: Follow
+
+
+		 ( Long h315 High )-454
+		Shot(Long..None.h315.High
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: slowCarDrive [0.24%: 0.41%], id=0, type=0, target: 
+			 composition: Center, directive: Stationary
+
+
+		 ( Full h275 High )-455
+		Shot(Full..None.h275.High
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: slowCarDrive [0.47%: 0.6%], id=0, type=0, target: 
+			 composition: Center, directive: Follow
+
+
+		 ( Waist h315 Eye )-456
+		Shot(Waist..None.h315.Eye
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: slowCarDrive [0.67%: 0.83%], id=0, type=0, target: 
+			 composition: Center, directive: Stationary
+
+
+		 ( Full h180 High )-457
+		Shot(Full..None.h180.High
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: fastCarDrive [0.08%: 0.23%], id=0, type=0, target: 
+			 composition: Center, directive: Follow
+
+
+		 ( Full h180 High )-458
+		Shot(Full..None.h180.High
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: fastCarDrive [0.28%: 0.44%], id=0, type=0, target: 
+			 composition: Center, directive: Follow
+
+
+		 ( Waist h195 Eye )-459
+		Shot(Waist..None.h195.Eye
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: fastCarDrive [0.49%: 0.68%], id=0, type=0, target: 
+			 composition: Center, directive: Pan
+
+
+
+	shot-orderings: (( Full h275 High )-453, ( Full h180 High )-457)	(( Full h180 High )-457, ( Long h315 High )-454)	
+			(( Long h315 High )-454, ( Full h180 High )-458)	(( Full h180 High )-458, ( Full h275 High )-455)	
+			(( Full h275 High )-455, ( Waist h195 Eye )-459)	(( Waist h195 Eye )-459, ( Waist h315 Eye )-456)	
+	
+
+
+decomposition: ConveyFinish
+	type: composite
+	value: 6
+	terms: fastCar - SteeringAgent	slowCar - SteeringAgent	
+			fastOrigin - Location	fastDest - Location	
+			slowOrigin - Location	slowDest - Location	
+			preconditions: (obs-starts 542)	(bel-faster fastCar slowCar)	
+			(speedy fastCar)	
+	(not (= fastCar slowCar))	(not (= fastOrigin fastDest))	(not (= fastOrigin slowOrigin))	(not (= fastOrigin slowDest))	(not (= fastDest slowOrigin))	(not (= fastDest slowDest))	(not (= slowOrigin slowDest))	
+	effects: (bel-wins slowCar)	
+	
+
+	sub-steps: (Drive fastCar fastOrigin fastDest)-470	(Idle fastCar fastDest slowDest)-471	
+			(Drive slowCar slowOrigin slowDest)-472	
+	
+
+	sub-cntgs: ((Drive fastCar fastOrigin fastDest)-470, (Idle fastCar fastDest slowDest)-471)	((Idle fastCar fastDest slowDest)-471, (Drive slowCar slowOrigin slowDest)-472)	
+	
+
+	shots: 
+
+		 ( Long h0 High )-473
+		Shot(Long..None.h0.High
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: fastCarDrive [0.5%: 0.79%], id=0, type=0, target: 
+			 composition: Center, directive: Pan
+
+
+		 ( Long h45 High )-474
+		Shot(Long..None.h45.High
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: fastCarDrive [0.79%: 1%], id=0, type=0, target: 
+			 composition: Center, directive: Pan
+			 actionVarName: Idle [0%: 1%], id=0, type=0, target: 
+			 composition: BottomRight, directive: Pan
+
+
+		 ( ExtremeLong h45 High )-475
+		Shot(ExtremeLong..None.h45.High
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: slowCarDrive [0%: 0.23%], id=0, type=0, target: slowCar fastCar
+			 composition: Center, directive: Pan
+
+
+		 ( Full h195 Eye )-476
+		Shot(Full..None.h195.Eye
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: slowCarDrive [0.3%: 0.49%], id=0, type=0, target: slowCar
+			 composition: Center, directive: Pan
+
+
+		 ( ExtremeLong h315 High )-477
+		Shot(ExtremeLong..None.h315.High
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: slowCarDrive [0.61%: 0.75%], id=0, type=0, target: slowCar
+			 composition: Center, directive: Pan
+
+
+		 ( ExtremeLong h195 High )-478
+		Shot(ExtremeLong..None.h195.High
+		Interval-Of-Focus: 0
+		ActionIntervals:
+
+			 actionVarName: slowCarDrive [0.81%: 1%], id=0, type=0, target: 
+			 composition: Center, directive: Pan
+
+
+
+	shot-orderings: (( ExtremeLong h45 High )-475, ( Full h195 Eye )-476)	(( Full h195 Eye )-476, ( ExtremeLong h315 High )-477)	
+			(( ExtremeLong h315 High )-477, ( ExtremeLong h195 High )-478)	
+	
+
+	shot-cntgs: (( Long h0 High )-473, ( Long h45 High )-474)	(( Long h45 High )-474, ( ExtremeLong h45 High )-475)	
+	
+
+

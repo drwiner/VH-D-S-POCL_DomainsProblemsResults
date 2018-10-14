@@ -1,0 +1,49 @@
+problem	25
+selection	E3Starx0.5-ZeroHeuristic
+search	BestFirst
+runtime	60181
+opened	75510
+expanded	974
+primitives	6
+decomps	1
+composites	1
+hdepth	3
+
+
+(putdown agent_2 block_1 location_0 location_2)-594745
+(DummyInit)-483134
+(pickup agent_1 block_0 location_1 location_2)-483136
+(move agent_1 location_2 location_1)-483137
+(putdown agent_1 block_0 location_1 location_0)-483138
+(DummyGoal)-483135
+
+
+Composites:
+
+(transport agent_1 block_0 location_2 location_1 location_0)-483133
+
+Orderings:
+
+((initial)-72421, (goal)-72422)
+((initial)-72421, (DummyInit)-483134)
+((DummyInit)-483134, (goal)-72422)
+((initial)-72421, (DummyGoal)-483135)
+((DummyGoal)-483135, (goal)-72422)
+((DummyInit)-483134, (DummyGoal)-483135)
+((pickup agent_1 block_0 location_1 location_2)-483136, (DummyGoal)-483135)
+((DummyInit)-483134, (pickup agent_1 block_0 location_1 location_2)-483136)
+((initial)-72421, (pickup agent_1 block_0 location_1 location_2)-483136)
+((pickup agent_1 block_0 location_1 location_2)-483136, (goal)-72422)
+((move agent_1 location_2 location_1)-483137, (DummyGoal)-483135)
+((DummyInit)-483134, (move agent_1 location_2 location_1)-483137)
+((initial)-72421, (move agent_1 location_2 location_1)-483137)
+((move agent_1 location_2 location_1)-483137, (goal)-72422)
+((putdown agent_1 block_0 location_1 location_0)-483138, (DummyGoal)-483135)
+((DummyInit)-483134, (putdown agent_1 block_0 location_1 location_0)-483138)
+((initial)-72421, (putdown agent_1 block_0 location_1 location_0)-483138)
+((putdown agent_1 block_0 location_1 location_0)-483138, (goal)-72422)
+((pickup agent_1 block_0 location_1 location_2)-483136, (move agent_1 location_2 location_1)-483137)
+((move agent_1 location_2 location_1)-483137, (putdown agent_1 block_0 location_1 location_0)-483138)
+((pickup agent_1 block_0 location_1 location_2)-483136, (putdown agent_1 block_0 location_1 location_0)-483138)
+((initial)-72421, (putdown agent_2 block_1 location_0 location_2)-594745)
+((putdown agent_2 block_1 location_0 location_2)-594745, (goal)-72422)

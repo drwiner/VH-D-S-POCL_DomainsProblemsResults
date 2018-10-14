@@ -1,0 +1,30 @@
+Problem 36 of Domain blocks
+----------------------------
+Objects of Problem 36
+location_0
+location_1
+location_2
+location_3
+location_4
+block_0
+agent_0
+
+Initial State of Problem 36
+(adjacent location_0 location_1)
+(adjacent location_1 location_0)
+(adjacent location_0 location_2)
+(adjacent location_2 location_0)
+(adjacent location_1 location_2)
+(adjacent location_2 location_1)
+(adjacent location_2 location_3)
+(adjacent location_3 location_2)
+(adjacent location_0 location_4)
+(adjacent location_4 location_0)
+(at block_0 location_4)
+(occupied location_4)
+(at agent_0 location_0)
+(freehands agent_0)
+(occupied location_0)
+
+Goal State of Problem 36
+(at block_0 location_0)

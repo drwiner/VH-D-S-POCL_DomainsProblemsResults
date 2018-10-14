@@ -1,0 +1,93 @@
+problem	7
+selection	E3-AddReuseHeuristic
+search	BestFirst
+runtime	6007
+opened	3407
+expanded	419
+primitives	14
+decomps	3
+composites	3
+hdepth	5
+
+
+(DummyInit)-514864
+(get-in-car bob accord la)-514866
+(DummyInit)-515020
+(DummyInit)-515564
+(get-out-of-car bob accord raleigh)-515566
+(DummyGoal)-515565
+(get-out-of-car bob accord raleigh)-515022
+(drive bob accord la raleigh)-514867
+(get-out-of-car bob accord raleigh)-514868
+(DummyGoal)-515021
+(DummyGoal)-514865
+(get-in-car bob accord raleigh)-514827
+(drive bob accord raleigh la)-514823
+(get-out-of-car bob accord la)-514783
+
+
+Composites:
+
+(travel-by-car bob la raleigh accord)-514863
+(generic-travel bob la raleigh)-515019
+(generic-travel bob la raleigh)-515563
+
+Orderings:
+
+((initial)-514781, (goal)-514782)
+((initial)-514781, (get-out-of-car bob accord la)-514783)
+((get-out-of-car bob accord la)-514783, (goal)-514782)
+((initial)-514781, (drive bob accord raleigh la)-514823)
+((drive bob accord raleigh la)-514823, (goal)-514782)
+((drive bob accord raleigh la)-514823, (get-out-of-car bob accord la)-514783)
+((initial)-514781, (get-in-car bob accord raleigh)-514827)
+((get-in-car bob accord raleigh)-514827, (goal)-514782)
+((get-in-car bob accord raleigh)-514827, (drive bob accord raleigh la)-514823)
+((get-in-car bob accord raleigh)-514827, (get-out-of-car bob accord la)-514783)
+((initial)-514781, (DummyInit)-514864)
+((DummyInit)-514864, (goal)-514782)
+((initial)-514781, (DummyGoal)-514865)
+((DummyGoal)-514865, (goal)-514782)
+((DummyInit)-514864, (DummyGoal)-514865)
+((get-in-car bob accord la)-514866, (DummyGoal)-514865)
+((DummyInit)-514864, (get-in-car bob accord la)-514866)
+((initial)-514781, (get-in-car bob accord la)-514866)
+((get-in-car bob accord la)-514866, (goal)-514782)
+((drive bob accord la raleigh)-514867, (DummyGoal)-514865)
+((DummyInit)-514864, (drive bob accord la raleigh)-514867)
+((initial)-514781, (drive bob accord la raleigh)-514867)
+((drive bob accord la raleigh)-514867, (goal)-514782)
+((get-out-of-car bob accord raleigh)-514868, (DummyGoal)-514865)
+((DummyInit)-514864, (get-out-of-car bob accord raleigh)-514868)
+((initial)-514781, (get-out-of-car bob accord raleigh)-514868)
+((get-out-of-car bob accord raleigh)-514868, (goal)-514782)
+((get-in-car bob accord la)-514866, (drive bob accord la raleigh)-514867)
+((drive bob accord la raleigh)-514867, (get-out-of-car bob accord raleigh)-514868)
+((get-in-car bob accord la)-514866, (get-out-of-car bob accord raleigh)-514868)
+((DummyGoal)-514865, (get-in-car bob accord raleigh)-514827)
+((initial)-514781, (DummyInit)-515020)
+((DummyInit)-515020, (goal)-514782)
+((initial)-514781, (DummyGoal)-515021)
+((DummyGoal)-515021, (goal)-514782)
+((DummyInit)-515020, (DummyGoal)-515021)
+((get-out-of-car bob accord raleigh)-515022, (DummyGoal)-515021)
+((DummyInit)-515020, (get-out-of-car bob accord raleigh)-515022)
+((initial)-514781, (get-out-of-car bob accord raleigh)-515022)
+((get-out-of-car bob accord raleigh)-515022, (goal)-514782)
+((DummyGoal)-515021, (DummyGoal)-514865)
+((DummyInit)-514864, (DummyInit)-515020)
+((get-in-car bob accord la)-514866, (DummyInit)-515020)
+((initial)-514781, (DummyInit)-515564)
+((DummyInit)-515564, (goal)-514782)
+((initial)-514781, (DummyGoal)-515565)
+((DummyGoal)-515565, (goal)-514782)
+((DummyInit)-515564, (DummyGoal)-515565)
+((get-out-of-car bob accord raleigh)-515566, (DummyGoal)-515565)
+((DummyInit)-515564, (get-out-of-car bob accord raleigh)-515566)
+((initial)-514781, (get-out-of-car bob accord raleigh)-515566)
+((get-out-of-car bob accord raleigh)-515566, (goal)-514782)
+((DummyGoal)-515565, (DummyGoal)-515021)
+((DummyInit)-515020, (DummyInit)-515564)
+((get-in-car bob accord la)-514866, (DummyGoal)-515565)
+((DummyGoal)-515565, (DummyGoal)-514865)
+((get-out-of-car bob accord raleigh)-514868, (DummyGoal)-515021)

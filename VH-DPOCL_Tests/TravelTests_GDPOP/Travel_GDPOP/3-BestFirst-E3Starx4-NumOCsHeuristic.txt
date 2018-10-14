@@ -1,0 +1,95 @@
+problem	3
+selection	E3Starx4-NumOCsHeuristic
+search	BestFirst
+runtime	424
+opened	743
+expanded	292
+primitives	13
+decomps	1
+composites	1
+hdepth	8
+
+
+(buy-tickets bob)-2247553
+(board-plane bob 747 raleigh)-2246452
+(DummyInit)-2244153
+(buy-tickets sara)-2244155
+(board-plane sara 747 raleigh)-2244156
+(buy-tickets sara)-2244897
+(fly sara 747 raleigh la)-2244157
+(deplane bob 747 la)-2244166
+(deplane sara 747 la)-2244158
+(board-plane sara 747 la)-2244451
+(fly sara 747 la raleigh)-2245337
+(deplane sara 747 raleigh)-2244991
+(DummyGoal)-2244154
+
+
+Composites:
+
+(travel-by-plane sara raleigh la 747)-2244152
+
+Orderings:
+
+((initial)-1699865, (goal)-1699866)
+((initial)-1699865, (DummyInit)-2244153)
+((DummyInit)-2244153, (goal)-1699866)
+((initial)-1699865, (DummyGoal)-2244154)
+((DummyGoal)-2244154, (goal)-1699866)
+((DummyInit)-2244153, (DummyGoal)-2244154)
+((buy-tickets sara)-2244155, (DummyGoal)-2244154)
+((DummyInit)-2244153, (buy-tickets sara)-2244155)
+((initial)-1699865, (buy-tickets sara)-2244155)
+((buy-tickets sara)-2244155, (goal)-1699866)
+((board-plane sara 747 raleigh)-2244156, (DummyGoal)-2244154)
+((DummyInit)-2244153, (board-plane sara 747 raleigh)-2244156)
+((initial)-1699865, (board-plane sara 747 raleigh)-2244156)
+((board-plane sara 747 raleigh)-2244156, (goal)-1699866)
+((fly sara 747 raleigh la)-2244157, (DummyGoal)-2244154)
+((DummyInit)-2244153, (fly sara 747 raleigh la)-2244157)
+((initial)-1699865, (fly sara 747 raleigh la)-2244157)
+((fly sara 747 raleigh la)-2244157, (goal)-1699866)
+((deplane sara 747 la)-2244158, (DummyGoal)-2244154)
+((DummyInit)-2244153, (deplane sara 747 la)-2244158)
+((initial)-1699865, (deplane sara 747 la)-2244158)
+((deplane sara 747 la)-2244158, (goal)-1699866)
+((buy-tickets sara)-2244155, (board-plane sara 747 raleigh)-2244156)
+((board-plane sara 747 raleigh)-2244156, (fly sara 747 raleigh la)-2244157)
+((fly sara 747 raleigh la)-2244157, (deplane sara 747 la)-2244158)
+((board-plane sara 747 raleigh)-2244156, (deplane sara 747 la)-2244158)
+((initial)-1699865, (deplane bob 747 la)-2244166)
+((deplane bob 747 la)-2244166, (goal)-1699866)
+((initial)-1699865, (board-plane sara 747 la)-2244451)
+((board-plane sara 747 la)-2244451, (goal)-1699866)
+((board-plane sara 747 la)-2244451, (DummyGoal)-2244154)
+((DummyInit)-2244153, (board-plane sara 747 la)-2244451)
+((board-plane sara 747 raleigh)-2244156, (board-plane sara 747 la)-2244451)
+((deplane sara 747 la)-2244158, (board-plane sara 747 la)-2244451)
+((initial)-1699865, (buy-tickets sara)-2244897)
+((buy-tickets sara)-2244897, (goal)-1699866)
+((buy-tickets sara)-2244897, (board-plane sara 747 la)-2244451)
+((board-plane sara 747 raleigh)-2244156, (buy-tickets sara)-2244897)
+((initial)-1699865, (deplane sara 747 raleigh)-2244991)
+((deplane sara 747 raleigh)-2244991, (goal)-1699866)
+((deplane sara 747 raleigh)-2244991, (DummyGoal)-2244154)
+((DummyInit)-2244153, (deplane sara 747 raleigh)-2244991)
+((deplane sara 747 la)-2244158, (deplane sara 747 raleigh)-2244991)
+((board-plane sara 747 raleigh)-2244156, (deplane sara 747 raleigh)-2244991)
+((fly sara 747 raleigh la)-2244157, (deplane sara 747 raleigh)-2244991)
+((board-plane sara 747 la)-2244451, (deplane sara 747 raleigh)-2244991)
+((initial)-1699865, (fly sara 747 la raleigh)-2245337)
+((fly sara 747 la raleigh)-2245337, (goal)-1699866)
+((fly sara 747 la raleigh)-2245337, (deplane sara 747 raleigh)-2244991)
+((deplane sara 747 la)-2244158, (fly sara 747 la raleigh)-2245337)
+((fly sara 747 raleigh la)-2244157, (fly sara 747 la raleigh)-2245337)
+((board-plane sara 747 la)-2244451, (fly sara 747 la raleigh)-2245337)
+((fly sara 747 raleigh la)-2244157, (deplane bob 747 la)-2244166)
+((deplane bob 747 la)-2244166, (fly sara 747 la raleigh)-2245337)
+((initial)-1699865, (board-plane bob 747 raleigh)-2246452)
+((board-plane bob 747 raleigh)-2246452, (goal)-1699866)
+((board-plane bob 747 raleigh)-2246452, (deplane bob 747 la)-2244166)
+((board-plane bob 747 raleigh)-2246452, (fly sara 747 raleigh la)-2244157)
+((fly sara 747 raleigh la)-2244157, (board-plane sara 747 la)-2244451)
+((initial)-1699865, (buy-tickets bob)-2247553)
+((buy-tickets bob)-2247553, (goal)-1699866)
+((buy-tickets bob)-2247553, (board-plane bob 747 raleigh)-2246452)

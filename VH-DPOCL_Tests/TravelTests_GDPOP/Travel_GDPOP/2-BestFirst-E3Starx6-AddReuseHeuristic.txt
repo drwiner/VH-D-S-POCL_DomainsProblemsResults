@@ -1,0 +1,90 @@
+problem	2
+selection	E3Starx6-AddReuseHeuristic
+search	BestFirst
+runtime	1023
+opened	694
+expanded	322
+primitives	12
+decomps	2
+composites	2
+hdepth	16
+
+
+(DummyInit)-1679526
+(buy-tickets sara)-1679528
+(board-plane sara 747 raleigh)-1679529
+(fly sara 747 raleigh la)-1679530
+(deplane sara 747 la)-1679531
+(DummyInit)-1681312
+(buy-tickets sara)-1681314
+(board-plane sara 747 la)-1681315
+(fly sara 747 la raleigh)-1681316
+(deplane sara 747 raleigh)-1681317
+(DummyGoal)-1681313
+(DummyGoal)-1679527
+
+
+Composites:
+
+(travel-by-plane sara raleigh la 747)-1679525
+(travel-by-plane sara la raleigh 747)-1681311
+
+Orderings:
+
+((initial)-1314332, (goal)-1314333)
+((initial)-1314332, (DummyInit)-1679526)
+((DummyInit)-1679526, (goal)-1314333)
+((initial)-1314332, (DummyGoal)-1679527)
+((DummyGoal)-1679527, (goal)-1314333)
+((DummyInit)-1679526, (DummyGoal)-1679527)
+((buy-tickets sara)-1679528, (DummyGoal)-1679527)
+((DummyInit)-1679526, (buy-tickets sara)-1679528)
+((initial)-1314332, (buy-tickets sara)-1679528)
+((buy-tickets sara)-1679528, (goal)-1314333)
+((board-plane sara 747 raleigh)-1679529, (DummyGoal)-1679527)
+((DummyInit)-1679526, (board-plane sara 747 raleigh)-1679529)
+((initial)-1314332, (board-plane sara 747 raleigh)-1679529)
+((board-plane sara 747 raleigh)-1679529, (goal)-1314333)
+((fly sara 747 raleigh la)-1679530, (DummyGoal)-1679527)
+((DummyInit)-1679526, (fly sara 747 raleigh la)-1679530)
+((initial)-1314332, (fly sara 747 raleigh la)-1679530)
+((fly sara 747 raleigh la)-1679530, (goal)-1314333)
+((deplane sara 747 la)-1679531, (DummyGoal)-1679527)
+((DummyInit)-1679526, (deplane sara 747 la)-1679531)
+((initial)-1314332, (deplane sara 747 la)-1679531)
+((deplane sara 747 la)-1679531, (goal)-1314333)
+((buy-tickets sara)-1679528, (board-plane sara 747 raleigh)-1679529)
+((board-plane sara 747 raleigh)-1679529, (fly sara 747 raleigh la)-1679530)
+((fly sara 747 raleigh la)-1679530, (deplane sara 747 la)-1679531)
+((board-plane sara 747 raleigh)-1679529, (deplane sara 747 la)-1679531)
+((initial)-1314332, (DummyInit)-1681312)
+((DummyInit)-1681312, (goal)-1314333)
+((initial)-1314332, (DummyGoal)-1681313)
+((DummyGoal)-1681313, (goal)-1314333)
+((DummyInit)-1681312, (DummyGoal)-1681313)
+((buy-tickets sara)-1681314, (DummyGoal)-1681313)
+((DummyInit)-1681312, (buy-tickets sara)-1681314)
+((initial)-1314332, (buy-tickets sara)-1681314)
+((buy-tickets sara)-1681314, (goal)-1314333)
+((board-plane sara 747 la)-1681315, (DummyGoal)-1681313)
+((DummyInit)-1681312, (board-plane sara 747 la)-1681315)
+((initial)-1314332, (board-plane sara 747 la)-1681315)
+((board-plane sara 747 la)-1681315, (goal)-1314333)
+((fly sara 747 la raleigh)-1681316, (DummyGoal)-1681313)
+((DummyInit)-1681312, (fly sara 747 la raleigh)-1681316)
+((initial)-1314332, (fly sara 747 la raleigh)-1681316)
+((fly sara 747 la raleigh)-1681316, (goal)-1314333)
+((deplane sara 747 raleigh)-1681317, (DummyGoal)-1681313)
+((DummyInit)-1681312, (deplane sara 747 raleigh)-1681317)
+((initial)-1314332, (deplane sara 747 raleigh)-1681317)
+((deplane sara 747 raleigh)-1681317, (goal)-1314333)
+((buy-tickets sara)-1681314, (board-plane sara 747 la)-1681315)
+((board-plane sara 747 la)-1681315, (fly sara 747 la raleigh)-1681316)
+((fly sara 747 la raleigh)-1681316, (deplane sara 747 raleigh)-1681317)
+((board-plane sara 747 la)-1681315, (deplane sara 747 raleigh)-1681317)
+((DummyGoal)-1681313, (DummyGoal)-1679527)
+((DummyInit)-1679526, (DummyInit)-1681312)
+((deplane sara 747 la)-1679531, (DummyInit)-1681312)
+((deplane sara 747 la)-1679531, (DummyGoal)-1681313)
+((fly sara 747 raleigh la)-1679530, (board-plane sara 747 la)-1681315)
+((fly sara 747 raleigh la)-1679530, (fly sara 747 la raleigh)-1681316)

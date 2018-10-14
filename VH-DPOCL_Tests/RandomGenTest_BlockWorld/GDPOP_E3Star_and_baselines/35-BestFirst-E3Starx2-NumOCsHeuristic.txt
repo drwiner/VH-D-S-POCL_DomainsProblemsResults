@@ -1,0 +1,49 @@
+problem	35
+selection	E3Starx2-NumOCsHeuristic
+search	BestFirst
+runtime	60093
+opened	76762
+expanded	866
+primitives	6
+decomps	1
+composites	1
+hdepth	3
+
+
+(DummyInit)-20154002
+(pickup agent_0 block_1 location_0 location_3)-20154004
+(move agent_0 location_3 location_0)-20154005
+(putdown agent_0 block_1 location_0 location_1)-20154006
+(DummyGoal)-20154003
+(putdown agent_0 block_0 location_4 location_0)-20145067
+
+
+Composites:
+
+(transport agent_0 block_1 location_3 location_0 location_1)-20154001
+
+Orderings:
+
+((initial)-13849543, (goal)-13849544)
+((initial)-13849543, (putdown agent_0 block_0 location_4 location_0)-20145067)
+((putdown agent_0 block_0 location_4 location_0)-20145067, (goal)-13849544)
+((initial)-13849543, (DummyInit)-20154002)
+((DummyInit)-20154002, (goal)-13849544)
+((initial)-13849543, (DummyGoal)-20154003)
+((DummyGoal)-20154003, (goal)-13849544)
+((DummyInit)-20154002, (DummyGoal)-20154003)
+((pickup agent_0 block_1 location_0 location_3)-20154004, (DummyGoal)-20154003)
+((DummyInit)-20154002, (pickup agent_0 block_1 location_0 location_3)-20154004)
+((initial)-13849543, (pickup agent_0 block_1 location_0 location_3)-20154004)
+((pickup agent_0 block_1 location_0 location_3)-20154004, (goal)-13849544)
+((move agent_0 location_3 location_0)-20154005, (DummyGoal)-20154003)
+((DummyInit)-20154002, (move agent_0 location_3 location_0)-20154005)
+((initial)-13849543, (move agent_0 location_3 location_0)-20154005)
+((move agent_0 location_3 location_0)-20154005, (goal)-13849544)
+((putdown agent_0 block_1 location_0 location_1)-20154006, (DummyGoal)-20154003)
+((DummyInit)-20154002, (putdown agent_0 block_1 location_0 location_1)-20154006)
+((initial)-13849543, (putdown agent_0 block_1 location_0 location_1)-20154006)
+((putdown agent_0 block_1 location_0 location_1)-20154006, (goal)-13849544)
+((pickup agent_0 block_1 location_0 location_3)-20154004, (move agent_0 location_3 location_0)-20154005)
+((move agent_0 location_3 location_0)-20154005, (putdown agent_0 block_1 location_0 location_1)-20154006)
+((pickup agent_0 block_1 location_0 location_3)-20154004, (putdown agent_0 block_1 location_0 location_1)-20154006)

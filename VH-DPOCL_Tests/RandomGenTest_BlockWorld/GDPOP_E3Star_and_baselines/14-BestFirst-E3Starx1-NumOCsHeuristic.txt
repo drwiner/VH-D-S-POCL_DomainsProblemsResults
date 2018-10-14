@@ -1,0 +1,39 @@
+problem	14
+selection	E3Starx1-NumOCsHeuristic
+search	BestFirst
+runtime	60020
+opened	102278
+expanded	6311
+primitives	5
+decomps	0
+composites	0
+hdepth	0
+
+
+(pickup agent_1 block_0 location_3 location_4)-3360473
+(pickup agent_0 block_1 location_0 location_1)-3219467
+(pickup agent_0 block_1 location_1 location_2)-3159717
+(putdown agent_0 block_1 location_0 location_1)-3143063
+(putdown agent_1 block_0 location_1 location_0)-3143641
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-3213, (goal)-3214)
+((initial)-3213, (putdown agent_0 block_1 location_0 location_1)-3143063)
+((putdown agent_0 block_1 location_0 location_1)-3143063, (goal)-3214)
+((initial)-3213, (putdown agent_1 block_0 location_1 location_0)-3143641)
+((putdown agent_1 block_0 location_1 location_0)-3143641, (goal)-3214)
+((initial)-3213, (pickup agent_0 block_1 location_1 location_2)-3159717)
+((pickup agent_0 block_1 location_1 location_2)-3159717, (goal)-3214)
+((pickup agent_0 block_1 location_1 location_2)-3159717, (putdown agent_0 block_1 location_0 location_1)-3143063)
+((initial)-3213, (pickup agent_0 block_1 location_0 location_1)-3219467)
+((pickup agent_0 block_1 location_0 location_1)-3219467, (goal)-3214)
+((pickup agent_0 block_1 location_0 location_1)-3219467, (putdown agent_1 block_0 location_1 location_0)-3143641)
+((pickup agent_0 block_1 location_0 location_1)-3219467, (pickup agent_0 block_1 location_1 location_2)-3159717)
+((initial)-3213, (pickup agent_1 block_0 location_3 location_4)-3360473)
+((pickup agent_1 block_0 location_3 location_4)-3360473, (goal)-3214)
+((pickup agent_1 block_0 location_3 location_4)-3360473, (putdown agent_1 block_0 location_1 location_0)-3143641)

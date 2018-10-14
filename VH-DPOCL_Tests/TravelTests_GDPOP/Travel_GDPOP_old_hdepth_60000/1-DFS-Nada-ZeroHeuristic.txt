@@ -1,0 +1,838 @@
+problem	1
+selection	Nada-ZeroHeuristic
+search	DFS
+runtime	60052
+opened	1513
+expanded	239
+primitives	169
+decomps	48
+composites	48
+hdepth	48
+
+
+(buy-tickets bea)-1466462
+(DummyInit)-1466323
+(DummyInit)-1466326
+(deplane bea delta slc)-1466328
+(DummyGoal)-1466327
+(DummyGoal)-1466324
+(board-plane bea delta slc)-1466198
+(buy-tickets bea)-1466036
+(DummyInit)-1465897
+(DummyInit)-1465900
+(deplane bea delta slc)-1465902
+(DummyGoal)-1465901
+(DummyGoal)-1465898
+(board-plane bea delta slc)-1465772
+(buy-tickets bea)-1465610
+(DummyInit)-1465471
+(DummyInit)-1465474
+(deplane bea delta slc)-1465476
+(DummyGoal)-1465475
+(DummyGoal)-1465472
+(board-plane bea delta slc)-1465346
+(buy-tickets bea)-1465184
+(DummyInit)-1465045
+(DummyInit)-1465048
+(deplane bea delta slc)-1465050
+(DummyGoal)-1465049
+(DummyGoal)-1465046
+(board-plane bea delta slc)-1464920
+(buy-tickets bea)-1464758
+(DummyInit)-1464619
+(DummyInit)-1464622
+(deplane bea delta slc)-1464624
+(DummyGoal)-1464623
+(DummyGoal)-1464620
+(board-plane bea delta slc)-1464494
+(buy-tickets bea)-1464332
+(DummyInit)-1464193
+(DummyInit)-1464196
+(deplane bea delta slc)-1464198
+(DummyGoal)-1464197
+(DummyGoal)-1464194
+(board-plane bea delta slc)-1464068
+(buy-tickets bea)-1463906
+(DummyInit)-1463767
+(DummyInit)-1463770
+(deplane bea delta slc)-1463772
+(DummyGoal)-1463771
+(DummyGoal)-1463768
+(board-plane bea delta slc)-1463642
+(buy-tickets bea)-1463480
+(DummyInit)-1463341
+(DummyInit)-1463344
+(deplane bea delta slc)-1463346
+(DummyGoal)-1463345
+(DummyGoal)-1463342
+(board-plane bea delta slc)-1463216
+(buy-tickets bea)-1463054
+(DummyInit)-1462915
+(DummyInit)-1462918
+(deplane bea delta slc)-1462920
+(DummyGoal)-1462919
+(DummyGoal)-1462916
+(board-plane bea delta slc)-1462790
+(buy-tickets bea)-1462628
+(DummyInit)-1462489
+(DummyInit)-1462492
+(deplane bea delta slc)-1462494
+(DummyGoal)-1462493
+(DummyGoal)-1462490
+(board-plane bea delta slc)-1462364
+(buy-tickets bea)-1462202
+(DummyInit)-1462063
+(DummyInit)-1462066
+(deplane bea delta slc)-1462068
+(DummyGoal)-1462067
+(DummyGoal)-1462064
+(board-plane bea delta slc)-1461938
+(buy-tickets bea)-1461776
+(DummyInit)-1461637
+(DummyInit)-1461640
+(deplane bea delta slc)-1461642
+(DummyGoal)-1461641
+(DummyGoal)-1461638
+(board-plane bea delta slc)-1461512
+(buy-tickets bea)-1461350
+(DummyInit)-1461211
+(DummyInit)-1461214
+(deplane bea delta slc)-1461216
+(DummyGoal)-1461215
+(DummyGoal)-1461212
+(board-plane bea delta slc)-1461086
+(buy-tickets bea)-1460924
+(DummyInit)-1460785
+(DummyInit)-1460788
+(deplane bea delta slc)-1460790
+(DummyGoal)-1460789
+(DummyGoal)-1460786
+(board-plane bea delta slc)-1460660
+(buy-tickets bea)-1460498
+(DummyInit)-1460359
+(DummyInit)-1460362
+(deplane bea delta slc)-1460364
+(DummyGoal)-1460363
+(DummyGoal)-1460360
+(board-plane bea delta slc)-1460234
+(buy-tickets bea)-1460072
+(DummyInit)-1459933
+(DummyInit)-1459936
+(deplane bea delta slc)-1459938
+(DummyGoal)-1459937
+(DummyGoal)-1459934
+(board-plane bea delta slc)-1459808
+(buy-tickets bea)-1459646
+(DummyInit)-1459507
+(DummyInit)-1459510
+(deplane bea delta slc)-1459512
+(DummyGoal)-1459511
+(DummyGoal)-1459508
+(board-plane bea delta slc)-1459382
+(buy-tickets bea)-1459220
+(DummyInit)-1459081
+(DummyInit)-1459084
+(deplane bea delta slc)-1459086
+(DummyGoal)-1459085
+(DummyGoal)-1459082
+(board-plane bea delta slc)-1458956
+(buy-tickets bea)-1458794
+(DummyInit)-1458655
+(DummyInit)-1458658
+(deplane bea delta slc)-1458660
+(DummyGoal)-1458659
+(DummyGoal)-1458656
+(board-plane bea delta slc)-1458530
+(buy-tickets bea)-1458368
+(DummyInit)-1458229
+(DummyInit)-1458232
+(deplane bea delta slc)-1458234
+(DummyGoal)-1458233
+(DummyGoal)-1458230
+(board-plane bea delta slc)-1458104
+(buy-tickets bea)-1457954
+(DummyInit)-1457815
+(DummyInit)-1457818
+(deplane bea delta slc)-1457820
+(DummyGoal)-1457819
+(DummyGoal)-1457816
+(board-plane bea delta slc)-1457690
+(buy-tickets bea)-1457540
+(DummyInit)-1457401
+(DummyInit)-1457404
+(deplane bea delta slc)-1457406
+(DummyGoal)-1457405
+(DummyGoal)-1457402
+(board-plane bea delta slc)-1456984
+(buy-tickets sara)-1457146
+(board-plane sara delta slc)-1456964
+(buy-tickets david)-1457012
+(board-plane david delta slc)-1456932
+(fly bea delta slc raleigh)-1456924
+(DummyInit)-1456257
+(DummyInit)-1456260
+(deplane sara delta raleigh)-1456262
+(DummyGoal)-1456261
+(DummyGoal)-1456258
+(DummyInit)-1456127
+(DummyInit)-1456130
+(deplane david delta raleigh)-1456132
+(DummyGoal)-1456131
+(DummyGoal)-1456128
+
+
+Composites:
+
+(generic-travel david raleigh)-1456126
+(generic-travel david raleigh)-1456129
+(generic-travel sara raleigh)-1456256
+(generic-travel sara raleigh)-1456259
+(generic-travel bea slc)-1457400
+(generic-travel bea slc)-1457403
+(generic-travel bea slc)-1457814
+(generic-travel bea slc)-1457817
+(generic-travel bea slc)-1458228
+(generic-travel bea slc)-1458231
+(generic-travel bea slc)-1458654
+(generic-travel bea slc)-1458657
+(generic-travel bea slc)-1459080
+(generic-travel bea slc)-1459083
+(generic-travel bea slc)-1459506
+(generic-travel bea slc)-1459509
+(generic-travel bea slc)-1459932
+(generic-travel bea slc)-1459935
+(generic-travel bea slc)-1460358
+(generic-travel bea slc)-1460361
+(generic-travel bea slc)-1460784
+(generic-travel bea slc)-1460787
+(generic-travel bea slc)-1461210
+(generic-travel bea slc)-1461213
+(generic-travel bea slc)-1461636
+(generic-travel bea slc)-1461639
+(generic-travel bea slc)-1462062
+(generic-travel bea slc)-1462065
+(generic-travel bea slc)-1462488
+(generic-travel bea slc)-1462491
+(generic-travel bea slc)-1462914
+(generic-travel bea slc)-1462917
+(generic-travel bea slc)-1463340
+(generic-travel bea slc)-1463343
+(generic-travel bea slc)-1463766
+(generic-travel bea slc)-1463769
+(generic-travel bea slc)-1464192
+(generic-travel bea slc)-1464195
+(generic-travel bea slc)-1464618
+(generic-travel bea slc)-1464621
+(generic-travel bea slc)-1465044
+(generic-travel bea slc)-1465047
+(generic-travel bea slc)-1465470
+(generic-travel bea slc)-1465473
+(generic-travel bea slc)-1465896
+(generic-travel bea slc)-1465899
+(generic-travel bea slc)-1466322
+(generic-travel bea slc)-1466325
+
+Orderings:
+
+((initial)-220, (goal)-221)
+((initial)-220, (DummyInit)-1456127)
+((DummyInit)-1456127, (goal)-221)
+((initial)-220, (DummyGoal)-1456128)
+((DummyGoal)-1456128, (goal)-221)
+((DummyInit)-1456127, (DummyGoal)-1456128)
+((initial)-220, (DummyInit)-1456130)
+((DummyInit)-1456130, (goal)-221)
+((initial)-220, (DummyGoal)-1456131)
+((DummyGoal)-1456131, (goal)-221)
+((DummyInit)-1456130, (DummyGoal)-1456131)
+((deplane david delta raleigh)-1456132, (DummyGoal)-1456131)
+((DummyInit)-1456130, (deplane david delta raleigh)-1456132)
+((initial)-220, (deplane david delta raleigh)-1456132)
+((deplane david delta raleigh)-1456132, (goal)-221)
+((DummyGoal)-1456131, (DummyGoal)-1456128)
+((DummyInit)-1456127, (DummyInit)-1456130)
+((initial)-220, (DummyInit)-1456257)
+((DummyInit)-1456257, (goal)-221)
+((initial)-220, (DummyGoal)-1456258)
+((DummyGoal)-1456258, (goal)-221)
+((DummyInit)-1456257, (DummyGoal)-1456258)
+((initial)-220, (DummyInit)-1456260)
+((DummyInit)-1456260, (goal)-221)
+((initial)-220, (DummyGoal)-1456261)
+((DummyGoal)-1456261, (goal)-221)
+((DummyInit)-1456260, (DummyGoal)-1456261)
+((deplane sara delta raleigh)-1456262, (DummyGoal)-1456261)
+((DummyInit)-1456260, (deplane sara delta raleigh)-1456262)
+((initial)-220, (deplane sara delta raleigh)-1456262)
+((deplane sara delta raleigh)-1456262, (goal)-221)
+((DummyGoal)-1456261, (DummyGoal)-1456258)
+((DummyInit)-1456257, (DummyInit)-1456260)
+((deplane david delta raleigh)-1456132, (DummyGoal)-1456128)
+((deplane sara delta raleigh)-1456262, (DummyGoal)-1456258)
+((initial)-220, (fly bea delta slc raleigh)-1456924)
+((fly bea delta slc raleigh)-1456924, (goal)-221)
+((fly bea delta slc raleigh)-1456924, (deplane david delta raleigh)-1456132)
+((initial)-220, (board-plane david delta slc)-1456932)
+((board-plane david delta slc)-1456932, (goal)-221)
+((board-plane david delta slc)-1456932, (deplane david delta raleigh)-1456132)
+((board-plane david delta slc)-1456932, (fly bea delta slc raleigh)-1456924)
+((fly bea delta slc raleigh)-1456924, (deplane sara delta raleigh)-1456262)
+((initial)-220, (board-plane sara delta slc)-1456964)
+((board-plane sara delta slc)-1456964, (goal)-221)
+((board-plane sara delta slc)-1456964, (deplane sara delta raleigh)-1456262)
+((board-plane sara delta slc)-1456964, (fly bea delta slc raleigh)-1456924)
+((initial)-220, (board-plane bea delta slc)-1456984)
+((board-plane bea delta slc)-1456984, (goal)-221)
+((board-plane bea delta slc)-1456984, (fly bea delta slc raleigh)-1456924)
+((initial)-220, (buy-tickets david)-1457012)
+((buy-tickets david)-1457012, (goal)-221)
+((buy-tickets david)-1457012, (board-plane david delta slc)-1456932)
+((initial)-220, (buy-tickets sara)-1457146)
+((buy-tickets sara)-1457146, (goal)-221)
+((buy-tickets sara)-1457146, (board-plane sara delta slc)-1456964)
+((initial)-220, (DummyInit)-1457401)
+((DummyInit)-1457401, (goal)-221)
+((initial)-220, (DummyGoal)-1457402)
+((DummyGoal)-1457402, (goal)-221)
+((DummyInit)-1457401, (DummyGoal)-1457402)
+((initial)-220, (DummyInit)-1457404)
+((DummyInit)-1457404, (goal)-221)
+((initial)-220, (DummyGoal)-1457405)
+((DummyGoal)-1457405, (goal)-221)
+((DummyInit)-1457404, (DummyGoal)-1457405)
+((deplane bea delta slc)-1457406, (DummyGoal)-1457405)
+((DummyInit)-1457404, (deplane bea delta slc)-1457406)
+((initial)-220, (deplane bea delta slc)-1457406)
+((deplane bea delta slc)-1457406, (goal)-221)
+((DummyGoal)-1457405, (DummyGoal)-1457402)
+((DummyInit)-1457401, (DummyInit)-1457404)
+((DummyGoal)-1457402, (board-plane bea delta slc)-1456984)
+((deplane bea delta slc)-1457406, (DummyGoal)-1457402)
+((initial)-220, (buy-tickets bea)-1457540)
+((buy-tickets bea)-1457540, (goal)-221)
+((buy-tickets bea)-1457540, (board-plane bea delta slc)-1456984)
+((initial)-220, (board-plane bea delta slc)-1457690)
+((board-plane bea delta slc)-1457690, (goal)-221)
+((board-plane bea delta slc)-1457690, (deplane bea delta slc)-1457406)
+((board-plane bea delta slc)-1457690, (buy-tickets bea)-1457540)
+((initial)-220, (DummyInit)-1457815)
+((DummyInit)-1457815, (goal)-221)
+((initial)-220, (DummyGoal)-1457816)
+((DummyGoal)-1457816, (goal)-221)
+((DummyInit)-1457815, (DummyGoal)-1457816)
+((initial)-220, (DummyInit)-1457818)
+((DummyInit)-1457818, (goal)-221)
+((initial)-220, (DummyGoal)-1457819)
+((DummyGoal)-1457819, (goal)-221)
+((DummyInit)-1457818, (DummyGoal)-1457819)
+((deplane bea delta slc)-1457820, (DummyGoal)-1457819)
+((DummyInit)-1457818, (deplane bea delta slc)-1457820)
+((initial)-220, (deplane bea delta slc)-1457820)
+((deplane bea delta slc)-1457820, (goal)-221)
+((DummyGoal)-1457819, (DummyGoal)-1457816)
+((DummyInit)-1457815, (DummyInit)-1457818)
+((DummyGoal)-1457816, (board-plane bea delta slc)-1457690)
+((deplane bea delta slc)-1457820, (DummyGoal)-1457816)
+((initial)-220, (buy-tickets bea)-1457954)
+((buy-tickets bea)-1457954, (goal)-221)
+((buy-tickets bea)-1457954, (board-plane bea delta slc)-1457690)
+((initial)-220, (board-plane bea delta slc)-1458104)
+((board-plane bea delta slc)-1458104, (goal)-221)
+((board-plane bea delta slc)-1458104, (deplane bea delta slc)-1457820)
+((board-plane bea delta slc)-1458104, (buy-tickets bea)-1457954)
+((initial)-220, (DummyInit)-1458229)
+((DummyInit)-1458229, (goal)-221)
+((initial)-220, (DummyGoal)-1458230)
+((DummyGoal)-1458230, (goal)-221)
+((DummyInit)-1458229, (DummyGoal)-1458230)
+((initial)-220, (DummyInit)-1458232)
+((DummyInit)-1458232, (goal)-221)
+((initial)-220, (DummyGoal)-1458233)
+((DummyGoal)-1458233, (goal)-221)
+((DummyInit)-1458232, (DummyGoal)-1458233)
+((deplane bea delta slc)-1458234, (DummyGoal)-1458233)
+((DummyInit)-1458232, (deplane bea delta slc)-1458234)
+((initial)-220, (deplane bea delta slc)-1458234)
+((deplane bea delta slc)-1458234, (goal)-221)
+((DummyGoal)-1458233, (DummyGoal)-1458230)
+((DummyInit)-1458229, (DummyInit)-1458232)
+((DummyGoal)-1458230, (board-plane bea delta slc)-1458104)
+((deplane bea delta slc)-1458234, (DummyGoal)-1458230)
+((initial)-220, (buy-tickets bea)-1458368)
+((buy-tickets bea)-1458368, (goal)-221)
+((buy-tickets bea)-1458368, (board-plane bea delta slc)-1458104)
+((initial)-220, (board-plane bea delta slc)-1458530)
+((board-plane bea delta slc)-1458530, (goal)-221)
+((board-plane bea delta slc)-1458530, (deplane bea delta slc)-1458234)
+((board-plane bea delta slc)-1458530, (buy-tickets bea)-1458368)
+((initial)-220, (DummyInit)-1458655)
+((DummyInit)-1458655, (goal)-221)
+((initial)-220, (DummyGoal)-1458656)
+((DummyGoal)-1458656, (goal)-221)
+((DummyInit)-1458655, (DummyGoal)-1458656)
+((initial)-220, (DummyInit)-1458658)
+((DummyInit)-1458658, (goal)-221)
+((initial)-220, (DummyGoal)-1458659)
+((DummyGoal)-1458659, (goal)-221)
+((DummyInit)-1458658, (DummyGoal)-1458659)
+((deplane bea delta slc)-1458660, (DummyGoal)-1458659)
+((DummyInit)-1458658, (deplane bea delta slc)-1458660)
+((initial)-220, (deplane bea delta slc)-1458660)
+((deplane bea delta slc)-1458660, (goal)-221)
+((DummyGoal)-1458659, (DummyGoal)-1458656)
+((DummyInit)-1458655, (DummyInit)-1458658)
+((DummyGoal)-1458656, (board-plane bea delta slc)-1458530)
+((deplane bea delta slc)-1458660, (DummyGoal)-1458656)
+((initial)-220, (buy-tickets bea)-1458794)
+((buy-tickets bea)-1458794, (goal)-221)
+((buy-tickets bea)-1458794, (board-plane bea delta slc)-1458530)
+((initial)-220, (board-plane bea delta slc)-1458956)
+((board-plane bea delta slc)-1458956, (goal)-221)
+((board-plane bea delta slc)-1458956, (deplane bea delta slc)-1458660)
+((board-plane bea delta slc)-1458956, (buy-tickets bea)-1458794)
+((initial)-220, (DummyInit)-1459081)
+((DummyInit)-1459081, (goal)-221)
+((initial)-220, (DummyGoal)-1459082)
+((DummyGoal)-1459082, (goal)-221)
+((DummyInit)-1459081, (DummyGoal)-1459082)
+((initial)-220, (DummyInit)-1459084)
+((DummyInit)-1459084, (goal)-221)
+((initial)-220, (DummyGoal)-1459085)
+((DummyGoal)-1459085, (goal)-221)
+((DummyInit)-1459084, (DummyGoal)-1459085)
+((deplane bea delta slc)-1459086, (DummyGoal)-1459085)
+((DummyInit)-1459084, (deplane bea delta slc)-1459086)
+((initial)-220, (deplane bea delta slc)-1459086)
+((deplane bea delta slc)-1459086, (goal)-221)
+((DummyGoal)-1459085, (DummyGoal)-1459082)
+((DummyInit)-1459081, (DummyInit)-1459084)
+((DummyGoal)-1459082, (board-plane bea delta slc)-1458956)
+((deplane bea delta slc)-1459086, (DummyGoal)-1459082)
+((initial)-220, (buy-tickets bea)-1459220)
+((buy-tickets bea)-1459220, (goal)-221)
+((buy-tickets bea)-1459220, (board-plane bea delta slc)-1458956)
+((initial)-220, (board-plane bea delta slc)-1459382)
+((board-plane bea delta slc)-1459382, (goal)-221)
+((board-plane bea delta slc)-1459382, (deplane bea delta slc)-1459086)
+((board-plane bea delta slc)-1459382, (buy-tickets bea)-1459220)
+((initial)-220, (DummyInit)-1459507)
+((DummyInit)-1459507, (goal)-221)
+((initial)-220, (DummyGoal)-1459508)
+((DummyGoal)-1459508, (goal)-221)
+((DummyInit)-1459507, (DummyGoal)-1459508)
+((initial)-220, (DummyInit)-1459510)
+((DummyInit)-1459510, (goal)-221)
+((initial)-220, (DummyGoal)-1459511)
+((DummyGoal)-1459511, (goal)-221)
+((DummyInit)-1459510, (DummyGoal)-1459511)
+((deplane bea delta slc)-1459512, (DummyGoal)-1459511)
+((DummyInit)-1459510, (deplane bea delta slc)-1459512)
+((initial)-220, (deplane bea delta slc)-1459512)
+((deplane bea delta slc)-1459512, (goal)-221)
+((DummyGoal)-1459511, (DummyGoal)-1459508)
+((DummyInit)-1459507, (DummyInit)-1459510)
+((DummyGoal)-1459508, (board-plane bea delta slc)-1459382)
+((deplane bea delta slc)-1459512, (DummyGoal)-1459508)
+((initial)-220, (buy-tickets bea)-1459646)
+((buy-tickets bea)-1459646, (goal)-221)
+((buy-tickets bea)-1459646, (board-plane bea delta slc)-1459382)
+((initial)-220, (board-plane bea delta slc)-1459808)
+((board-plane bea delta slc)-1459808, (goal)-221)
+((board-plane bea delta slc)-1459808, (deplane bea delta slc)-1459512)
+((board-plane bea delta slc)-1459808, (buy-tickets bea)-1459646)
+((initial)-220, (DummyInit)-1459933)
+((DummyInit)-1459933, (goal)-221)
+((initial)-220, (DummyGoal)-1459934)
+((DummyGoal)-1459934, (goal)-221)
+((DummyInit)-1459933, (DummyGoal)-1459934)
+((initial)-220, (DummyInit)-1459936)
+((DummyInit)-1459936, (goal)-221)
+((initial)-220, (DummyGoal)-1459937)
+((DummyGoal)-1459937, (goal)-221)
+((DummyInit)-1459936, (DummyGoal)-1459937)
+((deplane bea delta slc)-1459938, (DummyGoal)-1459937)
+((DummyInit)-1459936, (deplane bea delta slc)-1459938)
+((initial)-220, (deplane bea delta slc)-1459938)
+((deplane bea delta slc)-1459938, (goal)-221)
+((DummyGoal)-1459937, (DummyGoal)-1459934)
+((DummyInit)-1459933, (DummyInit)-1459936)
+((DummyGoal)-1459934, (board-plane bea delta slc)-1459808)
+((deplane bea delta slc)-1459938, (DummyGoal)-1459934)
+((initial)-220, (buy-tickets bea)-1460072)
+((buy-tickets bea)-1460072, (goal)-221)
+((buy-tickets bea)-1460072, (board-plane bea delta slc)-1459808)
+((initial)-220, (board-plane bea delta slc)-1460234)
+((board-plane bea delta slc)-1460234, (goal)-221)
+((board-plane bea delta slc)-1460234, (deplane bea delta slc)-1459938)
+((board-plane bea delta slc)-1460234, (buy-tickets bea)-1460072)
+((initial)-220, (DummyInit)-1460359)
+((DummyInit)-1460359, (goal)-221)
+((initial)-220, (DummyGoal)-1460360)
+((DummyGoal)-1460360, (goal)-221)
+((DummyInit)-1460359, (DummyGoal)-1460360)
+((initial)-220, (DummyInit)-1460362)
+((DummyInit)-1460362, (goal)-221)
+((initial)-220, (DummyGoal)-1460363)
+((DummyGoal)-1460363, (goal)-221)
+((DummyInit)-1460362, (DummyGoal)-1460363)
+((deplane bea delta slc)-1460364, (DummyGoal)-1460363)
+((DummyInit)-1460362, (deplane bea delta slc)-1460364)
+((initial)-220, (deplane bea delta slc)-1460364)
+((deplane bea delta slc)-1460364, (goal)-221)
+((DummyGoal)-1460363, (DummyGoal)-1460360)
+((DummyInit)-1460359, (DummyInit)-1460362)
+((DummyGoal)-1460360, (board-plane bea delta slc)-1460234)
+((deplane bea delta slc)-1460364, (DummyGoal)-1460360)
+((initial)-220, (buy-tickets bea)-1460498)
+((buy-tickets bea)-1460498, (goal)-221)
+((buy-tickets bea)-1460498, (board-plane bea delta slc)-1460234)
+((initial)-220, (board-plane bea delta slc)-1460660)
+((board-plane bea delta slc)-1460660, (goal)-221)
+((board-plane bea delta slc)-1460660, (deplane bea delta slc)-1460364)
+((board-plane bea delta slc)-1460660, (buy-tickets bea)-1460498)
+((initial)-220, (DummyInit)-1460785)
+((DummyInit)-1460785, (goal)-221)
+((initial)-220, (DummyGoal)-1460786)
+((DummyGoal)-1460786, (goal)-221)
+((DummyInit)-1460785, (DummyGoal)-1460786)
+((initial)-220, (DummyInit)-1460788)
+((DummyInit)-1460788, (goal)-221)
+((initial)-220, (DummyGoal)-1460789)
+((DummyGoal)-1460789, (goal)-221)
+((DummyInit)-1460788, (DummyGoal)-1460789)
+((deplane bea delta slc)-1460790, (DummyGoal)-1460789)
+((DummyInit)-1460788, (deplane bea delta slc)-1460790)
+((initial)-220, (deplane bea delta slc)-1460790)
+((deplane bea delta slc)-1460790, (goal)-221)
+((DummyGoal)-1460789, (DummyGoal)-1460786)
+((DummyInit)-1460785, (DummyInit)-1460788)
+((DummyGoal)-1460786, (board-plane bea delta slc)-1460660)
+((deplane bea delta slc)-1460790, (DummyGoal)-1460786)
+((initial)-220, (buy-tickets bea)-1460924)
+((buy-tickets bea)-1460924, (goal)-221)
+((buy-tickets bea)-1460924, (board-plane bea delta slc)-1460660)
+((initial)-220, (board-plane bea delta slc)-1461086)
+((board-plane bea delta slc)-1461086, (goal)-221)
+((board-plane bea delta slc)-1461086, (deplane bea delta slc)-1460790)
+((board-plane bea delta slc)-1461086, (buy-tickets bea)-1460924)
+((initial)-220, (DummyInit)-1461211)
+((DummyInit)-1461211, (goal)-221)
+((initial)-220, (DummyGoal)-1461212)
+((DummyGoal)-1461212, (goal)-221)
+((DummyInit)-1461211, (DummyGoal)-1461212)
+((initial)-220, (DummyInit)-1461214)
+((DummyInit)-1461214, (goal)-221)
+((initial)-220, (DummyGoal)-1461215)
+((DummyGoal)-1461215, (goal)-221)
+((DummyInit)-1461214, (DummyGoal)-1461215)
+((deplane bea delta slc)-1461216, (DummyGoal)-1461215)
+((DummyInit)-1461214, (deplane bea delta slc)-1461216)
+((initial)-220, (deplane bea delta slc)-1461216)
+((deplane bea delta slc)-1461216, (goal)-221)
+((DummyGoal)-1461215, (DummyGoal)-1461212)
+((DummyInit)-1461211, (DummyInit)-1461214)
+((DummyGoal)-1461212, (board-plane bea delta slc)-1461086)
+((deplane bea delta slc)-1461216, (DummyGoal)-1461212)
+((initial)-220, (buy-tickets bea)-1461350)
+((buy-tickets bea)-1461350, (goal)-221)
+((buy-tickets bea)-1461350, (board-plane bea delta slc)-1461086)
+((initial)-220, (board-plane bea delta slc)-1461512)
+((board-plane bea delta slc)-1461512, (goal)-221)
+((board-plane bea delta slc)-1461512, (deplane bea delta slc)-1461216)
+((board-plane bea delta slc)-1461512, (buy-tickets bea)-1461350)
+((initial)-220, (DummyInit)-1461637)
+((DummyInit)-1461637, (goal)-221)
+((initial)-220, (DummyGoal)-1461638)
+((DummyGoal)-1461638, (goal)-221)
+((DummyInit)-1461637, (DummyGoal)-1461638)
+((initial)-220, (DummyInit)-1461640)
+((DummyInit)-1461640, (goal)-221)
+((initial)-220, (DummyGoal)-1461641)
+((DummyGoal)-1461641, (goal)-221)
+((DummyInit)-1461640, (DummyGoal)-1461641)
+((deplane bea delta slc)-1461642, (DummyGoal)-1461641)
+((DummyInit)-1461640, (deplane bea delta slc)-1461642)
+((initial)-220, (deplane bea delta slc)-1461642)
+((deplane bea delta slc)-1461642, (goal)-221)
+((DummyGoal)-1461641, (DummyGoal)-1461638)
+((DummyInit)-1461637, (DummyInit)-1461640)
+((DummyGoal)-1461638, (board-plane bea delta slc)-1461512)
+((deplane bea delta slc)-1461642, (DummyGoal)-1461638)
+((initial)-220, (buy-tickets bea)-1461776)
+((buy-tickets bea)-1461776, (goal)-221)
+((buy-tickets bea)-1461776, (board-plane bea delta slc)-1461512)
+((initial)-220, (board-plane bea delta slc)-1461938)
+((board-plane bea delta slc)-1461938, (goal)-221)
+((board-plane bea delta slc)-1461938, (deplane bea delta slc)-1461642)
+((board-plane bea delta slc)-1461938, (buy-tickets bea)-1461776)
+((initial)-220, (DummyInit)-1462063)
+((DummyInit)-1462063, (goal)-221)
+((initial)-220, (DummyGoal)-1462064)
+((DummyGoal)-1462064, (goal)-221)
+((DummyInit)-1462063, (DummyGoal)-1462064)
+((initial)-220, (DummyInit)-1462066)
+((DummyInit)-1462066, (goal)-221)
+((initial)-220, (DummyGoal)-1462067)
+((DummyGoal)-1462067, (goal)-221)
+((DummyInit)-1462066, (DummyGoal)-1462067)
+((deplane bea delta slc)-1462068, (DummyGoal)-1462067)
+((DummyInit)-1462066, (deplane bea delta slc)-1462068)
+((initial)-220, (deplane bea delta slc)-1462068)
+((deplane bea delta slc)-1462068, (goal)-221)
+((DummyGoal)-1462067, (DummyGoal)-1462064)
+((DummyInit)-1462063, (DummyInit)-1462066)
+((DummyGoal)-1462064, (board-plane bea delta slc)-1461938)
+((deplane bea delta slc)-1462068, (DummyGoal)-1462064)
+((initial)-220, (buy-tickets bea)-1462202)
+((buy-tickets bea)-1462202, (goal)-221)
+((buy-tickets bea)-1462202, (board-plane bea delta slc)-1461938)
+((initial)-220, (board-plane bea delta slc)-1462364)
+((board-plane bea delta slc)-1462364, (goal)-221)
+((board-plane bea delta slc)-1462364, (deplane bea delta slc)-1462068)
+((board-plane bea delta slc)-1462364, (buy-tickets bea)-1462202)
+((initial)-220, (DummyInit)-1462489)
+((DummyInit)-1462489, (goal)-221)
+((initial)-220, (DummyGoal)-1462490)
+((DummyGoal)-1462490, (goal)-221)
+((DummyInit)-1462489, (DummyGoal)-1462490)
+((initial)-220, (DummyInit)-1462492)
+((DummyInit)-1462492, (goal)-221)
+((initial)-220, (DummyGoal)-1462493)
+((DummyGoal)-1462493, (goal)-221)
+((DummyInit)-1462492, (DummyGoal)-1462493)
+((deplane bea delta slc)-1462494, (DummyGoal)-1462493)
+((DummyInit)-1462492, (deplane bea delta slc)-1462494)
+((initial)-220, (deplane bea delta slc)-1462494)
+((deplane bea delta slc)-1462494, (goal)-221)
+((DummyGoal)-1462493, (DummyGoal)-1462490)
+((DummyInit)-1462489, (DummyInit)-1462492)
+((DummyGoal)-1462490, (board-plane bea delta slc)-1462364)
+((deplane bea delta slc)-1462494, (DummyGoal)-1462490)
+((initial)-220, (buy-tickets bea)-1462628)
+((buy-tickets bea)-1462628, (goal)-221)
+((buy-tickets bea)-1462628, (board-plane bea delta slc)-1462364)
+((initial)-220, (board-plane bea delta slc)-1462790)
+((board-plane bea delta slc)-1462790, (goal)-221)
+((board-plane bea delta slc)-1462790, (deplane bea delta slc)-1462494)
+((board-plane bea delta slc)-1462790, (buy-tickets bea)-1462628)
+((initial)-220, (DummyInit)-1462915)
+((DummyInit)-1462915, (goal)-221)
+((initial)-220, (DummyGoal)-1462916)
+((DummyGoal)-1462916, (goal)-221)
+((DummyInit)-1462915, (DummyGoal)-1462916)
+((initial)-220, (DummyInit)-1462918)
+((DummyInit)-1462918, (goal)-221)
+((initial)-220, (DummyGoal)-1462919)
+((DummyGoal)-1462919, (goal)-221)
+((DummyInit)-1462918, (DummyGoal)-1462919)
+((deplane bea delta slc)-1462920, (DummyGoal)-1462919)
+((DummyInit)-1462918, (deplane bea delta slc)-1462920)
+((initial)-220, (deplane bea delta slc)-1462920)
+((deplane bea delta slc)-1462920, (goal)-221)
+((DummyGoal)-1462919, (DummyGoal)-1462916)
+((DummyInit)-1462915, (DummyInit)-1462918)
+((DummyGoal)-1462916, (board-plane bea delta slc)-1462790)
+((deplane bea delta slc)-1462920, (DummyGoal)-1462916)
+((initial)-220, (buy-tickets bea)-1463054)
+((buy-tickets bea)-1463054, (goal)-221)
+((buy-tickets bea)-1463054, (board-plane bea delta slc)-1462790)
+((initial)-220, (board-plane bea delta slc)-1463216)
+((board-plane bea delta slc)-1463216, (goal)-221)
+((board-plane bea delta slc)-1463216, (deplane bea delta slc)-1462920)
+((board-plane bea delta slc)-1463216, (buy-tickets bea)-1463054)
+((initial)-220, (DummyInit)-1463341)
+((DummyInit)-1463341, (goal)-221)
+((initial)-220, (DummyGoal)-1463342)
+((DummyGoal)-1463342, (goal)-221)
+((DummyInit)-1463341, (DummyGoal)-1463342)
+((initial)-220, (DummyInit)-1463344)
+((DummyInit)-1463344, (goal)-221)
+((initial)-220, (DummyGoal)-1463345)
+((DummyGoal)-1463345, (goal)-221)
+((DummyInit)-1463344, (DummyGoal)-1463345)
+((deplane bea delta slc)-1463346, (DummyGoal)-1463345)
+((DummyInit)-1463344, (deplane bea delta slc)-1463346)
+((initial)-220, (deplane bea delta slc)-1463346)
+((deplane bea delta slc)-1463346, (goal)-221)
+((DummyGoal)-1463345, (DummyGoal)-1463342)
+((DummyInit)-1463341, (DummyInit)-1463344)
+((DummyGoal)-1463342, (board-plane bea delta slc)-1463216)
+((deplane bea delta slc)-1463346, (DummyGoal)-1463342)
+((initial)-220, (buy-tickets bea)-1463480)
+((buy-tickets bea)-1463480, (goal)-221)
+((buy-tickets bea)-1463480, (board-plane bea delta slc)-1463216)
+((initial)-220, (board-plane bea delta slc)-1463642)
+((board-plane bea delta slc)-1463642, (goal)-221)
+((board-plane bea delta slc)-1463642, (deplane bea delta slc)-1463346)
+((board-plane bea delta slc)-1463642, (buy-tickets bea)-1463480)
+((initial)-220, (DummyInit)-1463767)
+((DummyInit)-1463767, (goal)-221)
+((initial)-220, (DummyGoal)-1463768)
+((DummyGoal)-1463768, (goal)-221)
+((DummyInit)-1463767, (DummyGoal)-1463768)
+((initial)-220, (DummyInit)-1463770)
+((DummyInit)-1463770, (goal)-221)
+((initial)-220, (DummyGoal)-1463771)
+((DummyGoal)-1463771, (goal)-221)
+((DummyInit)-1463770, (DummyGoal)-1463771)
+((deplane bea delta slc)-1463772, (DummyGoal)-1463771)
+((DummyInit)-1463770, (deplane bea delta slc)-1463772)
+((initial)-220, (deplane bea delta slc)-1463772)
+((deplane bea delta slc)-1463772, (goal)-221)
+((DummyGoal)-1463771, (DummyGoal)-1463768)
+((DummyInit)-1463767, (DummyInit)-1463770)
+((DummyGoal)-1463768, (board-plane bea delta slc)-1463642)
+((deplane bea delta slc)-1463772, (DummyGoal)-1463768)
+((initial)-220, (buy-tickets bea)-1463906)
+((buy-tickets bea)-1463906, (goal)-221)
+((buy-tickets bea)-1463906, (board-plane bea delta slc)-1463642)
+((initial)-220, (board-plane bea delta slc)-1464068)
+((board-plane bea delta slc)-1464068, (goal)-221)
+((board-plane bea delta slc)-1464068, (deplane bea delta slc)-1463772)
+((board-plane bea delta slc)-1464068, (buy-tickets bea)-1463906)
+((initial)-220, (DummyInit)-1464193)
+((DummyInit)-1464193, (goal)-221)
+((initial)-220, (DummyGoal)-1464194)
+((DummyGoal)-1464194, (goal)-221)
+((DummyInit)-1464193, (DummyGoal)-1464194)
+((initial)-220, (DummyInit)-1464196)
+((DummyInit)-1464196, (goal)-221)
+((initial)-220, (DummyGoal)-1464197)
+((DummyGoal)-1464197, (goal)-221)
+((DummyInit)-1464196, (DummyGoal)-1464197)
+((deplane bea delta slc)-1464198, (DummyGoal)-1464197)
+((DummyInit)-1464196, (deplane bea delta slc)-1464198)
+((initial)-220, (deplane bea delta slc)-1464198)
+((deplane bea delta slc)-1464198, (goal)-221)
+((DummyGoal)-1464197, (DummyGoal)-1464194)
+((DummyInit)-1464193, (DummyInit)-1464196)
+((DummyGoal)-1464194, (board-plane bea delta slc)-1464068)
+((deplane bea delta slc)-1464198, (DummyGoal)-1464194)
+((initial)-220, (buy-tickets bea)-1464332)
+((buy-tickets bea)-1464332, (goal)-221)
+((buy-tickets bea)-1464332, (board-plane bea delta slc)-1464068)
+((initial)-220, (board-plane bea delta slc)-1464494)
+((board-plane bea delta slc)-1464494, (goal)-221)
+((board-plane bea delta slc)-1464494, (deplane bea delta slc)-1464198)
+((board-plane bea delta slc)-1464494, (buy-tickets bea)-1464332)
+((initial)-220, (DummyInit)-1464619)
+((DummyInit)-1464619, (goal)-221)
+((initial)-220, (DummyGoal)-1464620)
+((DummyGoal)-1464620, (goal)-221)
+((DummyInit)-1464619, (DummyGoal)-1464620)
+((initial)-220, (DummyInit)-1464622)
+((DummyInit)-1464622, (goal)-221)
+((initial)-220, (DummyGoal)-1464623)
+((DummyGoal)-1464623, (goal)-221)
+((DummyInit)-1464622, (DummyGoal)-1464623)
+((deplane bea delta slc)-1464624, (DummyGoal)-1464623)
+((DummyInit)-1464622, (deplane bea delta slc)-1464624)
+((initial)-220, (deplane bea delta slc)-1464624)
+((deplane bea delta slc)-1464624, (goal)-221)
+((DummyGoal)-1464623, (DummyGoal)-1464620)
+((DummyInit)-1464619, (DummyInit)-1464622)
+((DummyGoal)-1464620, (board-plane bea delta slc)-1464494)
+((deplane bea delta slc)-1464624, (DummyGoal)-1464620)
+((initial)-220, (buy-tickets bea)-1464758)
+((buy-tickets bea)-1464758, (goal)-221)
+((buy-tickets bea)-1464758, (board-plane bea delta slc)-1464494)
+((initial)-220, (board-plane bea delta slc)-1464920)
+((board-plane bea delta slc)-1464920, (goal)-221)
+((board-plane bea delta slc)-1464920, (deplane bea delta slc)-1464624)
+((board-plane bea delta slc)-1464920, (buy-tickets bea)-1464758)
+((initial)-220, (DummyInit)-1465045)
+((DummyInit)-1465045, (goal)-221)
+((initial)-220, (DummyGoal)-1465046)
+((DummyGoal)-1465046, (goal)-221)
+((DummyInit)-1465045, (DummyGoal)-1465046)
+((initial)-220, (DummyInit)-1465048)
+((DummyInit)-1465048, (goal)-221)
+((initial)-220, (DummyGoal)-1465049)
+((DummyGoal)-1465049, (goal)-221)
+((DummyInit)-1465048, (DummyGoal)-1465049)
+((deplane bea delta slc)-1465050, (DummyGoal)-1465049)
+((DummyInit)-1465048, (deplane bea delta slc)-1465050)
+((initial)-220, (deplane bea delta slc)-1465050)
+((deplane bea delta slc)-1465050, (goal)-221)
+((DummyGoal)-1465049, (DummyGoal)-1465046)
+((DummyInit)-1465045, (DummyInit)-1465048)
+((DummyGoal)-1465046, (board-plane bea delta slc)-1464920)
+((deplane bea delta slc)-1465050, (DummyGoal)-1465046)
+((initial)-220, (buy-tickets bea)-1465184)
+((buy-tickets bea)-1465184, (goal)-221)
+((buy-tickets bea)-1465184, (board-plane bea delta slc)-1464920)
+((initial)-220, (board-plane bea delta slc)-1465346)
+((board-plane bea delta slc)-1465346, (goal)-221)
+((board-plane bea delta slc)-1465346, (deplane bea delta slc)-1465050)
+((board-plane bea delta slc)-1465346, (buy-tickets bea)-1465184)
+((initial)-220, (DummyInit)-1465471)
+((DummyInit)-1465471, (goal)-221)
+((initial)-220, (DummyGoal)-1465472)
+((DummyGoal)-1465472, (goal)-221)
+((DummyInit)-1465471, (DummyGoal)-1465472)
+((initial)-220, (DummyInit)-1465474)
+((DummyInit)-1465474, (goal)-221)
+((initial)-220, (DummyGoal)-1465475)
+((DummyGoal)-1465475, (goal)-221)
+((DummyInit)-1465474, (DummyGoal)-1465475)
+((deplane bea delta slc)-1465476, (DummyGoal)-1465475)
+((DummyInit)-1465474, (deplane bea delta slc)-1465476)
+((initial)-220, (deplane bea delta slc)-1465476)
+((deplane bea delta slc)-1465476, (goal)-221)
+((DummyGoal)-1465475, (DummyGoal)-1465472)
+((DummyInit)-1465471, (DummyInit)-1465474)
+((DummyGoal)-1465472, (board-plane bea delta slc)-1465346)
+((deplane bea delta slc)-1465476, (DummyGoal)-1465472)
+((initial)-220, (buy-tickets bea)-1465610)
+((buy-tickets bea)-1465610, (goal)-221)
+((buy-tickets bea)-1465610, (board-plane bea delta slc)-1465346)
+((initial)-220, (board-plane bea delta slc)-1465772)
+((board-plane bea delta slc)-1465772, (goal)-221)
+((board-plane bea delta slc)-1465772, (deplane bea delta slc)-1465476)
+((board-plane bea delta slc)-1465772, (buy-tickets bea)-1465610)
+((initial)-220, (DummyInit)-1465897)
+((DummyInit)-1465897, (goal)-221)
+((initial)-220, (DummyGoal)-1465898)
+((DummyGoal)-1465898, (goal)-221)
+((DummyInit)-1465897, (DummyGoal)-1465898)
+((initial)-220, (DummyInit)-1465900)
+((DummyInit)-1465900, (goal)-221)
+((initial)-220, (DummyGoal)-1465901)
+((DummyGoal)-1465901, (goal)-221)
+((DummyInit)-1465900, (DummyGoal)-1465901)
+((deplane bea delta slc)-1465902, (DummyGoal)-1465901)
+((DummyInit)-1465900, (deplane bea delta slc)-1465902)
+((initial)-220, (deplane bea delta slc)-1465902)
+((deplane bea delta slc)-1465902, (goal)-221)
+((DummyGoal)-1465901, (DummyGoal)-1465898)
+((DummyInit)-1465897, (DummyInit)-1465900)
+((DummyGoal)-1465898, (board-plane bea delta slc)-1465772)
+((deplane bea delta slc)-1465902, (DummyGoal)-1465898)
+((initial)-220, (buy-tickets bea)-1466036)
+((buy-tickets bea)-1466036, (goal)-221)
+((buy-tickets bea)-1466036, (board-plane bea delta slc)-1465772)
+((initial)-220, (board-plane bea delta slc)-1466198)
+((board-plane bea delta slc)-1466198, (goal)-221)
+((board-plane bea delta slc)-1466198, (deplane bea delta slc)-1465902)
+((board-plane bea delta slc)-1466198, (buy-tickets bea)-1466036)
+((initial)-220, (DummyInit)-1466323)
+((DummyInit)-1466323, (goal)-221)
+((initial)-220, (DummyGoal)-1466324)
+((DummyGoal)-1466324, (goal)-221)
+((DummyInit)-1466323, (DummyGoal)-1466324)
+((initial)-220, (DummyInit)-1466326)
+((DummyInit)-1466326, (goal)-221)
+((initial)-220, (DummyGoal)-1466327)
+((DummyGoal)-1466327, (goal)-221)
+((DummyInit)-1466326, (DummyGoal)-1466327)
+((deplane bea delta slc)-1466328, (DummyGoal)-1466327)
+((DummyInit)-1466326, (deplane bea delta slc)-1466328)
+((initial)-220, (deplane bea delta slc)-1466328)
+((deplane bea delta slc)-1466328, (goal)-221)
+((DummyGoal)-1466327, (DummyGoal)-1466324)
+((DummyInit)-1466323, (DummyInit)-1466326)
+((DummyGoal)-1466324, (board-plane bea delta slc)-1466198)
+((deplane bea delta slc)-1466328, (DummyGoal)-1466324)
+((initial)-220, (buy-tickets bea)-1466462)
+((buy-tickets bea)-1466462, (goal)-221)
+((buy-tickets bea)-1466462, (board-plane bea delta slc)-1466198)

@@ -1,0 +1,37 @@
+Problem unity_output_problem of Domain unity
+---------------------------------------------
+Objects of Problem unity_output_problem
+SmallCar
+L0
+L1
+L12
+Lstop
+Lfinish
+SportsCar
+
+Initial State of Problem unity_output_problem
+(at SportsCar L0)
+(obs (at SportsCar L0))
+(at SmallCar L1)
+(obs (at SmallCar L1))
+(speedy SportsCar)
+(obs (speedy SportsCar))
+(adjacent L0 Lstop)
+(adjacent Lstop L0)
+(obs (adjacent L0 Lstop))
+(obs (adjacent Lstop L0))
+(adjacent L1 L12)
+(adjacent L12 L1)
+(obs (adjacent L1 L12))
+(obs (adjacent L12 L1))
+(adjacent L12 Lfinish)
+(adjacent Lfinish L12)
+(obs (adjacent L12 Lfinish))
+(obs (adjacent Lfinish L12))
+(obs (not speedy SmallCar))
+
+Goal State of Problem unity_output_problem
+(at SmallCar Lfinish)
+(obs (at SmallCar Lfinish))
+(at SportsCar Lstop)
+(obs (at SportsCar Lstop))

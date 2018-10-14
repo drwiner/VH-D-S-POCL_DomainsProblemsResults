@@ -1,0 +1,46 @@
+problem	2
+selection	E3Starx1-AddReuseHeuristic
+search	BestFirst
+runtime	38
+opened	44
+expanded	11
+primitives	5
+decomps	1
+composites	1
+hdepth	3
+
+
+(DummyInit)-2091199
+(get-in-car sara accord raleigh)-2091201
+(drive sara accord raleigh la)-2091202
+(get-out-of-car sara accord la)-2091203
+(DummyGoal)-2091200
+
+
+Composites:
+
+(travel-by-car sara raleigh la accord)-2091198
+
+Orderings:
+
+((initial)-2080002, (goal)-2080003)
+((initial)-2080002, (DummyInit)-2091199)
+((DummyInit)-2091199, (goal)-2080003)
+((initial)-2080002, (DummyGoal)-2091200)
+((DummyGoal)-2091200, (goal)-2080003)
+((DummyInit)-2091199, (DummyGoal)-2091200)
+((get-in-car sara accord raleigh)-2091201, (DummyGoal)-2091200)
+((DummyInit)-2091199, (get-in-car sara accord raleigh)-2091201)
+((initial)-2080002, (get-in-car sara accord raleigh)-2091201)
+((get-in-car sara accord raleigh)-2091201, (goal)-2080003)
+((drive sara accord raleigh la)-2091202, (DummyGoal)-2091200)
+((DummyInit)-2091199, (drive sara accord raleigh la)-2091202)
+((initial)-2080002, (drive sara accord raleigh la)-2091202)
+((drive sara accord raleigh la)-2091202, (goal)-2080003)
+((get-out-of-car sara accord la)-2091203, (DummyGoal)-2091200)
+((DummyInit)-2091199, (get-out-of-car sara accord la)-2091203)
+((initial)-2080002, (get-out-of-car sara accord la)-2091203)
+((get-out-of-car sara accord la)-2091203, (goal)-2080003)
+((get-in-car sara accord raleigh)-2091201, (drive sara accord raleigh la)-2091202)
+((drive sara accord raleigh la)-2091202, (get-out-of-car sara accord la)-2091203)
+((get-in-car sara accord raleigh)-2091201, (get-out-of-car sara accord la)-2091203)

@@ -1,0 +1,92 @@
+problem	2
+selection	E3-AddReuseHeuristic
+search	BestFirst
+runtime	6004
+opened	4942
+expanded	704
+primitives	14
+decomps	3
+composites	3
+hdepth	5
+
+
+(DummyInit)-88380
+(get-in-car sara accord la)-88382
+(DummyInit)-88485
+(DummyInit)-88851
+(get-out-of-car sara accord raleigh)-88853
+(DummyGoal)-88852
+(get-out-of-car sara accord raleigh)-88487
+(drive sara accord la raleigh)-88383
+(get-out-of-car sara accord raleigh)-88384
+(DummyGoal)-88486
+(DummyGoal)-88381
+(get-in-car sara accord raleigh)-88339
+(drive sara accord raleigh la)-88327
+(get-out-of-car sara accord la)-88296
+
+
+Composites:
+
+(travel-by-car sara la raleigh accord)-88379
+(generic-travel sara la raleigh)-88484
+(generic-travel sara la raleigh)-88850
+
+Orderings:
+
+((initial)-88294, (goal)-88295)
+((initial)-88294, (get-out-of-car sara accord la)-88296)
+((get-out-of-car sara accord la)-88296, (goal)-88295)
+((initial)-88294, (drive sara accord raleigh la)-88327)
+((drive sara accord raleigh la)-88327, (goal)-88295)
+((drive sara accord raleigh la)-88327, (get-out-of-car sara accord la)-88296)
+((initial)-88294, (get-in-car sara accord raleigh)-88339)
+((get-in-car sara accord raleigh)-88339, (goal)-88295)
+((get-in-car sara accord raleigh)-88339, (drive sara accord raleigh la)-88327)
+((get-in-car sara accord raleigh)-88339, (get-out-of-car sara accord la)-88296)
+((initial)-88294, (DummyInit)-88380)
+((DummyInit)-88380, (goal)-88295)
+((initial)-88294, (DummyGoal)-88381)
+((DummyGoal)-88381, (goal)-88295)
+((DummyInit)-88380, (DummyGoal)-88381)
+((get-in-car sara accord la)-88382, (DummyGoal)-88381)
+((DummyInit)-88380, (get-in-car sara accord la)-88382)
+((initial)-88294, (get-in-car sara accord la)-88382)
+((get-in-car sara accord la)-88382, (goal)-88295)
+((drive sara accord la raleigh)-88383, (DummyGoal)-88381)
+((DummyInit)-88380, (drive sara accord la raleigh)-88383)
+((initial)-88294, (drive sara accord la raleigh)-88383)
+((drive sara accord la raleigh)-88383, (goal)-88295)
+((get-out-of-car sara accord raleigh)-88384, (DummyGoal)-88381)
+((DummyInit)-88380, (get-out-of-car sara accord raleigh)-88384)
+((initial)-88294, (get-out-of-car sara accord raleigh)-88384)
+((get-out-of-car sara accord raleigh)-88384, (goal)-88295)
+((get-in-car sara accord la)-88382, (drive sara accord la raleigh)-88383)
+((drive sara accord la raleigh)-88383, (get-out-of-car sara accord raleigh)-88384)
+((get-in-car sara accord la)-88382, (get-out-of-car sara accord raleigh)-88384)
+((DummyGoal)-88381, (get-in-car sara accord raleigh)-88339)
+((initial)-88294, (DummyInit)-88485)
+((DummyInit)-88485, (goal)-88295)
+((initial)-88294, (DummyGoal)-88486)
+((DummyGoal)-88486, (goal)-88295)
+((DummyInit)-88485, (DummyGoal)-88486)
+((get-out-of-car sara accord raleigh)-88487, (DummyGoal)-88486)
+((DummyInit)-88485, (get-out-of-car sara accord raleigh)-88487)
+((initial)-88294, (get-out-of-car sara accord raleigh)-88487)
+((get-out-of-car sara accord raleigh)-88487, (goal)-88295)
+((DummyGoal)-88486, (DummyGoal)-88381)
+((DummyInit)-88380, (DummyInit)-88485)
+((get-in-car sara accord la)-88382, (DummyInit)-88485)
+((initial)-88294, (DummyInit)-88851)
+((DummyInit)-88851, (goal)-88295)
+((initial)-88294, (DummyGoal)-88852)
+((DummyGoal)-88852, (goal)-88295)
+((DummyInit)-88851, (DummyGoal)-88852)
+((get-out-of-car sara accord raleigh)-88853, (DummyGoal)-88852)
+((DummyInit)-88851, (get-out-of-car sara accord raleigh)-88853)
+((initial)-88294, (get-out-of-car sara accord raleigh)-88853)
+((get-out-of-car sara accord raleigh)-88853, (goal)-88295)
+((DummyGoal)-88852, (DummyGoal)-88486)
+((DummyInit)-88485, (DummyInit)-88851)
+((get-in-car sara accord la)-88382, (DummyGoal)-88852)
+((get-out-of-car sara accord raleigh)-88384, (DummyGoal)-88486)

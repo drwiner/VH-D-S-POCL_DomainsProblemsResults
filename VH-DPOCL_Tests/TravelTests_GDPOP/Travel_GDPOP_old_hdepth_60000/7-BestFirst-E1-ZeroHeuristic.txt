@@ -1,0 +1,83 @@
+problem	7
+selection	E1-ZeroHeuristic
+search	BestFirst
+runtime	60008
+opened	87145
+expanded	40377
+primitives	13
+decomps	5
+composites	5
+hdepth	2
+
+
+(DummyInit)-7629848
+(DummyInit)-7630050
+(DummyInit)-7635892
+(DummyInit)-7635895
+(get-out-of-car bob mazda la)-7635897
+(DummyGoal)-7635896
+(DummyGoal)-7635893
+(deplane bob 747 la)-7630052
+(DummyGoal)-7630051
+(DummyInit)-7629851
+(get-out-of-car bob mazda la)-7629853
+(DummyGoal)-7629852
+(DummyGoal)-7629849
+
+
+Composites:
+
+(generic-travel bob la)-7629847
+(generic-travel bob la)-7629850
+(generic-travel bob la)-7630049
+(generic-travel bob la)-7635891
+(generic-travel bob la)-7635894
+
+Orderings:
+
+((initial)-7625889, (goal)-7625890)
+((initial)-7625889, (DummyInit)-7629848)
+((DummyInit)-7629848, (goal)-7625890)
+((initial)-7625889, (DummyGoal)-7629849)
+((DummyGoal)-7629849, (goal)-7625890)
+((DummyInit)-7629848, (DummyGoal)-7629849)
+((initial)-7625889, (DummyInit)-7629851)
+((DummyInit)-7629851, (goal)-7625890)
+((initial)-7625889, (DummyGoal)-7629852)
+((DummyGoal)-7629852, (goal)-7625890)
+((DummyInit)-7629851, (DummyGoal)-7629852)
+((get-out-of-car bob mazda la)-7629853, (DummyGoal)-7629852)
+((DummyInit)-7629851, (get-out-of-car bob mazda la)-7629853)
+((initial)-7625889, (get-out-of-car bob mazda la)-7629853)
+((get-out-of-car bob mazda la)-7629853, (goal)-7625890)
+((DummyGoal)-7629852, (DummyGoal)-7629849)
+((DummyInit)-7629848, (DummyInit)-7629851)
+((initial)-7625889, (DummyInit)-7630050)
+((DummyInit)-7630050, (goal)-7625890)
+((initial)-7625889, (DummyGoal)-7630051)
+((DummyGoal)-7630051, (goal)-7625890)
+((DummyInit)-7630050, (DummyGoal)-7630051)
+((deplane bob 747 la)-7630052, (DummyGoal)-7630051)
+((DummyInit)-7630050, (deplane bob 747 la)-7630052)
+((initial)-7625889, (deplane bob 747 la)-7630052)
+((deplane bob 747 la)-7630052, (goal)-7625890)
+((DummyGoal)-7630051, (DummyGoal)-7629849)
+((DummyInit)-7629848, (DummyInit)-7630050)
+((initial)-7625889, (DummyInit)-7635892)
+((DummyInit)-7635892, (goal)-7625890)
+((initial)-7625889, (DummyGoal)-7635893)
+((DummyGoal)-7635893, (goal)-7625890)
+((DummyInit)-7635892, (DummyGoal)-7635893)
+((initial)-7625889, (DummyInit)-7635895)
+((DummyInit)-7635895, (goal)-7625890)
+((initial)-7625889, (DummyGoal)-7635896)
+((DummyGoal)-7635896, (goal)-7625890)
+((DummyInit)-7635895, (DummyGoal)-7635896)
+((get-out-of-car bob mazda la)-7635897, (DummyGoal)-7635896)
+((DummyInit)-7635895, (get-out-of-car bob mazda la)-7635897)
+((initial)-7625889, (get-out-of-car bob mazda la)-7635897)
+((get-out-of-car bob mazda la)-7635897, (goal)-7625890)
+((DummyGoal)-7635896, (DummyGoal)-7635893)
+((DummyInit)-7635892, (DummyInit)-7635895)
+((DummyGoal)-7635893, (DummyGoal)-7630051)
+((DummyInit)-7630050, (DummyInit)-7635892)

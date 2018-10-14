@@ -1,0 +1,106 @@
+problem	6
+selection	E3-NumOCsHeuristic
+search	BestFirst
+runtime	6003
+opened	7589
+expanded	3146
+primitives	16
+decomps	1
+composites	1
+hdepth	3
+
+
+(drive bob accord la slc)-459242
+(get-in-car bob accord la)-441252
+(drive bob accord slc raleigh)-441236
+(DummyInit)-432837
+(get-in-car bob accord raleigh)-432839
+(drive bob accord raleigh slc)-443366
+(drive bob accord la raleigh)-434766
+(drive bob accord raleigh la)-434018
+(drive bob accord slc raleigh)-441594
+(drive bob accord raleigh slc)-441530
+(drive bob accord slc raleigh)-441506
+(drive bob accord raleigh slc)-432840
+(get-out-of-car bob accord slc)-432841
+(DummyGoal)-432838
+(get-in-car sara accord la)-433948
+(get-out-of-car sara accord slc)-433022
+
+
+Composites:
+
+(travel-by-car bob raleigh slc accord)-432836
+
+Orderings:
+
+((initial)-421026, (goal)-421027)
+((initial)-421026, (DummyInit)-432837)
+((DummyInit)-432837, (goal)-421027)
+((initial)-421026, (DummyGoal)-432838)
+((DummyGoal)-432838, (goal)-421027)
+((DummyInit)-432837, (DummyGoal)-432838)
+((get-in-car bob accord raleigh)-432839, (DummyGoal)-432838)
+((DummyInit)-432837, (get-in-car bob accord raleigh)-432839)
+((initial)-421026, (get-in-car bob accord raleigh)-432839)
+((get-in-car bob accord raleigh)-432839, (goal)-421027)
+((drive bob accord raleigh slc)-432840, (DummyGoal)-432838)
+((DummyInit)-432837, (drive bob accord raleigh slc)-432840)
+((initial)-421026, (drive bob accord raleigh slc)-432840)
+((drive bob accord raleigh slc)-432840, (goal)-421027)
+((get-out-of-car bob accord slc)-432841, (DummyGoal)-432838)
+((DummyInit)-432837, (get-out-of-car bob accord slc)-432841)
+((initial)-421026, (get-out-of-car bob accord slc)-432841)
+((get-out-of-car bob accord slc)-432841, (goal)-421027)
+((get-in-car bob accord raleigh)-432839, (drive bob accord raleigh slc)-432840)
+((drive bob accord raleigh slc)-432840, (get-out-of-car bob accord slc)-432841)
+((get-in-car bob accord raleigh)-432839, (get-out-of-car bob accord slc)-432841)
+((initial)-421026, (get-out-of-car sara accord slc)-433022)
+((get-out-of-car sara accord slc)-433022, (goal)-421027)
+((DummyGoal)-432838, (get-out-of-car sara accord slc)-433022)
+((drive bob accord raleigh slc)-432840, (get-out-of-car sara accord slc)-433022)
+((initial)-421026, (get-in-car sara accord la)-433948)
+((get-in-car sara accord la)-433948, (goal)-421027)
+((get-in-car sara accord la)-433948, (get-out-of-car sara accord slc)-433022)
+((DummyGoal)-432838, (get-in-car sara accord la)-433948)
+((initial)-421026, (drive bob accord raleigh la)-434018)
+((drive bob accord raleigh la)-434018, (goal)-421027)
+((drive bob accord raleigh la)-434018, (get-in-car sara accord la)-433948)
+((get-in-car bob accord raleigh)-432839, (drive bob accord raleigh la)-434018)
+((drive bob accord raleigh la)-434018, (get-out-of-car bob accord slc)-432841)
+((initial)-421026, (drive bob accord la raleigh)-434766)
+((drive bob accord la raleigh)-434766, (goal)-421027)
+((drive bob accord la raleigh)-434766, (drive bob accord raleigh la)-434018)
+((drive bob accord raleigh la)-434018, (drive bob accord raleigh slc)-432840)
+((get-in-car bob accord raleigh)-432839, (drive bob accord la raleigh)-434766)
+((initial)-421026, (drive bob accord slc raleigh)-441236)
+((drive bob accord slc raleigh)-441236, (goal)-421027)
+((drive bob accord slc raleigh)-441236, (get-in-car bob accord raleigh)-432839)
+((initial)-421026, (get-in-car bob accord la)-441252)
+((get-in-car bob accord la)-441252, (goal)-421027)
+((get-in-car bob accord la)-441252, (drive bob accord slc raleigh)-441236)
+((initial)-421026, (drive bob accord slc raleigh)-441506)
+((drive bob accord slc raleigh)-441506, (goal)-421027)
+((drive bob accord slc raleigh)-441506, (drive bob accord raleigh slc)-432840)
+((drive bob accord raleigh la)-434018, (drive bob accord slc raleigh)-441506)
+((get-in-car bob accord raleigh)-432839, (drive bob accord slc raleigh)-441506)
+((initial)-421026, (drive bob accord raleigh slc)-441530)
+((drive bob accord raleigh slc)-441530, (goal)-421027)
+((drive bob accord raleigh slc)-441530, (drive bob accord slc raleigh)-441506)
+((get-in-car bob accord raleigh)-432839, (drive bob accord raleigh slc)-441530)
+((drive bob accord slc raleigh)-441236, (drive bob accord raleigh slc)-441530)
+((drive bob accord raleigh la)-434018, (drive bob accord raleigh slc)-441530)
+((initial)-421026, (drive bob accord slc raleigh)-441594)
+((drive bob accord slc raleigh)-441594, (goal)-421027)
+((drive bob accord slc raleigh)-441594, (drive bob accord raleigh slc)-441530)
+((drive bob accord raleigh la)-434018, (drive bob accord slc raleigh)-441594)
+((get-in-car bob accord raleigh)-432839, (drive bob accord slc raleigh)-441594)
+((initial)-421026, (drive bob accord raleigh slc)-443366)
+((drive bob accord raleigh slc)-443366, (goal)-421027)
+((drive bob accord raleigh slc)-443366, (drive bob accord slc raleigh)-441594)
+((get-in-car bob accord raleigh)-432839, (drive bob accord raleigh slc)-443366)
+((drive bob accord slc raleigh)-441236, (drive bob accord raleigh slc)-443366)
+((drive bob accord raleigh slc)-443366, (drive bob accord la raleigh)-434766)
+((initial)-421026, (drive bob accord la slc)-459242)
+((drive bob accord la slc)-459242, (goal)-421027)
+((drive bob accord la slc)-459242, (drive bob accord slc raleigh)-441236)

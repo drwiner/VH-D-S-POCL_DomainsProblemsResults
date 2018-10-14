@@ -1,0 +1,66 @@
+problem	6
+selection	E3Starx6-ZeroHeuristic
+search	BestFirst
+runtime	784
+opened	1586
+expanded	351
+primitives	9
+decomps	1
+composites	1
+hdepth	8
+
+
+(DummyInit)-7425288
+(buy-tickets bob)-7425290
+(board-plane bob 747 raleigh)-7425291
+(fly bob 747 raleigh slc)-7425292
+(deplane bob 747 slc)-7425293
+(DummyGoal)-7425289
+(get-in-car sara accord la)-7427639
+(drive sara accord la slc)-7426619
+(get-out-of-car sara accord slc)-7425307
+
+
+Composites:
+
+(travel-by-plane bob raleigh slc 747)-7425287
+
+Orderings:
+
+((initial)-6623791, (goal)-6623792)
+((initial)-6623791, (DummyInit)-7425288)
+((DummyInit)-7425288, (goal)-6623792)
+((initial)-6623791, (DummyGoal)-7425289)
+((DummyGoal)-7425289, (goal)-6623792)
+((DummyInit)-7425288, (DummyGoal)-7425289)
+((buy-tickets bob)-7425290, (DummyGoal)-7425289)
+((DummyInit)-7425288, (buy-tickets bob)-7425290)
+((initial)-6623791, (buy-tickets bob)-7425290)
+((buy-tickets bob)-7425290, (goal)-6623792)
+((board-plane bob 747 raleigh)-7425291, (DummyGoal)-7425289)
+((DummyInit)-7425288, (board-plane bob 747 raleigh)-7425291)
+((initial)-6623791, (board-plane bob 747 raleigh)-7425291)
+((board-plane bob 747 raleigh)-7425291, (goal)-6623792)
+((fly bob 747 raleigh slc)-7425292, (DummyGoal)-7425289)
+((DummyInit)-7425288, (fly bob 747 raleigh slc)-7425292)
+((initial)-6623791, (fly bob 747 raleigh slc)-7425292)
+((fly bob 747 raleigh slc)-7425292, (goal)-6623792)
+((deplane bob 747 slc)-7425293, (DummyGoal)-7425289)
+((DummyInit)-7425288, (deplane bob 747 slc)-7425293)
+((initial)-6623791, (deplane bob 747 slc)-7425293)
+((deplane bob 747 slc)-7425293, (goal)-6623792)
+((buy-tickets bob)-7425290, (board-plane bob 747 raleigh)-7425291)
+((board-plane bob 747 raleigh)-7425291, (fly bob 747 raleigh slc)-7425292)
+((fly bob 747 raleigh slc)-7425292, (deplane bob 747 slc)-7425293)
+((board-plane bob 747 raleigh)-7425291, (deplane bob 747 slc)-7425293)
+((initial)-6623791, (get-out-of-car sara accord slc)-7425307)
+((get-out-of-car sara accord slc)-7425307, (goal)-6623792)
+((DummyGoal)-7425289, (get-out-of-car sara accord slc)-7425307)
+((initial)-6623791, (drive sara accord la slc)-7426619)
+((drive sara accord la slc)-7426619, (goal)-6623792)
+((drive sara accord la slc)-7426619, (get-out-of-car sara accord slc)-7425307)
+((initial)-6623791, (get-in-car sara accord la)-7427639)
+((get-in-car sara accord la)-7427639, (goal)-6623792)
+((get-in-car sara accord la)-7427639, (drive sara accord la slc)-7426619)
+((DummyGoal)-7425289, (get-in-car sara accord la)-7427639)
+((get-in-car sara accord la)-7427639, (get-out-of-car sara accord slc)-7425307)

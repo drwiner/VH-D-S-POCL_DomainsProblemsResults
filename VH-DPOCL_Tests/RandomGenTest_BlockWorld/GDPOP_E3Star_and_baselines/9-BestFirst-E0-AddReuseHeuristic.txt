@@ -1,0 +1,27 @@
+problem	9
+selection	E0-AddReuseHeuristic
+search	BestFirst
+runtime	423
+opened	442
+expanded	8
+primitives	2
+decomps	0
+composites	0
+hdepth	0
+
+
+(pickup agent_0 block_0 location_4 location_1)-16281881
+(putdown agent_0 block_0 location_1 location_0)-16280515
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-16280513, (goal)-16280514)
+((initial)-16280513, (putdown agent_0 block_0 location_1 location_0)-16280515)
+((putdown agent_0 block_0 location_1 location_0)-16280515, (goal)-16280514)
+((initial)-16280513, (pickup agent_0 block_0 location_4 location_1)-16281881)
+((pickup agent_0 block_0 location_4 location_1)-16281881, (goal)-16280514)
+((pickup agent_0 block_0 location_4 location_1)-16281881, (putdown agent_0 block_0 location_1 location_0)-16280515)

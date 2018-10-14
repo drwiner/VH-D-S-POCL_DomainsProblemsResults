@@ -1,0 +1,24 @@
+E0	AddReuseHeuristic	BestFirst	
+E0	ZeroHeuristic	BestFirst	
+E0	NumOCsHeuristic	BestFirst	
+E3	AddReuseHeuristic	BestFirst	1	369.0	91.0	607.0	8.0	1.0	3.0
+E3	ZeroHeuristic	BestFirst	
+E3	NumOCsHeuristic	BestFirst	5	594.8	144.4	254.4	8.0	1.0	2.4
+E3Starx1	AddReuseHeuristic	BestFirst	
+E3Starx1	ZeroHeuristic	BestFirst	
+E3Starx1	NumOCsHeuristic	BestFirst	
+E3Starx2	AddReuseHeuristic	BestFirst	
+E3Starx2	ZeroHeuristic	BestFirst	
+E3Starx2	NumOCsHeuristic	BestFirst	
+E3Starx4	AddReuseHeuristic	BestFirst	
+E3Starx4	ZeroHeuristic	BestFirst	
+E3Starx4	NumOCsHeuristic	BestFirst	
+E3Starx6	AddReuseHeuristic	BestFirst	
+E3Starx6	ZeroHeuristic	BestFirst	
+E3Starx6	NumOCsHeuristic	BestFirst	
+E3Starx8	AddReuseHeuristic	BestFirst	
+E3Starx8	ZeroHeuristic	BestFirst	
+E3Starx8	NumOCsHeuristic	BestFirst	
+E3Starx16	AddReuseHeuristic	BestFirst	
+E3Starx16	ZeroHeuristic	BestFirst	
+E3Starx16	NumOCsHeuristic	BestFirst	

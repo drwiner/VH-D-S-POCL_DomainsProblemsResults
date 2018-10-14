@@ -1,0 +1,120 @@
+problem	5
+selection	E3-AddReuseHeuristic
+search	BestFirst
+runtime	60005
+opened	22346
+expanded	3012
+primitives	20
+decomps	4
+composites	4
+hdepth	12
+
+
+(DummyInit)-3253510
+(get-out-of-car bob accord raleigh)-3253512
+(DummyInit)-3249541
+(get-in-car sara accord slc)-3249543
+(DummyInit)-3254670
+(DummyInit)-3320472
+(get-out-of-car sara accord la)-3320474
+(DummyGoal)-3320473
+(get-out-of-car sara accord la)-3254672
+(DummyGoal)-3254671
+(DummyGoal)-3253511
+(get-in-car bob accord raleigh)-3249483
+(drive sara accord slc la)-3249544
+(get-out-of-car sara accord la)-3249545
+(drive bob accord la slc)-3253355
+(drive bob accord slc la)-3249403
+(get-out-of-car bob accord la)-3249241
+(DummyGoal)-3249542
+(get-in-car sara accord la)-3249375
+(get-out-of-car sara accord raleigh)-3249111
+
+
+Composites:
+
+(travel-by-car sara slc la accord)-3249540
+(generic-travel bob slc raleigh)-3253509
+(generic-travel sara slc la)-3254669
+(generic-travel sara slc la)-3320471
+
+Orderings:
+
+((initial)-2930235, (goal)-2930236)
+((initial)-2930235, (get-out-of-car sara accord raleigh)-3249111)
+((get-out-of-car sara accord raleigh)-3249111, (goal)-2930236)
+((initial)-2930235, (get-out-of-car bob accord la)-3249241)
+((get-out-of-car bob accord la)-3249241, (goal)-2930236)
+((initial)-2930235, (get-in-car sara accord la)-3249375)
+((get-in-car sara accord la)-3249375, (goal)-2930236)
+((get-in-car sara accord la)-3249375, (get-out-of-car sara accord raleigh)-3249111)
+((initial)-2930235, (drive bob accord slc la)-3249403)
+((drive bob accord slc la)-3249403, (goal)-2930236)
+((drive bob accord slc la)-3249403, (get-out-of-car bob accord la)-3249241)
+((initial)-2930235, (get-in-car bob accord raleigh)-3249483)
+((get-in-car bob accord raleigh)-3249483, (goal)-2930236)
+((get-in-car bob accord raleigh)-3249483, (drive bob accord slc la)-3249403)
+((get-in-car bob accord raleigh)-3249483, (get-out-of-car bob accord la)-3249241)
+((drive bob accord slc la)-3249403, (get-in-car sara accord la)-3249375)
+((initial)-2930235, (DummyInit)-3249541)
+((DummyInit)-3249541, (goal)-2930236)
+((initial)-2930235, (DummyGoal)-3249542)
+((DummyGoal)-3249542, (goal)-2930236)
+((DummyInit)-3249541, (DummyGoal)-3249542)
+((get-in-car sara accord slc)-3249543, (DummyGoal)-3249542)
+((DummyInit)-3249541, (get-in-car sara accord slc)-3249543)
+((initial)-2930235, (get-in-car sara accord slc)-3249543)
+((get-in-car sara accord slc)-3249543, (goal)-2930236)
+((drive sara accord slc la)-3249544, (DummyGoal)-3249542)
+((DummyInit)-3249541, (drive sara accord slc la)-3249544)
+((initial)-2930235, (drive sara accord slc la)-3249544)
+((drive sara accord slc la)-3249544, (goal)-2930236)
+((get-out-of-car sara accord la)-3249545, (DummyGoal)-3249542)
+((DummyInit)-3249541, (get-out-of-car sara accord la)-3249545)
+((initial)-2930235, (get-out-of-car sara accord la)-3249545)
+((get-out-of-car sara accord la)-3249545, (goal)-2930236)
+((get-in-car sara accord slc)-3249543, (drive sara accord slc la)-3249544)
+((drive sara accord slc la)-3249544, (get-out-of-car sara accord la)-3249545)
+((get-in-car sara accord slc)-3249543, (get-out-of-car sara accord la)-3249545)
+((DummyGoal)-3249542, (get-in-car sara accord la)-3249375)
+((initial)-2930235, (drive bob accord la slc)-3253355)
+((drive bob accord la slc)-3253355, (goal)-2930236)
+((drive bob accord la slc)-3253355, (drive bob accord slc la)-3249403)
+((get-out-of-car sara accord la)-3249545, (drive bob accord la slc)-3253355)
+((drive sara accord slc la)-3249544, (drive bob accord la slc)-3253355)
+((get-in-car bob accord raleigh)-3249483, (drive bob accord la slc)-3253355)
+((initial)-2930235, (DummyInit)-3253510)
+((DummyInit)-3253510, (goal)-2930236)
+((initial)-2930235, (DummyGoal)-3253511)
+((DummyGoal)-3253511, (goal)-2930236)
+((DummyInit)-3253510, (DummyGoal)-3253511)
+((get-out-of-car bob accord raleigh)-3253512, (DummyGoal)-3253511)
+((DummyInit)-3253510, (get-out-of-car bob accord raleigh)-3253512)
+((initial)-2930235, (get-out-of-car bob accord raleigh)-3253512)
+((get-out-of-car bob accord raleigh)-3253512, (goal)-2930236)
+((DummyGoal)-3253511, (get-in-car bob accord raleigh)-3249483)
+((initial)-2930235, (DummyInit)-3254670)
+((DummyInit)-3254670, (goal)-2930236)
+((initial)-2930235, (DummyGoal)-3254671)
+((DummyGoal)-3254671, (goal)-2930236)
+((DummyInit)-3254670, (DummyGoal)-3254671)
+((get-out-of-car sara accord la)-3254672, (DummyGoal)-3254671)
+((DummyInit)-3254670, (get-out-of-car sara accord la)-3254672)
+((initial)-2930235, (get-out-of-car sara accord la)-3254672)
+((get-out-of-car sara accord la)-3254672, (goal)-2930236)
+((DummyGoal)-3254671, (DummyGoal)-3253511)
+((DummyInit)-3253510, (DummyInit)-3254670)
+((get-in-car sara accord slc)-3249543, (DummyInit)-3254670)
+((get-in-car sara accord slc)-3249543, (DummyGoal)-3253511)
+((initial)-2930235, (DummyInit)-3320472)
+((DummyInit)-3320472, (goal)-2930236)
+((initial)-2930235, (DummyGoal)-3320473)
+((DummyGoal)-3320473, (goal)-2930236)
+((DummyInit)-3320472, (DummyGoal)-3320473)
+((get-out-of-car sara accord la)-3320474, (DummyGoal)-3320473)
+((DummyInit)-3320472, (get-out-of-car sara accord la)-3320474)
+((initial)-2930235, (get-out-of-car sara accord la)-3320474)
+((get-out-of-car sara accord la)-3320474, (goal)-2930236)
+((DummyGoal)-3320473, (DummyGoal)-3254671)
+((DummyInit)-3254670, (DummyInit)-3320472)

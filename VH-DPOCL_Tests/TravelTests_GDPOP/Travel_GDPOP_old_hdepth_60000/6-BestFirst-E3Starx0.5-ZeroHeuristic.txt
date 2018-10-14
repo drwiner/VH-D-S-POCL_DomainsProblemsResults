@@ -1,0 +1,96 @@
+problem	6
+selection	E3Starx0.5-ZeroHeuristic
+search	BestFirst
+runtime	60017
+opened	92090
+expanded	28720
+primitives	16
+decomps	6
+composites	6
+hdepth	6
+
+
+(DummyInit)-6860302
+(DummyInit)-6864798
+(DummyInit)-6890772
+(DummyInit)-6890775
+(deplane sara 747 slc)-6890777
+(DummyGoal)-6890776
+(DummyGoal)-6890773
+(get-out-of-car sara accord slc)-6864800
+(DummyGoal)-6864799
+(DummyInit)-6860305
+(get-out-of-car sara accord slc)-6860307
+(DummyGoal)-6860306
+(DummyGoal)-6860303
+(DummyInit)-6860108
+(get-out-of-car bob accord slc)-6860110
+(DummyGoal)-6860109
+
+
+Composites:
+
+(generic-travel bob slc)-6860107
+(generic-travel sara slc)-6860301
+(generic-travel sara slc)-6860304
+(generic-travel sara slc)-6864797
+(generic-travel sara slc)-6890771
+(generic-travel sara slc)-6890774
+
+Orderings:
+
+((initial)-6627441, (goal)-6627442)
+((initial)-6627441, (DummyInit)-6860108)
+((DummyInit)-6860108, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-6860109)
+((DummyGoal)-6860109, (goal)-6627442)
+((DummyInit)-6860108, (DummyGoal)-6860109)
+((get-out-of-car bob accord slc)-6860110, (DummyGoal)-6860109)
+((DummyInit)-6860108, (get-out-of-car bob accord slc)-6860110)
+((initial)-6627441, (get-out-of-car bob accord slc)-6860110)
+((get-out-of-car bob accord slc)-6860110, (goal)-6627442)
+((initial)-6627441, (DummyInit)-6860302)
+((DummyInit)-6860302, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-6860303)
+((DummyGoal)-6860303, (goal)-6627442)
+((DummyInit)-6860302, (DummyGoal)-6860303)
+((initial)-6627441, (DummyInit)-6860305)
+((DummyInit)-6860305, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-6860306)
+((DummyGoal)-6860306, (goal)-6627442)
+((DummyInit)-6860305, (DummyGoal)-6860306)
+((get-out-of-car sara accord slc)-6860307, (DummyGoal)-6860306)
+((DummyInit)-6860305, (get-out-of-car sara accord slc)-6860307)
+((initial)-6627441, (get-out-of-car sara accord slc)-6860307)
+((get-out-of-car sara accord slc)-6860307, (goal)-6627442)
+((DummyGoal)-6860306, (DummyGoal)-6860303)
+((DummyInit)-6860302, (DummyInit)-6860305)
+((initial)-6627441, (DummyInit)-6864798)
+((DummyInit)-6864798, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-6864799)
+((DummyGoal)-6864799, (goal)-6627442)
+((DummyInit)-6864798, (DummyGoal)-6864799)
+((get-out-of-car sara accord slc)-6864800, (DummyGoal)-6864799)
+((DummyInit)-6864798, (get-out-of-car sara accord slc)-6864800)
+((initial)-6627441, (get-out-of-car sara accord slc)-6864800)
+((get-out-of-car sara accord slc)-6864800, (goal)-6627442)
+((DummyGoal)-6864799, (DummyGoal)-6860303)
+((DummyInit)-6860302, (DummyInit)-6864798)
+((initial)-6627441, (DummyInit)-6890772)
+((DummyInit)-6890772, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-6890773)
+((DummyGoal)-6890773, (goal)-6627442)
+((DummyInit)-6890772, (DummyGoal)-6890773)
+((initial)-6627441, (DummyInit)-6890775)
+((DummyInit)-6890775, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-6890776)
+((DummyGoal)-6890776, (goal)-6627442)
+((DummyInit)-6890775, (DummyGoal)-6890776)
+((deplane sara 747 slc)-6890777, (DummyGoal)-6890776)
+((DummyInit)-6890775, (deplane sara 747 slc)-6890777)
+((initial)-6627441, (deplane sara 747 slc)-6890777)
+((deplane sara 747 slc)-6890777, (goal)-6627442)
+((DummyGoal)-6890776, (DummyGoal)-6890773)
+((DummyInit)-6890772, (DummyInit)-6890775)
+((DummyGoal)-6890773, (DummyGoal)-6864799)
+((DummyInit)-6864798, (DummyInit)-6890772)

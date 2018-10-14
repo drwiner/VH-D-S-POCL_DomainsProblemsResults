@@ -1,0 +1,115 @@
+problem	7
+selection	Nada-ZeroHeuristic
+search	BFS
+runtime	60015
+opened	59503
+expanded	5580
+primitives	18
+decomps	5
+composites	5
+hdepth	10
+
+
+(DummyInit)-8279745
+(DummyInit)-8283884
+(DummyInit)-8283887
+(get-out-of-car bob mazda raleigh)-8283889
+(DummyGoal)-8283888
+(DummyInit)-8279748
+(buy-tickets bob)-8279750
+(board-plane bob 747 la)-8279751
+(fly bob 747 la raleigh)-8279752
+(deplane bob 747 raleigh)-8279753
+(DummyGoal)-8279749
+(DummyGoal)-8283885
+(DummyGoal)-8279746
+(DummyInit)-8279409
+(get-in-car bob mazda raleigh)-8279411
+(drive bob mazda raleigh la)-8279412
+(get-out-of-car bob mazda la)-8279413
+(DummyGoal)-8279410
+
+
+Composites:
+
+(travel-by-car bob raleigh la mazda)-8279408
+(generic-travel bob raleigh)-8279744
+(travel-by-plane bob la raleigh 747)-8279747
+(generic-travel bob raleigh)-8283883
+(generic-travel bob raleigh)-8283886
+
+Orderings:
+
+((initial)-8236537, (goal)-8236538)
+((initial)-8236537, (DummyInit)-8279409)
+((DummyInit)-8279409, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8279410)
+((DummyGoal)-8279410, (goal)-8236538)
+((DummyInit)-8279409, (DummyGoal)-8279410)
+((get-in-car bob mazda raleigh)-8279411, (DummyGoal)-8279410)
+((DummyInit)-8279409, (get-in-car bob mazda raleigh)-8279411)
+((initial)-8236537, (get-in-car bob mazda raleigh)-8279411)
+((get-in-car bob mazda raleigh)-8279411, (goal)-8236538)
+((drive bob mazda raleigh la)-8279412, (DummyGoal)-8279410)
+((DummyInit)-8279409, (drive bob mazda raleigh la)-8279412)
+((initial)-8236537, (drive bob mazda raleigh la)-8279412)
+((drive bob mazda raleigh la)-8279412, (goal)-8236538)
+((get-out-of-car bob mazda la)-8279413, (DummyGoal)-8279410)
+((DummyInit)-8279409, (get-out-of-car bob mazda la)-8279413)
+((initial)-8236537, (get-out-of-car bob mazda la)-8279413)
+((get-out-of-car bob mazda la)-8279413, (goal)-8236538)
+((get-in-car bob mazda raleigh)-8279411, (drive bob mazda raleigh la)-8279412)
+((drive bob mazda raleigh la)-8279412, (get-out-of-car bob mazda la)-8279413)
+((get-in-car bob mazda raleigh)-8279411, (get-out-of-car bob mazda la)-8279413)
+((initial)-8236537, (DummyInit)-8279745)
+((DummyInit)-8279745, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8279746)
+((DummyGoal)-8279746, (goal)-8236538)
+((DummyInit)-8279745, (DummyGoal)-8279746)
+((initial)-8236537, (DummyInit)-8279748)
+((DummyInit)-8279748, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8279749)
+((DummyGoal)-8279749, (goal)-8236538)
+((DummyInit)-8279748, (DummyGoal)-8279749)
+((buy-tickets bob)-8279750, (DummyGoal)-8279749)
+((DummyInit)-8279748, (buy-tickets bob)-8279750)
+((initial)-8236537, (buy-tickets bob)-8279750)
+((buy-tickets bob)-8279750, (goal)-8236538)
+((board-plane bob 747 la)-8279751, (DummyGoal)-8279749)
+((DummyInit)-8279748, (board-plane bob 747 la)-8279751)
+((initial)-8236537, (board-plane bob 747 la)-8279751)
+((board-plane bob 747 la)-8279751, (goal)-8236538)
+((fly bob 747 la raleigh)-8279752, (DummyGoal)-8279749)
+((DummyInit)-8279748, (fly bob 747 la raleigh)-8279752)
+((initial)-8236537, (fly bob 747 la raleigh)-8279752)
+((fly bob 747 la raleigh)-8279752, (goal)-8236538)
+((deplane bob 747 raleigh)-8279753, (DummyGoal)-8279749)
+((DummyInit)-8279748, (deplane bob 747 raleigh)-8279753)
+((initial)-8236537, (deplane bob 747 raleigh)-8279753)
+((deplane bob 747 raleigh)-8279753, (goal)-8236538)
+((buy-tickets bob)-8279750, (board-plane bob 747 la)-8279751)
+((board-plane bob 747 la)-8279751, (fly bob 747 la raleigh)-8279752)
+((fly bob 747 la raleigh)-8279752, (deplane bob 747 raleigh)-8279753)
+((board-plane bob 747 la)-8279751, (deplane bob 747 raleigh)-8279753)
+((DummyGoal)-8279749, (DummyGoal)-8279746)
+((DummyInit)-8279745, (DummyInit)-8279748)
+((DummyGoal)-8279746, (DummyInit)-8279409)
+((initial)-8236537, (DummyInit)-8283884)
+((DummyInit)-8283884, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8283885)
+((DummyGoal)-8283885, (goal)-8236538)
+((DummyInit)-8283884, (DummyGoal)-8283885)
+((initial)-8236537, (DummyInit)-8283887)
+((DummyInit)-8283887, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8283888)
+((DummyGoal)-8283888, (goal)-8236538)
+((DummyInit)-8283887, (DummyGoal)-8283888)
+((get-out-of-car bob mazda raleigh)-8283889, (DummyGoal)-8283888)
+((DummyInit)-8283887, (get-out-of-car bob mazda raleigh)-8283889)
+((initial)-8236537, (get-out-of-car bob mazda raleigh)-8283889)
+((get-out-of-car bob mazda raleigh)-8283889, (goal)-8236538)
+((DummyGoal)-8283888, (DummyGoal)-8283885)
+((DummyInit)-8283884, (DummyInit)-8283887)
+((DummyGoal)-8283885, (DummyGoal)-8279746)
+((DummyInit)-8279745, (DummyInit)-8283884)
+((DummyGoal)-8279749, (DummyGoal)-8283885)

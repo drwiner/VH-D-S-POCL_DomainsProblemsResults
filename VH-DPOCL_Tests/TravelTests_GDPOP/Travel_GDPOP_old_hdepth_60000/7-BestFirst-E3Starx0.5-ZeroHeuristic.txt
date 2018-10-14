@@ -1,0 +1,46 @@
+problem	7
+selection	E3Starx0.5-ZeroHeuristic
+search	BestFirst
+runtime	1415
+opened	3174
+expanded	662
+primitives	5
+decomps	1
+composites	1
+hdepth	3
+
+
+(DummyInit)-8240252
+(get-in-car bob accord raleigh)-8240254
+(drive bob accord raleigh la)-8240255
+(get-out-of-car bob accord la)-8240256
+(DummyGoal)-8240253
+
+
+Composites:
+
+(travel-by-car bob raleigh la accord)-8240251
+
+Orderings:
+
+((initial)-8236537, (goal)-8236538)
+((initial)-8236537, (DummyInit)-8240252)
+((DummyInit)-8240252, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8240253)
+((DummyGoal)-8240253, (goal)-8236538)
+((DummyInit)-8240252, (DummyGoal)-8240253)
+((get-in-car bob accord raleigh)-8240254, (DummyGoal)-8240253)
+((DummyInit)-8240252, (get-in-car bob accord raleigh)-8240254)
+((initial)-8236537, (get-in-car bob accord raleigh)-8240254)
+((get-in-car bob accord raleigh)-8240254, (goal)-8236538)
+((drive bob accord raleigh la)-8240255, (DummyGoal)-8240253)
+((DummyInit)-8240252, (drive bob accord raleigh la)-8240255)
+((initial)-8236537, (drive bob accord raleigh la)-8240255)
+((drive bob accord raleigh la)-8240255, (goal)-8236538)
+((get-out-of-car bob accord la)-8240256, (DummyGoal)-8240253)
+((DummyInit)-8240252, (get-out-of-car bob accord la)-8240256)
+((initial)-8236537, (get-out-of-car bob accord la)-8240256)
+((get-out-of-car bob accord la)-8240256, (goal)-8236538)
+((get-in-car bob accord raleigh)-8240254, (drive bob accord raleigh la)-8240255)
+((drive bob accord raleigh la)-8240255, (get-out-of-car bob accord la)-8240256)
+((get-in-car bob accord raleigh)-8240254, (get-out-of-car bob accord la)-8240256)

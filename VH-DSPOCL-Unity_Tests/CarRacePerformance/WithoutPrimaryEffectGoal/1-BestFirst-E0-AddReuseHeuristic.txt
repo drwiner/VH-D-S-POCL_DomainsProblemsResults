@@ -1,0 +1,75 @@
+problem	1
+selection	E0-AddReuseHeuristic
+search	BestFirst
+runtime	247
+opened	78
+expanded	8
+primitives	12
+decomps	3
+composites	3
+hdepth	3
+
+
+(DummyInit)-154582
+( Full h85 Eye )-154585
+(Drive SmallCar L1 L12)-154584
+(DummyGoal)-154583
+(DummyInit)-154228
+( Full h85 Eye )-154231
+(Drive SmallCar L12 Lfinish)-154230
+(DummyGoal)-154229
+(DummyInit)-154491
+( Full h85 Eye )-154494
+(Drive SportsCar L0 Lstop)-154493
+(DummyGoal)-154492
+
+
+Composites:
+
+(PanDriveLeftRight SmallCar L12 Lfinish)-154227
+(PanDriveLeftRight SportsCar L0 Lstop)-154490
+(PanDriveLeftRight SmallCar L1 L12)-154581
+
+Orderings:
+
+((initial)-154210, (goal)-154211)
+((initial)-154210, (DummyInit)-154228)
+((DummyInit)-154228, (goal)-154211)
+((initial)-154210, (DummyGoal)-154229)
+((DummyGoal)-154229, (goal)-154211)
+((DummyInit)-154228, (DummyGoal)-154229)
+((Drive SmallCar L12 Lfinish)-154230, (DummyGoal)-154229)
+((DummyInit)-154228, (Drive SmallCar L12 Lfinish)-154230)
+((initial)-154210, (Drive SmallCar L12 Lfinish)-154230)
+((Drive SmallCar L12 Lfinish)-154230, (goal)-154211)
+(( Full h85 Eye )-154231, (DummyGoal)-154229)
+((DummyInit)-154228, ( Full h85 Eye )-154231)
+((initial)-154210, ( Full h85 Eye )-154231)
+(( Full h85 Eye )-154231, (goal)-154211)
+((initial)-154210, (DummyInit)-154491)
+((DummyInit)-154491, (goal)-154211)
+((initial)-154210, (DummyGoal)-154492)
+((DummyGoal)-154492, (goal)-154211)
+((DummyInit)-154491, (DummyGoal)-154492)
+((Drive SportsCar L0 Lstop)-154493, (DummyGoal)-154492)
+((DummyInit)-154491, (Drive SportsCar L0 Lstop)-154493)
+((initial)-154210, (Drive SportsCar L0 Lstop)-154493)
+((Drive SportsCar L0 Lstop)-154493, (goal)-154211)
+(( Full h85 Eye )-154494, (DummyGoal)-154492)
+((DummyInit)-154491, ( Full h85 Eye )-154494)
+((initial)-154210, ( Full h85 Eye )-154494)
+(( Full h85 Eye )-154494, (goal)-154211)
+((initial)-154210, (DummyInit)-154582)
+((DummyInit)-154582, (goal)-154211)
+((initial)-154210, (DummyGoal)-154583)
+((DummyGoal)-154583, (goal)-154211)
+((DummyInit)-154582, (DummyGoal)-154583)
+((Drive SmallCar L1 L12)-154584, (DummyGoal)-154583)
+((DummyInit)-154582, (Drive SmallCar L1 L12)-154584)
+((initial)-154210, (Drive SmallCar L1 L12)-154584)
+((Drive SmallCar L1 L12)-154584, (goal)-154211)
+(( Full h85 Eye )-154585, (DummyGoal)-154583)
+((DummyInit)-154582, ( Full h85 Eye )-154585)
+((initial)-154210, ( Full h85 Eye )-154585)
+(( Full h85 Eye )-154585, (goal)-154211)
+((DummyGoal)-154583, (DummyInit)-154228)

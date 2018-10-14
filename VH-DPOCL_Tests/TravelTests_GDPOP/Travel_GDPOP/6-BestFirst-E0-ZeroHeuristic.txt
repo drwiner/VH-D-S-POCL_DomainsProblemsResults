@@ -1,0 +1,46 @@
+problem	6
+selection	E0-ZeroHeuristic
+search	BestFirst
+runtime	5210
+opened	17972
+expanded	4315
+primitives	6
+decomps	0
+composites	0
+hdepth	0
+
+
+(get-in-car sara accord la)-6857573
+(drive sara accord la raleigh)-6862357
+(get-in-car bob accord raleigh)-6856269
+(drive bob accord raleigh slc)-6856325
+(get-out-of-car sara accord slc)-6856177
+(get-out-of-car bob accord slc)-6856131
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-6623791, (goal)-6623792)
+((initial)-6623791, (get-out-of-car bob accord slc)-6856131)
+((get-out-of-car bob accord slc)-6856131, (goal)-6623792)
+((initial)-6623791, (get-out-of-car sara accord slc)-6856177)
+((get-out-of-car sara accord slc)-6856177, (goal)-6623792)
+((initial)-6623791, (get-in-car bob accord raleigh)-6856269)
+((get-in-car bob accord raleigh)-6856269, (goal)-6623792)
+((get-in-car bob accord raleigh)-6856269, (get-out-of-car bob accord slc)-6856131)
+((initial)-6623791, (drive bob accord raleigh slc)-6856325)
+((drive bob accord raleigh slc)-6856325, (goal)-6623792)
+((drive bob accord raleigh slc)-6856325, (get-out-of-car bob accord slc)-6856131)
+((get-in-car bob accord raleigh)-6856269, (drive bob accord raleigh slc)-6856325)
+((drive bob accord raleigh slc)-6856325, (get-out-of-car sara accord slc)-6856177)
+((initial)-6623791, (get-in-car sara accord la)-6857573)
+((get-in-car sara accord la)-6857573, (goal)-6623792)
+((get-in-car sara accord la)-6857573, (get-out-of-car sara accord slc)-6856177)
+((initial)-6623791, (drive sara accord la raleigh)-6862357)
+((drive sara accord la raleigh)-6862357, (goal)-6623792)
+((drive sara accord la raleigh)-6862357, (get-in-car bob accord raleigh)-6856269)
+((get-in-car sara accord la)-6857573, (drive sara accord la raleigh)-6862357)
+((drive sara accord la raleigh)-6862357, (drive bob accord raleigh slc)-6856325)

@@ -1,0 +1,60 @@
+problem	6
+selection	E3Starx1-NumOCsHeuristic
+search	BestFirst
+runtime	117
+opened	443
+expanded	70
+primitives	8
+decomps	1
+composites	1
+hdepth	3
+
+
+(get-in-car sara accord la)-7779375
+(drive sara accord la raleigh)-7779553
+(DummyInit)-7776708
+(get-in-car bob accord raleigh)-7776710
+(drive bob accord raleigh slc)-7776711
+(get-out-of-car sara accord slc)-7777349
+(get-out-of-car bob accord slc)-7776712
+(DummyGoal)-7776709
+
+
+Composites:
+
+(travel-by-car bob raleigh slc accord)-7776707
+
+Orderings:
+
+((initial)-6627441, (goal)-6627442)
+((initial)-6627441, (DummyInit)-7776708)
+((DummyInit)-7776708, (goal)-6627442)
+((initial)-6627441, (DummyGoal)-7776709)
+((DummyGoal)-7776709, (goal)-6627442)
+((DummyInit)-7776708, (DummyGoal)-7776709)
+((get-in-car bob accord raleigh)-7776710, (DummyGoal)-7776709)
+((DummyInit)-7776708, (get-in-car bob accord raleigh)-7776710)
+((initial)-6627441, (get-in-car bob accord raleigh)-7776710)
+((get-in-car bob accord raleigh)-7776710, (goal)-6627442)
+((drive bob accord raleigh slc)-7776711, (DummyGoal)-7776709)
+((DummyInit)-7776708, (drive bob accord raleigh slc)-7776711)
+((initial)-6627441, (drive bob accord raleigh slc)-7776711)
+((drive bob accord raleigh slc)-7776711, (goal)-6627442)
+((get-out-of-car bob accord slc)-7776712, (DummyGoal)-7776709)
+((DummyInit)-7776708, (get-out-of-car bob accord slc)-7776712)
+((initial)-6627441, (get-out-of-car bob accord slc)-7776712)
+((get-out-of-car bob accord slc)-7776712, (goal)-6627442)
+((get-in-car bob accord raleigh)-7776710, (drive bob accord raleigh slc)-7776711)
+((drive bob accord raleigh slc)-7776711, (get-out-of-car bob accord slc)-7776712)
+((get-in-car bob accord raleigh)-7776710, (get-out-of-car bob accord slc)-7776712)
+((initial)-6627441, (get-out-of-car sara accord slc)-7777349)
+((get-out-of-car sara accord slc)-7777349, (goal)-6627442)
+((drive bob accord raleigh slc)-7776711, (get-out-of-car sara accord slc)-7777349)
+((initial)-6627441, (get-in-car sara accord la)-7779375)
+((get-in-car sara accord la)-7779375, (goal)-6627442)
+((get-in-car sara accord la)-7779375, (get-out-of-car sara accord slc)-7777349)
+((initial)-6627441, (drive sara accord la raleigh)-7779553)
+((drive sara accord la raleigh)-7779553, (goal)-6627442)
+((drive sara accord la raleigh)-7779553, (get-in-car bob accord raleigh)-7776710)
+((get-in-car sara accord la)-7779375, (drive sara accord la raleigh)-7779553)
+((drive sara accord la raleigh)-7779553, (drive bob accord raleigh slc)-7776711)

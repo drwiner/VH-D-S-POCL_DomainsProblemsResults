@@ -1,0 +1,42 @@
+Problem 34 of Domain blocks
+----------------------------
+Objects of Problem 34
+location_0
+location_1
+location_2
+location_3
+location_4
+location_5
+location_6
+block_0
+block_1
+agent_0
+
+Initial State of Problem 34
+(adjacent location_0 location_1)
+(adjacent location_1 location_0)
+(adjacent location_1 location_2)
+(adjacent location_2 location_1)
+(adjacent location_1 location_3)
+(adjacent location_3 location_1)
+(adjacent location_2 location_4)
+(adjacent location_4 location_2)
+(adjacent location_1 location_4)
+(adjacent location_4 location_1)
+(adjacent location_0 location_5)
+(adjacent location_5 location_0)
+(adjacent location_1 location_5)
+(adjacent location_5 location_1)
+(adjacent location_4 location_6)
+(adjacent location_6 location_4)
+(at block_0 location_0)
+(occupied location_0)
+(at block_1 location_4)
+(occupied location_4)
+(at agent_0 location_5)
+(freehands agent_0)
+(occupied location_5)
+
+Goal State of Problem 34
+(at block_0 location_1)
+(at block_1 location_0)

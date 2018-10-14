@@ -1,0 +1,32 @@
+problem	3
+selection	E3Starx1-AddReuseHeuristic
+search	BestFirst
+runtime	50251
+opened	29942
+expanded	1259
+primitives	3
+decomps	0
+composites	0
+hdepth	0
+
+
+(pickup agent_0 block_0 location_4 location_0)-32077401
+(move agent_0 location_0 location_1)-32076625
+(putdown agent_0 block_0 location_1 location_0)-31791608
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-29644035, (goal)-29644036)
+((initial)-29644035, (putdown agent_0 block_0 location_1 location_0)-31791608)
+((putdown agent_0 block_0 location_1 location_0)-31791608, (goal)-29644036)
+((initial)-29644035, (move agent_0 location_0 location_1)-32076625)
+((move agent_0 location_0 location_1)-32076625, (goal)-29644036)
+((move agent_0 location_0 location_1)-32076625, (putdown agent_0 block_0 location_1 location_0)-31791608)
+((initial)-29644035, (pickup agent_0 block_0 location_4 location_0)-32077401)
+((pickup agent_0 block_0 location_4 location_0)-32077401, (goal)-29644036)
+((pickup agent_0 block_0 location_4 location_0)-32077401, (putdown agent_0 block_0 location_1 location_0)-31791608)
+((pickup agent_0 block_0 location_4 location_0)-32077401, (move agent_0 location_0 location_1)-32076625)

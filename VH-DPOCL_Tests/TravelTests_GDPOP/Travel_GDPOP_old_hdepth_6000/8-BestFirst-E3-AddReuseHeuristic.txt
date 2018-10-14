@@ -1,0 +1,61 @@
+problem	8
+selection	E3-AddReuseHeuristic
+search	BestFirst
+runtime	6001
+opened	7225
+expanded	991
+primitives	9
+decomps	0
+composites	0
+hdepth	0
+
+
+(drive dave accord slc la)-605204
+(get-in-car roger accord slc)-600624
+(drive roger accord la raleigh)-601380
+(drive roger accord la slc)-600796
+(get-in-car dave accord slc)-600544
+(drive dave accord raleigh ny)-600576
+(get-out-of-car dave accord ny)-600297
+(drive roger accord ny la)-600640
+(get-out-of-car roger accord la)-600362
+
+
+Composites:
+
+
+Orderings:
+
+((initial)-600295, (goal)-600296)
+((initial)-600295, (get-out-of-car dave accord ny)-600297)
+((get-out-of-car dave accord ny)-600297, (goal)-600296)
+((initial)-600295, (get-out-of-car roger accord la)-600362)
+((get-out-of-car roger accord la)-600362, (goal)-600296)
+((initial)-600295, (get-in-car dave accord slc)-600544)
+((get-in-car dave accord slc)-600544, (goal)-600296)
+((get-in-car dave accord slc)-600544, (get-out-of-car dave accord ny)-600297)
+((initial)-600295, (drive dave accord raleigh ny)-600576)
+((drive dave accord raleigh ny)-600576, (goal)-600296)
+((drive dave accord raleigh ny)-600576, (get-out-of-car dave accord ny)-600297)
+((get-in-car dave accord slc)-600544, (drive dave accord raleigh ny)-600576)
+((initial)-600295, (get-in-car roger accord slc)-600624)
+((get-in-car roger accord slc)-600624, (goal)-600296)
+((get-in-car roger accord slc)-600624, (get-out-of-car roger accord la)-600362)
+((initial)-600295, (drive roger accord ny la)-600640)
+((drive roger accord ny la)-600640, (goal)-600296)
+((drive roger accord ny la)-600640, (get-out-of-car roger accord la)-600362)
+((get-out-of-car dave accord ny)-600297, (drive roger accord ny la)-600640)
+((get-in-car roger accord slc)-600624, (drive roger accord ny la)-600640)
+((initial)-600295, (drive roger accord la slc)-600796)
+((drive roger accord la slc)-600796, (goal)-600296)
+((drive roger accord la slc)-600796, (get-in-car dave accord slc)-600544)
+((get-in-car roger accord slc)-600624, (drive roger accord la slc)-600796)
+((initial)-600295, (drive roger accord la raleigh)-601380)
+((drive roger accord la raleigh)-601380, (goal)-600296)
+((drive roger accord la raleigh)-601380, (drive dave accord raleigh ny)-600576)
+((get-in-car roger accord slc)-600624, (drive roger accord la raleigh)-601380)
+((initial)-600295, (drive dave accord slc la)-605204)
+((drive dave accord slc la)-605204, (goal)-600296)
+((drive dave accord slc la)-605204, (drive roger accord la raleigh)-601380)
+((drive dave accord slc la)-605204, (drive roger accord la slc)-600796)
+((drive roger accord la raleigh)-601380, (drive roger accord la slc)-600796)

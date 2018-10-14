@@ -1,0 +1,71 @@
+problem	8
+selection	E3-NumOCsHeuristic
+search	BestFirst
+runtime	6011
+opened	10732
+expanded	777
+primitives	10
+decomps	1
+composites	1
+hdepth	3
+
+
+(get-in-car dave accord raleigh)-640005
+(drive dave accord la raleigh)-667251
+(drive dave accord raleigh ny)-643953
+(get-out-of-car dave accord ny)-638036
+(DummyInit)-638110
+(get-out-of-car bob accord slc)-684051
+(get-in-car roger accord raleigh)-638112
+(drive roger accord raleigh la)-638113
+(get-out-of-car roger accord la)-638114
+(DummyGoal)-638111
+
+
+Composites:
+
+(travel-by-car roger raleigh la accord)-638109
+
+Orderings:
+
+((initial)-600295, (goal)-600296)
+((initial)-600295, (get-out-of-car dave accord ny)-638036)
+((get-out-of-car dave accord ny)-638036, (goal)-600296)
+((initial)-600295, (DummyInit)-638110)
+((DummyInit)-638110, (goal)-600296)
+((initial)-600295, (DummyGoal)-638111)
+((DummyGoal)-638111, (goal)-600296)
+((DummyInit)-638110, (DummyGoal)-638111)
+((get-in-car roger accord raleigh)-638112, (DummyGoal)-638111)
+((DummyInit)-638110, (get-in-car roger accord raleigh)-638112)
+((initial)-600295, (get-in-car roger accord raleigh)-638112)
+((get-in-car roger accord raleigh)-638112, (goal)-600296)
+((drive roger accord raleigh la)-638113, (DummyGoal)-638111)
+((DummyInit)-638110, (drive roger accord raleigh la)-638113)
+((initial)-600295, (drive roger accord raleigh la)-638113)
+((drive roger accord raleigh la)-638113, (goal)-600296)
+((get-out-of-car roger accord la)-638114, (DummyGoal)-638111)
+((DummyInit)-638110, (get-out-of-car roger accord la)-638114)
+((initial)-600295, (get-out-of-car roger accord la)-638114)
+((get-out-of-car roger accord la)-638114, (goal)-600296)
+((get-in-car roger accord raleigh)-638112, (drive roger accord raleigh la)-638113)
+((drive roger accord raleigh la)-638113, (get-out-of-car roger accord la)-638114)
+((get-in-car roger accord raleigh)-638112, (get-out-of-car roger accord la)-638114)
+((initial)-600295, (get-in-car dave accord raleigh)-640005)
+((get-in-car dave accord raleigh)-640005, (goal)-600296)
+((get-in-car dave accord raleigh)-640005, (get-out-of-car dave accord ny)-638036)
+((get-in-car dave accord raleigh)-640005, (drive roger accord raleigh la)-638113)
+((initial)-600295, (drive dave accord raleigh ny)-643953)
+((drive dave accord raleigh ny)-643953, (goal)-600296)
+((drive dave accord raleigh ny)-643953, (get-out-of-car dave accord ny)-638036)
+((get-in-car dave accord raleigh)-640005, (drive dave accord raleigh ny)-643953)
+((initial)-600295, (drive dave accord la raleigh)-667251)
+((drive dave accord la raleigh)-667251, (goal)-600296)
+((drive dave accord la raleigh)-667251, (drive dave accord raleigh ny)-643953)
+((drive dave accord la raleigh)-667251, (drive roger accord raleigh la)-638113)
+((drive dave accord raleigh ny)-643953, (drive roger accord raleigh la)-638113)
+((get-in-car dave accord raleigh)-640005, (drive dave accord la raleigh)-667251)
+((initial)-600295, (get-out-of-car bob accord slc)-684051)
+((get-out-of-car bob accord slc)-684051, (goal)-600296)
+((get-out-of-car bob accord slc)-684051, (DummyGoal)-638111)
+((DummyInit)-638110, (get-out-of-car bob accord slc)-684051)

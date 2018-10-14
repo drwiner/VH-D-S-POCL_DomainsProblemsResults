@@ -1,0 +1,62 @@
+problem	5
+selection	E3Starx1-ZeroHeuristic
+search	BestFirst
+runtime	15540
+opened	28434
+expanded	5753
+primitives	8
+decomps	1
+composites	1
+hdepth	6
+
+
+(DummyInit)-4957036
+(get-in-car bob accord raleigh)-4957038
+(drive bob accord raleigh la)-4957039
+(get-out-of-car bob accord la)-4957040
+(DummyGoal)-4957037
+(get-in-car sara accord la)-4957185
+(drive sara accord la raleigh)-4960125
+(get-out-of-car sara accord raleigh)-4845029
+
+
+Composites:
+
+(travel-by-car bob raleigh la accord)-4957035
+
+Orderings:
+
+((initial)-2930235, (goal)-2930236)
+((initial)-2930235, (get-out-of-car sara accord raleigh)-4845029)
+((get-out-of-car sara accord raleigh)-4845029, (goal)-2930236)
+((initial)-2930235, (DummyInit)-4957036)
+((DummyInit)-4957036, (goal)-2930236)
+((initial)-2930235, (DummyGoal)-4957037)
+((DummyGoal)-4957037, (goal)-2930236)
+((DummyInit)-4957036, (DummyGoal)-4957037)
+((get-in-car bob accord raleigh)-4957038, (DummyGoal)-4957037)
+((DummyInit)-4957036, (get-in-car bob accord raleigh)-4957038)
+((initial)-2930235, (get-in-car bob accord raleigh)-4957038)
+((get-in-car bob accord raleigh)-4957038, (goal)-2930236)
+((drive bob accord raleigh la)-4957039, (DummyGoal)-4957037)
+((DummyInit)-4957036, (drive bob accord raleigh la)-4957039)
+((initial)-2930235, (drive bob accord raleigh la)-4957039)
+((drive bob accord raleigh la)-4957039, (goal)-2930236)
+((get-out-of-car bob accord la)-4957040, (DummyGoal)-4957037)
+((DummyInit)-4957036, (get-out-of-car bob accord la)-4957040)
+((initial)-2930235, (get-out-of-car bob accord la)-4957040)
+((get-out-of-car bob accord la)-4957040, (goal)-2930236)
+((get-in-car bob accord raleigh)-4957038, (drive bob accord raleigh la)-4957039)
+((drive bob accord raleigh la)-4957039, (get-out-of-car bob accord la)-4957040)
+((get-in-car bob accord raleigh)-4957038, (get-out-of-car bob accord la)-4957040)
+((initial)-2930235, (get-in-car sara accord la)-4957185)
+((get-in-car sara accord la)-4957185, (goal)-2930236)
+((get-in-car sara accord la)-4957185, (get-out-of-car sara accord raleigh)-4845029)
+((initial)-2930235, (drive sara accord la raleigh)-4960125)
+((drive sara accord la raleigh)-4960125, (goal)-2930236)
+((drive sara accord la raleigh)-4960125, (get-out-of-car sara accord raleigh)-4845029)
+((get-out-of-car bob accord la)-4957040, (drive sara accord la raleigh)-4960125)
+((drive bob accord raleigh la)-4957039, (drive sara accord la raleigh)-4960125)
+((get-in-car sara accord la)-4957185, (drive sara accord la raleigh)-4960125)
+((DummyGoal)-4957037, (get-in-car sara accord la)-4957185)
+((drive bob accord raleigh la)-4957039, (get-in-car sara accord la)-4957185)

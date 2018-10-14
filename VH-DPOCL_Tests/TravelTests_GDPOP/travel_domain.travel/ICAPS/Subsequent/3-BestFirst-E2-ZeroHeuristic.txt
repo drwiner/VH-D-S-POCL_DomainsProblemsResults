@@ -1,0 +1,10 @@
+problem	3
+selection	E2-ZeroHeuristic
+search	BestFirst
+runtime	6001
+opened	40269
+expanded	3994
+primitives	6
+decomps	3
+composites	0
+hdepth	0

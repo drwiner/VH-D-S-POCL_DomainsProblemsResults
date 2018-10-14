@@ -1,0 +1,94 @@
+problem	3
+selection	E1-ZeroHeuristic
+search	BestFirst
+runtime	60001
+opened	69232
+expanded	21314
+primitives	15
+decomps	6
+composites	6
+hdepth	2
+
+
+(DummyInit)-2233595
+(DummyInit)-2233598
+(get-out-of-car bob accord la)-2233600
+(DummyGoal)-2233599
+(DummyGoal)-2233596
+(DummyInit)-2233509
+(DummyInit)-2234283
+(DummyInit)-2234286
+(get-out-of-car sara accord la)-2234288
+(DummyGoal)-2234287
+(DummyGoal)-2234284
+(DummyInit)-2233512
+(get-out-of-car sara accord la)-2233514
+(DummyGoal)-2233513
+(DummyGoal)-2233510
+
+
+Composites:
+
+(generic-travel sara la)-2233508
+(generic-travel sara la)-2233511
+(generic-travel bob la)-2233594
+(generic-travel bob la)-2233597
+(generic-travel sara la)-2234282
+(generic-travel sara la)-2234285
+
+Orderings:
+
+((initial)-2218974, (goal)-2218975)
+((initial)-2218974, (DummyInit)-2233509)
+((DummyInit)-2233509, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-2233510)
+((DummyGoal)-2233510, (goal)-2218975)
+((DummyInit)-2233509, (DummyGoal)-2233510)
+((initial)-2218974, (DummyInit)-2233512)
+((DummyInit)-2233512, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-2233513)
+((DummyGoal)-2233513, (goal)-2218975)
+((DummyInit)-2233512, (DummyGoal)-2233513)
+((get-out-of-car sara accord la)-2233514, (DummyGoal)-2233513)
+((DummyInit)-2233512, (get-out-of-car sara accord la)-2233514)
+((initial)-2218974, (get-out-of-car sara accord la)-2233514)
+((get-out-of-car sara accord la)-2233514, (goal)-2218975)
+((DummyGoal)-2233513, (DummyGoal)-2233510)
+((DummyInit)-2233509, (DummyInit)-2233512)
+((initial)-2218974, (DummyInit)-2233595)
+((DummyInit)-2233595, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-2233596)
+((DummyGoal)-2233596, (goal)-2218975)
+((DummyInit)-2233595, (DummyGoal)-2233596)
+((initial)-2218974, (DummyInit)-2233598)
+((DummyInit)-2233598, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-2233599)
+((DummyGoal)-2233599, (goal)-2218975)
+((DummyInit)-2233598, (DummyGoal)-2233599)
+((get-out-of-car bob accord la)-2233600, (DummyGoal)-2233599)
+((DummyInit)-2233598, (get-out-of-car bob accord la)-2233600)
+((initial)-2218974, (get-out-of-car bob accord la)-2233600)
+((get-out-of-car bob accord la)-2233600, (goal)-2218975)
+((DummyGoal)-2233599, (DummyGoal)-2233596)
+((DummyInit)-2233595, (DummyInit)-2233598)
+((initial)-2218974, (DummyInit)-2234283)
+((DummyInit)-2234283, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-2234284)
+((DummyGoal)-2234284, (goal)-2218975)
+((DummyInit)-2234283, (DummyGoal)-2234284)
+((initial)-2218974, (DummyInit)-2234286)
+((DummyInit)-2234286, (goal)-2218975)
+((initial)-2218974, (DummyGoal)-2234287)
+((DummyGoal)-2234287, (goal)-2218975)
+((DummyInit)-2234286, (DummyGoal)-2234287)
+((get-out-of-car sara accord la)-2234288, (DummyGoal)-2234287)
+((DummyInit)-2234286, (get-out-of-car sara accord la)-2234288)
+((initial)-2218974, (get-out-of-car sara accord la)-2234288)
+((get-out-of-car sara accord la)-2234288, (goal)-2218975)
+((DummyGoal)-2234287, (DummyGoal)-2234284)
+((DummyInit)-2234283, (DummyInit)-2234286)
+((DummyGoal)-2234284, (DummyGoal)-2233510)
+((DummyInit)-2233509, (DummyInit)-2234283)
+((get-out-of-car bob accord la)-2233600, (DummyGoal)-2233596)
+((get-out-of-car sara accord la)-2234288, (DummyGoal)-2234284)
+((get-out-of-car sara accord la)-2234288, (DummyGoal)-2233513)

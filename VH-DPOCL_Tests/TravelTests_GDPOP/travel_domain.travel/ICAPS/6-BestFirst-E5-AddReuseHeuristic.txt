@@ -1,0 +1,10 @@
+problem	6
+selection	E5-AddReuseHeuristic
+search	BestFirst
+runtime	6070
+opened	2721
+expanded	574
+primitives	66
+decomps	22
+composites	0
+hdepth	1

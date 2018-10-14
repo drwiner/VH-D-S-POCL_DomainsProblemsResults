@@ -1,0 +1,90 @@
+problem	7
+selection	E3Starx6-AddReuseHeuristic
+search	BestFirst
+runtime	1196
+opened	654
+expanded	319
+primitives	12
+decomps	2
+composites	2
+hdepth	16
+
+
+(DummyInit)-8155777
+(buy-tickets bob)-8155779
+(board-plane bob 747 raleigh)-8155780
+(fly bob 747 raleigh la)-8155781
+(deplane bob 747 la)-8155782
+(DummyInit)-8158197
+(buy-tickets bob)-8158199
+(board-plane bob 747 la)-8158200
+(fly bob 747 la raleigh)-8158201
+(deplane bob 747 raleigh)-8158202
+(DummyGoal)-8158198
+(DummyGoal)-8155778
+
+
+Composites:
+
+(travel-by-plane bob raleigh la 747)-8155776
+(travel-by-plane bob la raleigh 747)-8158196
+
+Orderings:
+
+((initial)-7466312, (goal)-7466313)
+((initial)-7466312, (DummyInit)-8155777)
+((DummyInit)-8155777, (goal)-7466313)
+((initial)-7466312, (DummyGoal)-8155778)
+((DummyGoal)-8155778, (goal)-7466313)
+((DummyInit)-8155777, (DummyGoal)-8155778)
+((buy-tickets bob)-8155779, (DummyGoal)-8155778)
+((DummyInit)-8155777, (buy-tickets bob)-8155779)
+((initial)-7466312, (buy-tickets bob)-8155779)
+((buy-tickets bob)-8155779, (goal)-7466313)
+((board-plane bob 747 raleigh)-8155780, (DummyGoal)-8155778)
+((DummyInit)-8155777, (board-plane bob 747 raleigh)-8155780)
+((initial)-7466312, (board-plane bob 747 raleigh)-8155780)
+((board-plane bob 747 raleigh)-8155780, (goal)-7466313)
+((fly bob 747 raleigh la)-8155781, (DummyGoal)-8155778)
+((DummyInit)-8155777, (fly bob 747 raleigh la)-8155781)
+((initial)-7466312, (fly bob 747 raleigh la)-8155781)
+((fly bob 747 raleigh la)-8155781, (goal)-7466313)
+((deplane bob 747 la)-8155782, (DummyGoal)-8155778)
+((DummyInit)-8155777, (deplane bob 747 la)-8155782)
+((initial)-7466312, (deplane bob 747 la)-8155782)
+((deplane bob 747 la)-8155782, (goal)-7466313)
+((buy-tickets bob)-8155779, (board-plane bob 747 raleigh)-8155780)
+((board-plane bob 747 raleigh)-8155780, (fly bob 747 raleigh la)-8155781)
+((fly bob 747 raleigh la)-8155781, (deplane bob 747 la)-8155782)
+((board-plane bob 747 raleigh)-8155780, (deplane bob 747 la)-8155782)
+((initial)-7466312, (DummyInit)-8158197)
+((DummyInit)-8158197, (goal)-7466313)
+((initial)-7466312, (DummyGoal)-8158198)
+((DummyGoal)-8158198, (goal)-7466313)
+((DummyInit)-8158197, (DummyGoal)-8158198)
+((buy-tickets bob)-8158199, (DummyGoal)-8158198)
+((DummyInit)-8158197, (buy-tickets bob)-8158199)
+((initial)-7466312, (buy-tickets bob)-8158199)
+((buy-tickets bob)-8158199, (goal)-7466313)
+((board-plane bob 747 la)-8158200, (DummyGoal)-8158198)
+((DummyInit)-8158197, (board-plane bob 747 la)-8158200)
+((initial)-7466312, (board-plane bob 747 la)-8158200)
+((board-plane bob 747 la)-8158200, (goal)-7466313)
+((fly bob 747 la raleigh)-8158201, (DummyGoal)-8158198)
+((DummyInit)-8158197, (fly bob 747 la raleigh)-8158201)
+((initial)-7466312, (fly bob 747 la raleigh)-8158201)
+((fly bob 747 la raleigh)-8158201, (goal)-7466313)
+((deplane bob 747 raleigh)-8158202, (DummyGoal)-8158198)
+((DummyInit)-8158197, (deplane bob 747 raleigh)-8158202)
+((initial)-7466312, (deplane bob 747 raleigh)-8158202)
+((deplane bob 747 raleigh)-8158202, (goal)-7466313)
+((buy-tickets bob)-8158199, (board-plane bob 747 la)-8158200)
+((board-plane bob 747 la)-8158200, (fly bob 747 la raleigh)-8158201)
+((fly bob 747 la raleigh)-8158201, (deplane bob 747 raleigh)-8158202)
+((board-plane bob 747 la)-8158200, (deplane bob 747 raleigh)-8158202)
+((DummyGoal)-8158198, (DummyGoal)-8155778)
+((DummyInit)-8155777, (DummyInit)-8158197)
+((deplane bob 747 la)-8155782, (DummyInit)-8158197)
+((deplane bob 747 la)-8155782, (DummyGoal)-8158198)
+((fly bob 747 raleigh la)-8155781, (board-plane bob 747 la)-8158200)
+((fly bob 747 raleigh la)-8155781, (fly bob 747 la raleigh)-8158201)

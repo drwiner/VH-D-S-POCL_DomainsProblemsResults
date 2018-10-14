@@ -1,0 +1,52 @@
+Problem 38 of Domain blocks
+----------------------------
+Objects of Problem 38
+location_0
+location_1
+location_2
+location_3
+location_4
+location_5
+location_6
+block_0
+block_1
+agent_0
+agent_1
+
+Initial State of Problem 38
+(adjacent location_0 location_1)
+(adjacent location_1 location_0)
+(adjacent location_1 location_2)
+(adjacent location_2 location_1)
+(adjacent location_0 location_2)
+(adjacent location_2 location_0)
+(adjacent location_2 location_3)
+(adjacent location_3 location_2)
+(adjacent location_1 location_3)
+(adjacent location_3 location_1)
+(adjacent location_0 location_4)
+(adjacent location_4 location_0)
+(adjacent location_3 location_4)
+(adjacent location_4 location_3)
+(adjacent location_3 location_5)
+(adjacent location_5 location_3)
+(adjacent location_1 location_5)
+(adjacent location_5 location_1)
+(adjacent location_5 location_6)
+(adjacent location_6 location_5)
+(adjacent location_0 location_6)
+(adjacent location_6 location_0)
+(at block_0 location_6)
+(occupied location_6)
+(at block_1 location_2)
+(occupied location_2)
+(at agent_0 location_3)
+(freehands agent_0)
+(occupied location_3)
+(at agent_1 location_5)
+(freehands agent_1)
+(occupied location_5)
+
+Goal State of Problem 38
+(at block_0 location_0)
+(at block_1 location_1)

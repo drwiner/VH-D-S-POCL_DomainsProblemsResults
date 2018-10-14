@@ -1,0 +1,87 @@
+problem	5
+selection	Nada-ZeroHeuristic
+search	BFS
+runtime	60003
+opened	56603
+expanded	6360
+primitives	13
+decomps	3
+composites	3
+hdepth	7
+
+
+(DummyInit)-6233554
+(DummyInit)-6233557
+(get-in-car sara accord la)-6233559
+(drive sara accord la slc)-6233560
+(get-out-of-car sara accord slc)-6233561
+(DummyGoal)-6233558
+(DummyGoal)-6233555
+(DummyInit)-6229377
+(get-in-car sara accord slc)-6229379
+(drive sara accord slc raleigh)-6229380
+(get-out-of-car sara accord raleigh)-6229381
+(DummyGoal)-6229378
+(deplane bob 747 la)-6229883
+
+
+Composites:
+
+(travel-by-car sara slc raleigh accord)-6229376
+(generic-travel sara slc)-6233553
+(travel-by-car sara la slc accord)-6233556
+
+Orderings:
+
+((initial)-4606313, (goal)-4606314)
+((initial)-4606313, (DummyInit)-6229377)
+((DummyInit)-6229377, (goal)-4606314)
+((initial)-4606313, (DummyGoal)-6229378)
+((DummyGoal)-6229378, (goal)-4606314)
+((DummyInit)-6229377, (DummyGoal)-6229378)
+((get-in-car sara accord slc)-6229379, (DummyGoal)-6229378)
+((DummyInit)-6229377, (get-in-car sara accord slc)-6229379)
+((initial)-4606313, (get-in-car sara accord slc)-6229379)
+((get-in-car sara accord slc)-6229379, (goal)-4606314)
+((drive sara accord slc raleigh)-6229380, (DummyGoal)-6229378)
+((DummyInit)-6229377, (drive sara accord slc raleigh)-6229380)
+((initial)-4606313, (drive sara accord slc raleigh)-6229380)
+((drive sara accord slc raleigh)-6229380, (goal)-4606314)
+((get-out-of-car sara accord raleigh)-6229381, (DummyGoal)-6229378)
+((DummyInit)-6229377, (get-out-of-car sara accord raleigh)-6229381)
+((initial)-4606313, (get-out-of-car sara accord raleigh)-6229381)
+((get-out-of-car sara accord raleigh)-6229381, (goal)-4606314)
+((get-in-car sara accord slc)-6229379, (drive sara accord slc raleigh)-6229380)
+((drive sara accord slc raleigh)-6229380, (get-out-of-car sara accord raleigh)-6229381)
+((get-in-car sara accord slc)-6229379, (get-out-of-car sara accord raleigh)-6229381)
+((initial)-4606313, (deplane bob 747 la)-6229883)
+((deplane bob 747 la)-6229883, (goal)-4606314)
+((initial)-4606313, (DummyInit)-6233554)
+((DummyInit)-6233554, (goal)-4606314)
+((initial)-4606313, (DummyGoal)-6233555)
+((DummyGoal)-6233555, (goal)-4606314)
+((DummyInit)-6233554, (DummyGoal)-6233555)
+((initial)-4606313, (DummyInit)-6233557)
+((DummyInit)-6233557, (goal)-4606314)
+((initial)-4606313, (DummyGoal)-6233558)
+((DummyGoal)-6233558, (goal)-4606314)
+((DummyInit)-6233557, (DummyGoal)-6233558)
+((get-in-car sara accord la)-6233559, (DummyGoal)-6233558)
+((DummyInit)-6233557, (get-in-car sara accord la)-6233559)
+((initial)-4606313, (get-in-car sara accord la)-6233559)
+((get-in-car sara accord la)-6233559, (goal)-4606314)
+((drive sara accord la slc)-6233560, (DummyGoal)-6233558)
+((DummyInit)-6233557, (drive sara accord la slc)-6233560)
+((initial)-4606313, (drive sara accord la slc)-6233560)
+((drive sara accord la slc)-6233560, (goal)-4606314)
+((get-out-of-car sara accord slc)-6233561, (DummyGoal)-6233558)
+((DummyInit)-6233557, (get-out-of-car sara accord slc)-6233561)
+((initial)-4606313, (get-out-of-car sara accord slc)-6233561)
+((get-out-of-car sara accord slc)-6233561, (goal)-4606314)
+((get-in-car sara accord la)-6233559, (drive sara accord la slc)-6233560)
+((drive sara accord la slc)-6233560, (get-out-of-car sara accord slc)-6233561)
+((get-in-car sara accord la)-6233559, (get-out-of-car sara accord slc)-6233561)
+((DummyGoal)-6233558, (DummyGoal)-6233555)
+((DummyInit)-6233554, (DummyInit)-6233557)
+((DummyGoal)-6233555, (DummyInit)-6229377)
+((get-out-of-car sara accord slc)-6233561, (DummyGoal)-6233555)

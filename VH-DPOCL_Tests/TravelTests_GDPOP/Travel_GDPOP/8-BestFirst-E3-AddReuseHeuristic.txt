@@ -1,0 +1,150 @@
+problem	8
+selection	E3-AddReuseHeuristic
+search	BestFirst
+runtime	60004
+opened	23047
+expanded	1999
+primitives	25
+decomps	4
+composites	4
+hdepth	16
+
+
+(DummyInit)-8311047
+(get-in-car bob accord ny)-8311049
+(DummyInit)-8312028
+(get-out-of-car bob accord slc)-8312030
+(DummyGoal)-8312029
+(drive bob accord ny raleigh)-8311050
+(get-out-of-car bob accord raleigh)-8311051
+(DummyInit)-8311203
+(DummyInit)-8330392
+(get-out-of-car bob accord slc)-8330394
+(DummyGoal)-8330393
+(get-in-car bob accord raleigh)-8311205
+(drive bob accord raleigh slc)-8311206
+(get-out-of-car bob accord slc)-8311207
+(DummyGoal)-8311204
+(DummyGoal)-8311048
+(get-in-car bob accord raleigh)-8309508
+(drive bob accord raleigh slc)-8252426
+(get-in-car roger accord slc)-8252222
+(get-in-car dave accord slc)-8252142
+(drive roger accord slc raleigh)-8257194
+(drive dave accord raleigh ny)-8252174
+(get-out-of-car dave accord ny)-8251895
+(drive roger accord ny la)-8252238
+(get-out-of-car roger accord la)-8251960
+
+
+Composites:
+
+(travel-by-car bob ny raleigh accord)-8311046
+(travel-by-car bob raleigh slc accord)-8311202
+(generic-travel bob ny slc)-8312027
+(generic-travel bob ny slc)-8330391
+
+Orderings:
+
+((initial)-8192546, (goal)-8192547)
+((initial)-8192546, (get-out-of-car dave accord ny)-8251895)
+((get-out-of-car dave accord ny)-8251895, (goal)-8192547)
+((initial)-8192546, (get-out-of-car roger accord la)-8251960)
+((get-out-of-car roger accord la)-8251960, (goal)-8192547)
+((initial)-8192546, (get-in-car dave accord slc)-8252142)
+((get-in-car dave accord slc)-8252142, (goal)-8192547)
+((get-in-car dave accord slc)-8252142, (get-out-of-car dave accord ny)-8251895)
+((initial)-8192546, (drive dave accord raleigh ny)-8252174)
+((drive dave accord raleigh ny)-8252174, (goal)-8192547)
+((drive dave accord raleigh ny)-8252174, (get-out-of-car dave accord ny)-8251895)
+((get-in-car dave accord slc)-8252142, (drive dave accord raleigh ny)-8252174)
+((initial)-8192546, (get-in-car roger accord slc)-8252222)
+((get-in-car roger accord slc)-8252222, (goal)-8192547)
+((get-in-car roger accord slc)-8252222, (get-out-of-car roger accord la)-8251960)
+((initial)-8192546, (drive roger accord ny la)-8252238)
+((drive roger accord ny la)-8252238, (goal)-8192547)
+((drive roger accord ny la)-8252238, (get-out-of-car roger accord la)-8251960)
+((get-out-of-car dave accord ny)-8251895, (drive roger accord ny la)-8252238)
+((get-in-car roger accord slc)-8252222, (drive roger accord ny la)-8252238)
+((initial)-8192546, (drive bob accord raleigh slc)-8252426)
+((drive bob accord raleigh slc)-8252426, (goal)-8192547)
+((drive bob accord raleigh slc)-8252426, (get-in-car dave accord slc)-8252142)
+((initial)-8192546, (drive roger accord slc raleigh)-8257194)
+((drive roger accord slc raleigh)-8257194, (goal)-8192547)
+((drive roger accord slc raleigh)-8257194, (drive dave accord raleigh ny)-8252174)
+((get-in-car dave accord slc)-8252142, (drive roger accord slc raleigh)-8257194)
+((drive bob accord raleigh slc)-8252426, (drive roger accord slc raleigh)-8257194)
+((get-in-car roger accord slc)-8252222, (drive roger accord slc raleigh)-8257194)
+((drive bob accord raleigh slc)-8252426, (get-in-car roger accord slc)-8252222)
+((drive dave accord raleigh ny)-8252174, (drive roger accord ny la)-8252238)
+((initial)-8192546, (get-in-car bob accord raleigh)-8309508)
+((get-in-car bob accord raleigh)-8309508, (goal)-8192547)
+((get-in-car bob accord raleigh)-8309508, (drive bob accord raleigh slc)-8252426)
+((initial)-8192546, (DummyInit)-8311047)
+((DummyInit)-8311047, (goal)-8192547)
+((initial)-8192546, (DummyGoal)-8311048)
+((DummyGoal)-8311048, (goal)-8192547)
+((DummyInit)-8311047, (DummyGoal)-8311048)
+((get-in-car bob accord ny)-8311049, (DummyGoal)-8311048)
+((DummyInit)-8311047, (get-in-car bob accord ny)-8311049)
+((initial)-8192546, (get-in-car bob accord ny)-8311049)
+((get-in-car bob accord ny)-8311049, (goal)-8192547)
+((drive bob accord ny raleigh)-8311050, (DummyGoal)-8311048)
+((DummyInit)-8311047, (drive bob accord ny raleigh)-8311050)
+((initial)-8192546, (drive bob accord ny raleigh)-8311050)
+((drive bob accord ny raleigh)-8311050, (goal)-8192547)
+((get-out-of-car bob accord raleigh)-8311051, (DummyGoal)-8311048)
+((DummyInit)-8311047, (get-out-of-car bob accord raleigh)-8311051)
+((initial)-8192546, (get-out-of-car bob accord raleigh)-8311051)
+((get-out-of-car bob accord raleigh)-8311051, (goal)-8192547)
+((get-in-car bob accord ny)-8311049, (drive bob accord ny raleigh)-8311050)
+((drive bob accord ny raleigh)-8311050, (get-out-of-car bob accord raleigh)-8311051)
+((get-in-car bob accord ny)-8311049, (get-out-of-car bob accord raleigh)-8311051)
+((DummyGoal)-8311048, (get-in-car bob accord raleigh)-8309508)
+((initial)-8192546, (DummyInit)-8311203)
+((DummyInit)-8311203, (goal)-8192547)
+((initial)-8192546, (DummyGoal)-8311204)
+((DummyGoal)-8311204, (goal)-8192547)
+((DummyInit)-8311203, (DummyGoal)-8311204)
+((get-in-car bob accord raleigh)-8311205, (DummyGoal)-8311204)
+((DummyInit)-8311203, (get-in-car bob accord raleigh)-8311205)
+((initial)-8192546, (get-in-car bob accord raleigh)-8311205)
+((get-in-car bob accord raleigh)-8311205, (goal)-8192547)
+((drive bob accord raleigh slc)-8311206, (DummyGoal)-8311204)
+((DummyInit)-8311203, (drive bob accord raleigh slc)-8311206)
+((initial)-8192546, (drive bob accord raleigh slc)-8311206)
+((drive bob accord raleigh slc)-8311206, (goal)-8192547)
+((get-out-of-car bob accord slc)-8311207, (DummyGoal)-8311204)
+((DummyInit)-8311203, (get-out-of-car bob accord slc)-8311207)
+((initial)-8192546, (get-out-of-car bob accord slc)-8311207)
+((get-out-of-car bob accord slc)-8311207, (goal)-8192547)
+((get-in-car bob accord raleigh)-8311205, (drive bob accord raleigh slc)-8311206)
+((drive bob accord raleigh slc)-8311206, (get-out-of-car bob accord slc)-8311207)
+((get-in-car bob accord raleigh)-8311205, (get-out-of-car bob accord slc)-8311207)
+((DummyGoal)-8311204, (DummyGoal)-8311048)
+((DummyInit)-8311047, (DummyInit)-8311203)
+((get-out-of-car bob accord raleigh)-8311051, (DummyInit)-8311203)
+((initial)-8192546, (DummyInit)-8312028)
+((DummyInit)-8312028, (goal)-8192547)
+((initial)-8192546, (DummyGoal)-8312029)
+((DummyGoal)-8312029, (goal)-8192547)
+((DummyInit)-8312028, (DummyGoal)-8312029)
+((get-out-of-car bob accord slc)-8312030, (DummyGoal)-8312029)
+((DummyInit)-8312028, (get-out-of-car bob accord slc)-8312030)
+((initial)-8192546, (get-out-of-car bob accord slc)-8312030)
+((get-out-of-car bob accord slc)-8312030, (goal)-8192547)
+((DummyGoal)-8312029, (DummyGoal)-8311048)
+((DummyInit)-8311047, (DummyInit)-8312028)
+((get-in-car bob accord ny)-8311049, (DummyInit)-8312028)
+((get-out-of-car bob accord slc)-8312030, (DummyGoal)-8311204)
+((initial)-8192546, (DummyInit)-8330392)
+((DummyInit)-8330392, (goal)-8192547)
+((initial)-8192546, (DummyGoal)-8330393)
+((DummyGoal)-8330393, (goal)-8192547)
+((DummyInit)-8330392, (DummyGoal)-8330393)
+((get-out-of-car bob accord slc)-8330394, (DummyGoal)-8330393)
+((DummyInit)-8330392, (get-out-of-car bob accord slc)-8330394)
+((initial)-8192546, (get-out-of-car bob accord slc)-8330394)
+((get-out-of-car bob accord slc)-8330394, (goal)-8192547)
+((DummyGoal)-8330393, (DummyGoal)-8311204)
+((DummyInit)-8311203, (DummyInit)-8330392)

@@ -1,0 +1,49 @@
+problem	0
+selection	E3Starx0.5-ZeroHeuristic
+search	BestFirst
+runtime	60054
+opened	79670
+expanded	1442
+primitives	6
+decomps	1
+composites	1
+hdepth	3
+
+
+(putdown agent_0 block_1 location_4 location_1)-274043
+(DummyInit)-60324
+(pickup agent_1 block_0 location_6 location_0)-60326
+(move agent_1 location_0 location_2)-60327
+(putdown agent_1 block_0 location_2 location_0)-60328
+(DummyGoal)-60325
+
+
+Composites:
+
+(transport agent_1 block_0 location_0 location_6 location_0 location_2)-60323
+
+Orderings:
+
+((initial)-23261, (goal)-23262)
+((initial)-23261, (DummyInit)-60324)
+((DummyInit)-60324, (goal)-23262)
+((initial)-23261, (DummyGoal)-60325)
+((DummyGoal)-60325, (goal)-23262)
+((DummyInit)-60324, (DummyGoal)-60325)
+((pickup agent_1 block_0 location_6 location_0)-60326, (DummyGoal)-60325)
+((DummyInit)-60324, (pickup agent_1 block_0 location_6 location_0)-60326)
+((initial)-23261, (pickup agent_1 block_0 location_6 location_0)-60326)
+((pickup agent_1 block_0 location_6 location_0)-60326, (goal)-23262)
+((move agent_1 location_0 location_2)-60327, (DummyGoal)-60325)
+((DummyInit)-60324, (move agent_1 location_0 location_2)-60327)
+((initial)-23261, (move agent_1 location_0 location_2)-60327)
+((move agent_1 location_0 location_2)-60327, (goal)-23262)
+((putdown agent_1 block_0 location_2 location_0)-60328, (DummyGoal)-60325)
+((DummyInit)-60324, (putdown agent_1 block_0 location_2 location_0)-60328)
+((initial)-23261, (putdown agent_1 block_0 location_2 location_0)-60328)
+((putdown agent_1 block_0 location_2 location_0)-60328, (goal)-23262)
+((pickup agent_1 block_0 location_6 location_0)-60326, (move agent_1 location_0 location_2)-60327)
+((move agent_1 location_0 location_2)-60327, (putdown agent_1 block_0 location_2 location_0)-60328)
+((pickup agent_1 block_0 location_6 location_0)-60326, (putdown agent_1 block_0 location_2 location_0)-60328)
+((initial)-23261, (putdown agent_0 block_1 location_4 location_1)-274043)
+((putdown agent_0 block_1 location_4 location_1)-274043, (goal)-23262)

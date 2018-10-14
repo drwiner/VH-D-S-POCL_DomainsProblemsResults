@@ -1,0 +1,782 @@
+problem	7
+selection	Nada-ZeroHeuristic
+search	DFS
+runtime	60019
+opened	2206
+expanded	1693
+primitives	153
+decomps	60
+composites	60
+hdepth	60
+
+
+(fly bob 747 raleigh la)-8279383
+(DummyInit)-8272358
+(DummyInit)-8272486
+(DummyInit)-8272622
+(DummyInit)-8272766
+(DummyInit)-8272918
+(DummyInit)-8273078
+(DummyInit)-8273246
+(DummyInit)-8273422
+(DummyInit)-8273606
+(DummyInit)-8273798
+(DummyInit)-8273998
+(DummyInit)-8274206
+(DummyInit)-8274422
+(DummyInit)-8274646
+(DummyInit)-8274878
+(DummyInit)-8275118
+(DummyInit)-8275366
+(DummyInit)-8275622
+(DummyInit)-8275886
+(DummyInit)-8276158
+(DummyInit)-8276438
+(DummyInit)-8276726
+(DummyInit)-8277022
+(DummyInit)-8277326
+(DummyInit)-8277638
+(DummyInit)-8277958
+(DummyInit)-8278286
+(DummyInit)-8278622
+(DummyInit)-8278966
+(DummyInit)-8278969
+(deplane bob 747 la)-8278971
+(DummyGoal)-8278970
+(DummyInit)-8278625
+(deplane bob 747 la)-8278627
+(DummyGoal)-8278626
+(DummyInit)-8278289
+(deplane bob 747 la)-8278291
+(DummyGoal)-8278290
+(DummyInit)-8277961
+(deplane bob 747 la)-8277963
+(DummyGoal)-8277962
+(DummyInit)-8277641
+(deplane bob 747 la)-8277643
+(DummyGoal)-8277642
+(DummyInit)-8277329
+(deplane bob 747 la)-8277331
+(DummyGoal)-8277330
+(DummyInit)-8277025
+(deplane bob 747 la)-8277027
+(DummyGoal)-8277026
+(DummyInit)-8276729
+(deplane bob 747 la)-8276731
+(DummyGoal)-8278967
+(DummyGoal)-8278623
+(DummyGoal)-8278287
+(DummyGoal)-8277959
+(DummyGoal)-8277639
+(DummyGoal)-8277327
+(DummyGoal)-8277023
+(DummyGoal)-8276730
+(DummyGoal)-8276727
+(DummyInit)-8276441
+(deplane bob 747 la)-8276443
+(DummyGoal)-8276442
+(DummyGoal)-8276439
+(DummyInit)-8276161
+(deplane bob 747 la)-8276163
+(DummyGoal)-8276162
+(DummyGoal)-8276159
+(DummyInit)-8275889
+(deplane bob 747 la)-8275891
+(DummyGoal)-8275890
+(DummyGoal)-8275887
+(DummyInit)-8275625
+(deplane bob 747 la)-8275627
+(DummyGoal)-8275626
+(DummyGoal)-8275623
+(DummyInit)-8275369
+(deplane bob 747 la)-8275371
+(DummyGoal)-8275370
+(DummyGoal)-8275367
+(DummyInit)-8275121
+(deplane bob 747 la)-8275123
+(DummyGoal)-8275122
+(DummyGoal)-8275119
+(DummyInit)-8274881
+(deplane bob 747 la)-8274883
+(DummyGoal)-8274882
+(DummyGoal)-8274879
+(DummyInit)-8274649
+(deplane bob 747 la)-8274651
+(DummyGoal)-8274650
+(DummyGoal)-8274647
+(DummyInit)-8274425
+(deplane bob 747 la)-8274427
+(DummyGoal)-8274426
+(DummyGoal)-8274423
+(DummyInit)-8274209
+(deplane bob 747 la)-8274211
+(DummyGoal)-8274210
+(DummyGoal)-8274207
+(DummyInit)-8274001
+(deplane bob 747 la)-8274003
+(DummyGoal)-8274002
+(DummyGoal)-8273999
+(DummyInit)-8273801
+(deplane bob 747 la)-8273803
+(DummyGoal)-8273802
+(DummyGoal)-8273799
+(DummyInit)-8273609
+(deplane bob 747 la)-8273611
+(DummyGoal)-8273610
+(DummyGoal)-8273607
+(DummyInit)-8273425
+(deplane bob 747 la)-8273427
+(DummyGoal)-8273426
+(DummyGoal)-8273423
+(DummyInit)-8273249
+(deplane bob 747 la)-8273251
+(DummyGoal)-8273250
+(DummyGoal)-8273247
+(DummyInit)-8273081
+(deplane bob 747 la)-8273083
+(DummyGoal)-8273082
+(DummyGoal)-8273079
+(DummyInit)-8272921
+(deplane bob 747 la)-8272923
+(DummyGoal)-8272922
+(DummyGoal)-8272919
+(DummyInit)-8272769
+(deplane bob 747 la)-8272771
+(DummyGoal)-8272770
+(DummyGoal)-8272767
+(DummyInit)-8272625
+(deplane bob 747 la)-8272627
+(DummyGoal)-8272626
+(DummyGoal)-8272623
+(DummyInit)-8272489
+(deplane bob 747 la)-8272491
+(DummyGoal)-8272490
+(DummyGoal)-8272487
+(DummyInit)-8272361
+(deplane bob 747 la)-8272363
+(DummyGoal)-8272362
+(DummyGoal)-8272359
+(board-plane bob 747 la)-8272223
+(fly bob 747 raleigh la)-8272215
+(DummyInit)-8271950
+(DummyInit)-8271953
+(deplane bob 747 la)-8271955
+(DummyGoal)-8271954
+(DummyGoal)-8271951
+
+
+Composites:
+
+(generic-travel bob la)-8271949
+(generic-travel bob la)-8271952
+(generic-travel bob la)-8272357
+(generic-travel bob la)-8272360
+(generic-travel bob la)-8272485
+(generic-travel bob la)-8272488
+(generic-travel bob la)-8272621
+(generic-travel bob la)-8272624
+(generic-travel bob la)-8272765
+(generic-travel bob la)-8272768
+(generic-travel bob la)-8272917
+(generic-travel bob la)-8272920
+(generic-travel bob la)-8273077
+(generic-travel bob la)-8273080
+(generic-travel bob la)-8273245
+(generic-travel bob la)-8273248
+(generic-travel bob la)-8273421
+(generic-travel bob la)-8273424
+(generic-travel bob la)-8273605
+(generic-travel bob la)-8273608
+(generic-travel bob la)-8273797
+(generic-travel bob la)-8273800
+(generic-travel bob la)-8273997
+(generic-travel bob la)-8274000
+(generic-travel bob la)-8274205
+(generic-travel bob la)-8274208
+(generic-travel bob la)-8274421
+(generic-travel bob la)-8274424
+(generic-travel bob la)-8274645
+(generic-travel bob la)-8274648
+(generic-travel bob la)-8274877
+(generic-travel bob la)-8274880
+(generic-travel bob la)-8275117
+(generic-travel bob la)-8275120
+(generic-travel bob la)-8275365
+(generic-travel bob la)-8275368
+(generic-travel bob la)-8275621
+(generic-travel bob la)-8275624
+(generic-travel bob la)-8275885
+(generic-travel bob la)-8275888
+(generic-travel bob la)-8276157
+(generic-travel bob la)-8276160
+(generic-travel bob la)-8276437
+(generic-travel bob la)-8276440
+(generic-travel bob la)-8276725
+(generic-travel bob la)-8276728
+(generic-travel bob la)-8277021
+(generic-travel bob la)-8277024
+(generic-travel bob la)-8277325
+(generic-travel bob la)-8277328
+(generic-travel bob la)-8277637
+(generic-travel bob la)-8277640
+(generic-travel bob la)-8277957
+(generic-travel bob la)-8277960
+(generic-travel bob la)-8278285
+(generic-travel bob la)-8278288
+(generic-travel bob la)-8278621
+(generic-travel bob la)-8278624
+(generic-travel bob la)-8278965
+(generic-travel bob la)-8278968
+
+Orderings:
+
+((initial)-8236537, (goal)-8236538)
+((initial)-8236537, (DummyInit)-8271950)
+((DummyInit)-8271950, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8271951)
+((DummyGoal)-8271951, (goal)-8236538)
+((DummyInit)-8271950, (DummyGoal)-8271951)
+((initial)-8236537, (DummyInit)-8271953)
+((DummyInit)-8271953, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8271954)
+((DummyGoal)-8271954, (goal)-8236538)
+((DummyInit)-8271953, (DummyGoal)-8271954)
+((deplane bob 747 la)-8271955, (DummyGoal)-8271954)
+((DummyInit)-8271953, (deplane bob 747 la)-8271955)
+((initial)-8236537, (deplane bob 747 la)-8271955)
+((deplane bob 747 la)-8271955, (goal)-8236538)
+((DummyGoal)-8271954, (DummyGoal)-8271951)
+((DummyInit)-8271950, (DummyInit)-8271953)
+((deplane bob 747 la)-8271955, (DummyGoal)-8271951)
+((initial)-8236537, (fly bob 747 raleigh la)-8272215)
+((fly bob 747 raleigh la)-8272215, (goal)-8236538)
+((fly bob 747 raleigh la)-8272215, (deplane bob 747 la)-8271955)
+((initial)-8236537, (board-plane bob 747 la)-8272223)
+((board-plane bob 747 la)-8272223, (goal)-8236538)
+((board-plane bob 747 la)-8272223, (fly bob 747 raleigh la)-8272215)
+((board-plane bob 747 la)-8272223, (deplane bob 747 la)-8271955)
+((initial)-8236537, (DummyInit)-8272358)
+((DummyInit)-8272358, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8272359)
+((DummyGoal)-8272359, (goal)-8236538)
+((DummyInit)-8272358, (DummyGoal)-8272359)
+((initial)-8236537, (DummyInit)-8272361)
+((DummyInit)-8272361, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8272362)
+((DummyGoal)-8272362, (goal)-8236538)
+((DummyInit)-8272361, (DummyGoal)-8272362)
+((deplane bob 747 la)-8272363, (DummyGoal)-8272362)
+((DummyInit)-8272361, (deplane bob 747 la)-8272363)
+((initial)-8236537, (deplane bob 747 la)-8272363)
+((deplane bob 747 la)-8272363, (goal)-8236538)
+((DummyGoal)-8272362, (DummyGoal)-8272359)
+((DummyInit)-8272358, (DummyInit)-8272361)
+((DummyGoal)-8272359, (board-plane bob 747 la)-8272223)
+((initial)-8236537, (DummyInit)-8272486)
+((DummyInit)-8272486, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8272487)
+((DummyGoal)-8272487, (goal)-8236538)
+((DummyInit)-8272486, (DummyGoal)-8272487)
+((initial)-8236537, (DummyInit)-8272489)
+((DummyInit)-8272489, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8272490)
+((DummyGoal)-8272490, (goal)-8236538)
+((DummyInit)-8272489, (DummyGoal)-8272490)
+((deplane bob 747 la)-8272491, (DummyGoal)-8272490)
+((DummyInit)-8272489, (deplane bob 747 la)-8272491)
+((initial)-8236537, (deplane bob 747 la)-8272491)
+((deplane bob 747 la)-8272491, (goal)-8236538)
+((DummyGoal)-8272490, (DummyGoal)-8272487)
+((DummyInit)-8272486, (DummyInit)-8272489)
+((DummyGoal)-8272487, (DummyGoal)-8272359)
+((DummyInit)-8272358, (DummyInit)-8272486)
+((initial)-8236537, (DummyInit)-8272622)
+((DummyInit)-8272622, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8272623)
+((DummyGoal)-8272623, (goal)-8236538)
+((DummyInit)-8272622, (DummyGoal)-8272623)
+((initial)-8236537, (DummyInit)-8272625)
+((DummyInit)-8272625, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8272626)
+((DummyGoal)-8272626, (goal)-8236538)
+((DummyInit)-8272625, (DummyGoal)-8272626)
+((deplane bob 747 la)-8272627, (DummyGoal)-8272626)
+((DummyInit)-8272625, (deplane bob 747 la)-8272627)
+((initial)-8236537, (deplane bob 747 la)-8272627)
+((deplane bob 747 la)-8272627, (goal)-8236538)
+((DummyGoal)-8272626, (DummyGoal)-8272623)
+((DummyInit)-8272622, (DummyInit)-8272625)
+((DummyGoal)-8272623, (DummyGoal)-8272487)
+((DummyInit)-8272486, (DummyInit)-8272622)
+((initial)-8236537, (DummyInit)-8272766)
+((DummyInit)-8272766, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8272767)
+((DummyGoal)-8272767, (goal)-8236538)
+((DummyInit)-8272766, (DummyGoal)-8272767)
+((initial)-8236537, (DummyInit)-8272769)
+((DummyInit)-8272769, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8272770)
+((DummyGoal)-8272770, (goal)-8236538)
+((DummyInit)-8272769, (DummyGoal)-8272770)
+((deplane bob 747 la)-8272771, (DummyGoal)-8272770)
+((DummyInit)-8272769, (deplane bob 747 la)-8272771)
+((initial)-8236537, (deplane bob 747 la)-8272771)
+((deplane bob 747 la)-8272771, (goal)-8236538)
+((DummyGoal)-8272770, (DummyGoal)-8272767)
+((DummyInit)-8272766, (DummyInit)-8272769)
+((DummyGoal)-8272767, (DummyGoal)-8272623)
+((DummyInit)-8272622, (DummyInit)-8272766)
+((initial)-8236537, (DummyInit)-8272918)
+((DummyInit)-8272918, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8272919)
+((DummyGoal)-8272919, (goal)-8236538)
+((DummyInit)-8272918, (DummyGoal)-8272919)
+((initial)-8236537, (DummyInit)-8272921)
+((DummyInit)-8272921, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8272922)
+((DummyGoal)-8272922, (goal)-8236538)
+((DummyInit)-8272921, (DummyGoal)-8272922)
+((deplane bob 747 la)-8272923, (DummyGoal)-8272922)
+((DummyInit)-8272921, (deplane bob 747 la)-8272923)
+((initial)-8236537, (deplane bob 747 la)-8272923)
+((deplane bob 747 la)-8272923, (goal)-8236538)
+((DummyGoal)-8272922, (DummyGoal)-8272919)
+((DummyInit)-8272918, (DummyInit)-8272921)
+((DummyGoal)-8272919, (DummyGoal)-8272767)
+((DummyInit)-8272766, (DummyInit)-8272918)
+((initial)-8236537, (DummyInit)-8273078)
+((DummyInit)-8273078, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8273079)
+((DummyGoal)-8273079, (goal)-8236538)
+((DummyInit)-8273078, (DummyGoal)-8273079)
+((initial)-8236537, (DummyInit)-8273081)
+((DummyInit)-8273081, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8273082)
+((DummyGoal)-8273082, (goal)-8236538)
+((DummyInit)-8273081, (DummyGoal)-8273082)
+((deplane bob 747 la)-8273083, (DummyGoal)-8273082)
+((DummyInit)-8273081, (deplane bob 747 la)-8273083)
+((initial)-8236537, (deplane bob 747 la)-8273083)
+((deplane bob 747 la)-8273083, (goal)-8236538)
+((DummyGoal)-8273082, (DummyGoal)-8273079)
+((DummyInit)-8273078, (DummyInit)-8273081)
+((DummyGoal)-8273079, (DummyGoal)-8272919)
+((DummyInit)-8272918, (DummyInit)-8273078)
+((initial)-8236537, (DummyInit)-8273246)
+((DummyInit)-8273246, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8273247)
+((DummyGoal)-8273247, (goal)-8236538)
+((DummyInit)-8273246, (DummyGoal)-8273247)
+((initial)-8236537, (DummyInit)-8273249)
+((DummyInit)-8273249, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8273250)
+((DummyGoal)-8273250, (goal)-8236538)
+((DummyInit)-8273249, (DummyGoal)-8273250)
+((deplane bob 747 la)-8273251, (DummyGoal)-8273250)
+((DummyInit)-8273249, (deplane bob 747 la)-8273251)
+((initial)-8236537, (deplane bob 747 la)-8273251)
+((deplane bob 747 la)-8273251, (goal)-8236538)
+((DummyGoal)-8273250, (DummyGoal)-8273247)
+((DummyInit)-8273246, (DummyInit)-8273249)
+((DummyGoal)-8273247, (DummyGoal)-8273079)
+((DummyInit)-8273078, (DummyInit)-8273246)
+((initial)-8236537, (DummyInit)-8273422)
+((DummyInit)-8273422, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8273423)
+((DummyGoal)-8273423, (goal)-8236538)
+((DummyInit)-8273422, (DummyGoal)-8273423)
+((initial)-8236537, (DummyInit)-8273425)
+((DummyInit)-8273425, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8273426)
+((DummyGoal)-8273426, (goal)-8236538)
+((DummyInit)-8273425, (DummyGoal)-8273426)
+((deplane bob 747 la)-8273427, (DummyGoal)-8273426)
+((DummyInit)-8273425, (deplane bob 747 la)-8273427)
+((initial)-8236537, (deplane bob 747 la)-8273427)
+((deplane bob 747 la)-8273427, (goal)-8236538)
+((DummyGoal)-8273426, (DummyGoal)-8273423)
+((DummyInit)-8273422, (DummyInit)-8273425)
+((DummyGoal)-8273423, (DummyGoal)-8273247)
+((DummyInit)-8273246, (DummyInit)-8273422)
+((initial)-8236537, (DummyInit)-8273606)
+((DummyInit)-8273606, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8273607)
+((DummyGoal)-8273607, (goal)-8236538)
+((DummyInit)-8273606, (DummyGoal)-8273607)
+((initial)-8236537, (DummyInit)-8273609)
+((DummyInit)-8273609, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8273610)
+((DummyGoal)-8273610, (goal)-8236538)
+((DummyInit)-8273609, (DummyGoal)-8273610)
+((deplane bob 747 la)-8273611, (DummyGoal)-8273610)
+((DummyInit)-8273609, (deplane bob 747 la)-8273611)
+((initial)-8236537, (deplane bob 747 la)-8273611)
+((deplane bob 747 la)-8273611, (goal)-8236538)
+((DummyGoal)-8273610, (DummyGoal)-8273607)
+((DummyInit)-8273606, (DummyInit)-8273609)
+((DummyGoal)-8273607, (DummyGoal)-8273423)
+((DummyInit)-8273422, (DummyInit)-8273606)
+((initial)-8236537, (DummyInit)-8273798)
+((DummyInit)-8273798, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8273799)
+((DummyGoal)-8273799, (goal)-8236538)
+((DummyInit)-8273798, (DummyGoal)-8273799)
+((initial)-8236537, (DummyInit)-8273801)
+((DummyInit)-8273801, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8273802)
+((DummyGoal)-8273802, (goal)-8236538)
+((DummyInit)-8273801, (DummyGoal)-8273802)
+((deplane bob 747 la)-8273803, (DummyGoal)-8273802)
+((DummyInit)-8273801, (deplane bob 747 la)-8273803)
+((initial)-8236537, (deplane bob 747 la)-8273803)
+((deplane bob 747 la)-8273803, (goal)-8236538)
+((DummyGoal)-8273802, (DummyGoal)-8273799)
+((DummyInit)-8273798, (DummyInit)-8273801)
+((DummyGoal)-8273799, (DummyGoal)-8273607)
+((DummyInit)-8273606, (DummyInit)-8273798)
+((initial)-8236537, (DummyInit)-8273998)
+((DummyInit)-8273998, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8273999)
+((DummyGoal)-8273999, (goal)-8236538)
+((DummyInit)-8273998, (DummyGoal)-8273999)
+((initial)-8236537, (DummyInit)-8274001)
+((DummyInit)-8274001, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8274002)
+((DummyGoal)-8274002, (goal)-8236538)
+((DummyInit)-8274001, (DummyGoal)-8274002)
+((deplane bob 747 la)-8274003, (DummyGoal)-8274002)
+((DummyInit)-8274001, (deplane bob 747 la)-8274003)
+((initial)-8236537, (deplane bob 747 la)-8274003)
+((deplane bob 747 la)-8274003, (goal)-8236538)
+((DummyGoal)-8274002, (DummyGoal)-8273999)
+((DummyInit)-8273998, (DummyInit)-8274001)
+((DummyGoal)-8273999, (DummyGoal)-8273799)
+((DummyInit)-8273798, (DummyInit)-8273998)
+((initial)-8236537, (DummyInit)-8274206)
+((DummyInit)-8274206, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8274207)
+((DummyGoal)-8274207, (goal)-8236538)
+((DummyInit)-8274206, (DummyGoal)-8274207)
+((initial)-8236537, (DummyInit)-8274209)
+((DummyInit)-8274209, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8274210)
+((DummyGoal)-8274210, (goal)-8236538)
+((DummyInit)-8274209, (DummyGoal)-8274210)
+((deplane bob 747 la)-8274211, (DummyGoal)-8274210)
+((DummyInit)-8274209, (deplane bob 747 la)-8274211)
+((initial)-8236537, (deplane bob 747 la)-8274211)
+((deplane bob 747 la)-8274211, (goal)-8236538)
+((DummyGoal)-8274210, (DummyGoal)-8274207)
+((DummyInit)-8274206, (DummyInit)-8274209)
+((DummyGoal)-8274207, (DummyGoal)-8273999)
+((DummyInit)-8273998, (DummyInit)-8274206)
+((initial)-8236537, (DummyInit)-8274422)
+((DummyInit)-8274422, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8274423)
+((DummyGoal)-8274423, (goal)-8236538)
+((DummyInit)-8274422, (DummyGoal)-8274423)
+((initial)-8236537, (DummyInit)-8274425)
+((DummyInit)-8274425, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8274426)
+((DummyGoal)-8274426, (goal)-8236538)
+((DummyInit)-8274425, (DummyGoal)-8274426)
+((deplane bob 747 la)-8274427, (DummyGoal)-8274426)
+((DummyInit)-8274425, (deplane bob 747 la)-8274427)
+((initial)-8236537, (deplane bob 747 la)-8274427)
+((deplane bob 747 la)-8274427, (goal)-8236538)
+((DummyGoal)-8274426, (DummyGoal)-8274423)
+((DummyInit)-8274422, (DummyInit)-8274425)
+((DummyGoal)-8274423, (DummyGoal)-8274207)
+((DummyInit)-8274206, (DummyInit)-8274422)
+((initial)-8236537, (DummyInit)-8274646)
+((DummyInit)-8274646, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8274647)
+((DummyGoal)-8274647, (goal)-8236538)
+((DummyInit)-8274646, (DummyGoal)-8274647)
+((initial)-8236537, (DummyInit)-8274649)
+((DummyInit)-8274649, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8274650)
+((DummyGoal)-8274650, (goal)-8236538)
+((DummyInit)-8274649, (DummyGoal)-8274650)
+((deplane bob 747 la)-8274651, (DummyGoal)-8274650)
+((DummyInit)-8274649, (deplane bob 747 la)-8274651)
+((initial)-8236537, (deplane bob 747 la)-8274651)
+((deplane bob 747 la)-8274651, (goal)-8236538)
+((DummyGoal)-8274650, (DummyGoal)-8274647)
+((DummyInit)-8274646, (DummyInit)-8274649)
+((DummyGoal)-8274647, (DummyGoal)-8274423)
+((DummyInit)-8274422, (DummyInit)-8274646)
+((initial)-8236537, (DummyInit)-8274878)
+((DummyInit)-8274878, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8274879)
+((DummyGoal)-8274879, (goal)-8236538)
+((DummyInit)-8274878, (DummyGoal)-8274879)
+((initial)-8236537, (DummyInit)-8274881)
+((DummyInit)-8274881, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8274882)
+((DummyGoal)-8274882, (goal)-8236538)
+((DummyInit)-8274881, (DummyGoal)-8274882)
+((deplane bob 747 la)-8274883, (DummyGoal)-8274882)
+((DummyInit)-8274881, (deplane bob 747 la)-8274883)
+((initial)-8236537, (deplane bob 747 la)-8274883)
+((deplane bob 747 la)-8274883, (goal)-8236538)
+((DummyGoal)-8274882, (DummyGoal)-8274879)
+((DummyInit)-8274878, (DummyInit)-8274881)
+((DummyGoal)-8274879, (DummyGoal)-8274647)
+((DummyInit)-8274646, (DummyInit)-8274878)
+((initial)-8236537, (DummyInit)-8275118)
+((DummyInit)-8275118, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8275119)
+((DummyGoal)-8275119, (goal)-8236538)
+((DummyInit)-8275118, (DummyGoal)-8275119)
+((initial)-8236537, (DummyInit)-8275121)
+((DummyInit)-8275121, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8275122)
+((DummyGoal)-8275122, (goal)-8236538)
+((DummyInit)-8275121, (DummyGoal)-8275122)
+((deplane bob 747 la)-8275123, (DummyGoal)-8275122)
+((DummyInit)-8275121, (deplane bob 747 la)-8275123)
+((initial)-8236537, (deplane bob 747 la)-8275123)
+((deplane bob 747 la)-8275123, (goal)-8236538)
+((DummyGoal)-8275122, (DummyGoal)-8275119)
+((DummyInit)-8275118, (DummyInit)-8275121)
+((DummyGoal)-8275119, (DummyGoal)-8274879)
+((DummyInit)-8274878, (DummyInit)-8275118)
+((initial)-8236537, (DummyInit)-8275366)
+((DummyInit)-8275366, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8275367)
+((DummyGoal)-8275367, (goal)-8236538)
+((DummyInit)-8275366, (DummyGoal)-8275367)
+((initial)-8236537, (DummyInit)-8275369)
+((DummyInit)-8275369, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8275370)
+((DummyGoal)-8275370, (goal)-8236538)
+((DummyInit)-8275369, (DummyGoal)-8275370)
+((deplane bob 747 la)-8275371, (DummyGoal)-8275370)
+((DummyInit)-8275369, (deplane bob 747 la)-8275371)
+((initial)-8236537, (deplane bob 747 la)-8275371)
+((deplane bob 747 la)-8275371, (goal)-8236538)
+((DummyGoal)-8275370, (DummyGoal)-8275367)
+((DummyInit)-8275366, (DummyInit)-8275369)
+((DummyGoal)-8275367, (DummyGoal)-8275119)
+((DummyInit)-8275118, (DummyInit)-8275366)
+((initial)-8236537, (DummyInit)-8275622)
+((DummyInit)-8275622, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8275623)
+((DummyGoal)-8275623, (goal)-8236538)
+((DummyInit)-8275622, (DummyGoal)-8275623)
+((initial)-8236537, (DummyInit)-8275625)
+((DummyInit)-8275625, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8275626)
+((DummyGoal)-8275626, (goal)-8236538)
+((DummyInit)-8275625, (DummyGoal)-8275626)
+((deplane bob 747 la)-8275627, (DummyGoal)-8275626)
+((DummyInit)-8275625, (deplane bob 747 la)-8275627)
+((initial)-8236537, (deplane bob 747 la)-8275627)
+((deplane bob 747 la)-8275627, (goal)-8236538)
+((DummyGoal)-8275626, (DummyGoal)-8275623)
+((DummyInit)-8275622, (DummyInit)-8275625)
+((DummyGoal)-8275623, (DummyGoal)-8275367)
+((DummyInit)-8275366, (DummyInit)-8275622)
+((initial)-8236537, (DummyInit)-8275886)
+((DummyInit)-8275886, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8275887)
+((DummyGoal)-8275887, (goal)-8236538)
+((DummyInit)-8275886, (DummyGoal)-8275887)
+((initial)-8236537, (DummyInit)-8275889)
+((DummyInit)-8275889, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8275890)
+((DummyGoal)-8275890, (goal)-8236538)
+((DummyInit)-8275889, (DummyGoal)-8275890)
+((deplane bob 747 la)-8275891, (DummyGoal)-8275890)
+((DummyInit)-8275889, (deplane bob 747 la)-8275891)
+((initial)-8236537, (deplane bob 747 la)-8275891)
+((deplane bob 747 la)-8275891, (goal)-8236538)
+((DummyGoal)-8275890, (DummyGoal)-8275887)
+((DummyInit)-8275886, (DummyInit)-8275889)
+((DummyGoal)-8275887, (DummyGoal)-8275623)
+((DummyInit)-8275622, (DummyInit)-8275886)
+((initial)-8236537, (DummyInit)-8276158)
+((DummyInit)-8276158, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8276159)
+((DummyGoal)-8276159, (goal)-8236538)
+((DummyInit)-8276158, (DummyGoal)-8276159)
+((initial)-8236537, (DummyInit)-8276161)
+((DummyInit)-8276161, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8276162)
+((DummyGoal)-8276162, (goal)-8236538)
+((DummyInit)-8276161, (DummyGoal)-8276162)
+((deplane bob 747 la)-8276163, (DummyGoal)-8276162)
+((DummyInit)-8276161, (deplane bob 747 la)-8276163)
+((initial)-8236537, (deplane bob 747 la)-8276163)
+((deplane bob 747 la)-8276163, (goal)-8236538)
+((DummyGoal)-8276162, (DummyGoal)-8276159)
+((DummyInit)-8276158, (DummyInit)-8276161)
+((DummyGoal)-8276159, (DummyGoal)-8275887)
+((DummyInit)-8275886, (DummyInit)-8276158)
+((initial)-8236537, (DummyInit)-8276438)
+((DummyInit)-8276438, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8276439)
+((DummyGoal)-8276439, (goal)-8236538)
+((DummyInit)-8276438, (DummyGoal)-8276439)
+((initial)-8236537, (DummyInit)-8276441)
+((DummyInit)-8276441, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8276442)
+((DummyGoal)-8276442, (goal)-8236538)
+((DummyInit)-8276441, (DummyGoal)-8276442)
+((deplane bob 747 la)-8276443, (DummyGoal)-8276442)
+((DummyInit)-8276441, (deplane bob 747 la)-8276443)
+((initial)-8236537, (deplane bob 747 la)-8276443)
+((deplane bob 747 la)-8276443, (goal)-8236538)
+((DummyGoal)-8276442, (DummyGoal)-8276439)
+((DummyInit)-8276438, (DummyInit)-8276441)
+((DummyGoal)-8276439, (DummyGoal)-8276159)
+((DummyInit)-8276158, (DummyInit)-8276438)
+((initial)-8236537, (DummyInit)-8276726)
+((DummyInit)-8276726, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8276727)
+((DummyGoal)-8276727, (goal)-8236538)
+((DummyInit)-8276726, (DummyGoal)-8276727)
+((initial)-8236537, (DummyInit)-8276729)
+((DummyInit)-8276729, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8276730)
+((DummyGoal)-8276730, (goal)-8236538)
+((DummyInit)-8276729, (DummyGoal)-8276730)
+((deplane bob 747 la)-8276731, (DummyGoal)-8276730)
+((DummyInit)-8276729, (deplane bob 747 la)-8276731)
+((initial)-8236537, (deplane bob 747 la)-8276731)
+((deplane bob 747 la)-8276731, (goal)-8236538)
+((DummyGoal)-8276730, (DummyGoal)-8276727)
+((DummyInit)-8276726, (DummyInit)-8276729)
+((DummyGoal)-8276727, (DummyGoal)-8276439)
+((DummyInit)-8276438, (DummyInit)-8276726)
+((initial)-8236537, (DummyInit)-8277022)
+((DummyInit)-8277022, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8277023)
+((DummyGoal)-8277023, (goal)-8236538)
+((DummyInit)-8277022, (DummyGoal)-8277023)
+((initial)-8236537, (DummyInit)-8277025)
+((DummyInit)-8277025, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8277026)
+((DummyGoal)-8277026, (goal)-8236538)
+((DummyInit)-8277025, (DummyGoal)-8277026)
+((deplane bob 747 la)-8277027, (DummyGoal)-8277026)
+((DummyInit)-8277025, (deplane bob 747 la)-8277027)
+((initial)-8236537, (deplane bob 747 la)-8277027)
+((deplane bob 747 la)-8277027, (goal)-8236538)
+((DummyGoal)-8277026, (DummyGoal)-8277023)
+((DummyInit)-8277022, (DummyInit)-8277025)
+((DummyGoal)-8277023, (DummyGoal)-8276727)
+((DummyInit)-8276726, (DummyInit)-8277022)
+((initial)-8236537, (DummyInit)-8277326)
+((DummyInit)-8277326, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8277327)
+((DummyGoal)-8277327, (goal)-8236538)
+((DummyInit)-8277326, (DummyGoal)-8277327)
+((initial)-8236537, (DummyInit)-8277329)
+((DummyInit)-8277329, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8277330)
+((DummyGoal)-8277330, (goal)-8236538)
+((DummyInit)-8277329, (DummyGoal)-8277330)
+((deplane bob 747 la)-8277331, (DummyGoal)-8277330)
+((DummyInit)-8277329, (deplane bob 747 la)-8277331)
+((initial)-8236537, (deplane bob 747 la)-8277331)
+((deplane bob 747 la)-8277331, (goal)-8236538)
+((DummyGoal)-8277330, (DummyGoal)-8277327)
+((DummyInit)-8277326, (DummyInit)-8277329)
+((DummyGoal)-8277327, (DummyGoal)-8277023)
+((DummyInit)-8277022, (DummyInit)-8277326)
+((initial)-8236537, (DummyInit)-8277638)
+((DummyInit)-8277638, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8277639)
+((DummyGoal)-8277639, (goal)-8236538)
+((DummyInit)-8277638, (DummyGoal)-8277639)
+((initial)-8236537, (DummyInit)-8277641)
+((DummyInit)-8277641, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8277642)
+((DummyGoal)-8277642, (goal)-8236538)
+((DummyInit)-8277641, (DummyGoal)-8277642)
+((deplane bob 747 la)-8277643, (DummyGoal)-8277642)
+((DummyInit)-8277641, (deplane bob 747 la)-8277643)
+((initial)-8236537, (deplane bob 747 la)-8277643)
+((deplane bob 747 la)-8277643, (goal)-8236538)
+((DummyGoal)-8277642, (DummyGoal)-8277639)
+((DummyInit)-8277638, (DummyInit)-8277641)
+((DummyGoal)-8277639, (DummyGoal)-8277327)
+((DummyInit)-8277326, (DummyInit)-8277638)
+((initial)-8236537, (DummyInit)-8277958)
+((DummyInit)-8277958, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8277959)
+((DummyGoal)-8277959, (goal)-8236538)
+((DummyInit)-8277958, (DummyGoal)-8277959)
+((initial)-8236537, (DummyInit)-8277961)
+((DummyInit)-8277961, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8277962)
+((DummyGoal)-8277962, (goal)-8236538)
+((DummyInit)-8277961, (DummyGoal)-8277962)
+((deplane bob 747 la)-8277963, (DummyGoal)-8277962)
+((DummyInit)-8277961, (deplane bob 747 la)-8277963)
+((initial)-8236537, (deplane bob 747 la)-8277963)
+((deplane bob 747 la)-8277963, (goal)-8236538)
+((DummyGoal)-8277962, (DummyGoal)-8277959)
+((DummyInit)-8277958, (DummyInit)-8277961)
+((DummyGoal)-8277959, (DummyGoal)-8277639)
+((DummyInit)-8277638, (DummyInit)-8277958)
+((initial)-8236537, (DummyInit)-8278286)
+((DummyInit)-8278286, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8278287)
+((DummyGoal)-8278287, (goal)-8236538)
+((DummyInit)-8278286, (DummyGoal)-8278287)
+((initial)-8236537, (DummyInit)-8278289)
+((DummyInit)-8278289, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8278290)
+((DummyGoal)-8278290, (goal)-8236538)
+((DummyInit)-8278289, (DummyGoal)-8278290)
+((deplane bob 747 la)-8278291, (DummyGoal)-8278290)
+((DummyInit)-8278289, (deplane bob 747 la)-8278291)
+((initial)-8236537, (deplane bob 747 la)-8278291)
+((deplane bob 747 la)-8278291, (goal)-8236538)
+((DummyGoal)-8278290, (DummyGoal)-8278287)
+((DummyInit)-8278286, (DummyInit)-8278289)
+((DummyGoal)-8278287, (DummyGoal)-8277959)
+((DummyInit)-8277958, (DummyInit)-8278286)
+((initial)-8236537, (DummyInit)-8278622)
+((DummyInit)-8278622, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8278623)
+((DummyGoal)-8278623, (goal)-8236538)
+((DummyInit)-8278622, (DummyGoal)-8278623)
+((initial)-8236537, (DummyInit)-8278625)
+((DummyInit)-8278625, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8278626)
+((DummyGoal)-8278626, (goal)-8236538)
+((DummyInit)-8278625, (DummyGoal)-8278626)
+((deplane bob 747 la)-8278627, (DummyGoal)-8278626)
+((DummyInit)-8278625, (deplane bob 747 la)-8278627)
+((initial)-8236537, (deplane bob 747 la)-8278627)
+((deplane bob 747 la)-8278627, (goal)-8236538)
+((DummyGoal)-8278626, (DummyGoal)-8278623)
+((DummyInit)-8278622, (DummyInit)-8278625)
+((DummyGoal)-8278623, (DummyGoal)-8278287)
+((DummyInit)-8278286, (DummyInit)-8278622)
+((initial)-8236537, (DummyInit)-8278966)
+((DummyInit)-8278966, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8278967)
+((DummyGoal)-8278967, (goal)-8236538)
+((DummyInit)-8278966, (DummyGoal)-8278967)
+((initial)-8236537, (DummyInit)-8278969)
+((DummyInit)-8278969, (goal)-8236538)
+((initial)-8236537, (DummyGoal)-8278970)
+((DummyGoal)-8278970, (goal)-8236538)
+((DummyInit)-8278969, (DummyGoal)-8278970)
+((deplane bob 747 la)-8278971, (DummyGoal)-8278970)
+((DummyInit)-8278969, (deplane bob 747 la)-8278971)
+((initial)-8236537, (deplane bob 747 la)-8278971)
+((deplane bob 747 la)-8278971, (goal)-8236538)
+((DummyGoal)-8278970, (DummyGoal)-8278967)
+((DummyInit)-8278966, (DummyInit)-8278969)
+((DummyGoal)-8278967, (DummyGoal)-8278623)
+((DummyInit)-8278622, (DummyInit)-8278966)
+((deplane bob 747 la)-8276731, (DummyGoal)-8278967)
+((initial)-8236537, (fly bob 747 raleigh la)-8279383)
+((fly bob 747 raleigh la)-8279383, (goal)-8236538)
+((fly bob 747 raleigh la)-8279383, (board-plane bob 747 la)-8272223)
