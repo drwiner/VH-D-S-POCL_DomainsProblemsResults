@@ -1,3 +1,3 @@
-*** Planner Results for VH-DPOCL and VH-DSPOCL (plan-scheduling)
+# Planner Results for VH-DPOCL and VH-DSPOCL (plan-scheduling)
 
-*** David Winer
+# David Winer
